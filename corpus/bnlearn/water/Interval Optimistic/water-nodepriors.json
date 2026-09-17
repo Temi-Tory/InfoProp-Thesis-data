@@ -1,0 +1,168 @@
+{
+  "nodes": {
+    "1": {
+      "type": "interval",
+      "lower": 0.83,
+      "upper": 0.9
+    },
+    "2": {
+      "type": "interval",
+      "lower": 0.83,
+      "upper": 0.9
+    },
+    "3": {
+      "type": "interval",
+      "lower": 0.78,
+      "upper": 0.87
+    },
+    "4": {
+      "type": "interval",
+      "lower": 0.75,
+      "upper": 0.85
+    },
+    "5": {
+      "type": "interval",
+      "lower": 0.8,
+      "upper": 0.88
+    },
+    "6": {
+      "type": "interval",
+      "lower": 0.78,
+      "upper": 0.87
+    },
+    "7": {
+      "type": "interval",
+      "lower": 0.76,
+      "upper": 0.85
+    },
+    "8": {
+      "type": "interval",
+      "lower": 0.73,
+      "upper": 0.83
+    },
+    "9": {
+      "type": "interval",
+      "lower": 0.85,
+      "upper": 0.92
+    },
+    "10": {
+      "type": "interval",
+      "lower": 0.85,
+      "upper": 0.92
+    },
+    "11": {
+      "type": "interval",
+      "lower": 0.81,
+      "upper": 0.89
+    },
+    "12": {
+      "type": "interval",
+      "lower": 0.78,
+      "upper": 0.87
+    },
+    "13": {
+      "type": "interval",
+      "lower": 0.83,
+      "upper": 0.9
+    },
+    "14": {
+      "type": "interval",
+      "lower": 0.81,
+      "upper": 0.89
+    },
+    "15": {
+      "type": "interval",
+      "lower": 0.79,
+      "upper": 0.87
+    },
+    "16": {
+      "type": "interval",
+      "lower": 0.77,
+      "upper": 0.85
+    },
+    "17": {
+      "type": "interval",
+      "lower": 0.85,
+      "upper": 0.92
+    },
+    "18": {
+      "type": "interval",
+      "lower": 0.85,
+      "upper": 0.92
+    },
+    "19": {
+      "type": "interval",
+      "lower": 0.81,
+      "upper": 0.89
+    },
+    "20": {
+      "type": "interval",
+      "lower": 0.78,
+      "upper": 0.87
+    },
+    "21": {
+      "type": "interval",
+      "lower": 0.83,
+      "upper": 0.9
+    },
+    "22": {
+      "type": "interval",
+      "lower": 0.81,
+      "upper": 0.89
+    },
+    "23": {
+      "type": "interval",
+      "lower": 0.79,
+      "upper": 0.87
+    },
+    "24": {
+      "type": "interval",
+      "lower": 0.77,
+      "upper": 0.85
+    },
+    "25": {
+      "type": "interval",
+      "lower": 0.85,
+      "upper": 0.92
+    },
+    "26": {
+      "type": "interval",
+      "lower": 0.85,
+      "upper": 0.92
+    },
+    "27": {
+      "type": "interval",
+      "lower": 0.81,
+      "upper": 0.89
+    },
+    "28": {
+      "type": "interval",
+      "lower": 0.78,
+      "upper": 0.87
+    },
+    "29": {
+      "type": "interval",
+      "lower": 0.83,
+      "upper": 0.9
+    },
+    "30": {
+      "type": "interval",
+      "lower": 0.81,
+      "upper": 0.89
+    },
+    "31": {
+      "type": "interval",
+      "lower": 0.79,
+      "upper": 0.87
+    },
+    "32": {
+      "type": "interval",
+      "lower": 0.77,
+      "upper": 0.85
+    }
+  },
+  "data_type": "Interval",
+  "serialization": "compact",
+  "scenario_intent": "Optimistic uncertainty: stronger capacities and tighter intervals, improved best-case limits.",
+  "description": "Node prior probabilities for WATER network - Interval Optimistic. Optimistic uncertainty: stronger capacities and tighter intervals, improved best-case limits."
+}

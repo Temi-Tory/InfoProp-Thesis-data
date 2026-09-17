@@ -1,0 +1,8911 @@
+{
+  "message": "Flow analysis completed with CapacityAnalysisKit",
+  "success": true,
+  "capacity_result": {
+    "min_cut_analysis": {
+      "edges_in_every_cut": [
+        [
+          7,
+          8
+        ],
+        [
+          94,
+          81
+        ],
+        [
+          95,
+          96
+        ],
+        [
+          95,
+          97
+        ]
+      ],
+      "representative_cut": {
+        "S": [
+          1,
+          2,
+          4,
+          6,
+          7,
+          94,
+          95
+        ],
+        "T": [
+          3,
+          5,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          96,
+          97
+        ],
+        "crossing_edges": [
+          [
+            7,
+            8
+          ],
+          [
+            94,
+            81
+          ],
+          [
+            95,
+            96
+          ],
+          [
+            95,
+            97
+          ]
+        ],
+        "capacity": 1837.8996402196858
+      },
+      "max_flow": 1837.8996402196858,
+      "edges_in_some_cut": [
+        [
+          7,
+          8
+        ],
+        [
+          94,
+          81
+        ],
+        [
+          95,
+          96
+        ],
+        [
+          95,
+          97
+        ]
+      ],
+      "enumeration": {
+        "total_cuts": 1,
+        "is_complete": true,
+        "free_zone_size": 0,
+        "cuts": [
+          {
+            "S": [
+              1,
+              2,
+              4,
+              6,
+              7,
+              94,
+              95
+            ],
+            "T": [
+              3,
+              5,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86,
+              87,
+              88,
+              89,
+              90,
+              91,
+              92,
+              93,
+              96,
+              97
+            ],
+            "crossing_edges": [
+              [
+                7,
+                8
+              ],
+              [
+                94,
+                81
+              ],
+              [
+                95,
+                96
+              ],
+              [
+                95,
+                97
+              ]
+            ],
+            "capacity": 1837.8996402196858
+          }
+        ]
+      },
+      "min_cut_capacity": 1837.8996402196858
+    },
+    "sensitivity": {
+      "critical_edges": [
+        {
+          "baseline_flow": 1837.8996402196858,
+          "drop": 883.2627496,
+          "edge": [
+            95,
+            97
+          ],
+          "perturbed_flow": 954.6368906196858
+        },
+        {
+          "baseline_flow": 1837.8996402196858,
+          "drop": 684.0550967816221,
+          "edge": [
+            95,
+            96
+          ],
+          "perturbed_flow": 1153.8445434380637
+        },
+        {
+          "baseline_flow": 1837.8996402196858,
+          "drop": 199.20765281837816,
+          "edge": [
+            97,
+            96
+          ],
+          "perturbed_flow": 1638.6919874013076
+        },
+        {
+          "baseline_flow": 1837.8996402196858,
+          "drop": 194.57567197343906,
+          "edge": [
+            7,
+            8
+          ],
+          "perturbed_flow": 1643.3239682462467
+        },
+        {
+          "baseline_flow": 1837.8996402196858,
+          "drop": 76.00612186462467,
+          "edge": [
+            94,
+            81
+          ],
+          "perturbed_flow": 1761.8935183550611
+        },
+        {
+          "baseline_flow": 1837.8996402196858,
+          "drop": 0.0,
+          "edge": [
+            22,
+            23
+          ],
+          "perturbed_flow": 1837.8996402196858
+        },
+        {
+          "baseline_flow": 1837.8996402196858,
+          "drop": 0.0,
+          "edge": [
+            81,
+            79
+          ],
+          "perturbed_flow": 1837.8996402196858
+        }
+      ],
+      "marginal_capacity": [
+        {
+          "edge": [
+            1,
+            6
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            2,
+            95
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            4,
+            94
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            6,
+            7
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            7,
+            8
+          ],
+          "value": 1.0
+        },
+        {
+          "edge": [
+            9,
+            7
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            9,
+            10
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            11,
+            8
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            12,
+            11
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            12,
+            54
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            13,
+            12
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            13,
+            52
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            14,
+            10
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            14,
+            12
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            14,
+            13
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            15,
+            14
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            15,
+            84
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            16,
+            17
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            16,
+            31
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            16,
+            33
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            17,
+            15
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            17,
+            82
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            18,
+            16
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            18,
+            17
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            18,
+            20
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            19,
+            18
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            20,
+            21
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            20,
+            32
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            21,
+            22
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            21,
+            56
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            22,
+            23
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            22,
+            24
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            24,
+            25
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            25,
+            26
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            26,
+            30
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            27,
+            25
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            28,
+            27
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            29,
+            28
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            31,
+            29
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            32,
+            31
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            33,
+            34
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            34,
+            35
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            35,
+            36
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            35,
+            53
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            36,
+            37
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            36,
+            86
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            37,
+            38
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            40,
+            39
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            40,
+            41
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            40,
+            88
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            41,
+            42
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            41,
+            89
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            42,
+            55
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            43,
+            44
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            44,
+            93
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            45,
+            43
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            45,
+            92
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            46,
+            44
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            46,
+            48
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            47,
+            60
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            48,
+            47
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            49,
+            59
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            50,
+            46
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            50,
+            49
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            51,
+            49
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            52,
+            51
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            53,
+            52
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            54,
+            51
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            55,
+            57
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            55,
+            90
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            56,
+            5
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            57,
+            58
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            57,
+            91
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            59,
+            48
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            60,
+            62
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            61,
+            63
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            62,
+            61
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            63,
+            64
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            64,
+            65
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            65,
+            66
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            65,
+            73
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            66,
+            67
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            66,
+            71
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            67,
+            68
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            68,
+            69
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            68,
+            70
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            71,
+            72
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            73,
+            71
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            73,
+            74
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            74,
+            75
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            74,
+            78
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            75,
+            76
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            75,
+            77
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            78,
+            77
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            78,
+            79
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            81,
+            77
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            81,
+            79
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            81,
+            80
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            82,
+            83
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            82,
+            84
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            83,
+            85
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            84,
+            85
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            85,
+            9
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            86,
+            40
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            86,
+            87
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            87,
+            50
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            87,
+            52
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            88,
+            50
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            88,
+            89
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            89,
+            45
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            90,
+            60
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            90,
+            91
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            91,
+            62
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            93,
+            3
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            94,
+            81
+          ],
+          "value": 1.0
+        },
+        {
+          "edge": [
+            95,
+            96
+          ],
+          "value": 1.0
+        },
+        {
+          "edge": [
+            95,
+            97
+          ],
+          "value": 1.0
+        },
+        {
+          "edge": [
+            97,
+            19
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            97,
+            96
+          ],
+          "value": 0.0
+        }
+      ],
+      "birnbaum": [
+        {
+          "edge": [
+            1,
+            6
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            2,
+            95
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            4,
+            94
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            6,
+            7
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            7,
+            8
+          ],
+          "value": 246.25983484138396
+        },
+        {
+          "edge": [
+            9,
+            7
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            9,
+            10
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            11,
+            8
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            12,
+            11
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            12,
+            54
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            13,
+            12
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            13,
+            52
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            14,
+            10
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            14,
+            12
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            14,
+            13
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            15,
+            14
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            15,
+            84
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            16,
+            17
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            16,
+            31
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            16,
+            33
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            17,
+            15
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            17,
+            82
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            18,
+            16
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            18,
+            17
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            18,
+            20
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            19,
+            18
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            20,
+            21
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            20,
+            32
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            21,
+            22
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            21,
+            56
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            22,
+            23
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            22,
+            24
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            24,
+            25
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            25,
+            26
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            26,
+            30
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            27,
+            25
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            28,
+            27
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            29,
+            28
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            31,
+            29
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            32,
+            31
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            33,
+            34
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            34,
+            35
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            35,
+            36
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            35,
+            53
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            36,
+            37
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            36,
+            86
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            37,
+            38
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            40,
+            39
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            40,
+            41
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            40,
+            88
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            41,
+            42
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            41,
+            89
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            42,
+            55
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            43,
+            44
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            44,
+            93
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            45,
+            43
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            45,
+            92
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            46,
+            44
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            46,
+            48
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            47,
+            60
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            48,
+            47
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            49,
+            59
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            50,
+            46
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            50,
+            49
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            51,
+            49
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            52,
+            51
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            53,
+            52
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            54,
+            51
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            55,
+            57
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            55,
+            90
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            56,
+            5
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            57,
+            58
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            57,
+            91
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            59,
+            48
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            60,
+            62
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            61,
+            63
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            62,
+            61
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            63,
+            64
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            64,
+            65
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            65,
+            66
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            65,
+            73
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            66,
+            67
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            66,
+            71
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            67,
+            68
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            68,
+            69
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            68,
+            70
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            71,
+            72
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            73,
+            71
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            73,
+            74
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            74,
+            75
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            74,
+            78
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            75,
+            76
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            75,
+            77
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            78,
+            77
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            78,
+            79
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            81,
+            77
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            81,
+            79
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            81,
+            80
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            82,
+            83
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            82,
+            84
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            83,
+            85
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            84,
+            85
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            85,
+            9
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            86,
+            40
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            86,
+            87
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            87,
+            50
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            87,
+            52
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            88,
+            50
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            88,
+            89
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            89,
+            45
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            90,
+            60
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            90,
+            91
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            91,
+            62
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            93,
+            3
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            94,
+            81
+          ],
+          "value": 200.65616172260889
+        },
+        {
+          "edge": [
+            95,
+            96
+          ],
+          "value": "Inf"
+        },
+        {
+          "edge": [
+            95,
+            97
+          ],
+          "value": 1368.1101935632446
+        },
+        {
+          "edge": [
+            97,
+            19
+          ],
+          "value": 0.0
+        },
+        {
+          "edge": [
+            97,
+            96
+          ],
+          "value": 0.0
+        }
+      ]
+    },
+    "parametric_thresholds": {
+      "baseline_flow": 1837.8996402196858,
+      "target_flow": 1654.1096761977174,
+      "degradation_thresholds": [
+        {
+          "original_capacity": 48.64391799335978,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            14,
+            10
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 48.64391799335978,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 48.64391799335978,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            14,
+            13
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 48.64391799335978,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 48.64391799335978,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            17,
+            82
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 48.64391799335978,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 48.64391799335978,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            18,
+            17
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 48.64391799335978,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 48.64391799335978,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            20,
+            32
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 48.64391799335978,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 48.64391799335978,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            22,
+            24
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 48.64391799335978,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 48.64391799335978,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            24,
+            25
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 48.64391799335978,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 48.64391799335978,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            25,
+            26
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 48.64391799335978,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 48.64391799335978,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            26,
+            30
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 48.64391799335978,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 48.64391799335978,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            31,
+            29
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 48.64391799335978,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 48.64391799335978,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            35,
+            53
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 48.64391799335978,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 48.64391799335978,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            40,
+            39
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 48.64391799335978,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 48.64391799335978,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            46,
+            48
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 48.64391799335978,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 48.64391799335978,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            48,
+            47
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 48.64391799335978,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 48.64391799335978,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            49,
+            59
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 48.64391799335978,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 48.64391799335978,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            50,
+            49
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 48.64391799335978,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 48.64391799335978,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            66,
+            71
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 48.64391799335978,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 48.64391799335978,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            73,
+            71
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 48.64391799335978,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 48.64391799335978,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            81,
+            79
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 48.64391799335978,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 48.64391799335978,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            82,
+            83
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 48.64391799335978,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 48.64391799335978,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            82,
+            84
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 48.64391799335978,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 48.64391799335978,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            83,
+            85
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 48.64391799335978,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 48.64391799335978,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            86,
+            87
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 48.64391799335978,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 48.64391799335978,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            88,
+            89
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 48.64391799335978,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 48.64391799335978,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            90,
+            91
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 48.64391799335978,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 76.00612186462466,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            75,
+            77
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 76.00612186462466,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 76.00612186462466,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            81,
+            77
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 76.00612186462466,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 76.00612186462466,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            81,
+            80
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 76.00612186462466,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 76.00612186462466,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            94,
+            81
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 76.00612186462466,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            9,
+            7
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            9,
+            10
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            12,
+            11
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            12,
+            54
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            13,
+            12
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            13,
+            52
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            14,
+            12
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            15,
+            14
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            15,
+            84
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            16,
+            17
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            16,
+            31
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            17,
+            15
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            27,
+            25
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            28,
+            27
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            29,
+            28
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            32,
+            31
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            40,
+            88
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            43,
+            44
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            44,
+            93
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            45,
+            43
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            46,
+            44
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            47,
+            60
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            50,
+            46
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            51,
+            49
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            52,
+            51
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            53,
+            52
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            54,
+            51
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            55,
+            90
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            57,
+            91
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            59,
+            48
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            60,
+            62
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            61,
+            63
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            62,
+            61
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            63,
+            64
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            65,
+            73
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            68,
+            70
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            71,
+            72
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            73,
+            74
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            74,
+            75
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            74,
+            78
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            75,
+            76
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            78,
+            77
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            78,
+            79
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            84,
+            85
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            85,
+            9
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            87,
+            50
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            87,
+            52
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            88,
+            50
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            90,
+            60
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 109.4488154850595,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            91,
+            62
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 109.4488154850595,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 148.9719988546643,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            36,
+            37
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 148.9719988546643,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 148.9719988546643,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            37,
+            38
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 148.9719988546643,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 148.9719988546643,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            68,
+            69
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 148.9719988546643,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 684.0550967816221,
+          "target_reachable_at_zero": false,
+          "target_achievable": true,
+          "target_edge": [
+            95,
+            96
+          ],
+          "threshold_capacity": 500.2651327596536,
+          "degradation_margin": 183.78996402196844,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 883.2627495999999,
+          "target_reachable_at_zero": false,
+          "target_achievable": true,
+          "target_edge": [
+            95,
+            97
+          ],
+          "threshold_capacity": 699.4727855780314,
+          "degradation_margin": 183.78996402196844,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 194.5756719734391,
+          "target_reachable_at_zero": false,
+          "target_achievable": true,
+          "target_edge": [
+            7,
+            8
+          ],
+          "threshold_capacity": 10.785707951470616,
+          "degradation_margin": 183.7899640219685,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 194.5756719734391,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            11,
+            8
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 194.5756719734391,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 194.5756719734391,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            22,
+            23
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 194.5756719734391,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 194.5756719734391,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            64,
+            65
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 194.5756719734391,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 194.5756719734391,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            65,
+            66
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 194.5756719734391,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 194.5756719734391,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            66,
+            67
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 194.5756719734391,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 194.5756719734391,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            67,
+            68
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 194.5756719734391,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 246.25983484138388,
+          "target_reachable_at_zero": false,
+          "target_achievable": true,
+          "target_edge": [
+            6,
+            7
+          ],
+          "threshold_capacity": 10.785707951470608,
+          "degradation_margin": 235.47412688991326,
+          "solver_calls": 3
+        },
+        {
+          "original_capacity": 304.02448745849864,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            21,
+            56
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 304.02448745849864,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 437.795261940238,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            18,
+            20
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 437.795261940238,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 437.795261940238,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            20,
+            21
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 437.795261940238,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 437.795261940238,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            21,
+            22
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 437.795261940238,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 437.795261940238,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            41,
+            89
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 437.795261940238,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 437.795261940238,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            42,
+            55
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 437.795261940238,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 437.795261940238,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            45,
+            92
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 437.795261940238,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 437.795261940238,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            55,
+            57
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 437.795261940238,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 437.795261940238,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            57,
+            58
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 437.795261940238,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 437.795261940238,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            89,
+            45
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 437.795261940238,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 684.0550967816221,
+          "target_reachable_at_zero": false,
+          "target_achievable": true,
+          "target_edge": [
+            97,
+            96
+          ],
+          "threshold_capacity": 15.41768879640971,
+          "degradation_margin": 668.6374079852123,
+          "solver_calls": 4
+        },
+        {
+          "original_capacity": 684.0550967816221,
+          "target_reachable_at_zero": false,
+          "target_achievable": true,
+          "target_edge": [
+            19,
+            18
+          ],
+          "threshold_capacity": 15.417688796409504,
+          "degradation_margin": 668.6374079852126,
+          "solver_calls": 4
+        },
+        {
+          "original_capacity": 684.0550967816221,
+          "target_reachable_at_zero": false,
+          "target_achievable": true,
+          "target_edge": [
+            97,
+            19
+          ],
+          "threshold_capacity": 15.417688796409504,
+          "degradation_margin": 668.6374079852126,
+          "solver_calls": 4
+        },
+        {
+          "original_capacity": 684.0550967816221,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            16,
+            33
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 684.0550967816221,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 684.0550967816221,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            18,
+            16
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 684.0550967816221,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 684.0550967816221,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            33,
+            34
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 684.0550967816221,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 684.0550967816221,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            34,
+            35
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 684.0550967816221,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 684.0550967816221,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            35,
+            36
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 684.0550967816221,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 684.0550967816221,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            36,
+            86
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 684.0550967816221,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 684.0550967816221,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            40,
+            41
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 684.0550967816221,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 684.0550967816221,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            41,
+            42
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 684.0550967816221,
+          "solver_calls": 2
+        },
+        {
+          "original_capacity": 684.0550967816221,
+          "target_reachable_at_zero": true,
+          "target_achievable": true,
+          "target_edge": [
+            86,
+            40
+          ],
+          "threshold_capacity": 0.0,
+          "degradation_margin": 684.0550967816221,
+          "solver_calls": 2
+        }
+      ]
+    },
+    "node_capacitated": null,
+    "structure": {
+      "spof_nodes": [],
+      "paths_count": 158,
+      "spof_edges": [],
+      "edge_redundancy": [
+        {
+          "score": 2,
+          "edge": [
+            1,
+            6
+          ]
+        },
+        {
+          "score": 2,
+          "edge": [
+            2,
+            95
+          ]
+        },
+        {
+          "score": 2,
+          "edge": [
+            4,
+            94
+          ]
+        },
+        {
+          "score": 2,
+          "edge": [
+            6,
+            7
+          ]
+        },
+        {
+          "score": 2,
+          "edge": [
+            7,
+            8
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            9,
+            7
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            9,
+            10
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            11,
+            8
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            12,
+            11
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            12,
+            54
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            13,
+            12
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            13,
+            52
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            14,
+            10
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            14,
+            12
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            14,
+            13
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            15,
+            14
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            15,
+            84
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            16,
+            17
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            16,
+            31
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            16,
+            33
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            17,
+            15
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            17,
+            82
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            18,
+            16
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            18,
+            17
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            18,
+            20
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            19,
+            18
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            20,
+            21
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            20,
+            32
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            21,
+            22
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            21,
+            56
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            22,
+            23
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            22,
+            24
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            24,
+            25
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            25,
+            26
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            26,
+            30
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            27,
+            25
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            28,
+            27
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            29,
+            28
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            31,
+            29
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            32,
+            31
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            33,
+            34
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            34,
+            35
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            35,
+            36
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            35,
+            53
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            36,
+            37
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            36,
+            86
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            37,
+            38
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            40,
+            39
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            40,
+            41
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            40,
+            88
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            41,
+            42
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            41,
+            89
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            42,
+            55
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            43,
+            44
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            44,
+            93
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            45,
+            43
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            45,
+            92
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            46,
+            44
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            46,
+            48
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            47,
+            60
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            48,
+            47
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            49,
+            59
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            50,
+            46
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            50,
+            49
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            51,
+            49
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            52,
+            51
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            53,
+            52
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            54,
+            51
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            55,
+            57
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            55,
+            90
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            56,
+            5
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            57,
+            58
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            57,
+            91
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            59,
+            48
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            60,
+            62
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            61,
+            63
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            62,
+            61
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            63,
+            64
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            64,
+            65
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            65,
+            66
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            65,
+            73
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            66,
+            67
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            66,
+            71
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            67,
+            68
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            68,
+            69
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            68,
+            70
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            71,
+            72
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            73,
+            71
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            73,
+            74
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            74,
+            75
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            74,
+            78
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            75,
+            76
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            75,
+            77
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            78,
+            77
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            78,
+            79
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            81,
+            77
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            81,
+            79
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            81,
+            80
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            82,
+            83
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            82,
+            84
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            83,
+            85
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            84,
+            85
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            85,
+            9
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            86,
+            40
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            86,
+            87
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            87,
+            50
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            87,
+            52
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            88,
+            50
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            88,
+            89
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            89,
+            45
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            90,
+            60
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            90,
+            91
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            91,
+            62
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            93,
+            3
+          ]
+        },
+        {
+          "score": 2,
+          "edge": [
+            94,
+            81
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            95,
+            96
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            95,
+            97
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            97,
+            19
+          ]
+        },
+        {
+          "score": 3,
+          "edge": [
+            97,
+            96
+          ]
+        }
+      ],
+      "paths": [
+        [
+          1,
+          6,
+          7,
+          8
+        ],
+        [
+          2,
+          95,
+          96
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          17,
+          15,
+          14,
+          10
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          17,
+          15,
+          14,
+          12,
+          11,
+          8
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          17,
+          15,
+          14,
+          12,
+          54,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          17,
+          15,
+          14,
+          12,
+          54,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          70
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          17,
+          15,
+          14,
+          12,
+          54,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          66,
+          71,
+          72
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          17,
+          15,
+          14,
+          12,
+          54,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          71,
+          72
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          17,
+          15,
+          14,
+          12,
+          54,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          75,
+          76
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          17,
+          15,
+          14,
+          12,
+          54,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          75,
+          77
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          17,
+          15,
+          14,
+          12,
+          54,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          78,
+          77
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          17,
+          15,
+          14,
+          12,
+          54,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          78,
+          79
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          17,
+          15,
+          14,
+          13,
+          12,
+          11,
+          8
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          17,
+          15,
+          14,
+          13,
+          12,
+          54,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          17,
+          15,
+          14,
+          13,
+          12,
+          54,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          70
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          17,
+          15,
+          14,
+          13,
+          12,
+          54,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          66,
+          71,
+          72
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          17,
+          15,
+          14,
+          13,
+          12,
+          54,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          71,
+          72
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          17,
+          15,
+          14,
+          13,
+          12,
+          54,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          75,
+          76
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          17,
+          15,
+          14,
+          13,
+          12,
+          54,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          75,
+          77
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          17,
+          15,
+          14,
+          13,
+          12,
+          54,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          78,
+          77
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          17,
+          15,
+          14,
+          13,
+          12,
+          54,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          78,
+          79
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          17,
+          15,
+          14,
+          13,
+          52,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          17,
+          15,
+          14,
+          13,
+          52,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          70
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          17,
+          15,
+          14,
+          13,
+          52,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          66,
+          71,
+          72
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          17,
+          15,
+          14,
+          13,
+          52,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          71,
+          72
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          17,
+          15,
+          14,
+          13,
+          52,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          75,
+          76
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          17,
+          15,
+          14,
+          13,
+          52,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          75,
+          77
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          17,
+          15,
+          14,
+          13,
+          52,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          78,
+          77
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          17,
+          15,
+          14,
+          13,
+          52,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          78,
+          79
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          17,
+          15,
+          84,
+          85,
+          9,
+          7,
+          8
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          17,
+          15,
+          84,
+          85,
+          9,
+          10
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          17,
+          82,
+          83,
+          85,
+          9,
+          7,
+          8
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          17,
+          82,
+          83,
+          85,
+          9,
+          10
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          17,
+          82,
+          84,
+          85,
+          9,
+          7,
+          8
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          17,
+          82,
+          84,
+          85,
+          9,
+          10
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          31,
+          29,
+          28,
+          27,
+          25,
+          26,
+          30
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          40,
+          39
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          40,
+          41,
+          42,
+          55,
+          57,
+          58
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          40,
+          41,
+          42,
+          55,
+          57,
+          91,
+          62,
+          61,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          40,
+          41,
+          42,
+          55,
+          57,
+          91,
+          62,
+          61,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          70
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          40,
+          41,
+          42,
+          55,
+          57,
+          91,
+          62,
+          61,
+          63,
+          64,
+          65,
+          66,
+          71,
+          72
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          40,
+          41,
+          42,
+          55,
+          57,
+          91,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          71,
+          72
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          40,
+          41,
+          42,
+          55,
+          57,
+          91,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          75,
+          76
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          40,
+          41,
+          42,
+          55,
+          57,
+          91,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          75,
+          77
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          40,
+          41,
+          42,
+          55,
+          57,
+          91,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          78,
+          77
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          40,
+          41,
+          42,
+          55,
+          57,
+          91,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          78,
+          79
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          40,
+          41,
+          42,
+          55,
+          90,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          40,
+          41,
+          42,
+          55,
+          90,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          70
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          40,
+          41,
+          42,
+          55,
+          90,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          66,
+          71,
+          72
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          40,
+          41,
+          42,
+          55,
+          90,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          71,
+          72
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          40,
+          41,
+          42,
+          55,
+          90,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          75,
+          76
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          40,
+          41,
+          42,
+          55,
+          90,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          75,
+          77
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          40,
+          41,
+          42,
+          55,
+          90,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          78,
+          77
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          40,
+          41,
+          42,
+          55,
+          90,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          78,
+          79
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          40,
+          41,
+          42,
+          55,
+          90,
+          91,
+          62,
+          61,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          40,
+          41,
+          42,
+          55,
+          90,
+          91,
+          62,
+          61,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          70
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          40,
+          41,
+          42,
+          55,
+          90,
+          91,
+          62,
+          61,
+          63,
+          64,
+          65,
+          66,
+          71,
+          72
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          40,
+          41,
+          42,
+          55,
+          90,
+          91,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          71,
+          72
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          40,
+          41,
+          42,
+          55,
+          90,
+          91,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          75,
+          76
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          40,
+          41,
+          42,
+          55,
+          90,
+          91,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          75,
+          77
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          40,
+          41,
+          42,
+          55,
+          90,
+          91,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          78,
+          77
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          40,
+          41,
+          42,
+          55,
+          90,
+          91,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          78,
+          79
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          40,
+          41,
+          89,
+          45,
+          43,
+          44,
+          93,
+          3
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          40,
+          41,
+          89,
+          45,
+          92
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          40,
+          88,
+          50,
+          46,
+          44,
+          93,
+          3
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          40,
+          88,
+          50,
+          46,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          40,
+          88,
+          50,
+          46,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          70
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          40,
+          88,
+          50,
+          46,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          66,
+          71,
+          72
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          40,
+          88,
+          50,
+          46,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          71,
+          72
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          40,
+          88,
+          50,
+          46,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          75,
+          76
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          40,
+          88,
+          50,
+          46,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          75,
+          77
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          40,
+          88,
+          50,
+          46,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          78,
+          77
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          40,
+          88,
+          50,
+          46,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          78,
+          79
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          40,
+          88,
+          50,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          40,
+          88,
+          50,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          70
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          40,
+          88,
+          50,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          66,
+          71,
+          72
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          40,
+          88,
+          50,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          71,
+          72
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          40,
+          88,
+          50,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          75,
+          76
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          40,
+          88,
+          50,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          75,
+          77
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          40,
+          88,
+          50,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          78,
+          77
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          40,
+          88,
+          50,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          78,
+          79
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          40,
+          88,
+          89,
+          45,
+          43,
+          44,
+          93,
+          3
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          40,
+          88,
+          89,
+          45,
+          92
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          87,
+          50,
+          46,
+          44,
+          93,
+          3
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          87,
+          50,
+          46,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          87,
+          50,
+          46,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          70
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          87,
+          50,
+          46,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          66,
+          71,
+          72
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          87,
+          50,
+          46,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          71,
+          72
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          87,
+          50,
+          46,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          75,
+          76
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          87,
+          50,
+          46,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          75,
+          77
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          87,
+          50,
+          46,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          78,
+          77
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          87,
+          50,
+          46,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          78,
+          79
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          87,
+          50,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          87,
+          50,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          70
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          87,
+          50,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          66,
+          71,
+          72
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          87,
+          50,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          71,
+          72
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          87,
+          50,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          75,
+          76
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          87,
+          50,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          75,
+          77
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          87,
+          50,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          78,
+          77
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          87,
+          50,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          78,
+          79
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          87,
+          52,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          87,
+          52,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          70
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          87,
+          52,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          66,
+          71,
+          72
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          87,
+          52,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          71,
+          72
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          87,
+          52,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          75,
+          76
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          87,
+          52,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          75,
+          77
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          87,
+          52,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          78,
+          77
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          36,
+          86,
+          87,
+          52,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          78,
+          79
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          53,
+          52,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          53,
+          52,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          70
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          53,
+          52,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          66,
+          71,
+          72
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          53,
+          52,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          71,
+          72
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          53,
+          52,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          75,
+          76
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          53,
+          52,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          75,
+          77
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          53,
+          52,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          78,
+          77
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          16,
+          33,
+          34,
+          35,
+          53,
+          52,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          78,
+          79
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          17,
+          15,
+          14,
+          10
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          17,
+          15,
+          14,
+          12,
+          11,
+          8
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          17,
+          15,
+          14,
+          12,
+          54,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          17,
+          15,
+          14,
+          12,
+          54,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          70
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          17,
+          15,
+          14,
+          12,
+          54,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          66,
+          71,
+          72
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          17,
+          15,
+          14,
+          12,
+          54,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          71,
+          72
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          17,
+          15,
+          14,
+          12,
+          54,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          75,
+          76
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          17,
+          15,
+          14,
+          12,
+          54,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          75,
+          77
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          17,
+          15,
+          14,
+          12,
+          54,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          78,
+          77
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          17,
+          15,
+          14,
+          12,
+          54,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          78,
+          79
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          17,
+          15,
+          14,
+          13,
+          12,
+          11,
+          8
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          17,
+          15,
+          14,
+          13,
+          12,
+          54,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          17,
+          15,
+          14,
+          13,
+          12,
+          54,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          70
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          17,
+          15,
+          14,
+          13,
+          12,
+          54,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          66,
+          71,
+          72
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          17,
+          15,
+          14,
+          13,
+          12,
+          54,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          71,
+          72
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          17,
+          15,
+          14,
+          13,
+          12,
+          54,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          75,
+          76
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          17,
+          15,
+          14,
+          13,
+          12,
+          54,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          75,
+          77
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          17,
+          15,
+          14,
+          13,
+          12,
+          54,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          78,
+          77
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          17,
+          15,
+          14,
+          13,
+          12,
+          54,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          78,
+          79
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          17,
+          15,
+          14,
+          13,
+          52,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          17,
+          15,
+          14,
+          13,
+          52,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          70
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          17,
+          15,
+          14,
+          13,
+          52,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          66,
+          71,
+          72
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          17,
+          15,
+          14,
+          13,
+          52,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          71,
+          72
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          17,
+          15,
+          14,
+          13,
+          52,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          75,
+          76
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          17,
+          15,
+          14,
+          13,
+          52,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          75,
+          77
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          17,
+          15,
+          14,
+          13,
+          52,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          78,
+          77
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          17,
+          15,
+          14,
+          13,
+          52,
+          51,
+          49,
+          59,
+          48,
+          47,
+          60,
+          62,
+          61,
+          63,
+          64,
+          65,
+          73,
+          74,
+          78,
+          79
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          17,
+          15,
+          84,
+          85,
+          9,
+          7,
+          8
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          17,
+          15,
+          84,
+          85,
+          9,
+          10
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          17,
+          82,
+          83,
+          85,
+          9,
+          7,
+          8
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          17,
+          82,
+          83,
+          85,
+          9,
+          10
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          17,
+          82,
+          84,
+          85,
+          9,
+          7,
+          8
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          17,
+          82,
+          84,
+          85,
+          9,
+          10
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          20,
+          21,
+          22,
+          23
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          20,
+          21,
+          22,
+          24,
+          25,
+          26,
+          30
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          20,
+          21,
+          56,
+          5
+        ],
+        [
+          2,
+          95,
+          97,
+          19,
+          18,
+          20,
+          32,
+          31,
+          29,
+          28,
+          27,
+          25,
+          26,
+          30
+        ],
+        [
+          2,
+          95,
+          97,
+          96
+        ],
+        [
+          4,
+          94,
+          81,
+          77
+        ],
+        [
+          4,
+          94,
+          81,
+          79
+        ],
+        [
+          4,
+          94,
+          81,
+          80
+        ]
+      ],
+      "bottleneck_ranking": [
+        {
+          "rank": 1,
+          "edge": [
+            94,
+            81
+          ],
+          "flow": 76.00612186462466,
+          "residual_capacity": 0.0,
+          "capacity": 76.00612186462466
+        },
+        {
+          "rank": 2,
+          "edge": [
+            7,
+            8
+          ],
+          "flow": 194.5756719734391,
+          "residual_capacity": 0.0,
+          "capacity": 194.5756719734391
+        },
+        {
+          "rank": 3,
+          "edge": [
+            95,
+            96
+          ],
+          "flow": 684.0550967816221,
+          "residual_capacity": 0.0,
+          "capacity": 684.0550967816221
+        },
+        {
+          "rank": 4,
+          "edge": [
+            95,
+            97
+          ],
+          "flow": 883.2627495999999,
+          "residual_capacity": 0.0,
+          "capacity": 883.2627495999999
+        }
+      ],
+      "node_positions": {
+        "32": "downstream",
+        "29": "downstream",
+        "81": "on_cut",
+        "54": "downstream",
+        "78": "downstream",
+        "1": "upstream",
+        "2": "upstream",
+        "74": "downstream",
+        "41": "downstream",
+        "65": "downstream",
+        "53": "downstream",
+        "51": "downstream",
+        "27": "downstream",
+        "75": "downstream",
+        "42": "downstream",
+        "33": "downstream",
+        "28": "downstream",
+        "52": "downstream",
+        "50": "downstream",
+        "63": "downstream",
+        "92": "downstream",
+        "88": "downstream",
+        "93": "downstream",
+        "26": "downstream",
+        "10": "downstream",
+        "77": "downstream",
+        "87": "downstream",
+        "24": "downstream",
+        "58": "downstream",
+        "25": "downstream",
+        "23": "downstream",
+        "49": "downstream",
+        "59": "downstream",
+        "5": "downstream",
+        "31": "downstream",
+        "89": "downstream",
+        "62": "downstream",
+        "43": "downstream",
+        "90": "downstream",
+        "39": "downstream",
+        "34": "downstream",
+        "44": "downstream",
+        "94": "on_cut",
+        "55": "downstream",
+        "86": "downstream",
+        "17": "downstream",
+        "71": "downstream",
+        "37": "downstream",
+        "47": "downstream",
+        "9": "downstream",
+        "73": "downstream",
+        "82": "downstream",
+        "12": "downstream",
+        "79": "downstream",
+        "20": "downstream",
+        "6": "upstream",
+        "84": "downstream",
+        "80": "downstream",
+        "70": "downstream",
+        "14": "downstream",
+        "7": "on_cut",
+        "96": "on_cut",
+        "57": "downstream",
+        "8": "on_cut",
+        "64": "downstream",
+        "19": "downstream",
+        "91": "downstream",
+        "69": "downstream",
+        "60": "downstream",
+        "97": "on_cut",
+        "4": "upstream",
+        "22": "downstream",
+        "11": "downstream",
+        "35": "downstream",
+        "13": "downstream",
+        "67": "downstream",
+        "61": "downstream",
+        "15": "downstream",
+        "16": "downstream",
+        "40": "downstream",
+        "46": "downstream",
+        "21": "downstream",
+        "38": "downstream",
+        "72": "downstream",
+        "83": "downstream",
+        "45": "downstream",
+        "68": "downstream",
+        "56": "downstream",
+        "36": "downstream",
+        "95": "on_cut",
+        "66": "downstream",
+        "76": "downstream",
+        "85": "downstream",
+        "48": "downstream",
+        "18": "downstream",
+        "30": "downstream",
+        "3": "downstream"
+      }
+    },
+    "metadata": {
+      "tol": 1e-10,
+      "algorithm": "dinic",
+      "baseline_max_flow": 1837.8996402196858
+    },
+    "flow": {
+      "mincut_S": [
+        1,
+        2,
+        4,
+        6,
+        7,
+        94,
+        95
+      ],
+      "max_flow": 1837.8996402196858,
+      "sink_flow": [
+        [
+          3.0,
+          0.0
+        ],
+        [
+          5.0,
+          4.6319808449387665
+        ],
+        [
+          8.0,
+          194.5756719734391
+        ],
+        [
+          10.0,
+          0.0
+        ],
+        [
+          23.0,
+          194.5756719734391
+        ],
+        [
+          30.0,
+          0.0
+        ],
+        [
+          38.0,
+          0.0
+        ],
+        [
+          39.0,
+          0.0
+        ],
+        [
+          58.0,
+          0.0
+        ],
+        [
+          69.0,
+          0.0
+        ],
+        [
+          70.0,
+          0.0
+        ],
+        [
+          72.0,
+          0.0
+        ],
+        [
+          76.0,
+          0.0
+        ],
+        [
+          77.0,
+          27.36220387126488
+        ],
+        [
+          79.0,
+          48.64391799335978
+        ],
+        [
+          80.0,
+          0.0
+        ],
+        [
+          92.0,
+          0.0
+        ],
+        [
+          96.0,
+          1368.1101935632441
+        ]
+      ],
+      "mincut_capacity": 1837.8996402196858,
+      "saturated_edges": [
+        [
+          7,
+          8
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          81,
+          79
+        ],
+        [
+          94,
+          81
+        ],
+        [
+          95,
+          96
+        ],
+        [
+          95,
+          97
+        ],
+        [
+          97,
+          96
+        ]
+      ],
+      "is_unbounded": false,
+      "mincut_T": [
+        3,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        96,
+        97
+      ]
+    },
+    "flow_decomposition": {
+      "is_unique": false,
+      "total_flow": 1837.8996402196858,
+      "components": [
+        {
+          "flow_value": 684.0550967816222,
+          "bottleneck_edge": [
+            2,
+            95
+          ],
+          "path": [
+            2,
+            95,
+            97,
+            96
+          ]
+        },
+        {
+          "flow_value": 684.0550967816221,
+          "bottleneck_edge": [
+            95,
+            96
+          ],
+          "path": [
+            2,
+            95,
+            96
+          ]
+        },
+        {
+          "flow_value": 194.5756719734391,
+          "bottleneck_edge": [
+            1,
+            6
+          ],
+          "path": [
+            1,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "flow_value": 194.5756719734391,
+          "bottleneck_edge": [
+            21,
+            22
+          ],
+          "path": [
+            2,
+            95,
+            97,
+            19,
+            18,
+            20,
+            21,
+            22,
+            23
+          ]
+        },
+        {
+          "flow_value": 48.64391799335978,
+          "bottleneck_edge": [
+            4,
+            94
+          ],
+          "path": [
+            4,
+            94,
+            81,
+            79
+          ]
+        },
+        {
+          "flow_value": 27.36220387126488,
+          "bottleneck_edge": [
+            81,
+            77
+          ],
+          "path": [
+            4,
+            94,
+            81,
+            77
+          ]
+        },
+        {
+          "flow_value": 4.6319808449387665,
+          "bottleneck_edge": [
+            18,
+            20
+          ],
+          "path": [
+            2,
+            95,
+            97,
+            19,
+            18,
+            20,
+            21,
+            56,
+            5
+          ]
+        }
+      ]
+    },
+    "failure_impact": {
+      "min_cut_edges": [
+        [
+          7,
+          8
+        ],
+        [
+          94,
+          81
+        ],
+        [
+          95,
+          96
+        ],
+        [
+          95,
+          97
+        ]
+      ],
+      "degradation_results": [],
+      "k_edge_failures": [
+        {
+          "drop": 1567.317846381622,
+          "perturbed_flow": 270.5817938380638,
+          "is_unbounded": false,
+          "edges": [
+            [
+              95,
+              96
+            ],
+            [
+              95,
+              97
+            ]
+          ]
+        },
+        {
+          "drop": 1077.838421573439,
+          "perturbed_flow": 760.0612186462467,
+          "is_unbounded": false,
+          "edges": [
+            [
+              7,
+              8
+            ],
+            [
+              95,
+              97
+            ]
+          ]
+        },
+        {
+          "drop": 959.2688714646247,
+          "perturbed_flow": 878.6307687550611,
+          "is_unbounded": false,
+          "edges": [
+            [
+              94,
+              81
+            ],
+            [
+              95,
+              97
+            ]
+          ]
+        },
+        {
+          "drop": 878.6307687550612,
+          "perturbed_flow": 959.2688714646246,
+          "is_unbounded": false,
+          "edges": [
+            [
+              7,
+              8
+            ],
+            [
+              95,
+              96
+            ]
+          ]
+        },
+        {
+          "drop": 760.0612186462467,
+          "perturbed_flow": 1077.838421573439,
+          "is_unbounded": false,
+          "edges": [
+            [
+              94,
+              81
+            ],
+            [
+              95,
+              96
+            ]
+          ]
+        },
+        {
+          "drop": 270.58179383806373,
+          "perturbed_flow": 1567.317846381622,
+          "is_unbounded": false,
+          "edges": [
+            [
+              7,
+              8
+            ],
+            [
+              94,
+              81
+            ]
+          ]
+        }
+      ],
+      "single_edge_failures": [
+        {
+          "drop": 883.2627496,
+          "edge": [
+            95,
+            97
+          ],
+          "perturbed_flow": 954.6368906196858,
+          "is_critical": true,
+          "is_unbounded": false
+        },
+        {
+          "drop": 684.0550967816221,
+          "edge": [
+            95,
+            96
+          ],
+          "perturbed_flow": 1153.8445434380637,
+          "is_critical": true,
+          "is_unbounded": false
+        },
+        {
+          "drop": 194.57567197343906,
+          "edge": [
+            7,
+            8
+          ],
+          "perturbed_flow": 1643.3239682462467,
+          "is_critical": true,
+          "is_unbounded": false
+        },
+        {
+          "drop": 76.00612186462467,
+          "edge": [
+            94,
+            81
+          ],
+          "perturbed_flow": 1761.8935183550611,
+          "is_critical": true,
+          "is_unbounded": false
+        }
+      ]
+    },
+    "global_connectivity": {
+      "edge_connectivity": {
+        "min_cut_edges": [],
+        "lambda": 0,
+        "achieving_sink": 1,
+        "achieving_source": 3,
+        "solver_calls": 97
+      },
+      "node_connectivity": {
+        "kappa": 0,
+        "min_cut_nodes": [],
+        "achieving_sink": 1,
+        "achieving_source": 3,
+        "solver_calls": 97
+      },
+      "global_min_cut": {
+        "min_cut_edges": [],
+        "cut_S": [
+          1,
+          6,
+          7,
+          8
+        ],
+        "min_cut_capacity": 0.0,
+        "achieving_sink": 2,
+        "achieving_source": 1,
+        "solver_calls": 192,
+        "cut_T": [
+          2,
+          3,
+          4,
+          5,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97
+        ]
+      }
+    }
+  },
+  "computation_time": 13.093999862670898,
+  "endpoint": "flow-analysis",
+  "timestamp": "2026-08-30T16:15:45.198",
+  "input": {
+    "target_nodes_from_file": [],
+    "source_nodes": [
+      1,
+      2,
+      4
+    ],
+    "sink_nodes": [
+      3,
+      5,
+      8,
+      10,
+      23,
+      30,
+      38,
+      39,
+      58,
+      69,
+      70,
+      72,
+      76,
+      77,
+      79,
+      80,
+      92,
+      96
+    ],
+    "edges_file_path": "C:/Development/Info_Prop_Framework_Project/Info_Prop_Framework_Project/dag_ntwrk_files/net3/net3.EDGES",
+    "source_rates_from_file": [],
+    "capacity_schema": "toolkit-edges-array",
+    "capacities_path": "C:/Development/Info_Prop_Framework_Project/Info_Prop_Framework_Project/dag_ntwrk_files/net3/net3-scenarios/Baseline/Baseline-capacities.json"
+  }
+}

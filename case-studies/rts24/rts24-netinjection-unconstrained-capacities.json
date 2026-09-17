@@ -1,0 +1,277 @@
+{
+  "data_type": "Float64",
+  "edges": [
+    {
+      "source": 0,
+      "destination": 1,
+      "capacity": 1000000.0
+    },
+    {
+      "source": 0,
+      "destination": 2,
+      "capacity": 1000000.0
+    },
+    {
+      "source": 0,
+      "destination": 7,
+      "capacity": 1000000.0
+    },
+    {
+      "source": 0,
+      "destination": 13,
+      "capacity": 1000000.0
+    },
+    {
+      "source": 0,
+      "destination": 16,
+      "capacity": 1000000.0
+    },
+    {
+      "source": 0,
+      "destination": 18,
+      "capacity": 1000000.0
+    },
+    {
+      "source": 0,
+      "destination": 21,
+      "capacity": 1000000.0
+    },
+    {
+      "source": 0,
+      "destination": 22,
+      "capacity": 1000000.0
+    },
+    {
+      "source": 0,
+      "destination": 23,
+      "capacity": 1000000.0
+    },
+    {
+      "source": 1,
+      "destination": 2,
+      "capacity": 175
+    },
+    {
+      "source": 1,
+      "destination": 5,
+      "capacity": 175
+    },
+    {
+      "source": 2,
+      "destination": 4,
+      "capacity": 175
+    },
+    {
+      "source": 2,
+      "destination": 6,
+      "capacity": 175
+    },
+    {
+      "source": 3,
+      "destination": 1,
+      "capacity": 175
+    },
+    {
+      "source": 3,
+      "destination": 25,
+      "capacity": 180.0
+    },
+    {
+      "source": 4,
+      "destination": 25,
+      "capacity": 74.0
+    },
+    {
+      "source": 5,
+      "destination": 25,
+      "capacity": 71.0
+    },
+    {
+      "source": 6,
+      "destination": 25,
+      "capacity": 136.0
+    },
+    {
+      "source": 7,
+      "destination": 8,
+      "capacity": 175
+    },
+    {
+      "source": 8,
+      "destination": 25,
+      "capacity": 171.0
+    },
+    {
+      "source": 9,
+      "destination": 3,
+      "capacity": 175
+    },
+    {
+      "source": 9,
+      "destination": 4,
+      "capacity": 175
+    },
+    {
+      "source": 9,
+      "destination": 8,
+      "capacity": 175
+    },
+    {
+      "source": 9,
+      "destination": 25,
+      "capacity": 175.0
+    },
+    {
+      "source": 10,
+      "destination": 5,
+      "capacity": 175
+    },
+    {
+      "source": 10,
+      "destination": 6,
+      "capacity": 175
+    },
+    {
+      "source": 10,
+      "destination": 8,
+      "capacity": 175
+    },
+    {
+      "source": 10,
+      "destination": 25,
+      "capacity": 195.0
+    },
+    {
+      "source": 11,
+      "destination": 9,
+      "capacity": 400
+    },
+    {
+      "source": 11,
+      "destination": 10,
+      "capacity": 400
+    },
+    {
+      "source": 12,
+      "destination": 9,
+      "capacity": 400
+    },
+    {
+      "source": 12,
+      "destination": 10,
+      "capacity": 400
+    },
+    {
+      "source": 13,
+      "destination": 11,
+      "capacity": 500
+    },
+    {
+      "source": 13,
+      "destination": 12,
+      "capacity": 500
+    },
+    {
+      "source": 14,
+      "destination": 11,
+      "capacity": 500
+    },
+    {
+      "source": 14,
+      "destination": 25,
+      "capacity": 194.0
+    },
+    {
+      "source": 15,
+      "destination": 16,
+      "capacity": 500
+    },
+    {
+      "source": 15,
+      "destination": 24,
+      "capacity": 500
+    },
+    {
+      "source": 15,
+      "destination": 25,
+      "capacity": 102.0
+    },
+    {
+      "source": 16,
+      "destination": 14,
+      "capacity": 500
+    },
+    {
+      "source": 16,
+      "destination": 19,
+      "capacity": 500
+    },
+    {
+      "source": 17,
+      "destination": 16,
+      "capacity": 500
+    },
+    {
+      "source": 18,
+      "destination": 17,
+      "capacity": 500
+    },
+    {
+      "source": 19,
+      "destination": 25,
+      "capacity": 181.0
+    },
+    {
+      "source": 20,
+      "destination": 19,
+      "capacity": 1000
+    },
+    {
+      "source": 20,
+      "destination": 25,
+      "capacity": 128.0
+    },
+    {
+      "source": 21,
+      "destination": 15,
+      "capacity": 1000
+    },
+    {
+      "source": 21,
+      "destination": 18,
+      "capacity": 1000
+    },
+    {
+      "source": 22,
+      "destination": 17,
+      "capacity": 500
+    },
+    {
+      "source": 22,
+      "destination": 21,
+      "capacity": 500
+    },
+    {
+      "source": 23,
+      "destination": 12,
+      "capacity": 500
+    },
+    {
+      "source": 23,
+      "destination": 13,
+      "capacity": 500
+    },
+    {
+      "source": 23,
+      "destination": 20,
+      "capacity": 1000
+    },
+    {
+      "source": 24,
+      "destination": 3,
+      "capacity": 400
+    }
+  ],
+  "nodes": [],
+  "description": "IEEE RTS-24 net-injection model: super-source 0 -> each net-export bus (capacity = generator nameplate Pmax minus local peak load), each net-import bus -> super-sink 25 (capacity = local peak load minus local generation). Generation-side (S->bus) edges use a large sentinel capacity here \u2014 the unconstrained-generation comparison scenario. Line edges unchanged from rts24-capacities.json (branch rateA, MVA)."
+}

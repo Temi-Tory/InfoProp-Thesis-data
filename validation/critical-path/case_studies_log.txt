@@ -1,0 +1,42 @@
+=== A. Water / ShortestPath: fastest achievable route ===
+fastest completion (project value): 15 time units
+optimal route (margin = 0, topological order): [2, 4, 7, 10, 12, 15, 18, 20, 23, 26, 28, 31]
+closest alternatives (node, extra time over the fastest route):
+  node 32   +1.5
+  node 24   +3
+  node 29   +4
+  node 16   +4.5
+  node 8    +5.5
+
+=== C. Water / Accumulation with budget (allowance demo) ===
+total accumulated load at outlet 27: 480; budget = 528 (10% headroom = 48)
+top-8 stages by contribution, with sensitivity and allowance:
+  node  contribution  multiplicity  allowance(+load before budget breach)
+  3     63            7             +6.857
+  6     56            7             +6.857
+  5     35            7             +6.857
+  1     30            5             +9.6
+  11    27            3             +16
+  8     24            6             +8
+  14    16            2             +24
+  2     15            5             +9.6
+
+=== B. Drone-medical / MaxScaling: most reliable single delivery route ===
+network: 782 nodes, 2789 edges, 33 sources; factors = study's own node priors + link probabilities
+best end-to-end route success factor: 0.787406
+most reliable route (ratio slack = 0, topological order): [380, 393]
+closest alternative nodes (ratio slack = best/through - 1):
+  node 325   0.02084
+  node 322   0.02084
+  node 206   0.0545
+  node 209   0.0545
+  node 248   0.06134
+soundness sampling: 2000 random routes, best sampled 0.787406 <= optimum 0.787406, violations=0
+
+=== D. Warm runtimes (mean of 100 reps, for slide-11 refresh) ===
+  water longest      53.3 microseconds
+  water shortest     52.8 microseconds
+  water accumulation 7.2 microseconds
+  drone max-scaling  1756.1 microseconds
+
+run: 2026-08-18T10:18:09.640

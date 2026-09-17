@@ -1,0 +1,125 @@
+{
+  "comment": "Node labels and layer assignments for the unreduced flagship benchmark DAG.",
+  "source_nodes": [
+    101,
+    102,
+    103,
+    104,
+    105
+  ],
+  "sink_nodes": [
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143
+  ],
+  "layers": {
+    "1": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "2": [
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113
+    ],
+    "3": [
+      114,
+      115,
+      116,
+      117,
+      118,
+      119
+    ],
+    "4": [
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127
+    ],
+    "5": [
+      128,
+      129,
+      130,
+      131,
+      132,
+      133
+    ],
+    "6": [
+      134,
+      135
+    ],
+    "7": [
+      136
+    ],
+    "8": [
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143
+    ]
+  },
+  "node_labels": {
+    "101": "origin_northwest",
+    "102": "origin_north",
+    "103": "origin_central",
+    "104": "origin_east",
+    "105": "origin_southwest",
+    "106": "hub_alpha",
+    "107": "hub_beta",
+    "108": "hub_gamma",
+    "109": "hub_delta",
+    "110": "hub_epsilon",
+    "111": "hub_zeta",
+    "112": "hub_eta",
+    "113": "hub_theta",
+    "114": "processing_A",
+    "115": "processing_B",
+    "116": "processing_C",
+    "117": "processing_D",
+    "118": "bypass_E",
+    "119": "bypass_F",
+    "120": "trunk_n1",
+    "121": "trunk_n2",
+    "122": "trunk_c1",
+    "123": "trunk_c2",
+    "124": "trunk_s1",
+    "125": "trunk_s2",
+    "126": "trunk_w1",
+    "127": "trunk_w2",
+    "128": "secondary_a",
+    "129": "secondary_b",
+    "130": "secondary_c",
+    "131": "secondary_d",
+    "132": "secondary_e",
+    "133": "secondary_f",
+    "134": "dispatch_gateway_west",
+    "135": "dispatch_gateway_east",
+    "136": "distribution_combiner",
+    "137": "sink_1",
+    "138": "sink_2",
+    "139": "sink_3",
+    "140": "sink_4",
+    "141": "sink_5",
+    "142": "sink_6",
+    "143": "sink_7"
+  }
+}

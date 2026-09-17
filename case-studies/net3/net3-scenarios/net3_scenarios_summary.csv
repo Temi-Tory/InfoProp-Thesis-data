@@ -1,0 +1,8 @@
+http,max_flow,project_value,scenario,success,toolkit
+200,,,Baseline,True,reliability
+200,1837.8996402196858,,Baseline,True,flow
+200,,1773.326611111111,Baseline,True,schedule
+200,,,MaxScaling,True,schedule-multiplicative
+200,954.6368906196858,,Degraded,True,flow
+200,,,Interval,True,reliability
+200,,"{'lower': 1418.6614, 'type': 'interval', 'upper': 2127.9917999999993}",Interval,True,schedule

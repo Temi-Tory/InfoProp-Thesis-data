@@ -1,0 +1,80 @@
+% ============================================================================================
+% Imprecise (interval) reliability — the contribution. Data: validation/interval_sweep.csv (112 graphs,
+% input interval half-width 0.3 per component). Reliability is monotone in every probability, so the
+% EXACT range of each belief over the interval box is [belief(all-lower), belief(all-upper)], evaluated
+% by CUDD at the two corners. "over-width" = how far a method's interval exceeds that exact range.
+% IPA (with diamond conditioning) is EXACT; NAIVE interval propagation (no conditioning) over-widens
+% because shared variables recur (the interval-arithmetic dependency problem). ROBDDs cannot propagate
+% intervals natively at all.
+% ============================================================================================
+
+\begin{table}[t]
+\centering
+\caption{Exact interval reliability. Across 112 corpus graphs (per-component interval half-width $0.3$),
+IPA's interval output equals the exact range $[\text{belief}(\text{lower}),\text{belief}(\text{upper})]$
+to machine precision, whereas naive interval propagation (parents combined without diamond conditioning)
+over-widens substantially. \emph{over-width} is the maximum per-node excess beyond the exact range;
+\emph{unsound} is any failure to contain the exact range (0 = always sound).}
+\label{tab:imprecise}
+\begin{tabular}{lrrr}
+\hline
+Method & exact (\#/112) & over-width (min/median/max) & unsound \\
+\hline
+IPA (diamond conditioning) & \textbf{112/112} & $0$ / $0$ / $2.2\times10^{-16}$ & $0$ \\
+Naive interval propagation & 0/112 & $0.062$ / $0.275$ / $0.452$ & $0$ \\
+\hline
+\end{tabular}
+\par\smallskip
+\footnotesize Median exact belief range across the corpus is $0.44$; naive over-widening (median $0.275$)
+is thus $\sim 60\%$ of the true range, and $111/112$ graphs are loose by $>0.1$. ROBDDs are omitted: they
+require discretising each interval into many point evaluations rather than a single exact propagation.
+\end{table}
+
+% ---- HERO figure: belief-CDF of a sink node under interval/uniform inputs ----
+% Data: validation/hero_figure.csv (random_n12_s3, sink node 12, uniform inputs, steps=200, 100k MC).
+% Needs: \usepgfplotslibrary{fillbetween}. Shows IPA's p-box band tightly bracketing the true CDF while
+% the naive (no-conditioning) band is shifted far right (overestimates reliability => unsound).
+\begin{figure}[t]\centering
+\begin{tikzpicture}
+\begin{axis}[width=.9\linewidth,height=6.2cm, xlabel={node reliability $x$},
+  ylabel={$P(\text{belief}\le x)$}, legend pos=south east, grid=both, xmin=0.05, xmax=0.55]
+% naive band (wrong): fill between naive_lo and naive_hi
+\addplot[name path=nl,draw=none] table[col sep=comma,x=x,y=naive_lo]{hero_figure.csv};
+\addplot[name path=nh,draw=none] table[col sep=comma,x=x,y=naive_hi]{hero_figure.csv};
+\addplot[red!25] fill between[of=nl and nh];
+% IPA band (tight, sound)
+\addplot[name path=il,draw=none] table[col sep=comma,x=x,y=ipa_lo]{hero_figure.csv};
+\addplot[name path=ih,draw=none] table[col sep=comma,x=x,y=ipa_hi]{hero_figure.csv};
+\addplot[blue!25] fill between[of=il and ih];
+% true CDF (Monte Carlo)
+\addplot[black,very thick] table[col sep=comma,x=x,y=emp_cdf]{hero_figure.csv};
+\legend{naive p-box band,,, IPA p-box band,,, Monte-Carlo (truth)}
+\end{axis}
+\end{tikzpicture}
+\caption{Imprecise reliability, belief CDF of a sink node under uniform input distributions
+(random $n{=}12$ DAG). The IPA p-box band (blue) tightly brackets the true CDF (black, Monte Carlo); the
+naive band without diamond conditioning (red) is shifted far right --- it places CDF mass where the true
+reliability has none (e.g. at $x{=}0.24$ the true CDF is $0.71$ but the naive band is $[0,0.015]$),
+systematically OVERESTIMATING reliability. IPA's conditioning removes the dependency that makes the naive
+p-box unsound; ROBDDs cannot propagate imprecise inputs natively.}
+\label{fig:hero_imprecise}
+\end{figure}
+
+% Figure: per-graph over-width, IPA (flat at machine precision) vs naive (large), sorted by naive.
+\begin{figure}[t]\centering
+\begin{tikzpicture}
+\begin{axis}[width=.9\linewidth,height=6cm,
+  xlabel={graph (sorted by naive over-width)}, ylabel={interval over-width},
+  ymin=-0.02, legend pos=north west, grid=both, mark size=1pt]
+\addplot+[only marks,mark=*] table[col sep=comma, x expr=\coordindex, y=naive_overwidth,
+  restrict expr to domain={\thisrow{ipa_overwidth}}{-1:2}] {interval_sweep.csv};
+\addplot+[only marks,mark=o] table[col sep=comma, x expr=\coordindex, y=ipa_overwidth] {interval_sweep.csv};
+\legend{naive interval, IPA (exact, $\approx$0)}
+\end{axis}
+\end{tikzpicture}
+\caption{Per-graph interval over-width vs the exact range. IPA (open marks) sits at machine precision on
+all 112 graphs; naive interval propagation (filled) over-widens by up to $0.45$. IPA's diamond
+conditioning removes the dependency over-widening exactly. (For a clean plot, sort \texttt{interval\_sweep.csv}
+by \texttt{naive\_overwidth} before \texttt{\textbackslash addplot}.)}
+\label{fig:imprecise}
+\end{figure}

@@ -1,0 +1,10 @@
+regime,w,method,worst_overwidth_or_err,worst_unsound,note
+Float64,-,IPA_vs_sifted_BDD,1.110e-16,-,exact
+Interval,0.05,IPA_vs_BDDcorners,1.110e-16,2.220e-16,exact
+Interval,0.05,naive_no_conditioning,2.247e-04,-,over-wide
+pbox@200,0.05,IPA_vs_MC,-,0.000e+00,sound
+pbox@200,0.05,naive_vs_MC,-,2.138e-02,unsound
+Interval,0.10,IPA_vs_BDDcorners,1.110e-16,1.110e-16,exact
+Interval,0.10,naive_no_conditioning,0.000e+00,-,over-wide
+pbox@200,0.10,IPA_vs_MC,-,0.000e+00,sound
+pbox@200,0.10,naive_vs_MC,-,1.724e-02,unsound

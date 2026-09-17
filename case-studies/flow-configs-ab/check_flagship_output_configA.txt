@@ -1,0 +1,407 @@
+=== NETWORK SUMMARY ===
+config_mode=A
+nodes=43
+edges=107
+sources=[101, 102, 103, 104, 105]
+sinks=[137, 138, 139, 140, 141, 142, 143]
+layers=8
+diameter_undirected=6
+average_total_degree=4.976744186046512
+=== BASELINE FLOW ===
+baseline_max_flow=37.0
+mincut_capacity=37.0
+sink_flow=[137 => 4.0, 138 => 6.0, 139 => 6.0, 140 => 3.0, 141 => 6.0, 142 => 6.0, 143 => 6.0]
+saturated_edge_count=41
+saturated_edge_fraction=41/107
+=== MIN-CUT STRUCTURE ===
+mincut_S=[101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133]
+mincut_T=[134, 135, 136, 137, 138, 139, 140, 141, 142, 143]
+mincut_S_star_star=[101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135]
+free_zone_nodes=[134, 135]
+paths=6218
+decomp_components=27
+spof_edges_count=33
+spof_nodes=Int64[]
+mincuts_total=4
+mincuts_complete=true
+free_zone_size=2
+edges_in_every_cut_count=1
+edges_in_some_cut_count=15
+edges_in_some_not_every=[(128, 134), (128, 135), (129, 134), (129, 135), (130, 134), (130, 135), (131, 134), (131, 135), (132, 134), (132, 135), (133, 134), (133, 135), (134, 136), (135, 136)]
+mincut_1_S=[101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133]
+mincut_1_T=[134, 135, 136, 137, 138, 139, 140, 141, 142, 143]
+mincut_1_crossing_edges=[(128, 134), (128, 135), (129, 134), (129, 135), (130, 134), (130, 135), (131, 134), (131, 135), (132, 134), (132, 135), (132, 140), (133, 134), (133, 135)]
+mincut_2_S=[101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134]
+mincut_2_T=[135, 136, 137, 138, 139, 140, 141, 142, 143]
+mincut_2_crossing_edges=[(128, 135), (129, 135), (130, 135), (131, 135), (132, 135), (132, 140), (133, 135), (134, 136)]
+mincut_3_S=[101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 135]
+mincut_3_T=[134, 136, 137, 138, 139, 140, 141, 142, 143]
+mincut_3_crossing_edges=[(128, 134), (129, 134), (130, 134), (131, 134), (132, 134), (132, 140), (133, 134), (135, 136)]
+mincut_4_S=[101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135]
+mincut_4_T=[136, 137, 138, 139, 140, 141, 142, 143]
+mincut_4_crossing_edges=[(132, 140), (134, 136), (135, 136)]
+=== NODE-CAPACITATED COMPARISON ===
+node_cap_max_flow=30.0
+node_cap_flow_drop=7.0
+saturated_nodes=[114, 115, 116, 117, 118, 119]
+node_cap_sink_flow=[137 => 0.0, 138 => 3.0, 139 => 6.0, 140 => 3.0, 141 => 6.0, 142 => 6.0, 143 => 6.0]
+=== NODE-UPGRADE SWEEP (SINK RESTORATION) ===
+node_upgrade_target_sink=137
+node_upgrade_target_sink_restore_to=4.0
+node_upgrade_node_cap_baseline_sink_flow=0.0
+node_upgrade_candidate=114,restored=true,delta=7.0,new_capacity=12.0,restored_sink_flow=4.0,restored_total_flow=37.0,sink_flow_profile=[137 => 4.0, 138 => 6.0, 139 => 6.0, 140 => 3.0, 141 => 6.0, 142 => 6.0, 143 => 6.0]
+node_upgrade_candidate=115,restored=true,delta=7.0,new_capacity=12.0,restored_sink_flow=4.0,restored_total_flow=37.0,sink_flow_profile=[137 => 4.0, 138 => 6.0, 139 => 6.0, 140 => 3.0, 141 => 6.0, 142 => 6.0, 143 => 6.0]
+node_upgrade_candidate=116,restored=true,delta=7.0,new_capacity=14.0,restored_sink_flow=4.0,restored_total_flow=37.0,sink_flow_profile=[137 => 4.0, 138 => 6.0, 139 => 6.0, 140 => 3.0, 141 => 6.0, 142 => 6.0, 143 => 6.0]
+node_upgrade_candidate=117,restored=true,delta=7.0,new_capacity=14.0,restored_sink_flow=4.0,restored_total_flow=37.0,sink_flow_profile=[137 => 4.0, 138 => 6.0, 139 => 6.0, 140 => 3.0, 141 => 6.0, 142 => 6.0, 143 => 6.0]
+node_upgrade_candidate=118,restored=true,delta=7.0,new_capacity=10.0,restored_sink_flow=4.0,restored_total_flow=37.0,sink_flow_profile=[137 => 4.0, 138 => 6.0, 139 => 6.0, 140 => 3.0, 141 => 6.0, 142 => 6.0, 143 => 6.0]
+node_upgrade_candidate=119,restored=true,delta=7.0,new_capacity=10.0,restored_sink_flow=4.0,restored_total_flow=37.0,sink_flow_profile=[137 => 4.0, 138 => 6.0, 139 => 6.0, 140 => 3.0, 141 => 6.0, 142 => 6.0, 143 => 6.0]
+node_upgrade_best_single=node:114,delta:7.0,new_capacity:12.0,restored_sink_flow:4.0,restored_total_flow:37.0
+=== SENSITIVITY ===
+critical_edge=(134->136) dispatch_gateway_west->distribution_combiner,drop=17.0,perturbed_flow=20.0
+critical_edge=(135->136) dispatch_gateway_east->distribution_combiner,drop=17.0,perturbed_flow=20.0
+critical_edge=(128->134) secondary_a->dispatch_gateway_west,drop=4.0,perturbed_flow=33.0
+critical_edge=(130->135) secondary_c->dispatch_gateway_east,drop=4.0,perturbed_flow=33.0
+critical_edge=(131->134) secondary_d->dispatch_gateway_west,drop=4.0,perturbed_flow=33.0
+critical_edge=(133->135) secondary_f->dispatch_gateway_east,drop=4.0,perturbed_flow=33.0
+critical_edge=(129->134) secondary_b->dispatch_gateway_west,drop=3.0,perturbed_flow=34.0
+critical_edge=(129->135) secondary_b->dispatch_gateway_east,drop=3.0,perturbed_flow=34.0
+critical_edge=(132->134) secondary_e->dispatch_gateway_west,drop=3.0,perturbed_flow=34.0
+critical_edge=(132->135) secondary_e->dispatch_gateway_east,drop=3.0,perturbed_flow=34.0
+critical_edge=(132->140) secondary_e->sink_4,drop=3.0,perturbed_flow=34.0
+critical_edge=(130->134) secondary_c->dispatch_gateway_west,drop=2.0,perturbed_flow=35.0
+critical_edge=(131->135) secondary_d->dispatch_gateway_east,drop=2.0,perturbed_flow=35.0
+critical_edge=(128->135) secondary_a->dispatch_gateway_east,drop=1.0,perturbed_flow=36.0
+critical_edge=(133->134) secondary_f->dispatch_gateway_west,drop=1.0,perturbed_flow=36.0
+critical_edge=(101->118) origin_northwest->bypass_E,drop=0.0,perturbed_flow=37.0
+critical_edge=(102->118) origin_north->bypass_E,drop=0.0,perturbed_flow=37.0
+critical_edge=(103->119) origin_central->bypass_F,drop=0.0,perturbed_flow=37.0
+critical_edge=(104->119) origin_east->bypass_F,drop=0.0,perturbed_flow=37.0
+critical_edge=(105->107) origin_southwest->hub_beta,drop=0.0,perturbed_flow=37.0
+critical_edge=(105->118) origin_southwest->bypass_E,drop=0.0,perturbed_flow=37.0
+critical_edge=(105->119) origin_southwest->bypass_F,drop=0.0,perturbed_flow=37.0
+critical_edge=(107->114) hub_beta->processing_A,drop=0.0,perturbed_flow=37.0
+critical_edge=(113->114) hub_theta->processing_A,drop=0.0,perturbed_flow=37.0
+critical_edge=(114->120) processing_A->trunk_n1,drop=0.0,perturbed_flow=37.0
+critical_edge=(114->121) processing_A->trunk_n2,drop=0.0,perturbed_flow=37.0
+critical_edge=(114->122) processing_A->trunk_c1,drop=0.0,perturbed_flow=37.0
+critical_edge=(116->122) processing_C->trunk_c1,drop=0.0,perturbed_flow=37.0
+critical_edge=(118->124) bypass_E->trunk_s1,drop=0.0,perturbed_flow=37.0
+critical_edge=(118->126) bypass_E->trunk_w1,drop=0.0,perturbed_flow=37.0
+critical_edge=(119->126) bypass_F->trunk_w1,drop=0.0,perturbed_flow=37.0
+critical_edge=(119->127) bypass_F->trunk_w2,drop=0.0,perturbed_flow=37.0
+critical_edge=(120->130) trunk_n1->secondary_c,drop=0.0,perturbed_flow=37.0
+critical_edge=(124->132) trunk_s1->secondary_e,drop=0.0,perturbed_flow=37.0
+critical_edge=(125->132) trunk_s2->secondary_e,drop=0.0,perturbed_flow=37.0
+critical_edge=(126->133) trunk_w1->secondary_f,drop=0.0,perturbed_flow=37.0
+critical_edge=(136->138) distribution_combiner->sink_2,drop=0.0,perturbed_flow=37.0
+critical_edge=(136->139) distribution_combiner->sink_3,drop=0.0,perturbed_flow=37.0
+critical_edge=(136->141) distribution_combiner->sink_5,drop=0.0,perturbed_flow=37.0
+critical_edge=(136->142) distribution_combiner->sink_6,drop=0.0,perturbed_flow=37.0
+critical_edge=(136->143) distribution_combiner->sink_7,drop=0.0,perturbed_flow=37.0
+marginal_capacity=(101->106) origin_northwest->hub_alpha,mu=0.0
+marginal_capacity=(101->107) origin_northwest->hub_beta,mu=0.0
+marginal_capacity=(101->108) origin_northwest->hub_gamma,mu=0.0
+marginal_capacity=(101->109) origin_northwest->hub_delta,mu=0.0
+marginal_capacity=(101->118) origin_northwest->bypass_E,mu=0.0
+marginal_capacity=(102->107) origin_north->hub_beta,mu=0.0
+marginal_capacity=(102->108) origin_north->hub_gamma,mu=0.0
+marginal_capacity=(102->109) origin_north->hub_delta,mu=0.0
+marginal_capacity=(102->110) origin_north->hub_epsilon,mu=0.0
+marginal_capacity=(102->118) origin_north->bypass_E,mu=0.0
+marginal_capacity=(103->109) origin_central->hub_delta,mu=0.0
+marginal_capacity=(103->110) origin_central->hub_epsilon,mu=0.0
+marginal_capacity=(103->111) origin_central->hub_zeta,mu=0.0
+marginal_capacity=(103->112) origin_central->hub_eta,mu=0.0
+marginal_capacity=(103->119) origin_central->bypass_F,mu=0.0
+marginal_capacity=(104->110) origin_east->hub_epsilon,mu=0.0
+marginal_capacity=(104->111) origin_east->hub_zeta,mu=0.0
+marginal_capacity=(104->112) origin_east->hub_eta,mu=0.0
+marginal_capacity=(104->113) origin_east->hub_theta,mu=0.0
+marginal_capacity=(104->119) origin_east->bypass_F,mu=0.0
+marginal_capacity=(105->106) origin_southwest->hub_alpha,mu=0.0
+marginal_capacity=(105->107) origin_southwest->hub_beta,mu=0.0
+marginal_capacity=(105->112) origin_southwest->hub_eta,mu=0.0
+marginal_capacity=(105->113) origin_southwest->hub_theta,mu=0.0
+marginal_capacity=(105->118) origin_southwest->bypass_E,mu=0.0
+marginal_capacity=(105->119) origin_southwest->bypass_F,mu=0.0
+marginal_capacity=(106->114) hub_alpha->processing_A,mu=0.0
+marginal_capacity=(106->116) hub_alpha->processing_C,mu=0.0
+marginal_capacity=(106->118) hub_alpha->bypass_E,mu=0.0
+marginal_capacity=(107->114) hub_beta->processing_A,mu=0.0
+marginal_capacity=(107->116) hub_beta->processing_C,mu=0.0
+marginal_capacity=(107->118) hub_beta->bypass_E,mu=0.0
+marginal_capacity=(108->115) hub_gamma->processing_B,mu=0.0
+marginal_capacity=(108->116) hub_gamma->processing_C,mu=0.0
+marginal_capacity=(108->119) hub_gamma->bypass_F,mu=0.0
+marginal_capacity=(109->115) hub_delta->processing_B,mu=0.0
+marginal_capacity=(109->117) hub_delta->processing_D,mu=0.0
+marginal_capacity=(109->118) hub_delta->bypass_E,mu=0.0
+marginal_capacity=(110->114) hub_epsilon->processing_A,mu=0.0
+marginal_capacity=(110->117) hub_epsilon->processing_D,mu=0.0
+marginal_capacity=(110->119) hub_epsilon->bypass_F,mu=0.0
+marginal_capacity=(111->115) hub_zeta->processing_B,mu=0.0
+marginal_capacity=(111->117) hub_zeta->processing_D,mu=0.0
+marginal_capacity=(111->119) hub_zeta->bypass_F,mu=0.0
+marginal_capacity=(112->115) hub_eta->processing_B,mu=0.0
+marginal_capacity=(112->119) hub_eta->bypass_F,mu=0.0
+marginal_capacity=(113->114) hub_theta->processing_A,mu=0.0
+marginal_capacity=(113->118) hub_theta->bypass_E,mu=0.0
+marginal_capacity=(113->119) hub_theta->bypass_F,mu=0.0
+marginal_capacity=(114->120) processing_A->trunk_n1,mu=0.0
+marginal_capacity=(114->121) processing_A->trunk_n2,mu=0.0
+marginal_capacity=(114->122) processing_A->trunk_c1,mu=0.0
+marginal_capacity=(115->121) processing_B->trunk_n2,mu=0.0
+marginal_capacity=(115->122) processing_B->trunk_c1,mu=0.0
+marginal_capacity=(115->123) processing_B->trunk_c2,mu=0.0
+marginal_capacity=(116->120) processing_C->trunk_n1,mu=0.0
+marginal_capacity=(116->122) processing_C->trunk_c1,mu=0.0
+marginal_capacity=(117->121) processing_D->trunk_n2,mu=0.0
+marginal_capacity=(117->123) processing_D->trunk_c2,mu=0.0
+marginal_capacity=(118->124) bypass_E->trunk_s1,mu=0.0
+marginal_capacity=(118->125) bypass_E->trunk_s2,mu=0.0
+marginal_capacity=(118->126) bypass_E->trunk_w1,mu=0.0
+marginal_capacity=(119->125) bypass_F->trunk_s2,mu=0.0
+marginal_capacity=(119->126) bypass_F->trunk_w1,mu=0.0
+marginal_capacity=(119->127) bypass_F->trunk_w2,mu=0.0
+marginal_capacity=(120->128) trunk_n1->secondary_a,mu=0.0
+marginal_capacity=(120->129) trunk_n1->secondary_b,mu=0.0
+marginal_capacity=(120->130) trunk_n1->secondary_c,mu=0.0
+marginal_capacity=(121->129) trunk_n2->secondary_b,mu=0.0
+marginal_capacity=(121->130) trunk_n2->secondary_c,mu=0.0
+marginal_capacity=(121->131) trunk_n2->secondary_d,mu=0.0
+marginal_capacity=(122->130) trunk_c1->secondary_c,mu=0.0
+marginal_capacity=(122->131) trunk_c1->secondary_d,mu=0.0
+marginal_capacity=(122->132) trunk_c1->secondary_e,mu=0.0
+marginal_capacity=(123->131) trunk_c2->secondary_d,mu=0.0
+marginal_capacity=(123->132) trunk_c2->secondary_e,mu=0.0
+marginal_capacity=(123->133) trunk_c2->secondary_f,mu=0.0
+marginal_capacity=(124->132) trunk_s1->secondary_e,mu=0.0
+marginal_capacity=(124->133) trunk_s1->secondary_f,mu=0.0
+marginal_capacity=(125->132) trunk_s2->secondary_e,mu=0.0
+marginal_capacity=(125->133) trunk_s2->secondary_f,mu=0.0
+marginal_capacity=(126->128) trunk_w1->secondary_a,mu=0.0
+marginal_capacity=(126->133) trunk_w1->secondary_f,mu=0.0
+marginal_capacity=(127->129) trunk_w2->secondary_b,mu=0.0
+marginal_capacity=(127->133) trunk_w2->secondary_f,mu=0.0
+marginal_capacity=(128->134) secondary_a->dispatch_gateway_west,mu=0.0
+marginal_capacity=(128->135) secondary_a->dispatch_gateway_east,mu=0.0
+marginal_capacity=(129->134) secondary_b->dispatch_gateway_west,mu=0.0
+marginal_capacity=(129->135) secondary_b->dispatch_gateway_east,mu=0.0
+marginal_capacity=(130->134) secondary_c->dispatch_gateway_west,mu=0.0
+marginal_capacity=(130->135) secondary_c->dispatch_gateway_east,mu=0.0
+marginal_capacity=(131->134) secondary_d->dispatch_gateway_west,mu=0.0
+marginal_capacity=(131->135) secondary_d->dispatch_gateway_east,mu=0.0
+marginal_capacity=(132->134) secondary_e->dispatch_gateway_west,mu=0.0
+marginal_capacity=(132->135) secondary_e->dispatch_gateway_east,mu=0.0
+marginal_capacity=(132->140) secondary_e->sink_4,mu=1.0
+marginal_capacity=(133->134) secondary_f->dispatch_gateway_west,mu=0.0
+marginal_capacity=(133->135) secondary_f->dispatch_gateway_east,mu=0.0
+marginal_capacity=(134->136) dispatch_gateway_west->distribution_combiner,mu=0.0
+marginal_capacity=(135->136) dispatch_gateway_east->distribution_combiner,mu=0.0
+marginal_capacity=(136->137) distribution_combiner->sink_1,mu=0.0
+marginal_capacity=(136->138) distribution_combiner->sink_2,mu=0.0
+marginal_capacity=(136->139) distribution_combiner->sink_3,mu=0.0
+marginal_capacity=(136->140) distribution_combiner->sink_4,mu=0.0
+marginal_capacity=(136->141) distribution_combiner->sink_5,mu=0.0
+marginal_capacity=(136->142) distribution_combiner->sink_6,mu=0.0
+marginal_capacity=(136->143) distribution_combiner->sink_7,mu=0.0
+marginal_range=(101->106) origin_northwest->hub_alpha,B=0.0
+marginal_range=(101->107) origin_northwest->hub_beta,B=0.0
+marginal_range=(101->108) origin_northwest->hub_gamma,B=0.0
+marginal_range=(101->109) origin_northwest->hub_delta,B=0.0
+marginal_range=(101->118) origin_northwest->bypass_E,B=0.0
+marginal_range=(102->107) origin_north->hub_beta,B=0.0
+marginal_range=(102->108) origin_north->hub_gamma,B=0.0
+marginal_range=(102->109) origin_north->hub_delta,B=0.0
+marginal_range=(102->110) origin_north->hub_epsilon,B=0.0
+marginal_range=(102->118) origin_north->bypass_E,B=0.0
+marginal_range=(103->109) origin_central->hub_delta,B=0.0
+marginal_range=(103->110) origin_central->hub_epsilon,B=0.0
+marginal_range=(103->111) origin_central->hub_zeta,B=0.0
+marginal_range=(103->112) origin_central->hub_eta,B=0.0
+marginal_range=(103->119) origin_central->bypass_F,B=0.0
+marginal_range=(104->110) origin_east->hub_epsilon,B=0.0
+marginal_range=(104->111) origin_east->hub_zeta,B=0.0
+marginal_range=(104->112) origin_east->hub_eta,B=0.0
+marginal_range=(104->113) origin_east->hub_theta,B=0.0
+marginal_range=(104->119) origin_east->bypass_F,B=0.0
+marginal_range=(105->106) origin_southwest->hub_alpha,B=0.0
+marginal_range=(105->107) origin_southwest->hub_beta,B=0.0
+marginal_range=(105->112) origin_southwest->hub_eta,B=0.0
+marginal_range=(105->113) origin_southwest->hub_theta,B=0.0
+marginal_range=(105->118) origin_southwest->bypass_E,B=0.0
+marginal_range=(105->119) origin_southwest->bypass_F,B=0.0
+marginal_range=(106->114) hub_alpha->processing_A,B=0.0
+marginal_range=(106->116) hub_alpha->processing_C,B=0.0
+marginal_range=(106->118) hub_alpha->bypass_E,B=0.0
+marginal_range=(107->114) hub_beta->processing_A,B=0.0
+marginal_range=(107->116) hub_beta->processing_C,B=0.0
+marginal_range=(107->118) hub_beta->bypass_E,B=0.0
+marginal_range=(108->115) hub_gamma->processing_B,B=0.0
+marginal_range=(108->116) hub_gamma->processing_C,B=0.0
+marginal_range=(108->119) hub_gamma->bypass_F,B=0.0
+marginal_range=(109->115) hub_delta->processing_B,B=0.0
+marginal_range=(109->117) hub_delta->processing_D,B=0.0
+marginal_range=(109->118) hub_delta->bypass_E,B=0.0
+marginal_range=(110->114) hub_epsilon->processing_A,B=0.0
+marginal_range=(110->117) hub_epsilon->processing_D,B=0.0
+marginal_range=(110->119) hub_epsilon->bypass_F,B=0.0
+marginal_range=(111->115) hub_zeta->processing_B,B=0.0
+marginal_range=(111->117) hub_zeta->processing_D,B=0.0
+marginal_range=(111->119) hub_zeta->bypass_F,B=0.0
+marginal_range=(112->115) hub_eta->processing_B,B=0.0
+marginal_range=(112->119) hub_eta->bypass_F,B=0.0
+marginal_range=(113->114) hub_theta->processing_A,B=0.0
+marginal_range=(113->118) hub_theta->bypass_E,B=0.0
+marginal_range=(113->119) hub_theta->bypass_F,B=0.0
+marginal_range=(114->120) processing_A->trunk_n1,B=0.0
+marginal_range=(114->121) processing_A->trunk_n2,B=0.0
+marginal_range=(114->122) processing_A->trunk_c1,B=0.0
+marginal_range=(115->121) processing_B->trunk_n2,B=0.0
+marginal_range=(115->122) processing_B->trunk_c1,B=0.0
+marginal_range=(115->123) processing_B->trunk_c2,B=0.0
+marginal_range=(116->120) processing_C->trunk_n1,B=0.0
+marginal_range=(116->122) processing_C->trunk_c1,B=0.0
+marginal_range=(117->121) processing_D->trunk_n2,B=0.0
+marginal_range=(117->123) processing_D->trunk_c2,B=0.0
+marginal_range=(118->124) bypass_E->trunk_s1,B=0.0
+marginal_range=(118->125) bypass_E->trunk_s2,B=0.0
+marginal_range=(118->126) bypass_E->trunk_w1,B=0.0
+marginal_range=(119->125) bypass_F->trunk_s2,B=0.0
+marginal_range=(119->126) bypass_F->trunk_w1,B=0.0
+marginal_range=(119->127) bypass_F->trunk_w2,B=0.0
+marginal_range=(120->128) trunk_n1->secondary_a,B=0.0
+marginal_range=(120->129) trunk_n1->secondary_b,B=0.0
+marginal_range=(120->130) trunk_n1->secondary_c,B=0.0
+marginal_range=(121->129) trunk_n2->secondary_b,B=0.0
+marginal_range=(121->130) trunk_n2->secondary_c,B=0.0
+marginal_range=(121->131) trunk_n2->secondary_d,B=0.0
+marginal_range=(122->130) trunk_c1->secondary_c,B=0.0
+marginal_range=(122->131) trunk_c1->secondary_d,B=0.0
+marginal_range=(122->132) trunk_c1->secondary_e,B=0.0
+marginal_range=(123->131) trunk_c2->secondary_d,B=0.0
+marginal_range=(123->132) trunk_c2->secondary_e,B=0.0
+marginal_range=(123->133) trunk_c2->secondary_f,B=0.0
+marginal_range=(124->132) trunk_s1->secondary_e,B=0.0
+marginal_range=(124->133) trunk_s1->secondary_f,B=0.0
+marginal_range=(125->132) trunk_s2->secondary_e,B=0.0
+marginal_range=(125->133) trunk_s2->secondary_f,B=0.0
+marginal_range=(126->128) trunk_w1->secondary_a,B=0.0
+marginal_range=(126->133) trunk_w1->secondary_f,B=0.0
+marginal_range=(127->129) trunk_w2->secondary_b,B=0.0
+marginal_range=(127->133) trunk_w2->secondary_f,B=0.0
+marginal_range=(128->134) secondary_a->dispatch_gateway_west,B=4.0
+marginal_range=(128->135) secondary_a->dispatch_gateway_east,B=1.0
+marginal_range=(129->134) secondary_b->dispatch_gateway_west,B=3.0
+marginal_range=(129->135) secondary_b->dispatch_gateway_east,B=3.0
+marginal_range=(130->134) secondary_c->dispatch_gateway_west,B=2.0
+marginal_range=(130->135) secondary_c->dispatch_gateway_east,B=4.0
+marginal_range=(131->134) secondary_d->dispatch_gateway_west,B=4.0
+marginal_range=(131->135) secondary_d->dispatch_gateway_east,B=2.0
+marginal_range=(132->134) secondary_e->dispatch_gateway_west,B=3.0
+marginal_range=(132->135) secondary_e->dispatch_gateway_east,B=3.0
+marginal_range=(132->140) secondary_e->sink_4,B=10.0
+marginal_range=(133->134) secondary_f->dispatch_gateway_west,B=1.0
+marginal_range=(133->135) secondary_f->dispatch_gateway_east,B=4.0
+marginal_range=(134->136) dispatch_gateway_west->distribution_combiner,B=17.0
+marginal_range=(135->136) dispatch_gateway_east->distribution_combiner,B=17.0
+marginal_range=(136->137) distribution_combiner->sink_1,B=0.0
+marginal_range=(136->138) distribution_combiner->sink_2,B=0.0
+marginal_range=(136->139) distribution_combiner->sink_3,B=0.0
+marginal_range=(136->140) distribution_combiner->sink_4,B=0.0
+marginal_range=(136->141) distribution_combiner->sink_5,B=0.0
+marginal_range=(136->142) distribution_combiner->sink_6,B=0.0
+marginal_range=(136->143) distribution_combiner->sink_7,B=0.0
+=== FAILURES ===
+top_single_edge_drop=17.0
+top_k2_drop=34.0
+single_edge_fail=(134->136) dispatch_gateway_west->distribution_combiner,drop=17.0,perturbed_flow=20.0
+single_edge_fail=(135->136) dispatch_gateway_east->distribution_combiner,drop=17.0,perturbed_flow=20.0
+single_edge_fail=(128->134) secondary_a->dispatch_gateway_west,drop=4.0,perturbed_flow=33.0
+single_edge_fail=(130->135) secondary_c->dispatch_gateway_east,drop=4.0,perturbed_flow=33.0
+single_edge_fail=(131->134) secondary_d->dispatch_gateway_west,drop=4.0,perturbed_flow=33.0
+single_edge_fail=(133->135) secondary_f->dispatch_gateway_east,drop=4.0,perturbed_flow=33.0
+single_edge_fail=(129->134) secondary_b->dispatch_gateway_west,drop=3.0,perturbed_flow=34.0
+single_edge_fail=(129->135) secondary_b->dispatch_gateway_east,drop=3.0,perturbed_flow=34.0
+single_edge_fail=(132->134) secondary_e->dispatch_gateway_west,drop=3.0,perturbed_flow=34.0
+single_edge_fail=(132->135) secondary_e->dispatch_gateway_east,drop=3.0,perturbed_flow=34.0
+single_edge_fail=(132->140) secondary_e->sink_4,drop=3.0,perturbed_flow=34.0
+single_edge_fail=(130->134) secondary_c->dispatch_gateway_west,drop=2.0,perturbed_flow=35.0
+single_edge_fail=(131->135) secondary_d->dispatch_gateway_east,drop=2.0,perturbed_flow=35.0
+single_edge_fail=(128->135) secondary_a->dispatch_gateway_east,drop=1.0,perturbed_flow=36.0
+single_edge_fail=(133->134) secondary_f->dispatch_gateway_west,drop=1.0,perturbed_flow=36.0
+k2_fail_rank=1,edges=["(134->136) dispatch_gateway_west->distribution_combiner", "(135->136) dispatch_gateway_east->distribution_combiner"],drop=34.0,perturbed_flow=3.0
+k2_fail_rank=2,edges=["(128->134) secondary_a->dispatch_gateway_west", "(135->136) dispatch_gateway_east->distribution_combiner"],drop=21.0,perturbed_flow=16.0
+k2_fail_rank=3,edges=["(130->135) secondary_c->dispatch_gateway_east", "(134->136) dispatch_gateway_west->distribution_combiner"],drop=21.0,perturbed_flow=16.0
+k2_fail_rank=4,edges=["(131->134) secondary_d->dispatch_gateway_west", "(135->136) dispatch_gateway_east->distribution_combiner"],drop=21.0,perturbed_flow=16.0
+k2_fail_rank=5,edges=["(133->135) secondary_f->dispatch_gateway_east", "(134->136) dispatch_gateway_west->distribution_combiner"],drop=21.0,perturbed_flow=16.0
+k2_fail_rank=6,edges=["(129->134) secondary_b->dispatch_gateway_west", "(135->136) dispatch_gateway_east->distribution_combiner"],drop=20.0,perturbed_flow=17.0
+k2_fail_rank=7,edges=["(129->135) secondary_b->dispatch_gateway_east", "(134->136) dispatch_gateway_west->distribution_combiner"],drop=20.0,perturbed_flow=17.0
+k2_fail_rank=8,edges=["(132->134) secondary_e->dispatch_gateway_west", "(135->136) dispatch_gateway_east->distribution_combiner"],drop=20.0,perturbed_flow=17.0
+k2_fail_rank=9,edges=["(132->135) secondary_e->dispatch_gateway_east", "(134->136) dispatch_gateway_west->distribution_combiner"],drop=20.0,perturbed_flow=17.0
+k2_fail_rank=10,edges=["(132->140) secondary_e->sink_4", "(134->136) dispatch_gateway_west->distribution_combiner"],drop=20.0,perturbed_flow=17.0
+degradation_alpha=1.0,max_flow=37.0,drop=0.0,sink_flow=[137 => 4.0, 138 => 6.0, 139 => 6.0, 140 => 3.0, 141 => 6.0, 142 => 6.0, 143 => 6.0]
+degradation_alpha=0.9,max_flow=33.3,drop=3.700000000000003,sink_flow=[137 => 3.5999999999999988, 138 => 5.4, 139 => 5.4, 140 => 2.7, 141 => 5.4, 142 => 5.4, 143 => 5.4]
+degradation_alpha=0.8,max_flow=29.6,drop=7.399999999999999,sink_flow=[137 => 3.1999999999999993, 138 => 4.800000000000001, 139 => 4.799999999999999, 140 => 2.4000000000000004, 141 => 4.800000000000001, 142 => 4.800000000000001, 143 => 4.800000000000001]
+degradation_alpha=0.7,max_flow=25.899999999999988,drop=11.100000000000012,sink_flow=[137 => 2.8, 138 => 4.199999999999999, 139 => 4.199999999999999, 140 => 2.0999999999999996, 141 => 4.199999999999999, 142 => 4.199999999999999, 143 => 4.199999999999999]
+degradation_alpha=0.6,max_flow=22.199999999999996,drop=14.800000000000004,sink_flow=[137 => 2.3999999999999995, 138 => 3.5999999999999996, 139 => 3.5999999999999996, 140 => 1.7999999999999998, 141 => 3.5999999999999996, 142 => 3.5999999999999996, 143 => 3.5999999999999996]
+degradation_alpha=0.5,max_flow=18.5,drop=18.5,sink_flow=[137 => 2.0, 138 => 3.0, 139 => 3.0, 140 => 1.5, 141 => 3.0, 142 => 3.0, 143 => 3.0]
+=== FLOW DECOMPOSITION ===
+decomp_component=1,flow=3.0,bottleneck=(114->120) processing_A->trunk_n1,path=[105, 107, 114, 120, 130, 135, 136, 141]
+decomp_component=2,flow=2.0,bottleneck=(101->118) origin_northwest->bypass_E,path=[101, 118, 124, 132, 134, 136, 137]
+decomp_component=3,flow=2.0,bottleneck=(106->114) hub_alpha->processing_A,path=[105, 106, 114, 120, 128, 134, 136, 138]
+decomp_component=4,flow=2.0,bottleneck=(122->130) trunk_c1->secondary_c,path=[105, 106, 116, 122, 130, 134, 136, 139]
+decomp_component=5,flow=2.0,bottleneck=(105->106) origin_southwest->hub_alpha,path=[105, 106, 116, 122, 131, 134, 136, 139]
+decomp_component=6,flow=2.0,bottleneck=(107->114) hub_beta->processing_A,path=[105, 107, 114, 121, 129, 134, 136, 141]
+decomp_component=7,flow=2.0,bottleneck=(113->114) hub_theta->processing_A,path=[105, 113, 114, 122, 132, 140]
+decomp_component=8,flow=2.0,bottleneck=(105->113) origin_southwest->hub_theta,path=[105, 113, 119, 127, 129, 135, 136, 143]
+decomp_component=9,flow=2.0,bottleneck=(105->118) origin_southwest->bypass_E,path=[105, 118, 126, 133, 135, 136, 143]
+decomp_component=10,flow=1.0,bottleneck=(132->134) secondary_e->dispatch_gateway_west,path=[102, 118, 124, 132, 134, 136, 137]
+decomp_component=11,flow=1.0,bottleneck=(102->118) origin_north->bypass_E,path=[102, 118, 124, 132, 135, 136, 137]
+decomp_component=12,flow=1.0,bottleneck=(119->125) bypass_F->trunk_s2,path=[103, 119, 125, 132, 135, 136, 138]
+decomp_component=13,flow=1.0,bottleneck=(103->119) origin_central->bypass_F,path=[103, 119, 126, 128, 134, 136, 138]
+decomp_component=14,flow=1.0,bottleneck=(126->128) trunk_w1->secondary_a,path=[104, 119, 126, 128, 134, 136, 138]
+decomp_component=15,flow=1.0,bottleneck=(104->119) origin_east->bypass_F,path=[104, 119, 126, 133, 134, 136, 138]
+decomp_component=16,flow=1.0,bottleneck=(116->120) processing_C->trunk_n1,path=[105, 106, 116, 120, 128, 135, 136, 139]
+decomp_component=17,flow=1.0,bottleneck=(136->139) distribution_combiner->sink_3,path=[105, 107, 114, 120, 130, 135, 136, 139]
+decomp_component=18,flow=1.0,bottleneck=(136->141) distribution_combiner->sink_5,path=[105, 107, 116, 122, 131, 134, 136, 141]
+decomp_component=19,flow=1.0,bottleneck=(131->134) secondary_d->dispatch_gateway_west,path=[105, 107, 116, 122, 131, 134, 136, 142]
+decomp_component=20,flow=1.0,bottleneck=(122->131) trunk_c1->secondary_d,path=[105, 107, 116, 122, 131, 135, 136, 142]
+decomp_component=21,flow=1.0,bottleneck=(105->107) origin_southwest->hub_beta,path=[105, 107, 116, 122, 132, 135, 136, 142]
+decomp_component=22,flow=1.0,bottleneck=(121->129) trunk_n2->secondary_b,path=[105, 113, 114, 121, 129, 134, 136, 142]
+decomp_component=23,flow=1.0,bottleneck=(114->121) processing_A->trunk_n2,path=[105, 113, 114, 121, 131, 135, 136, 142]
+decomp_component=24,flow=1.0,bottleneck=(113->118) hub_theta->bypass_E,path=[105, 113, 118, 125, 132, 140]
+decomp_component=25,flow=1.0,bottleneck=(119->126) bypass_F->trunk_w1,path=[105, 113, 119, 126, 133, 135, 136, 142]
+decomp_component=26,flow=1.0,bottleneck=(127->129) trunk_w2->secondary_b,path=[105, 119, 127, 129, 135, 136, 143]
+decomp_component=27,flow=1.0,bottleneck=(105->119) origin_southwest->bypass_F,path=[105, 119, 127, 133, 135, 136, 143]
+=== PARAMETRIC THRESHOLDS ===
+gateway_degrade_threshold=edge=(134->136) dispatch_gateway_west->distribution_combiner,original=17.0,threshold=17.0,margin=0.0
+gateway_degrade_threshold=edge=(135->136) dispatch_gateway_east->distribution_combiner,original=17.0,threshold=17.0,margin=0.0
+upgrade_threshold=edge=(134->136) dispatch_gateway_west->distribution_combiner,required_capacity=Inf,required_increase=Inf,ineffective=true
+upgrade_threshold=edge=(135->136) dispatch_gateway_east->distribution_combiner,required_capacity=Inf,required_increase=Inf,ineffective=true
+upgrade_threshold=edge=(136->137) distribution_combiner->sink_1,required_capacity=Inf,required_increase=Inf,ineffective=true
+upgrade_threshold=edge=(136->138) distribution_combiner->sink_2,required_capacity=Inf,required_increase=Inf,ineffective=true
+upgrade_threshold=edge=(136->139) distribution_combiner->sink_3,required_capacity=Inf,required_increase=Inf,ineffective=true
+upgrade_threshold=edge=(136->140) distribution_combiner->sink_4,required_capacity=Inf,required_increase=Inf,ineffective=true
+upgrade_threshold=edge=(136->141) distribution_combiner->sink_5,required_capacity=Inf,required_increase=Inf,ineffective=true
+upgrade_threshold=edge=(136->142) distribution_combiner->sink_6,required_capacity=Inf,required_increase=Inf,ineffective=true
+upgrade_threshold=edge=(136->143) distribution_combiner->sink_7,required_capacity=Inf,required_increase=Inf,ineffective=true
+upgrade_threshold=edge=(132->140) secondary_e->sink_4,required_capacity=4.0,required_increase=1.0,ineffective=false
+=== REDUNDANCY FOCUS (EDGES INTO 134/135/136) ===
+edge_redundancy=(128->134) secondary_a->dispatch_gateway_west,score=3
+edge_redundancy=(128->135) secondary_a->dispatch_gateway_east,score=3
+edge_redundancy=(129->134) secondary_b->dispatch_gateway_west,score=3
+edge_redundancy=(129->135) secondary_b->dispatch_gateway_east,score=3
+edge_redundancy=(130->134) secondary_c->dispatch_gateway_west,score=3
+edge_redundancy=(130->135) secondary_c->dispatch_gateway_east,score=3
+edge_redundancy=(131->134) secondary_d->dispatch_gateway_west,score=3
+edge_redundancy=(131->135) secondary_d->dispatch_gateway_east,score=3
+edge_redundancy=(132->134) secondary_e->dispatch_gateway_west,score=3
+edge_redundancy=(132->135) secondary_e->dispatch_gateway_east,score=3
+edge_redundancy=(133->134) secondary_f->dispatch_gateway_west,score=3
+edge_redundancy=(133->135) secondary_f->dispatch_gateway_east,score=3
+edge_redundancy=(134->136) dispatch_gateway_west->distribution_combiner,score=2
+edge_redundancy=(135->136) dispatch_gateway_east->distribution_combiner,score=2
+=== GLOBAL CONNECTIVITY ===
+lambda=0
+kappa=0

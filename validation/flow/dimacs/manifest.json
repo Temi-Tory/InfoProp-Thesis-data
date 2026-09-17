@@ -1,0 +1,46 @@
+{
+  "seed": 20260830,
+  "cap_max": 1000,
+  "instances": [
+    {
+      "name": "genrmf_dag_small",
+      "grid_a": 6,
+      "frames_b": 10,
+      "nodes": 360,
+      "edges": 924,
+      "source": 1,
+      "sink": 360,
+      "generator_cmdline": "python generate_genrmf_dag.py  # genrmf_dag_small: a=6 b=10 seed=20260830:genrmf_dag_small"
+    },
+    {
+      "name": "genrmf_dag_medium",
+      "grid_a": 14,
+      "frames_b": 17,
+      "nodes": 3332,
+      "edges": 9324,
+      "source": 1,
+      "sink": 3332,
+      "generator_cmdline": "python generate_genrmf_dag.py  # genrmf_dag_medium: a=14 b=17 seed=20260830:genrmf_dag_medium"
+    },
+    {
+      "name": "genrmf_dag_large",
+      "grid_a": 26,
+      "frames_b": 40,
+      "nodes": 27040,
+      "edges": 78364,
+      "source": 1,
+      "sink": 27040,
+      "generator_cmdline": "python generate_genrmf_dag.py  # genrmf_dag_large: a=26 b=40 seed=20260830:genrmf_dag_large"
+    },
+    {
+      "name": "genrmf_dag_xlarge",
+      "grid_a": 34,
+      "frames_b": 32,
+      "nodes": 36992,
+      "edges": 107644,
+      "source": 1,
+      "sink": 36992,
+      "generator_cmdline": "python generate_genrmf_dag.py  # genrmf_dag_xlarge: a=34 b=32 seed=20260830:genrmf_dag_xlarge"
+    }
+  ]
+}

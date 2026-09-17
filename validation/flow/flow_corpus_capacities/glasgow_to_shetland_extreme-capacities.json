@@ -1,0 +1,346 @@
+{
+  "data_type": "Float64",
+  "edges": [
+    {
+      "source": 1,
+      "destination": 2,
+      "capacity": 19
+    },
+    {
+      "source": 1,
+      "destination": 3,
+      "capacity": 15
+    },
+    {
+      "source": 1,
+      "destination": 7,
+      "capacity": 11
+    },
+    {
+      "source": 1,
+      "destination": 8,
+      "capacity": 18
+    },
+    {
+      "source": 1,
+      "destination": 9,
+      "capacity": 13
+    },
+    {
+      "source": 1,
+      "destination": 11,
+      "capacity": 16
+    },
+    {
+      "source": 1,
+      "destination": 13,
+      "capacity": 17
+    },
+    {
+      "source": 1,
+      "destination": 14,
+      "capacity": 20
+    },
+    {
+      "source": 1,
+      "destination": 15,
+      "capacity": 17
+    },
+    {
+      "source": 1,
+      "destination": 16,
+      "capacity": 7
+    },
+    {
+      "source": 1,
+      "destination": 17,
+      "capacity": 10
+    },
+    {
+      "source": 1,
+      "destination": 18,
+      "capacity": 7
+    },
+    {
+      "source": 1,
+      "destination": 24,
+      "capacity": 3
+    },
+    {
+      "source": 1,
+      "destination": 26,
+      "capacity": 18
+    },
+    {
+      "source": 1,
+      "destination": 28,
+      "capacity": 13
+    },
+    {
+      "source": 1,
+      "destination": 29,
+      "capacity": 17
+    },
+    {
+      "source": 1,
+      "destination": 30,
+      "capacity": 8
+    },
+    {
+      "source": 1,
+      "destination": 36,
+      "capacity": 18
+    },
+    {
+      "source": 1,
+      "destination": 37,
+      "capacity": 9
+    },
+    {
+      "source": 1,
+      "destination": 38,
+      "capacity": 2
+    },
+    {
+      "source": 1,
+      "destination": 40,
+      "capacity": 7
+    },
+    {
+      "source": 1,
+      "destination": 42,
+      "capacity": 14
+    },
+    {
+      "source": 1,
+      "destination": 44,
+      "capacity": 6
+    },
+    {
+      "source": 1,
+      "destination": 45,
+      "capacity": 5
+    },
+    {
+      "source": 1,
+      "destination": 46,
+      "capacity": 4
+    },
+    {
+      "source": 1,
+      "destination": 47,
+      "capacity": 2
+    },
+    {
+      "source": 1,
+      "destination": 48,
+      "capacity": 1
+    },
+    {
+      "source": 1,
+      "destination": 50,
+      "capacity": 1
+    },
+    {
+      "source": 1,
+      "destination": 51,
+      "capacity": 4
+    },
+    {
+      "source": 1,
+      "destination": 52,
+      "capacity": 4
+    },
+    {
+      "source": 1,
+      "destination": 53,
+      "capacity": 16
+    },
+    {
+      "source": 1,
+      "destination": 93,
+      "capacity": 14
+    },
+    {
+      "source": 1,
+      "destination": 94,
+      "capacity": 11
+    },
+    {
+      "source": 1,
+      "destination": 95,
+      "capacity": 1
+    },
+    {
+      "source": 1,
+      "destination": 96,
+      "capacity": 9
+    },
+    {
+      "source": 1,
+      "destination": 97,
+      "capacity": 10
+    },
+    {
+      "source": 1,
+      "destination": 98,
+      "capacity": 20
+    },
+    {
+      "source": 1,
+      "destination": 99,
+      "capacity": 12
+    },
+    {
+      "source": 1,
+      "destination": 100,
+      "capacity": 13
+    },
+    {
+      "source": 1,
+      "destination": 101,
+      "capacity": 17
+    },
+    {
+      "source": 1,
+      "destination": 102,
+      "capacity": 4
+    },
+    {
+      "source": 1,
+      "destination": 103,
+      "capacity": 19
+    },
+    {
+      "source": 1,
+      "destination": 104,
+      "capacity": 15
+    },
+    {
+      "source": 1,
+      "destination": 105,
+      "capacity": 8
+    },
+    {
+      "source": 1,
+      "destination": 106,
+      "capacity": 19
+    },
+    {
+      "source": 1,
+      "destination": 107,
+      "capacity": 3
+    },
+    {
+      "source": 1,
+      "destination": 108,
+      "capacity": 3
+    },
+    {
+      "source": 1,
+      "destination": 109,
+      "capacity": 7
+    },
+    {
+      "source": 1,
+      "destination": 110,
+      "capacity": 15
+    },
+    {
+      "source": 1,
+      "destination": 111,
+      "capacity": 16
+    },
+    {
+      "source": 1,
+      "destination": 112,
+      "capacity": 20
+    },
+    {
+      "source": 1,
+      "destination": 113,
+      "capacity": 6
+    },
+    {
+      "source": 1,
+      "destination": 114,
+      "capacity": 4
+    },
+    {
+      "source": 1,
+      "destination": 115,
+      "capacity": 14
+    },
+    {
+      "source": 1,
+      "destination": 116,
+      "capacity": 15
+    },
+    {
+      "source": 1,
+      "destination": 117,
+      "capacity": 15
+    },
+    {
+      "source": 1,
+      "destination": 118,
+      "capacity": 17
+    },
+    {
+      "source": 1,
+      "destination": 119,
+      "capacity": 11
+    },
+    {
+      "source": 1,
+      "destination": 120,
+      "capacity": 17
+    },
+    {
+      "source": 1,
+      "destination": 121,
+      "capacity": 20
+    },
+    {
+      "source": 1,
+      "destination": 122,
+      "capacity": 12
+    },
+    {
+      "source": 1,
+      "destination": 123,
+      "capacity": 5
+    },
+    {
+      "source": 1,
+      "destination": 124,
+      "capacity": 17
+    },
+    {
+      "source": 1,
+      "destination": 125,
+      "capacity": 3
+    },
+    {
+      "source": 1,
+      "destination": 126,
+      "capacity": 13
+    },
+    {
+      "source": 1,
+      "destination": 147,
+      "capacity": 20
+    },
+    {
+      "source": 1,
+      "destination": 148,
+      "capacity": 3
+    },
+    {
+      "source": 1,
+      "destination": 151,
+      "capacity": 12
+    }
+  ],
+  "description": "Generated for the Flow chapter corpus: seed 20260830:glasgow_to_shetland_extreme, integer capacities uniform in [1,20], one draw per edge."
+}

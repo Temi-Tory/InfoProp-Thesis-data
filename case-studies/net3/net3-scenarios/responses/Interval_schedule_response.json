@@ -1,0 +1,1559 @@
+{
+  "cpm_path": "net3-scenarios/Interval/Interval-cpm-inputs.json",
+  "critical_path_result": {
+    "cost_mode": null,
+    "module_version": "CriticalPathV2",
+    "cost_result": null,
+    "computation_time": 0.03600001335144043,
+    "time_result": {
+      "method": "conservative_enclosure",
+      "method_note": "exact interval floats are intractable for this instance (122 interval inputs with reconvergence \u2014 NP-hard in general); returning a sound conservative enclosure",
+      "possibly_critical": [
+        2,
+        3,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        33,
+        34,
+        35,
+        36,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        57,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        93,
+        95,
+        97
+      ],
+      "mode": "longest_path",
+      "value_type": "Interval",
+      "forward": {
+        "32": {
+          "lower": 286.338,
+          "type": "interval",
+          "upper": 429.50699999999995
+        },
+        "29": {
+          "lower": 394.02470000000005,
+          "type": "interval",
+          "upper": 591.0369999999999
+        },
+        "81": {
+          "lower": 126.6276,
+          "type": "interval",
+          "upper": 189.9413
+        },
+        "54": {
+          "lower": 556.0623,
+          "type": "interval",
+          "upper": 834.0937
+        },
+        "78": {
+          "lower": 1363.7358,
+          "type": "interval",
+          "upper": 2045.6034999999995
+        },
+        "1": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 0.0
+        },
+        "2": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 0.0
+        },
+        "74": {
+          "lower": 1310.0402,
+          "type": "interval",
+          "upper": 1965.0601999999994
+        },
+        "41": {
+          "lower": 609.4913,
+          "type": "interval",
+          "upper": 914.2369999999999
+        },
+        "65": {
+          "lower": 1202.2647,
+          "type": "interval",
+          "upper": 1803.3968999999995
+        },
+        "53": {
+          "lower": 448.4268,
+          "type": "interval",
+          "upper": 672.6403999999999
+        },
+        "51": {
+          "lower": 663.4046999999999,
+          "type": "interval",
+          "upper": 995.1069999999999
+        },
+        "27": {
+          "lower": 501.90920000000006,
+          "type": "interval",
+          "upper": 752.8635999999999
+        },
+        "75": {
+          "lower": 1363.648,
+          "type": "interval",
+          "upper": 2045.4718999999996
+        },
+        "42": {
+          "lower": 663.1024,
+          "type": "interval",
+          "upper": 994.6536999999998
+        },
+        "33": {
+          "lower": 286.0246,
+          "type": "interval",
+          "upper": 429.0369999999999
+        },
+        "28": {
+          "lower": 447.82030000000003,
+          "type": "interval",
+          "upper": 671.7302999999999
+        },
+        "52": {
+          "lower": 609.6890999999999,
+          "type": "interval",
+          "upper": 914.5336999999998
+        },
+        "50": {
+          "lower": 663.0963,
+          "type": "interval",
+          "upper": 994.6442999999999
+        },
+        "63": {
+          "lower": 1094.5991,
+          "type": "interval",
+          "upper": 1641.8985999999995
+        },
+        "92": {
+          "lower": 770.5247,
+          "type": "interval",
+          "upper": 1155.7869999999998
+        },
+        "88": {
+          "lower": 609.3527,
+          "type": "interval",
+          "upper": 914.0289999999999
+        },
+        "93": {
+          "lower": 877.9958000000001,
+          "type": "interval",
+          "upper": 1316.9937
+        },
+        "26": {
+          "lower": 610.2003000000001,
+          "type": "interval",
+          "upper": 915.3002999999999
+        },
+        "10": {
+          "lower": 555.2936,
+          "type": "interval",
+          "upper": 832.9403
+        },
+        "77": {
+          "lower": 1417.3469,
+          "type": "interval",
+          "upper": 2126.0201999999995
+        },
+        "87": {
+          "lower": 555.8290999999999,
+          "type": "interval",
+          "upper": 833.7436999999999
+        },
+        "24": {
+          "lower": 394.05580000000003,
+          "type": "interval",
+          "upper": 591.0836999999999
+        },
+        "58": {
+          "lower": 824.9580000000001,
+          "type": "interval",
+          "upper": 1237.437
+        },
+        "25": {
+          "lower": 556.2892,
+          "type": "interval",
+          "upper": 834.4335999999998
+        },
+        "23": {
+          "lower": 394.88470000000007,
+          "type": "interval",
+          "upper": 592.327
+        },
+        "49": {
+          "lower": 717.5735999999999,
+          "type": "interval",
+          "upper": 1076.3602999999998
+        },
+        "59": {
+          "lower": 771.1958,
+          "type": "interval",
+          "upper": 1156.7935999999997
+        },
+        "5": {
+          "lower": 412.64110000000005,
+          "type": "interval",
+          "upper": 618.9617
+        },
+        "31": {
+          "lower": 340.19800000000004,
+          "type": "interval",
+          "upper": 510.29699999999997
+        },
+        "89": {
+          "lower": 663.2602,
+          "type": "interval",
+          "upper": 994.8902999999998
+        },
+        "62": {
+          "lower": 987.1858000000001,
+          "type": "interval",
+          "upper": 1480.7785999999996
+        },
+        "43": {
+          "lower": 770.5247,
+          "type": "interval",
+          "upper": 1155.7869999999998
+        },
+        "90": {
+          "lower": 771.3524,
+          "type": "interval",
+          "upper": 1157.0286999999998
+        },
+        "39": {
+          "lower": 609.2224,
+          "type": "interval",
+          "upper": 913.8336999999998
+        },
+        "34": {
+          "lower": 340.2713,
+          "type": "interval",
+          "upper": 510.4069999999999
+        },
+        "44": {
+          "lower": 824.1314000000001,
+          "type": "interval",
+          "upper": 1236.197
+        },
+        "94": {
+          "lower": 72.822,
+          "type": "interval",
+          "upper": 109.233
+        },
+        "55": {
+          "lower": 717.5913,
+          "type": "interval",
+          "upper": 1076.387
+        },
+        "86": {
+          "lower": 501.878,
+          "type": "interval",
+          "upper": 752.8169999999999
+        },
+        "17": {
+          "lower": 285.7246,
+          "type": "interval",
+          "upper": 428.58699999999993
+        },
+        "71": {
+          "lower": 1310.1735999999999,
+          "type": "interval",
+          "upper": 1965.2601999999995
+        },
+        "37": {
+          "lower": 501.6446,
+          "type": "interval",
+          "upper": 752.467
+        },
+        "47": {
+          "lower": 878.7124,
+          "type": "interval",
+          "upper": 1318.0685999999996
+        },
+        "9": {
+          "lower": 501.3669,
+          "type": "interval",
+          "upper": 752.0503
+        },
+        "73": {
+          "lower": 1256.3269,
+          "type": "interval",
+          "upper": 1884.4901999999995
+        },
+        "82": {
+          "lower": 339.4679,
+          "type": "interval",
+          "upper": 509.20199999999994
+        },
+        "12": {
+          "lower": 501.8423,
+          "type": "interval",
+          "upper": 752.7637
+        },
+        "79": {
+          "lower": 1417.658,
+          "type": "interval",
+          "upper": 2126.4867999999997
+        },
+        "20": {
+          "lower": 231.7247,
+          "type": "interval",
+          "upper": 347.58699999999993
+        },
+        "6": {
+          "lower": 6.4,
+          "type": "interval",
+          "upper": 9.6
+        },
+        "84": {
+          "lower": 393.4835,
+          "type": "interval",
+          "upper": 590.2253
+        },
+        "80": {
+          "lower": 180.472,
+          "type": "interval",
+          "upper": 270.708
+        },
+        "70": {
+          "lower": 1418.5525,
+          "type": "interval",
+          "upper": 2127.828499999999
+        },
+        "14": {
+          "lower": 393.82460000000003,
+          "type": "interval",
+          "upper": 590.737
+        },
+        "7": {
+          "lower": 555.5313,
+          "type": "interval",
+          "upper": 833.297
+        },
+        "96": {
+          "lower": 113.8738,
+          "type": "interval",
+          "upper": 170.8106
+        },
+        "57": {
+          "lower": 771.3313,
+          "type": "interval",
+          "upper": 1156.9969999999998
+        },
+        "8": {
+          "lower": 610.3623,
+          "type": "interval",
+          "upper": 915.5437
+        },
+        "64": {
+          "lower": 1148.3958,
+          "type": "interval",
+          "upper": 1722.5935999999995
+        },
+        "19": {
+          "lower": 123.9847,
+          "type": "interval",
+          "upper": 185.97699999999998
+        },
+        "91": {
+          "lower": 825.448,
+          "type": "interval",
+          "upper": 1238.1719999999998
+        },
+        "69": {
+          "lower": 1418.6614,
+          "type": "interval",
+          "upper": 2127.9917999999993
+        },
+        "60": {
+          "lower": 933.3191,
+          "type": "interval",
+          "upper": 1399.9785999999997
+        },
+        "97": {
+          "lower": 60.2736,
+          "type": "interval",
+          "upper": 90.41029999999999
+        },
+        "4": {
+          "lower": 19.2,
+          "type": "interval",
+          "upper": 28.8
+        },
+        "22": {
+          "lower": 339.84470000000005,
+          "type": "interval",
+          "upper": 509.76699999999994
+        },
+        "11": {
+          "lower": 555.8867,
+          "type": "interval",
+          "upper": 833.8303999999999
+        },
+        "35": {
+          "lower": 394.3157,
+          "type": "interval",
+          "upper": 591.4736999999999
+        },
+        "13": {
+          "lower": 447.869,
+          "type": "interval",
+          "upper": 671.8036999999999
+        },
+        "67": {
+          "lower": 1310.6369,
+          "type": "interval",
+          "upper": 1965.9551999999994
+        },
+        "61": {
+          "lower": 1040.8858,
+          "type": "interval",
+          "upper": 1561.3285999999996
+        },
+        "15": {
+          "lower": 339.7402,
+          "type": "interval",
+          "upper": 509.61029999999994
+        },
+        "16": {
+          "lower": 231.9624,
+          "type": "interval",
+          "upper": 347.9436999999999
+        },
+        "40": {
+          "lower": 555.6091,
+          "type": "interval",
+          "upper": 833.4136999999998
+        },
+        "46": {
+          "lower": 716.9963,
+          "type": "interval",
+          "upper": 1075.4942999999998
+        },
+        "21": {
+          "lower": 286.04470000000003,
+          "type": "interval",
+          "upper": 429.06699999999995
+        },
+        "38": {
+          "lower": 555.3535,
+          "type": "interval",
+          "upper": 833.0303
+        },
+        "72": {
+          "lower": 1364.2091999999998,
+          "type": "interval",
+          "upper": 2046.3134999999995
+        },
+        "83": {
+          "lower": 393.1457,
+          "type": "interval",
+          "upper": 589.7186999999999
+        },
+        "45": {
+          "lower": 716.918,
+          "type": "interval",
+          "upper": 1075.3769999999997
+        },
+        "68": {
+          "lower": 1364.6058,
+          "type": "interval",
+          "upper": 2046.9084999999993
+        },
+        "56": {
+          "lower": 339.81910000000005,
+          "type": "interval",
+          "upper": 509.72869999999995
+        },
+        "36": {
+          "lower": 448.0113,
+          "type": "interval",
+          "upper": 672.0169999999999
+        },
+        "95": {
+          "lower": 53.8736,
+          "type": "interval",
+          "upper": 80.8103
+        },
+        "66": {
+          "lower": 1256.0846999999999,
+          "type": "interval",
+          "upper": 1884.1268999999995
+        },
+        "76": {
+          "lower": 1417.7368999999999,
+          "type": "interval",
+          "upper": 2126.6051999999995
+        },
+        "85": {
+          "lower": 447.1613,
+          "type": "interval",
+          "upper": 670.742
+        },
+        "48": {
+          "lower": 825.0902,
+          "type": "interval",
+          "upper": 1237.6352999999997
+        },
+        "18": {
+          "lower": 177.918,
+          "type": "interval",
+          "upper": 266.87699999999995
+        },
+        "30": {
+          "lower": 664.1670000000001,
+          "type": "interval",
+          "upper": 996.2502999999999
+        },
+        "3": {
+          "lower": 950.8178000000001,
+          "type": "interval",
+          "upper": 1426.2267
+        }
+      },
+      "schedule_available": false,
+      "project_value": {
+        "lower": 1418.6614,
+        "type": "interval",
+        "upper": 2127.9917999999993
+      },
+      "corner_count": 0,
+      "through": {
+        "32": {
+          "lower": 664.167,
+          "type": "interval",
+          "upper": 996.2502999999999
+        },
+        "29": {
+          "lower": 664.167,
+          "type": "interval",
+          "upper": 996.2502999999999
+        },
+        "81": {
+          "lower": 180.5365,
+          "type": "interval",
+          "upper": 270.8046
+        },
+        "54": {
+          "lower": 1365.1746,
+          "type": "interval",
+          "upper": 2047.7617999999998
+        },
+        "78": {
+          "lower": 1417.658,
+          "type": "interval",
+          "upper": 2126.4867999999997
+        },
+        "1": {
+          "lower": 117.0556,
+          "type": "interval",
+          "upper": 175.58329999999998
+        },
+        "2": {
+          "lower": 1418.6614,
+          "type": "interval",
+          "upper": 2127.9918000000002
+        },
+        "74": {
+          "lower": 1417.7368999999999,
+          "type": "interval",
+          "upper": 2126.6051999999995
+        },
+        "41": {
+          "lower": 1310.8414,
+          "type": "interval",
+          "upper": 1966.2618999999997
+        },
+        "65": {
+          "lower": 1418.6614,
+          "type": "interval",
+          "upper": 2127.9917999999993
+        },
+        "53": {
+          "lower": 1311.0791,
+          "type": "interval",
+          "upper": 1966.6184999999996
+        },
+        "51": {
+          "lower": 1418.6614,
+          "type": "interval",
+          "upper": 2127.9918
+        },
+        "27": {
+          "lower": 664.167,
+          "type": "interval",
+          "upper": 996.2502999999999
+        },
+        "75": {
+          "lower": 1417.7368999999999,
+          "type": "interval",
+          "upper": 2126.6051999999995
+        },
+        "42": {
+          "lower": 1310.8414,
+          "type": "interval",
+          "upper": 1966.2618999999997
+        },
+        "33": {
+          "lower": 1418.6614,
+          "type": "interval",
+          "upper": 2127.9918
+        },
+        "28": {
+          "lower": 664.167,
+          "type": "interval",
+          "upper": 996.2502999999999
+        },
+        "52": {
+          "lower": 1418.6614,
+          "type": "interval",
+          "upper": 2127.9918
+        },
+        "50": {
+          "lower": 1417.8952,
+          "type": "interval",
+          "upper": 2126.8424999999997
+        },
+        "63": {
+          "lower": 1418.6614,
+          "type": "interval",
+          "upper": 2127.9917999999993
+        },
+        "92": {
+          "lower": 770.5247,
+          "type": "interval",
+          "upper": 1155.7869999999998
+        },
+        "88": {
+          "lower": 1417.8952,
+          "type": "interval",
+          "upper": 2126.8424999999997
+        },
+        "93": {
+          "lower": 950.8178000000001,
+          "type": "interval",
+          "upper": 1426.2267
+        },
+        "26": {
+          "lower": 664.1670000000001,
+          "type": "interval",
+          "upper": 996.2502999999999
+        },
+        "10": {
+          "lower": 555.2936,
+          "type": "interval",
+          "upper": 832.9403
+        },
+        "77": {
+          "lower": 1417.3469,
+          "type": "interval",
+          "upper": 2126.0201999999995
+        },
+        "87": {
+          "lower": 1418.6614,
+          "type": "interval",
+          "upper": 2127.9918
+        },
+        "24": {
+          "lower": 555.9892,
+          "type": "interval",
+          "upper": 833.9836999999999
+        },
+        "58": {
+          "lower": 824.9580000000001,
+          "type": "interval",
+          "upper": 1237.437
+        },
+        "25": {
+          "lower": 664.167,
+          "type": "interval",
+          "upper": 996.2502999999998
+        },
+        "23": {
+          "lower": 394.88470000000007,
+          "type": "interval",
+          "upper": 592.327
+        },
+        "49": {
+          "lower": 1418.6614,
+          "type": "interval",
+          "upper": 2127.9918
+        },
+        "59": {
+          "lower": 1418.6614,
+          "type": "interval",
+          "upper": 2127.9918
+        },
+        "5": {
+          "lower": 412.64110000000005,
+          "type": "interval",
+          "upper": 618.9617
+        },
+        "31": {
+          "lower": 664.167,
+          "type": "interval",
+          "upper": 996.2502999999999
+        },
+        "89": {
+          "lower": 950.8178,
+          "type": "interval",
+          "upper": 1426.2266999999997
+        },
+        "62": {
+          "lower": 1418.6614,
+          "type": "interval",
+          "upper": 2127.9918
+        },
+        "43": {
+          "lower": 950.8178,
+          "type": "interval",
+          "upper": 1426.2266999999997
+        },
+        "90": {
+          "lower": 1310.8413999999998,
+          "type": "interval",
+          "upper": 1966.2618999999997
+        },
+        "39": {
+          "lower": 609.2224,
+          "type": "interval",
+          "upper": 913.8336999999998
+        },
+        "34": {
+          "lower": 1418.6614,
+          "type": "interval",
+          "upper": 2127.9918
+        },
+        "44": {
+          "lower": 950.8178000000001,
+          "type": "interval",
+          "upper": 1426.2267
+        },
+        "94": {
+          "lower": 180.5365,
+          "type": "interval",
+          "upper": 270.8046
+        },
+        "55": {
+          "lower": 1310.8414,
+          "type": "interval",
+          "upper": 1966.2619
+        },
+        "86": {
+          "lower": 1418.6614,
+          "type": "interval",
+          "upper": 2127.9918
+        },
+        "17": {
+          "lower": 1365.1746,
+          "type": "interval",
+          "upper": 2047.7618
+        },
+        "71": {
+          "lower": 1364.2091999999998,
+          "type": "interval",
+          "upper": 2046.3134999999995
+        },
+        "37": {
+          "lower": 555.3535,
+          "type": "interval",
+          "upper": 833.0303
+        },
+        "47": {
+          "lower": 1418.6614,
+          "type": "interval",
+          "upper": 2127.9917999999993
+        },
+        "9": {
+          "lower": 609.4313,
+          "type": "interval",
+          "upper": 914.1469999999999
+        },
+        "73": {
+          "lower": 1417.7369,
+          "type": "interval",
+          "upper": 2126.6051999999995
+        },
+        "82": {
+          "lower": 609.3268,
+          "type": "interval",
+          "upper": 913.9903999999999
+        },
+        "12": {
+          "lower": 1365.1746,
+          "type": "interval",
+          "upper": 2047.7617999999998
+        },
+        "79": {
+          "lower": 1417.658,
+          "type": "interval",
+          "upper": 2126.4867999999997
+        },
+        "20": {
+          "lower": 664.167,
+          "type": "interval",
+          "upper": 996.2502999999999
+        },
+        "6": {
+          "lower": 117.0556,
+          "type": "interval",
+          "upper": 175.58329999999998
+        },
+        "84": {
+          "lower": 609.4313,
+          "type": "interval",
+          "upper": 914.1469999999999
+        },
+        "80": {
+          "lower": 180.472,
+          "type": "interval",
+          "upper": 270.708
+        },
+        "70": {
+          "lower": 1418.5525,
+          "type": "interval",
+          "upper": 2127.828499999999
+        },
+        "14": {
+          "lower": 1365.1746,
+          "type": "interval",
+          "upper": 2047.7617999999998
+        },
+        "7": {
+          "lower": 609.4313,
+          "type": "interval",
+          "upper": 914.147
+        },
+        "96": {
+          "lower": 113.8738,
+          "type": "interval",
+          "upper": 170.8106
+        },
+        "57": {
+          "lower": 1310.3914,
+          "type": "interval",
+          "upper": 1965.5868999999998
+        },
+        "8": {
+          "lower": 610.3623,
+          "type": "interval",
+          "upper": 915.5437
+        },
+        "64": {
+          "lower": 1418.6614,
+          "type": "interval",
+          "upper": 2127.9917999999993
+        },
+        "19": {
+          "lower": 1418.6614,
+          "type": "interval",
+          "upper": 2127.9918000000002
+        },
+        "91": {
+          "lower": 1310.8413999999998,
+          "type": "interval",
+          "upper": 1966.2618999999997
+        },
+        "69": {
+          "lower": 1418.6614,
+          "type": "interval",
+          "upper": 2127.9917999999993
+        },
+        "60": {
+          "lower": 1418.6614,
+          "type": "interval",
+          "upper": 2127.9918
+        },
+        "97": {
+          "lower": 1418.6614,
+          "type": "interval",
+          "upper": 2127.9918000000002
+        },
+        "4": {
+          "lower": 180.5365,
+          "type": "interval",
+          "upper": 270.8046
+        },
+        "22": {
+          "lower": 555.9892,
+          "type": "interval",
+          "upper": 833.9836999999999
+        },
+        "11": {
+          "lower": 610.3623,
+          "type": "interval",
+          "upper": 915.5437
+        },
+        "35": {
+          "lower": 1418.6614,
+          "type": "interval",
+          "upper": 2127.9918
+        },
+        "13": {
+          "lower": 1365.1746,
+          "type": "interval",
+          "upper": 2047.7617999999998
+        },
+        "67": {
+          "lower": 1418.6614,
+          "type": "interval",
+          "upper": 2127.9917999999993
+        },
+        "61": {
+          "lower": 1418.6614,
+          "type": "interval",
+          "upper": 2127.9918
+        },
+        "15": {
+          "lower": 1365.1746,
+          "type": "interval",
+          "upper": 2047.7617999999998
+        },
+        "16": {
+          "lower": 1418.6614,
+          "type": "interval",
+          "upper": 2127.9918
+        },
+        "40": {
+          "lower": 1417.8952,
+          "type": "interval",
+          "upper": 2126.8424999999997
+        },
+        "46": {
+          "lower": 1364.2808,
+          "type": "interval",
+          "upper": 2046.4207999999996
+        },
+        "21": {
+          "lower": 555.9892,
+          "type": "interval",
+          "upper": 833.9836999999999
+        },
+        "38": {
+          "lower": 555.3535,
+          "type": "interval",
+          "upper": 833.0303
+        },
+        "72": {
+          "lower": 1364.2091999999998,
+          "type": "interval",
+          "upper": 2046.3134999999995
+        },
+        "83": {
+          "lower": 609.3268,
+          "type": "interval",
+          "upper": 913.9903999999999
+        },
+        "45": {
+          "lower": 950.8178,
+          "type": "interval",
+          "upper": 1426.2266999999997
+        },
+        "68": {
+          "lower": 1418.6614,
+          "type": "interval",
+          "upper": 2127.9917999999993
+        },
+        "56": {
+          "lower": 412.64110000000005,
+          "type": "interval",
+          "upper": 618.9617
+        },
+        "36": {
+          "lower": 1418.6614,
+          "type": "interval",
+          "upper": 2127.9918
+        },
+        "95": {
+          "lower": 1418.6614,
+          "type": "interval",
+          "upper": 2127.9918000000002
+        },
+        "66": {
+          "lower": 1418.6614,
+          "type": "interval",
+          "upper": 2127.9917999999993
+        },
+        "76": {
+          "lower": 1417.7368999999999,
+          "type": "interval",
+          "upper": 2126.6051999999995
+        },
+        "85": {
+          "lower": 609.4313,
+          "type": "interval",
+          "upper": 914.1469999999999
+        },
+        "48": {
+          "lower": 1418.6614,
+          "type": "interval",
+          "upper": 2127.9918
+        },
+        "18": {
+          "lower": 1418.6614,
+          "type": "interval",
+          "upper": 2127.9918
+        },
+        "30": {
+          "lower": 664.1670000000001,
+          "type": "interval",
+          "upper": 996.2502999999999
+        },
+        "3": {
+          "lower": 950.8178000000001,
+          "type": "interval",
+          "upper": 1426.2267
+        }
+      },
+      "kind": "path",
+      "necessarily_critical": [],
+      "margin": {
+        "32": {
+          "lower": 422.41110000000003,
+          "type": "interval",
+          "upper": 1463.8247999999994
+        },
+        "29": {
+          "lower": 422.41110000000003,
+          "type": "interval",
+          "upper": 1463.8247999999994
+        },
+        "81": {
+          "lower": 1147.8568,
+          "type": "interval",
+          "upper": 1947.4552999999994
+        },
+        "54": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 762.8171999999993
+        },
+        "78": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 710.3337999999994
+        },
+        "1": {
+          "lower": 1243.0781,
+          "type": "interval",
+          "upper": 2010.9361999999994
+        },
+        "2": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 709.3303999999994
+        },
+        "74": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 710.2548999999995
+        },
+        "41": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 817.1503999999993
+        },
+        "65": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 709.3303999999994
+        },
+        "53": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 816.9126999999994
+        },
+        "51": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 709.3303999999994
+        },
+        "27": {
+          "lower": 422.41110000000003,
+          "type": "interval",
+          "upper": 1463.8247999999994
+        },
+        "75": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 710.2548999999995
+        },
+        "42": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 817.1503999999993
+        },
+        "33": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 709.3303999999994
+        },
+        "28": {
+          "lower": 422.41110000000003,
+          "type": "interval",
+          "upper": 1463.8247999999994
+        },
+        "52": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 709.3303999999994
+        },
+        "50": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 710.0965999999994
+        },
+        "63": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 709.3303999999994
+        },
+        "92": {
+          "lower": 262.87440000000015,
+          "type": "interval",
+          "upper": 1357.4670999999994
+        },
+        "88": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 710.0965999999994
+        },
+        "93": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 1177.173999999999
+        },
+        "26": {
+          "lower": 422.41110000000003,
+          "type": "interval",
+          "upper": 1463.8247999999992
+        },
+        "10": {
+          "lower": 585.7211,
+          "type": "interval",
+          "upper": 1572.6981999999994
+        },
+        "77": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 710.6448999999993
+        },
+        "87": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 709.3303999999994
+        },
+        "24": {
+          "lower": 584.6777000000001,
+          "type": "interval",
+          "upper": 1572.0025999999993
+        },
+        "58": {
+          "lower": 181.22440000000006,
+          "type": "interval",
+          "upper": 1303.0337999999992
+        },
+        "25": {
+          "lower": 422.41110000000015,
+          "type": "interval",
+          "upper": 1463.8247999999994
+        },
+        "23": {
+          "lower": 826.3344,
+          "type": "interval",
+          "upper": 1733.1070999999993
+        },
+        "49": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 709.3303999999994
+        },
+        "59": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 709.3303999999994
+        },
+        "5": {
+          "lower": 799.6997,
+          "type": "interval",
+          "upper": 1715.3506999999993
+        },
+        "31": {
+          "lower": 422.41110000000003,
+          "type": "interval",
+          "upper": 1463.8247999999994
+        },
+        "89": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 1177.1739999999993
+        },
+        "62": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 709.3303999999994
+        },
+        "43": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 1177.1739999999993
+        },
+        "90": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 817.1503999999995
+        },
+        "39": {
+          "lower": 504.82770000000016,
+          "type": "interval",
+          "upper": 1518.7693999999992
+        },
+        "34": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 709.3303999999994
+        },
+        "44": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 1177.173999999999
+        },
+        "94": {
+          "lower": 1147.8568,
+          "type": "interval",
+          "upper": 1947.4552999999994
+        },
+        "55": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 817.1503999999993
+        },
+        "86": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 709.3303999999994
+        },
+        "17": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 762.8171999999993
+        },
+        "71": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 763.7825999999995
+        },
+        "37": {
+          "lower": 585.6311,
+          "type": "interval",
+          "upper": 1572.6382999999992
+        },
+        "47": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 709.3303999999994
+        },
+        "9": {
+          "lower": 504.5144,
+          "type": "interval",
+          "upper": 1518.5604999999994
+        },
+        "73": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 710.2548999999992
+        },
+        "82": {
+          "lower": 504.67100000000005,
+          "type": "interval",
+          "upper": 1518.6649999999993
+        },
+        "12": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 762.8171999999993
+        },
+        "79": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 710.3337999999994
+        },
+        "20": {
+          "lower": 422.41110000000003,
+          "type": "interval",
+          "upper": 1463.8247999999994
+        },
+        "6": {
+          "lower": 1243.0781,
+          "type": "interval",
+          "upper": 2010.9361999999994
+        },
+        "84": {
+          "lower": 504.5144,
+          "type": "interval",
+          "upper": 1518.5604999999994
+        },
+        "80": {
+          "lower": 1147.9533999999999,
+          "type": "interval",
+          "upper": 1947.5197999999993
+        },
+        "70": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 709.4392999999993
+        },
+        "14": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 762.8171999999993
+        },
+        "7": {
+          "lower": 504.5143999999999,
+          "type": "interval",
+          "upper": 1518.5604999999994
+        },
+        "96": {
+          "lower": 1247.8508,
+          "type": "interval",
+          "upper": 2014.1179999999993
+        },
+        "57": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 817.6003999999994
+        },
+        "8": {
+          "lower": 503.1177,
+          "type": "interval",
+          "upper": 1517.6294999999993
+        },
+        "64": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 709.3303999999994
+        },
+        "19": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 709.3303999999994
+        },
+        "91": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 817.1503999999995
+        },
+        "69": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 709.3303999999994
+        },
+        "60": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 709.3303999999994
+        },
+        "97": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 709.3303999999994
+        },
+        "4": {
+          "lower": 1147.8568,
+          "type": "interval",
+          "upper": 1947.4552999999994
+        },
+        "22": {
+          "lower": 584.6777000000001,
+          "type": "interval",
+          "upper": 1572.0025999999993
+        },
+        "11": {
+          "lower": 503.1177,
+          "type": "interval",
+          "upper": 1517.6294999999993
+        },
+        "35": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 709.3303999999994
+        },
+        "13": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 762.8171999999993
+        },
+        "67": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 709.3303999999994
+        },
+        "61": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 709.3303999999994
+        },
+        "15": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 762.8171999999993
+        },
+        "16": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 709.3303999999994
+        },
+        "40": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 710.0965999999994
+        },
+        "46": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 763.7109999999993
+        },
+        "21": {
+          "lower": 584.6777000000001,
+          "type": "interval",
+          "upper": 1572.0025999999993
+        },
+        "38": {
+          "lower": 585.6311,
+          "type": "interval",
+          "upper": 1572.6382999999992
+        },
+        "72": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 763.7825999999995
+        },
+        "83": {
+          "lower": 504.67100000000005,
+          "type": "interval",
+          "upper": 1518.6649999999993
+        },
+        "45": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 1177.1739999999993
+        },
+        "68": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 709.3303999999994
+        },
+        "56": {
+          "lower": 799.6997,
+          "type": "interval",
+          "upper": 1715.3506999999993
+        },
+        "36": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 709.3303999999994
+        },
+        "95": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 709.3303999999994
+        },
+        "66": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 709.3303999999994
+        },
+        "76": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 710.2548999999995
+        },
+        "85": {
+          "lower": 504.5144,
+          "type": "interval",
+          "upper": 1518.5604999999994
+        },
+        "48": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 709.3303999999994
+        },
+        "18": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 709.3303999999994
+        },
+        "30": {
+          "lower": 422.41110000000003,
+          "type": "interval",
+          "upper": 1463.8247999999992
+        },
+        "3": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 1177.173999999999
+        }
+      },
+      "margin_name": "slack"
+    },
+    "input_files": {
+      "cpm_path": "net3-scenarios/Interval/Interval-cpm-inputs.json"
+    },
+    "time_mode": "longest_path",
+    "value_type": "Interval"
+  },
+  "message": "Critical path analysis completed",
+  "success": true,
+  "edges_file_path": "C:/Development/Info_Prop_Framework_Project/Info_Prop_Framework_Project/dag_ntwrk_files/net3/net3.EDGES",
+  "endpoint": "critical-path-analysis",
+  "timestamp": "2026-08-30T16:16:42.255"
+}

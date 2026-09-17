@@ -1,0 +1,10 @@
+== water-ALLvar (k=32) ==
+  k=32 interval durations: exhaustive would need 2^32 = 4.29e+09 runs
+  split needs 2269328 runs (max|H_v|=18, mean|H_v|=10.44)
+  completed in 135.10s: necessarily_critical=Int64[] (0) possibly_critical=9 nodes
+== grid5x5-ALLvar (k=25) ==
+  k=25 interval durations: exhaustive would need 2^25 = 3.36e+07 runs
+  split needs 38895616 runs (max|H_v|=23, mean|H_v|=18.08)
+  over budget (3000000); reporting the boundary, not running
+
+run: 2026-08-18T07:34:13.213

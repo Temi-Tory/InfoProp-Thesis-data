@@ -1,0 +1,11 @@
+== chapterA-allvar ==
+  longest  corners=256  tier2-vs-oracle PASS (maxdiff=0) ncrit=match(5) pcrit=match(7) | tier1 sound=PASS
+  shortest corners=256  tier2-vs-oracle PASS (maxdiff=0) ncrit=match(3) pcrit=match(3) | tier1 sound=PASS
+  diamond-guided: |C|=2 (vs k=8) corners=4 vs 256  sound=yes  max_tightness_gap=4.25  conservative
+== water-8var ==
+  longest  corners=256  tier2-vs-oracle PASS (maxdiff=7.1e-15) ncrit=match(0) pcrit=match(8) | tier1 sound=PASS
+  shortest corners=256  tier2-vs-oracle PASS (maxdiff=0) ncrit=match(12) pcrit=match(12) | tier1 sound=PASS
+  diamond-guided: |C|=4 (vs k=8) corners=16 vs 256  sound=yes  max_tightness_gap=12.5  conservative
+
+run: 2026-08-30T01:34:21.798
+INTERVAL VALIDATION: ALL PASS

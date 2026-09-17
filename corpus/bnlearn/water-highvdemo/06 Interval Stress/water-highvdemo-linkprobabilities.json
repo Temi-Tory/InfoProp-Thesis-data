@@ -1,0 +1,338 @@
+{
+  "scenario_intent": "Wide uncertainty bounds around stressed hub and choke edges for robust worst/best-case analysis.",
+  "links": {
+    "(7,16)": {
+      "lower": 0.77,
+      "type": "interval",
+      "upper": 0.99
+    },
+    "(15,23)": {
+      "lower": 0.75,
+      "type": "interval",
+      "upper": 0.99
+    },
+    "(1,11)": {
+      "lower": 0.77,
+      "type": "interval",
+      "upper": 0.99
+    },
+    "(24,32)": {
+      "lower": 0.74,
+      "type": "interval",
+      "upper": 0.98
+    },
+    "(2,10)": {
+      "lower": 0.78,
+      "type": "interval",
+      "upper": 0.99
+    },
+    "(22,32)": {
+      "lower": 0.74,
+      "type": "interval",
+      "upper": 0.98
+    },
+    "(8,16)": {
+      "lower": 0.77,
+      "type": "interval",
+      "upper": 0.99
+    },
+    "(13,24)": {
+      "lower": 0.74,
+      "type": "interval",
+      "upper": 0.98
+    },
+    "(15,20)": {
+      "lower": 0.74,
+      "type": "interval",
+      "upper": 0.98
+    },
+    "(19,30)": {
+      "lower": 0.76,
+      "type": "interval",
+      "upper": 0.99
+    },
+    "(12,23)": {
+      "lower": 0.75,
+      "type": "interval",
+      "upper": 0.99
+    },
+    "(17,27)": {
+      "lower": 0.74,
+      "type": "interval",
+      "upper": 0.98
+    },
+    "(8,14)": {
+      "lower": 0.77,
+      "type": "interval",
+      "upper": 0.99
+    },
+    "(19,29)": {
+      "lower": 0.59,
+      "type": "interval",
+      "upper": 0.99
+    },
+    "(2,12)": {
+      "lower": 0.77,
+      "type": "interval",
+      "upper": 0.99
+    },
+    "(10,20)": {
+      "lower": 0.74,
+      "type": "interval",
+      "upper": 0.98
+    },
+    "(23,31)": {
+      "lower": 0.75,
+      "type": "interval",
+      "upper": 0.99
+    },
+    "(10,18)": {
+      "lower": 0.75,
+      "type": "interval",
+      "upper": 0.99
+    },
+    "(11,19)": {
+      "lower": 0.76,
+      "type": "interval",
+      "upper": 0.99
+    },
+    "(10,19)": {
+      "lower": 0.74,
+      "type": "interval",
+      "upper": 0.98
+    },
+    "(22,27)": {
+      "lower": 0.74,
+      "type": "interval",
+      "upper": 0.98
+    },
+    "(7,12)": {
+      "lower": 0.77,
+      "type": "interval",
+      "upper": 0.99
+    },
+    "(7,15)": {
+      "lower": 0.78,
+      "type": "interval",
+      "upper": 0.99
+    },
+    "(18,28)": {
+      "lower": 0.74,
+      "type": "interval",
+      "upper": 0.98
+    },
+    "(18,26)": {
+      "lower": 0.75,
+      "type": "interval",
+      "upper": 0.99
+    },
+    "(6,14)": {
+      "lower": 0.77,
+      "type": "interval",
+      "upper": 0.99
+    },
+    "(19,27)": {
+      "lower": 0.59,
+      "type": "interval",
+      "upper": 0.99
+    },
+    "(23,32)": {
+      "lower": 0.74,
+      "type": "interval",
+      "upper": 0.98
+    },
+    "(18,27)": {
+      "lower": 0.74,
+      "type": "interval",
+      "upper": 0.98
+    },
+    "(24,29)": {
+      "lower": 0.74,
+      "type": "interval",
+      "upper": 0.98
+    },
+    "(16,22)": {
+      "lower": 0.74,
+      "type": "interval",
+      "upper": 0.98
+    },
+    "(11,22)": {
+      "lower": 0.76,
+      "type": "interval",
+      "upper": 0.99
+    },
+    "(23,28)": {
+      "lower": 0.74,
+      "type": "interval",
+      "upper": 0.98
+    },
+    "(16,21)": {
+      "lower": 0.74,
+      "type": "interval",
+      "upper": 0.98
+    },
+    "(13,21)": {
+      "lower": 0.74,
+      "type": "interval",
+      "upper": 0.98
+    },
+    "(5,13)": {
+      "lower": 0.77,
+      "type": "interval",
+      "upper": 0.99
+    },
+    "(20,28)": {
+      "lower": 0.74,
+      "type": "interval",
+      "upper": 0.98
+    },
+    "(14,24)": {
+      "lower": 0.74,
+      "type": "interval",
+      "upper": 0.98
+    },
+    "(3,11)": {
+      "lower": 0.77,
+      "type": "interval",
+      "upper": 0.99
+    },
+    "(4,15)": {
+      "lower": 0.78,
+      "type": "interval",
+      "upper": 0.99
+    },
+    "(17,25)": {
+      "lower": 0.75,
+      "type": "interval",
+      "upper": 0.99
+    },
+    "(15,24)": {
+      "lower": 0.74,
+      "type": "interval",
+      "upper": 0.98
+    },
+    "(1,9)": {
+      "lower": 0.78,
+      "type": "interval",
+      "upper": 0.99
+    },
+    "(6,11)": {
+      "lower": 0.77,
+      "type": "interval",
+      "upper": 0.99
+    },
+    "(6,16)": {
+      "lower": 0.77,
+      "type": "interval",
+      "upper": 0.99
+    },
+    "(3,13)": {
+      "lower": 0.77,
+      "type": "interval",
+      "upper": 0.99
+    },
+    "(14,22)": {
+      "lower": 0.74,
+      "type": "interval",
+      "upper": 0.98
+    },
+    "(9,17)": {
+      "lower": 0.75,
+      "type": "interval",
+      "upper": 0.99
+    },
+    "(2,11)": {
+      "lower": 0.77,
+      "type": "interval",
+      "upper": 0.99
+    },
+    "(16,24)": {
+      "lower": 0.74,
+      "type": "interval",
+      "upper": 0.98
+    },
+    "(21,32)": {
+      "lower": 0.74,
+      "type": "interval",
+      "upper": 0.98
+    },
+    "(9,19)": {
+      "lower": 0.74,
+      "type": "interval",
+      "upper": 0.98
+    },
+    "(21,29)": {
+      "lower": 0.74,
+      "type": "interval",
+      "upper": 0.98
+    },
+    "(11,21)": {
+      "lower": 0.76,
+      "type": "interval",
+      "upper": 0.99
+    },
+    "(12,20)": {
+      "lower": 0.74,
+      "type": "interval",
+      "upper": 0.98
+    },
+    "(5,11)": {
+      "lower": 0.77,
+      "type": "interval",
+      "upper": 0.99
+    },
+    "(24,30)": {
+      "lower": 0.74,
+      "type": "interval",
+      "upper": 0.98
+    },
+    "(5,16)": {
+      "lower": 0.77,
+      "type": "interval",
+      "upper": 0.99
+    },
+    "(21,27)": {
+      "lower": 0.74,
+      "type": "interval",
+      "upper": 0.98
+    },
+    "(20,31)": {
+      "lower": 0.75,
+      "type": "interval",
+      "upper": 0.99
+    },
+    "(13,19)": {
+      "lower": 0.74,
+      "type": "interval",
+      "upper": 0.98
+    },
+    "(8,13)": {
+      "lower": 0.77,
+      "type": "interval",
+      "upper": 0.99
+    },
+    "(14,19)": {
+      "lower": 0.74,
+      "type": "interval",
+      "upper": 0.98
+    },
+    "(4,12)": {
+      "lower": 0.77,
+      "type": "interval",
+      "upper": 0.99
+    },
+    "(22,30)": {
+      "lower": 0.74,
+      "type": "interval",
+      "upper": 0.98
+    },
+    "(3,14)": {
+      "lower": 0.77,
+      "type": "interval",
+      "upper": 0.99
+    }
+  },
+  "data_type": "Interval",
+  "serialization": "compact",
+  "description": "Link probabilities for water-highvdemo - 06 Interval Stress"
+}

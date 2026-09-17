@@ -1,0 +1,376 @@
+{
+  "data_type": "Float64",
+  "edges": [
+    {
+      "source": 1,
+      "destination": 2,
+      "capacity": 11
+    },
+    {
+      "source": 1,
+      "destination": 3,
+      "capacity": 1
+    },
+    {
+      "source": 1,
+      "destination": 4,
+      "capacity": 2
+    },
+    {
+      "source": 2,
+      "destination": 6,
+      "capacity": 20
+    },
+    {
+      "source": 2,
+      "destination": 11,
+      "capacity": 5
+    },
+    {
+      "source": 2,
+      "destination": 15,
+      "capacity": 9
+    },
+    {
+      "source": 3,
+      "destination": 7,
+      "capacity": 20
+    },
+    {
+      "source": 3,
+      "destination": 8,
+      "capacity": 10
+    },
+    {
+      "source": 3,
+      "destination": 13,
+      "capacity": 17
+    },
+    {
+      "source": 4,
+      "destination": 5,
+      "capacity": 14
+    },
+    {
+      "source": 4,
+      "destination": 9,
+      "capacity": 11
+    },
+    {
+      "source": 4,
+      "destination": 10,
+      "capacity": 4
+    },
+    {
+      "source": 5,
+      "destination": 20,
+      "capacity": 4
+    },
+    {
+      "source": 6,
+      "destination": 30,
+      "capacity": 18
+    },
+    {
+      "source": 7,
+      "destination": 27,
+      "capacity": 12
+    },
+    {
+      "source": 8,
+      "destination": 12,
+      "capacity": 4
+    },
+    {
+      "source": 8,
+      "destination": 19,
+      "capacity": 5
+    },
+    {
+      "source": 8,
+      "destination": 27,
+      "capacity": 7
+    },
+    {
+      "source": 9,
+      "destination": 14,
+      "capacity": 4
+    },
+    {
+      "source": 10,
+      "destination": 16,
+      "capacity": 13
+    },
+    {
+      "source": 10,
+      "destination": 25,
+      "capacity": 5
+    },
+    {
+      "source": 11,
+      "destination": 20,
+      "capacity": 16
+    },
+    {
+      "source": 11,
+      "destination": 26,
+      "capacity": 20
+    },
+    {
+      "source": 12,
+      "destination": 14,
+      "capacity": 19
+    },
+    {
+      "source": 13,
+      "destination": 17,
+      "capacity": 16
+    },
+    {
+      "source": 13,
+      "destination": 18,
+      "capacity": 15
+    },
+    {
+      "source": 14,
+      "destination": 17,
+      "capacity": 17
+    },
+    {
+      "source": 15,
+      "destination": 25,
+      "capacity": 7
+    },
+    {
+      "source": 16,
+      "destination": 21,
+      "capacity": 13
+    },
+    {
+      "source": 16,
+      "destination": 22,
+      "capacity": 10
+    },
+    {
+      "source": 17,
+      "destination": 22,
+      "capacity": 13
+    },
+    {
+      "source": 18,
+      "destination": 20,
+      "capacity": 13
+    },
+    {
+      "source": 18,
+      "destination": 22,
+      "capacity": 20
+    },
+    {
+      "source": 19,
+      "destination": 24,
+      "capacity": 11
+    },
+    {
+      "source": 19,
+      "destination": 29,
+      "capacity": 12
+    },
+    {
+      "source": 20,
+      "destination": 23,
+      "capacity": 14
+    },
+    {
+      "source": 20,
+      "destination": 25,
+      "capacity": 18
+    },
+    {
+      "source": 21,
+      "destination": 28,
+      "capacity": 9
+    },
+    {
+      "source": 22,
+      "destination": 23,
+      "capacity": 4
+    },
+    {
+      "source": 23,
+      "destination": 24,
+      "capacity": 14
+    },
+    {
+      "source": 24,
+      "destination": 30,
+      "capacity": 3
+    },
+    {
+      "source": 25,
+      "destination": 30,
+      "capacity": 19
+    },
+    {
+      "source": 26,
+      "destination": 31,
+      "capacity": 10
+    },
+    {
+      "source": 27,
+      "destination": 28,
+      "capacity": 18
+    },
+    {
+      "source": 28,
+      "destination": 31,
+      "capacity": 13
+    },
+    {
+      "source": 29,
+      "destination": 32,
+      "capacity": 7
+    },
+    {
+      "source": 30,
+      "destination": 32,
+      "capacity": 18
+    },
+    {
+      "source": 31,
+      "destination": 32,
+      "capacity": 5
+    }
+  ],
+  "description": "Generated for the Flow chapter corpus: seed 20260830:psplib-j301_1, integer capacities uniform in [1,20], one draw per edge. Node capacities also drawn, uniform in [1,20], seed 20260830:psplib-j301_1:nodes.",
+  "nodes": [
+    {
+      "node": 1,
+      "capacity": 19
+    },
+    {
+      "node": 2,
+      "capacity": 12
+    },
+    {
+      "node": 3,
+      "capacity": 12
+    },
+    {
+      "node": 4,
+      "capacity": 14
+    },
+    {
+      "node": 5,
+      "capacity": 10
+    },
+    {
+      "node": 6,
+      "capacity": 12
+    },
+    {
+      "node": 7,
+      "capacity": 16
+    },
+    {
+      "node": 8,
+      "capacity": 12
+    },
+    {
+      "node": 9,
+      "capacity": 2
+    },
+    {
+      "node": 10,
+      "capacity": 19
+    },
+    {
+      "node": 11,
+      "capacity": 5
+    },
+    {
+      "node": 12,
+      "capacity": 15
+    },
+    {
+      "node": 13,
+      "capacity": 14
+    },
+    {
+      "node": 14,
+      "capacity": 11
+    },
+    {
+      "node": 15,
+      "capacity": 19
+    },
+    {
+      "node": 16,
+      "capacity": 17
+    },
+    {
+      "node": 17,
+      "capacity": 12
+    },
+    {
+      "node": 18,
+      "capacity": 17
+    },
+    {
+      "node": 19,
+      "capacity": 11
+    },
+    {
+      "node": 20,
+      "capacity": 19
+    },
+    {
+      "node": 21,
+      "capacity": 12
+    },
+    {
+      "node": 22,
+      "capacity": 10
+    },
+    {
+      "node": 23,
+      "capacity": 1
+    },
+    {
+      "node": 24,
+      "capacity": 6
+    },
+    {
+      "node": 25,
+      "capacity": 8
+    },
+    {
+      "node": 26,
+      "capacity": 8
+    },
+    {
+      "node": 27,
+      "capacity": 20
+    },
+    {
+      "node": 28,
+      "capacity": 10
+    },
+    {
+      "node": 29,
+      "capacity": 19
+    },
+    {
+      "node": 30,
+      "capacity": 17
+    },
+    {
+      "node": 31,
+      "capacity": 6
+    },
+    {
+      "node": 32,
+      "capacity": 1
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+network,nodes,edges,solver,warm_seconds
+genrmf_dag_small,360,924,dinic,0.002000
+genrmf_dag_small,360,924,edmonds_karp,0.007000
+genrmf_dag_small,360,924,push_relabel,0.097000
+genrmf_dag_small,360,924,oracle_graphsflows,1.181000
+genrmf_dag_medium,3332,9324,dinic,0.017000
+genrmf_dag_medium,3332,9324,edmonds_karp,0.179000
+genrmf_dag_medium,3332,9324,push_relabel,0.019000
+genrmf_dag_medium,3332,9324,oracle_graphsflows,0.085000
+genrmf_dag_large,27040,78364,dinic,0.961000
+genrmf_dag_large,27040,78364,push_relabel,1.520000
+genrmf_dag_large,27040,78364,oracle_graphsflows,9.891000
+genrmf_dag_xlarge,36992,107644,dinic,0.657000
+genrmf_dag_xlarge,36992,107644,push_relabel,2.277000
+genrmf_dag_xlarge,36992,107644,oracle_graphsflows,28.906000

@@ -1,0 +1,300 @@
+%% Talk: exact reliability under imprecision — diamonds, intervals, and the p-box dilemma
+%% Audience: supervisor + coursemates. ~25 min. Figures reused from ../latex_revised/figures/.
+\documentclass[aspectratio=169,11pt]{beamer}
+\usetheme{Madrid}
+\usecolortheme{seahorse}
+\definecolor{ipablue}{HTML}{16548E}
+\definecolor{ipared}{HTML}{A23B2E}
+\setbeamercolor{structure}{fg=ipablue}
+\setbeamercolor{title}{fg=white,bg=ipablue}
+\setbeamercolor{frametitle}{fg=white,bg=ipablue}
+\setbeamerfont{frametitle}{series=\bfseries}
+\usepackage{booktabs}
+\usepackage{amsmath,amssymb}
+\graphicspath{{../latex_revised/figures/}}
+\newcommand{\good}[1]{\textcolor{ipablue}{#1}}
+\newcommand{\bad}[1]{\textcolor{ipared}{#1}}
+
+\title[IPA under imprecision]{Exact Reliability under Imprecision}
+\subtitle{Diamonds, intervals, and the p-box dilemma}
+\author{Temitope Ohiani}
+\institute{University of Strathclyde}
+\date{July 2026}
+
+\begin{document}
+
+\begin{frame}\titlepage\end{frame}
+
+%% ---------------------------------------------------------------- Part 1
+\section{The recursion}
+
+\begin{frame}{The problem, and why the obvious thing is wrong}
+\begin{columns}
+\column{0.52\textwidth}
+\textbf{Goal:} for every node $v$, the probability that at least one viable path
+reaches it from a source:
+\[ b(v) = P(\text{some source} \rightsquigarrow v). \]
+Local message passing: $b(v)=R(v)\bigl(1-\prod_i(1-S_i)\bigr)$ \dots\ \emph{if} incoming signals are
+independent.
+\medskip
+
+\textbf{Reconvergence breaks it.} Both paths share the fork $f$:
+\begin{itemize}
+\item independent update: \bad{$b(j)=0.749$}
+\item exact (path enumeration): \good{$b(j)=0.675$}
+\end{itemize}
+Shared ancestry $\Rightarrow$ positive correlation $\Rightarrow$ the na\"ive union
+\emph{overestimates}.
+\column{0.44\textwidth}
+\includegraphics[width=\linewidth]{rId34.png}
+\centering\small all components $0.9$
+\end{columns}
+\end{frame}
+
+\begin{frame}{The fix: condition on the fork (a local cutset)}
+Condition on the shared fork's reachability $\mathcal{R}_f$, then recombine by total probability:
+\[
+b(j) \;=\; \underbrace{w}_{P(\mathcal{R}_f=1)}\cdot\,\psi(1)\;+\;(1-w)\cdot\psi(0),
+\qquad
+\psi(s)=P(\text{signal reaches } j \mid \mathcal{R}_f=s).
+\]
+\begin{itemize}
+\item Given the fork's state, the branches are \textbf{conditionally independent} $\Rightarrow$
+  closed-form update applies again (separator sufficiency).
+\item On the simple diamond: $0.81\times0.926559+0.19\times0 = 0.750513$
+  $\Rightarrow b(j)=\good{0.675}$ --- exact.
+\item General case: a separating set $C$ of the parents' shared ancestry, $2^{|C|}$ states.
+\item This \emph{is} cutset conditioning (Pearl) --- specialised: \textbf{local} cutsets at each
+  reconvergence, recursively, instead of one global cutset.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Nesting: diamonds inside diamonds}
+\begin{columns}
+\column{0.40\textwidth}
+\centering\includegraphics[height=0.76\textheight,keepaspectratio]{rId46.png}
+\column{0.58\textwidth}
+Resolved inner-first; solved diamonds become \textbf{supernodes} storing their conditional map
+$s\mapsto\psi(s)$.
+\medskip
+
+\small
+\begin{tabular}{lcccccc}
+\toprule
+ & join & fork & $w$ & $\psi(1)$ & $\psi(0)$ & $b(j)$\\
+\midrule
+$D_1$ & 6  & 1  & 0.81 & 0.859 & 0.531 & 0.797\\
+$D_2$ & 11 & 7  & 0.81 & 0.804 & 0.430 & 0.733\\
+$D_3$ & 12 & 14 & 0.81 & 0.839 & 0.525 & 0.779\\
+$D_4$ & 16 & 1  & 0.81 & 0.823 & 0.736 & \good{0.806}\\
+\bottomrule
+\end{tabular}
+\medskip
+
+\begin{itemize}
+\item $\psi(0)\neq 0$: other sources still feed the joins.
+\item Verified against exhaustive path enumeration: agreement $\le 3.4\times10^{-16}$.
+\item Reuse matters even here: \good{68} sub-problems with supernode reuse vs \bad{145} without.
+\end{itemize}
+\end{columns}
+\end{frame}
+
+\begin{frame}{What it costs --- and the honest comparison}
+\begin{columns}
+\column{0.5\textwidth}
+Per-instance cost is \emph{definite}, known before enumerating:
+\[ W=\sum_{d} 2^{|C_d|}\cdot O(|E_d|). \]
+\begin{itemize}
+\item $|C|_{\max}$ tracks the same structural \textbf{width} that governs junction trees
+  ($2^{\text{treewidth}}$) and sifted ROBDDs ($2^{\text{pathwidth}}$).
+\item Measured across the corpus: \textbf{neither method dominates}.
+\item So: no asymptotic advantage for exact point values.\\
+  \good{The value has to come from somewhere else.}
+\end{itemize}
+\column{0.48\textwidth}
+\includegraphics[width=\linewidth]{width_correlation.pdf}
+\end{columns}
+\end{frame}
+
+%% ---------------------------------------------------------------- Part 2
+\section{The type ladder}
+
+\begin{frame}{One recursion, three number types}
+Everything above is arithmetic over $\{+,\ \times,\ 1-(\cdot)\}$ on probabilities.
+So swap the number type underneath the \emph{same} recursion:
+\medskip
+\begin{center}
+\begin{tabular}{lll}
+\toprule
+type & meaning & status\\
+\midrule
+point value $p$ & reliability known & exact (vs ROBDD: $10^{-16}$, 129 graphs + families)\\
+interval $[\underline{p},\overline{p}]$ & only bounds known & \good{exact} --- and the easy case\\
+p-box $(\underline{F},\overline{F})$ & partial distribution known & \bad{the hard case} --- rest of this talk\\
+\bottomrule
+\end{tabular}
+\end{center}
+\medskip
+Epistemic uncertainty (sparse data, expert bounds) rides \emph{through} the analysis instead of being
+collapsed into a point estimate.
+\end{frame}
+
+\begin{frame}{Intervals: the easy case (deliberately anticlimactic)}
+$b(v)$ is \textbf{monotone non-decreasing in every component reliability} (more reliable parts never
+hurt connectivity). Therefore:
+\[
+[\,\underline{b}(v),\overline{b}(v)\,]
+=\bigl[\,b(\text{all lower corners}),\ b(\text{all upper corners})\,\bigr]
+\quad\text{--- exactly.}
+\]
+\begin{itemize}
+\item No dependency dilemma \emph{at all}: the extreme corners realise the extreme outputs.
+\item Validated against decision-diagram corner evaluation: $\sim 10^{-16}$, whole corpus.
+\item Ignoring reconvergent dependence instead: over-wide by up to \bad{0.45}.
+\item Cost $\approx 1.2\times$ point-valued ($\approx$ free); one-shot queries $2.9\times$--$95\times$
+  faster than build-diagram-then-evaluate-corners (one-shot scope only).
+\end{itemize}
+\medskip
+\good{Interval propagation inherits exactness for free.}\quad
+\bad{P-boxes will not be so kind.}
+\end{frame}
+
+%% ---------------------------------------------------------------- Part 3
+\section{The p-box dilemma}
+
+\begin{frame}{Where p-boxes break the recombination}
+The same conditioning step,
+\[ b \;=\; W\cdot A + (1-W)\cdot B, \]
+but now $W,A,B$ are \emph{distributions} (p-boxes) --- and $A$, $B$ are \textbf{dependent}: both are
+functions of the same shared upstream reliabilities.
+\medskip
+\begin{itemize}
+\item This is a \textbf{convex combination of dependent random quantities} --- not an independent sum.
+\item Computing it as an independent convolution is \bad{unsound}: measured mass leak up to
+  \bad{$0.34$} outside $[0,1]$ on the benchmark grid (the bug we found and fixed).
+\item A wrong-but-plausible p-box is worse than no p-box: it \emph{certifies} falsehoods.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{The correct operator}
+Integrate over the weight's own distribution, blending the branch distributions at each weight level,
+enveloped over $W$'s imprecision:
+\[
+M \;=\; \operatorname*{env}_{W}\ \int \operatorname{blend}\bigl(w\!\cdot\! A,\ (1{-}w)\!\cdot\! B\bigr)\, dF_W(w),
+\]
+where \textbf{blend} bounds the $A$--$B$ dependence. Numerical hardening: result intersected with
+$[0,1]$ (sound projection --- can only tighten a probability), \emph{guarded}: excursions $>10^{-6}$
+raise an error instead of being clamped, so a real regression cannot hide as rounding.
+\medskip
+
+\textbf{The open choice is the blend} --- and it is a genuine dilemma:
+provability versus tightness.
+\end{frame}
+
+\begin{frame}{The dilemma: provable vs tight}
+\begin{center}\small
+\begin{tabular}{llll}
+\toprule
+operator & dependence assumed & soundness & tightness\\
+\midrule
+\textbf{cvxF} & none (Fr\'echet--Hoeffding) & \good{proven} (classical theorem, & conservative;\\
+ & & Williamson \& Downs 1990) & can go vacuous\\[1mm]
+\textbf{cvxP} & non-negative only & \bad{empirical}: 0 violations vs MC, & tighter; never\\
+ & & all configs; \emph{no theorem} & vacuous in practice\\
+\bottomrule
+\end{tabular}
+\end{center}
+\medskip
+Why non-negative dependence is physically justified: both branches are \textbf{monotone-increasing} in
+the shared upstream reliabilities $\Rightarrow$ they move together $\Rightarrow$ negative dependence is
+impossible; full Fr\'echet wastes that half of the dependence range.
+\medskip
+
+Paper stance: \good{lead with cvxF for every guaranteed claim}; present cvxP as validated, proof open.
+\end{frame}
+
+\begin{frame}{The open problem (please attack this)}
+\textbf{Claim we cannot yet prove:} the positive-dependence blend is sound whenever the branch
+dependence is non-negative but otherwise unspecified.
+\begin{itemize}
+\item The dependency-bound literature is a strict trichotomy: independence / fully specified copula /
+  fully unknown. \textbf{Nothing} in between --- checked, not just un-found.
+\item Natural attempt: supermodular (Tchen) ordering --- \bad{obstructed}: the comparison function is
+  not uniformly ordered over outcomes.
+\item Concrete obstruction: independent vs comonotone uniforms --- the combined distributions
+  \emph{cross}; neither uniformly bounds the other.
+\end{itemize}
+\medskip
+Until resolved: cvxP stays labelled ``empirically validated, proof future work'' --- never
+``guaranteed''. A proof (or a counterexample!) is publishable either way.
+\end{frame}
+
+%% ---------------------------------------------------------------- Part 4
+\section{So what}
+
+\begin{frame}{Sound is not tight --- the honest envelope}
+\begin{columns}
+\column{0.5\textwidth}
+Soundness \textbf{never} varies (0 violations, all 18 sweep configs).
+Tightness does:
+\begin{itemize}
+\item high-reliability, weakly reconvergent: band $0.18$--$0.44$ ($\approx\pm9$--$22\%$) --- useful;
+\item fully uncertain, strongly reconvergent: band $0.60$--$0.70$ ($\approx\pm30\%$) --- conservative.
+\end{itemize}
+Driver: reconvergence depth $\times$ input uncertainty. Input \emph{shape} is secondary.
+\medskip
+
+Band is the \emph{worst} threshold's gap --- the curves pinch at the ends, where real requirements live.
+\column{0.48\textwidth}
+\includegraphics[width=\linewidth]{envelope.pdf}
+\end{columns}
+\end{frame}
+
+\begin{frame}{The payoff: a certified decision bound from one propagation}
+\begin{columns}
+\column{0.46\textwidth}
+Requirement $x^\ast=0.95$ at the benchmark target node:
+\begin{itemize}
+\item certified band on $P(b\le x^\ast)$: width \good{$0.02$--$0.12$} --- even in the regime whose
+  overall envelope is $0.68$;
+\item Monte Carlo to match: \bad{$267$--$9{,}604$ samples} (worst-case planning), and still only an
+  estimate;
+\item decision diagrams: \bad{no analytic route at all}.
+\end{itemize}
+\medskip
+Applied: Scotland drone network --- worst-served facility (Islay Hospital) certified at
+$[0.56, 0.72]$ reachability.
+\column{0.52\textwidth}
+\includegraphics[width=\linewidth]{drone_reliability_map.pdf}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Limitations, honestly --- and takeaways}
+\textbf{Limitations}
+\begin{itemize}
+\item p-box cost is quadratic in the discretisation level ($2.7\,$s @ 50 $\to$ $110\,$s @ 800 on
+  $n{=}15$): a precision/cost dial, small networks for now.
+\item Imprecision is \emph{not} a scalability fix: same conditioning depth as exact propagation.
+\item cvxP soundness proof open (previous slide).
+\end{itemize}
+\medskip
+\textbf{Takeaways}
+\begin{enumerate}
+\item One exact recursion; conditioning on local cutsets handles reconvergence; same width class as
+  BDDs/junction trees --- no free lunch on exact point values.
+\item Intervals: exactness for free, by monotonicity.
+\item P-boxes: dependence at the recombination is the whole difficulty; Fr\'echet blend gives
+  \emph{guaranteed} distributional bounds no exact competitor produces --- with a well-characterised
+  tightness envelope and one clean open problem.
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{}
+\centering\Large
+Questions --- or better, attacks on the open problem.\\[2em]
+\normalsize
+$W\!\cdot\!A+(1{-}W)\!\cdot\!B$,\quad $A,B$ positively but unspecifiedly dependent:\\
+is the $\operatorname{env}(\text{independent},\text{comonotone})$ blend always sound?
+\end{frame}
+
+\end{document}

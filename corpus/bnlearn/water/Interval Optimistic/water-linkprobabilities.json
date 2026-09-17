@@ -1,0 +1,338 @@
+{
+  "links": {
+    "(1,9)": {
+      "type": "interval",
+      "lower": 0.93,
+      "upper": 0.97
+    },
+    "(1,11)": {
+      "type": "interval",
+      "lower": 0.91,
+      "upper": 0.96
+    },
+    "(2,10)": {
+      "type": "interval",
+      "lower": 0.93,
+      "upper": 0.97
+    },
+    "(2,11)": {
+      "type": "interval",
+      "lower": 0.91,
+      "upper": 0.96
+    },
+    "(2,12)": {
+      "type": "interval",
+      "lower": 0.9,
+      "upper": 0.95
+    },
+    "(3,11)": {
+      "type": "interval",
+      "lower": 0.93,
+      "upper": 0.97
+    },
+    "(3,13)": {
+      "type": "interval",
+      "lower": 0.89,
+      "upper": 0.94
+    },
+    "(3,14)": {
+      "type": "interval",
+      "lower": 0.9,
+      "upper": 0.95
+    },
+    "(4,12)": {
+      "type": "interval",
+      "lower": 0.93,
+      "upper": 0.97
+    },
+    "(4,15)": {
+      "type": "interval",
+      "lower": 0.9,
+      "upper": 0.95
+    },
+    "(5,11)": {
+      "type": "interval",
+      "lower": 0.91,
+      "upper": 0.96
+    },
+    "(5,13)": {
+      "type": "interval",
+      "lower": 0.93,
+      "upper": 0.97
+    },
+    "(5,16)": {
+      "type": "interval",
+      "lower": 0.89,
+      "upper": 0.94
+    },
+    "(6,11)": {
+      "type": "interval",
+      "lower": 0.91,
+      "upper": 0.96
+    },
+    "(6,14)": {
+      "type": "interval",
+      "lower": 0.93,
+      "upper": 0.97
+    },
+    "(6,16)": {
+      "type": "interval",
+      "lower": 0.9,
+      "upper": 0.95
+    },
+    "(7,12)": {
+      "type": "interval",
+      "lower": 0.89,
+      "upper": 0.94
+    },
+    "(7,15)": {
+      "type": "interval",
+      "lower": 0.93,
+      "upper": 0.97
+    },
+    "(7,16)": {
+      "type": "interval",
+      "lower": 0.9,
+      "upper": 0.95
+    },
+    "(8,13)": {
+      "type": "interval",
+      "lower": 0.89,
+      "upper": 0.94
+    },
+    "(8,14)": {
+      "type": "interval",
+      "lower": 0.89,
+      "upper": 0.94
+    },
+    "(8,16)": {
+      "type": "interval",
+      "lower": 0.93,
+      "upper": 0.97
+    },
+    "(9,17)": {
+      "type": "interval",
+      "lower": 0.92,
+      "upper": 0.96
+    },
+    "(9,19)": {
+      "type": "interval",
+      "lower": 0.89,
+      "upper": 0.94
+    },
+    "(10,18)": {
+      "type": "interval",
+      "lower": 0.92,
+      "upper": 0.96
+    },
+    "(10,19)": {
+      "type": "interval",
+      "lower": 0.89,
+      "upper": 0.94
+    },
+    "(10,20)": {
+      "type": "interval",
+      "lower": 0.89,
+      "upper": 0.94
+    },
+    "(11,19)": {
+      "type": "interval",
+      "lower": 0.89,
+      "upper": 0.94
+    },
+    "(11,21)": {
+      "type": "interval",
+      "lower": 0.83,
+      "upper": 0.89
+    },
+    "(11,22)": {
+      "type": "interval",
+      "lower": 0.89,
+      "upper": 0.94
+    },
+    "(12,20)": {
+      "type": "interval",
+      "lower": 0.92,
+      "upper": 0.96
+    },
+    "(12,23)": {
+      "type": "interval",
+      "lower": 0.89,
+      "upper": 0.94
+    },
+    "(13,19)": {
+      "type": "interval",
+      "lower": 0.92,
+      "upper": 0.96
+    },
+    "(13,21)": {
+      "type": "interval",
+      "lower": 0.89,
+      "upper": 0.94
+    },
+    "(13,24)": {
+      "type": "interval",
+      "lower": 0.89,
+      "upper": 0.94
+    },
+    "(14,19)": {
+      "type": "interval",
+      "lower": 0.89,
+      "upper": 0.94
+    },
+    "(14,22)": {
+      "type": "interval",
+      "lower": 0.89,
+      "upper": 0.94
+    },
+    "(14,24)": {
+      "type": "interval",
+      "lower": 0.89,
+      "upper": 0.94
+    },
+    "(15,20)": {
+      "type": "interval",
+      "lower": 0.83,
+      "upper": 0.89
+    },
+    "(15,23)": {
+      "type": "interval",
+      "lower": 0.89,
+      "upper": 0.94
+    },
+    "(15,24)": {
+      "type": "interval",
+      "lower": 0.89,
+      "upper": 0.94
+    },
+    "(16,21)": {
+      "type": "interval",
+      "lower": 0.86,
+      "upper": 0.92
+    },
+    "(16,22)": {
+      "type": "interval",
+      "lower": 0.86,
+      "upper": 0.92
+    },
+    "(16,24)": {
+      "type": "interval",
+      "lower": 0.89,
+      "upper": 0.94
+    },
+    "(17,25)": {
+      "type": "interval",
+      "lower": 0.89,
+      "upper": 0.94
+    },
+    "(17,27)": {
+      "type": "interval",
+      "lower": 0.88,
+      "upper": 0.94
+    },
+    "(18,26)": {
+      "type": "interval",
+      "lower": 0.89,
+      "upper": 0.94
+    },
+    "(18,27)": {
+      "type": "interval",
+      "lower": 0.88,
+      "upper": 0.94
+    },
+    "(18,28)": {
+      "type": "interval",
+      "lower": 0.89,
+      "upper": 0.94
+    },
+    "(19,27)": {
+      "type": "interval",
+      "lower": 0.88,
+      "upper": 0.94
+    },
+    "(19,29)": {
+      "type": "interval",
+      "lower": 0.89,
+      "upper": 0.94
+    },
+    "(19,30)": {
+      "type": "interval",
+      "lower": 0.89,
+      "upper": 0.94
+    },
+    "(20,28)": {
+      "type": "interval",
+      "lower": 0.89,
+      "upper": 0.94
+    },
+    "(20,31)": {
+      "type": "interval",
+      "lower": 0.89,
+      "upper": 0.94
+    },
+    "(21,27)": {
+      "type": "interval",
+      "lower": 0.88,
+      "upper": 0.94
+    },
+    "(21,29)": {
+      "type": "interval",
+      "lower": 0.89,
+      "upper": 0.94
+    },
+    "(21,32)": {
+      "type": "interval",
+      "lower": 0.83,
+      "upper": 0.89
+    },
+    "(22,27)": {
+      "type": "interval",
+      "lower": 0.88,
+      "upper": 0.94
+    },
+    "(22,30)": {
+      "type": "interval",
+      "lower": 0.89,
+      "upper": 0.94
+    },
+    "(22,32)": {
+      "type": "interval",
+      "lower": 0.83,
+      "upper": 0.89
+    },
+    "(23,28)": {
+      "type": "interval",
+      "lower": 0.89,
+      "upper": 0.94
+    },
+    "(23,31)": {
+      "type": "interval",
+      "lower": 0.89,
+      "upper": 0.94
+    },
+    "(23,32)": {
+      "type": "interval",
+      "lower": 0.89,
+      "upper": 0.94
+    },
+    "(24,29)": {
+      "type": "interval",
+      "lower": 0.89,
+      "upper": 0.94
+    },
+    "(24,30)": {
+      "type": "interval",
+      "lower": 0.89,
+      "upper": 0.94
+    },
+    "(24,32)": {
+      "type": "interval",
+      "lower": 0.89,
+      "upper": 0.94
+    }
+  },
+  "data_type": "Interval",
+  "serialization": "compact",
+  "scenario_intent": "Optimistic uncertainty: stronger capacities and tighter intervals, improved best-case limits.",
+  "description": "Link/edge probabilities for WATER network - Interval Optimistic. Optimistic uncertainty: stronger capacities and tighter intervals, improved best-case limits."
+}

@@ -1,0 +1,7 @@
+{
+  "networkPath": "C:\\Development\\Info_Prop_Framework_Project\\Info_Prop_Framework_Project\\dag_ntwrk_files\\net3",
+  "nodepriorsPath": "net3-scenarios/Baseline/Baseline-nodepriors.json",
+  "linkprobsPath": "net3-scenarios/Baseline/Baseline-linkprobabilities.json",
+  "includeExactInference": true,
+  "includeDiamondAnalysis": true
+}

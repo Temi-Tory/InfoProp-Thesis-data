@@ -1,0 +1,17 @@
+{
+  "nodes": {
+    "4": 0.4662643095368083,
+    "1": 0.714784386725219,
+    "2": 0.9509743433860836,
+    "6": 0.7360006052890282,
+    "7": 0.3686366782410559,
+    "11": 0.5942166665457784,
+    "8": 0.5468706160994479,
+    "5": 0.6819842608786651,
+    "10": 1.0,
+    "9": 1.0,
+    "3": 0.7952185913252381
+  },
+  "data_type": "Float64",
+  "description": "Synthetic reliabilities on the real bnlearn 'sachs-bnlearn' DAG topology -- structural exactness validation only, not a decision-relevant claim about the represented system."
+}

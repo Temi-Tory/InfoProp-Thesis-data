@@ -1,0 +1,72 @@
+% Auto-generated LaTeX tables for thesis
+% Requires: \usepackage{booktabs}
+
+\begin{table}[htbp]
+\centering
+\caption{Configuration comparison summary.}
+\label{tab:config_comparison}
+\begin{tabular}{lcc}
+\toprule
+Metric & Config A & Config B \\
+\midrule
+F* & 37.0 & 37.0 \\
+saturated\\_edges & 41 & 35 \\
+free\\_zone\\_size & 2 & 0 \\
+min\\_cuts & 4 & 1 \\
+SPOF\\_nodes & 0 & 0 \\
+upgrade\\_ineffective (gateway edges) & true & false \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Top critical edges for Config A (non-zero deltas).}
+\label{tab:critical_edges_config_a}
+\begin{tabular}{lcccc}
+\toprule
+Rank & Edge & Label & delta\\_F* & perturbed\\_flow \\
+\midrule
+1 & (134->136) & dispatch\\_gateway\\_west->distribution\\_combiner & 17.0 & 20.0 \\
+2 & (135->136) & dispatch\\_gateway\\_east->distribution\\_combiner & 17.0 & 20.0 \\
+3 & (128->134) & secondary\\_a->dispatch\\_gateway\\_west & 4.0 & 33.0 \\
+4 & (130->135) & secondary\\_c->dispatch\\_gateway\\_east & 4.0 & 33.0 \\
+5 & (131->134) & secondary\\_d->dispatch\\_gateway\\_west & 4.0 & 33.0 \\
+6 & (133->135) & secondary\\_f->dispatch\\_gateway\\_east & 4.0 & 33.0 \\
+7 & (129->134) & secondary\\_b->dispatch\\_gateway\\_west & 3.0 & 34.0 \\
+8 & (129->135) & secondary\\_b->dispatch\\_gateway\\_east & 3.0 & 34.0 \\
+9 & (132->134) & secondary\\_e->dispatch\\_gateway\\_west & 3.0 & 34.0 \\
+10 & (132->135) & secondary\\_e->dispatch\\_gateway\\_east & 3.0 & 34.0 \\
+11 & (132->140) & secondary\\_e->sink\\_4 & 3.0 & 34.0 \\
+12 & (130->134) & secondary\\_c->dispatch\\_gateway\\_west & 2.0 & 35.0 \\
+13 & (131->135) & secondary\\_d->dispatch\\_gateway\\_east & 2.0 & 35.0 \\
+14 & (128->135) & secondary\\_a->dispatch\\_gateway\\_east & 1.0 & 36.0 \\
+15 & (133->134) & secondary\\_f->dispatch\\_gateway\\_west & 1.0 & 36.0 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Min-cut enumeration for Config A.}
+\label{tab:mincut_enumeration_config_a}
+\begin{tabular}{lp{10cm}}
+\toprule
+Cut & Crossing edges \\
+\midrule
+1 & (128$\rightarrow$134), (128$\rightarrow$135), (129$\rightarrow$134), (129$\rightarrow$135), \\
+  & (130$\rightarrow$134), (130$\rightarrow$135), (131$\rightarrow$134), (131$\rightarrow$135), \\
+  & (132$\rightarrow$134), (132$\rightarrow$135), (132$\rightarrow$140), (133$\rightarrow$134), \\
+  & (133$\rightarrow$135) \\
+\midrule
+2 & (128$\rightarrow$135), (129$\rightarrow$135), (130$\rightarrow$135), (131$\rightarrow$135), \\
+  & (132$\rightarrow$135), (132$\rightarrow$140), (133$\rightarrow$135), (134$\rightarrow$136) \\
+\midrule
+3 & (128$\rightarrow$134), (129$\rightarrow$134), (130$\rightarrow$134), (131$\rightarrow$134), \\
+  & (132$\rightarrow$134), (132$\rightarrow$140), (133$\rightarrow$134), (135$\rightarrow$136) \\
+\midrule
+4 & (132$\rightarrow$140), (134$\rightarrow$136), (135$\rightarrow$136) \\
+\bottomrule
+\end{tabular}
+\end{table}
+

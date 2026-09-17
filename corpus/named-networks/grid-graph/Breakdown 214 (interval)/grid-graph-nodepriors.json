@@ -1,0 +1,87 @@
+{
+  "nodes": {
+    "4": {
+      "lower": 0.22,
+      "type": "interval",
+      "upper": 0.26
+    },
+    "1": {
+      "lower": 0.31,
+      "type": "interval",
+      "upper": 0.35
+    },
+    "12": {
+      "lower": 0.27,
+      "type": "interval",
+      "upper": 0.32
+    },
+    "2": {
+      "lower": 0.41,
+      "type": "interval",
+      "upper": 0.45
+    },
+    "6": {
+      "lower": 0.34,
+      "type": "interval",
+      "upper": 0.39
+    },
+    "11": {
+      "lower": 0.24,
+      "type": "interval",
+      "upper": 0.29
+    },
+    "13": {
+      "lower": 0.46,
+      "type": "interval",
+      "upper": 0.50
+    },
+    "5": {
+      "lower": 0.29,
+      "type": "interval",
+      "upper": 0.33
+    },
+    "15": {
+      "lower": 0.37,
+      "type": "interval",
+      "upper": 0.42
+    },
+    "16": {
+      "lower": 0.20,
+      "type": "interval",
+      "upper": 0.25
+    },
+    "14": {
+      "lower": 0.43,
+      "type": "interval",
+      "upper": 0.48
+    },
+    "7": {
+      "lower": 0.26,
+      "type": "interval",
+      "upper": 0.31
+    },
+    "8": {
+      "lower": 0.39,
+      "type": "interval",
+      "upper": 0.44
+    },
+    "10": {
+      "lower": 0.32,
+      "type": "interval",
+      "upper": 0.37
+    },
+    "9": {
+      "lower": 0.21,
+      "type": "interval",
+      "upper": 0.26
+    },
+    "3": {
+      "lower": 0.35,
+      "type": "interval",
+      "upper": 0.40
+    }
+  },
+  "data_type": "Interval",
+  "serialization": "compact",
+  "description": "Node prior probabilities for network analysis"
+}

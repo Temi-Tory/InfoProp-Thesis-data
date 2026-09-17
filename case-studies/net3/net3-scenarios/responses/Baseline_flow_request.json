@@ -1,0 +1,8 @@
+{
+  "networkPath": "C:\\Development\\Info_Prop_Framework_Project\\Info_Prop_Framework_Project\\dag_ntwrk_files\\net3",
+  "capacitiesPath": "net3-scenarios/Baseline/Baseline-capacities.json",
+  "analysisOptions": {
+    "kFailure": 2,
+    "cutLimit": 200
+  }
+}

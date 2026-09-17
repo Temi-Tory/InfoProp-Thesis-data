@@ -1,0 +1,66 @@
+IEEE RTS-24 -- net-injection model, 26 nodes (incl. S=0, T=25), 54 edges
+structural (zero-in-degree) sources: [0]   structural (zero-out-degree) sinks: [25]
+total system peak demand (all 17 load buses) = 2850 MW -- now the actual reference: S and T aggregate every
+  bus's NET position, so max_flow(S,T) below is deliverable throughput against this whole-system figure, not a
+  structural subset. (Self-served local demand at net-export buses never touches the network and is delivered
+  unconditionally as long as that bus's own generation covers its own load -- see net_injection_log.txt.)
+
+=== primary: generator-nameplate-limited net injection ===
+max_flow = 1607.0 MVA
+  = 56.4% of total system peak demand (2850 MW)
+
+=== comparison: unconstrained generation (net-load caps only, generator nameplate limits ignored) ===
+max_flow = 1607.0 MVA  (56.4% of total system peak demand)
+generator nameplate limits cost 0.0 MVA of deliverable throughput relative to the unconstrained case
+
+=== binding cut (primary scenario) ===
+  (3, 25)  capacity=180.0  [demand-side (bus->T)]
+  (4, 25)  capacity=74.0  [demand-side (bus->T)]
+  (5, 25)  capacity=71.0  [demand-side (bus->T)]
+  (6, 25)  capacity=136.0  [demand-side (bus->T)]
+  (8, 25)  capacity=171.0  [demand-side (bus->T)]
+  (9, 25)  capacity=175.0  [demand-side (bus->T)]
+  (10, 25)  capacity=195.0  [demand-side (bus->T)]
+  (14, 25)  capacity=194.0  [demand-side (bus->T)]
+  (15, 25)  capacity=102.0  [demand-side (bus->T)]
+  (19, 25)  capacity=181.0  [demand-side (bus->T)]
+  (20, 25)  capacity=128.0  [demand-side (bus->T)]
+cut capacity = 1607.0 MVA (matches max_flow: yes)
+
+=== single points of failure (nodes) ===
+Int64[]
+
+=== single-edge failures, partitioned by edge type (primary scenario) ===
+-- five most damaging single-LINE failures --
+
+-- five most damaging single-GENERATOR failures (S->bus edge loss = losing that bus's entire nameplate generation) --
+
+(11 demand-side bus->T edges also in the full ranking -- a single bus's demand vanishing; not a failure mode, omitted from the ranking above)
+Empty line/generator rankings above are a real finding, not a gap: every net-import bus's demand is fully
+saturated (binding cut is 100% demand-side, see above) while every line and every generator still has slack,
+so no single line or generator failure reduces total deliverable throughput at all -- the system is fully
+N-1 secure for aggregate throughput at these nameplate/thermal-rating capacity levels.
+
+=== real-asset headroom: how close is each LINE and GENERATOR to its own cap, given the primary flow? ===
+(distinct from the binding-cut edges above, which are all demand-side; this asks which real transmission or
+ generation asset is closest to becoming the next constraint, not which edge is currently binding)
+-- five lines with the least headroom (capacity - flow) --
+  (7, 8)  capacity=175.0  flow=171.0  headroom=4.0
+  (10, 6)  capacity=175.0  flow=102.0  headroom=73.0
+  (2, 4)  capacity=175.0  flow=74.0  headroom=101.0
+  (1, 5)  capacity=175.0  flow=71.0  headroom=104.0
+  (2, 6)  capacity=175.0  flow=34.0  headroom=141.0
+-- five generators with the least headroom (capacity - flow) --
+  bus 1    capacity=84.0  flow=84.0  headroom=0.0
+  bus 2    capacity=95.0  flow=95.0  headroom=0.0
+  bus 13   capacity=326.0  flow=326.0  headroom=0.0
+  bus 16   capacity=55.0  flow=55.0  headroom=0.0
+  bus 7    capacity=175.0  flow=171.0  headroom=4.0
+
+=== upgrade thresholds: binding cut edges, target +10% flow ===
+(binding cut is 100% demand-side -- see caveat above; these numbers answer "how much would this one bus's
+ own demand need to grow, alone, to raise total delivered throughput 10%", not a transmission/generation
+ upgrade question, since neither is the current constraint)
+  (3, 25) [demand-side]  original_capacity=180.0  required_capacity=340.7  required_increase=160.7  target_flow=1767.7  already_sufficient=false
+  (4, 25) [demand-side]  original_capacity=74.0  required_capacity=234.7  required_increase=160.7  target_flow=1767.7  already_sufficient=false
+  (5, 25) [demand-side]  original_capacity=71.0  required_capacity=231.7  required_increase=160.7  target_flow=1767.7  already_sufficient=false

@@ -1,0 +1,168 @@
+{
+  "nodes": {
+    "24": {
+      "lower": 0.645,
+      "type": "interval",
+      "upper": 0.885
+    },
+    "4": {
+      "lower": 0.7395,
+      "type": "interval",
+      "upper": 0.9795
+    },
+    "1": {
+      "lower": 0.74,
+      "type": "interval",
+      "upper": 0.98
+    },
+    "12": {
+      "lower": 0.6475,
+      "type": "interval",
+      "upper": 0.8875
+    },
+    "29": {
+      "lower": 0.6785,
+      "type": "interval",
+      "upper": 0.9185
+    },
+    "20": {
+      "lower": 0.6375,
+      "type": "interval",
+      "upper": 0.8775
+    },
+    "32": {
+      "lower": 0.6815,
+      "type": "interval",
+      "upper": 0.9215
+    },
+    "2": {
+      "lower": 0.7445,
+      "type": "interval",
+      "upper": 0.9845
+    },
+    "6": {
+      "lower": 0.742,
+      "type": "interval",
+      "upper": 0.982
+    },
+    "25": {
+      "lower": 0.665,
+      "type": "interval",
+      "upper": 0.905
+    },
+    "23": {
+      "lower": 0.6465,
+      "type": "interval",
+      "upper": 0.8865
+    },
+    "22": {
+      "lower": 0.642,
+      "type": "interval",
+      "upper": 0.882
+    },
+    "11": {
+      "lower": 0.6775,
+      "type": "interval",
+      "upper": 0.9175
+    },
+    "13": {
+      "lower": 0.6505,
+      "type": "interval",
+      "upper": 0.8905
+    },
+    "5": {
+      "lower": 0.742,
+      "type": "interval",
+      "upper": 0.982
+    },
+    "15": {
+      "lower": 0.6575,
+      "type": "interval",
+      "upper": 0.8975
+    },
+    "27": {
+      "lower": 0.6845,
+      "type": "interval",
+      "upper": 0.9245
+    },
+    "31": {
+      "lower": 0.6705,
+      "type": "interval",
+      "upper": 0.9105
+    },
+    "28": {
+      "lower": 0.674,
+      "type": "interval",
+      "upper": 0.914
+    },
+    "16": {
+      "lower": 0.654,
+      "type": "interval",
+      "upper": 0.894
+    },
+    "14": {
+      "lower": 0.6505,
+      "type": "interval",
+      "upper": 0.8905
+    },
+    "21": {
+      "lower": 0.642,
+      "type": "interval",
+      "upper": 0.882
+    },
+    "7": {
+      "lower": 0.7435,
+      "type": "interval",
+      "upper": 0.9835
+    },
+    "8": {
+      "lower": 0.742,
+      "type": "interval",
+      "upper": 0.982
+    },
+    "26": {
+      "lower": 0.665,
+      "type": "interval",
+      "upper": 0.905
+    },
+    "17": {
+      "lower": 0.6195,
+      "type": "interval",
+      "upper": 0.8595
+    },
+    "10": {
+      "lower": 0.6545,
+      "type": "interval",
+      "upper": 0.8945
+    },
+    "19": {
+      "lower": 0.5385,
+      "type": "interval",
+      "upper": 0.8985
+    },
+    "9": {
+      "lower": 0.631,
+      "type": "interval",
+      "upper": 0.871
+    },
+    "18": {
+      "lower": 0.642,
+      "type": "interval",
+      "upper": 0.882
+    },
+    "30": {
+      "lower": 0.6785,
+      "type": "interval",
+      "upper": 0.9185
+    },
+    "3": {
+      "lower": 0.742,
+      "type": "interval",
+      "upper": 0.982
+    }
+  },
+  "scenario_intent": "Wide uncertainty bounds around stressed hub and choke edges for robust worst/best-case analysis.",
+  "data_type": "Interval",
+  "serialization": "compact",
+  "description": "Reachability inputs for water-highvdemo - 06 Interval Stress"
+}

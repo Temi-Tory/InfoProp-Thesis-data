@@ -1,0 +1,120 @@
+{
+  "data_type": "pbox",
+  "nodes": {
+    "1": {
+      "type": "pbox",
+      "construction_type": "scalar",
+      "value": 1.0
+    },
+    "2": {
+      "type": "pbox",
+      "construction_type": "scalar",
+      "value": 1.0
+    },
+    "3": {
+      "type": "pbox",
+      "construction_type": "scalar",
+      "value": 1.0
+    },
+    "4": {
+      "type": "pbox",
+      "construction_type": "scalar",
+      "value": 1.0
+    },
+    "5": {
+      "type": "pbox",
+      "construction_type": "scalar",
+      "value": 1.0
+    },
+    "6": {
+      "type": "pbox",
+      "construction_type": "scalar",
+      "value": 1.0
+    },
+    "7": {
+      "type": "pbox",
+      "construction_type": "scalar",
+      "value": 1.0
+    },
+    "8": {
+      "type": "pbox",
+      "construction_type": "scalar",
+      "value": 1.0
+    },
+    "9": {
+      "type": "pbox",
+      "construction_type": "scalar",
+      "value": 1.0
+    },
+    "10": {
+      "type": "pbox",
+      "construction_type": "scalar",
+      "value": 1.0
+    },
+    "11": {
+      "type": "pbox",
+      "construction_type": "scalar",
+      "value": 1.0
+    },
+    "12": {
+      "type": "pbox",
+      "construction_type": "scalar",
+      "value": 1.0
+    },
+    "13": {
+      "type": "pbox",
+      "construction_type": "scalar",
+      "value": 1.0
+    },
+    "14": {
+      "type": "pbox",
+      "construction_type": "scalar",
+      "value": 1.0
+    },
+    "15": {
+      "type": "pbox",
+      "construction_type": "scalar",
+      "value": 1.0
+    },
+    "16": {
+      "type": "pbox",
+      "construction_type": "scalar",
+      "value": 1.0
+    },
+    "17": {
+      "type": "pbox",
+      "construction_type": "scalar",
+      "value": 1.0
+    },
+    "18": {
+      "type": "pbox",
+      "construction_type": "scalar",
+      "value": 1.0
+    },
+    "19": {
+      "type": "pbox",
+      "construction_type": "scalar",
+      "value": 1.0
+    },
+    "20": {
+      "type": "pbox",
+      "construction_type": "scalar",
+      "value": 1.0
+    },
+    "21": {
+      "type": "pbox",
+      "construction_type": "scalar",
+      "value": 1.0
+    },
+    "22": {
+      "type": "pbox",
+      "construction_type": "scalar",
+      "value": 1.0
+    },
+    "23": {
+      "type": "pbox",
+      "construction_type": "scalar",
+      "value": 1.0
+    }
+  }
+}

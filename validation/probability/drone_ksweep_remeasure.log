@@ -1,0 +1,24 @@
+  Activating project at `C:\Development\Info_Prop_Framework_Project\Info_Prop_Framework_Project\InfoPropFrmwrk`
+[2026-08-30T14:01:56.766] loading drone source data...
+  loaded 244 nodes, (244, 244) distance matrices
+
+=== concentrated-minimal, K=10 ===
+  concentrated-minimal K=10: 233/244 nodes retained (existing set = H∪A; optional new stations deactivated)
+concentrated-minimal-K10       V=230  E=1359  sources=17 maxcond=14  uniq=465  identify_s=1.286 propagate_s=6.208
+
+=== concentrated-minimal, K=12 ===
+  concentrated-minimal K=12: 233/244 nodes retained (existing set = H∪A; optional new stations deactivated)
+concentrated-minimal-K12       V=230  E=1510  sources=15 maxcond=15  uniq=691  identify_s=0.195 propagate_s=6.309
+
+=== concentrated-minimal, K=16 ===
+  concentrated-minimal K=16: 233/244 nodes retained (existing set = H∪A; optional new stations deactivated)
+concentrated-minimal-K16       V=230  E=1648  sources=14 maxcond=16  uniq=1005 identify_s=0.614 propagate_s=15.882
+
+=== vtol-dense-decentralized (K=16, official) ===
+vtol-dense-decentralized       V=242  E=1753  sources=16 maxcond=16  uniq=1486 identify_s=1.184 propagate_s=22.825
+
+=== mlgw-gas-network ===
+mlgw-gas-network               V=37   E=40    sources=2  maxcond=4   uniq=7    identify_s=0.016 propagate_s=0.006
+
+[2026-08-30T14:02:59.342] wrote C:\Development\Info_Prop_Framework_Project\Info_Prop_Framework_Project\validation\probability\drone_ksweep_remeasure_results.csv
+[2026-08-30T14:02:59.353] done

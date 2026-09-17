@@ -1,0 +1,70 @@
+{
+  "network_type": "capacity_flow",
+  "data_type": "Float64",
+  "conversion_formulas": {
+    "reliability_bonus": 0.8,
+    "base_edge_capacity": 12.0,
+    "edge_multiplier": 1.5,
+    "base_source_rate": 20.0,
+    "base_node_capacity": 15.0
+  },
+  "capacities": {
+    "nodes": {
+      "4": 18.5,
+      "1": 22.3,
+      "12": 19.8,
+      "2": 21.7,
+      "6": 16.4,
+      "11": 20.1,
+      "13": 23.2,
+      "5": 17.9,
+      "15": 19.2,
+      "16": 15.6,
+      "14": 20.8,
+      "7": 18.1,
+      "8": 16.7,
+      "10": 19.5,
+      "9": 17.3,
+      "3": 21.4
+    },
+    "source_rates": {
+      "1": 12.5,
+      "13": 15.8,
+      "3": 13.2
+    },
+    "edges": {
+      "(9,10)": 7.2,
+      "(7,11)": 8.8,
+      "(15,16)": 6.5,
+      "(10,6)": 9.3,
+      "(7,8)": 7.9,
+      "(12,16)": 6.8,
+      "(8,12)": 8.1,
+      "(14,15)": 7.4,
+      "(2,6)": 9.7,
+      "(3,7)": 8.6,
+      "(5,9)": 7.1,
+      "(3,4)": 8.9,
+      "(5,6)": 9.2,
+      "(8,4)": 7.8,
+      "(10,14)": 8.3,
+      "(3,2)": 9.5,
+      "(10,11)": 7.6,
+      "(6,7)": 8.4,
+      "(13,9)": 9.1,
+      "(11,15)": 7.3,
+      "(1,2)": 9.8,
+      "(11,12)": 8.0,
+      "(13,14)": 8.7,
+      "(1,5)": 9.4
+    }
+  },
+  "description": "Capacity analysis inputs generated from reachability data for grid-graph",
+  "generation_info": {
+    "total_nodes": 16,
+    "total_edges": 24,
+    "generated_from": "reachability_data",
+    "timestamp": "2025-08-24T17:02:16.913",
+    "source_nodes_count": 3
+  }
+}

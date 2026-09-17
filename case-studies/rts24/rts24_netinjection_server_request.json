@@ -1,0 +1,6 @@
+{
+  "networkPath": "C:/Development/Info_Prop_Framework_Project/Info_Prop_Framework_Project/validation/flow/rts24",
+  "edgesFilePath": "rts24-netinjection.EDGES",
+  "capacitiesPath": "rts24-netinjection-capacities.json",
+  "analysisOptions": {"kFailure": 2, "cutLimit": 200}
+}

@@ -1,0 +1,2 @@
+name,V,E,t_float_ms,t_interval_ms,t_pbox50_ms,t_pbox200_ms,t_pbox800_ms,iv_over_f64,pb200_over_f64
+counterexample,15,23,0.668,0.785,2679.087,8268.700,109895.045,1.2,12374.6

@@ -1,0 +1,10 @@
+{
+  "links": {
+    "(2,3)": 0.6819842608786651,
+    "(3,4)": 0.7360006052890282,
+    "(3,5)": 0.3686366782410559,
+    "(1,3)": 0.4662643095368083
+  },
+  "data_type": "Float64",
+  "description": "Synthetic reliabilities on the real bnlearn 'cancer-bnlearn' DAG topology."
+}

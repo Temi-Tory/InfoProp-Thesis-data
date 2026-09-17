@@ -1,0 +1,87 @@
+{
+  "request_id": "d8a8b1d2-fe2d-451b-9491-490bba65ee04",
+  "error": "ArgumentError: linkprobs file not found: C:/Development/Info_Prop_Framework_Project/Info_Prop_Framework_Project/dag_ntwrk_files/net3/net3-scenarios/Degraded/Degraded-linkprobabilities.json",
+  "message": "Probability propagation analysis failed",
+  "success": false,
+  "debug": {
+    "stacktrace": [
+      {
+        "line": 31,
+        "inlined": false,
+        "from_c": false,
+        "file": "C:\\Development\\Info_Prop_Framework_Project\\Info_Prop_Framework_Project\\InfoPropFrmwrk\\src\\Server\\Handlers\\ProbabilityHandlers.jl",
+        "func": "probability_payload"
+      },
+      {
+        "line": 139,
+        "inlined": false,
+        "from_c": false,
+        "file": "C:\\Development\\Info_Prop_Framework_Project\\Info_Prop_Framework_Project\\InfoPropFrmwrk\\src\\Server\\Handlers\\ProbabilityHandlers.jl",
+        "func": "#handle_probability_like#3"
+      },
+      {
+        "line": 134,
+        "inlined": true,
+        "from_c": false,
+        "file": "C:\\Development\\Info_Prop_Framework_Project\\Info_Prop_Framework_Project\\InfoPropFrmwrk\\src\\Server\\Handlers\\ProbabilityHandlers.jl",
+        "func": "handle_probability_like"
+      },
+      {
+        "line": 164,
+        "inlined": false,
+        "from_c": false,
+        "file": "C:\\Development\\Info_Prop_Framework_Project\\Info_Prop_Framework_Project\\InfoPropFrmwrk\\src\\Server\\Handlers\\ProbabilityHandlers.jl",
+        "func": "handle_probability_propagation"
+      },
+      {
+        "line": 439,
+        "inlined": false,
+        "from_c": false,
+        "file": "C:\\Users\\ohian\\.julia\\packages\\HTTP\\Y97L1\\src\\Handlers.jl",
+        "func": "Router"
+      },
+      {
+        "line": 53,
+        "inlined": false,
+        "from_c": false,
+        "file": "C:\\Development\\Info_Prop_Framework_Project\\Info_Prop_Framework_Project\\InfoPropFrmwrk\\src\\Server\\server.jl",
+        "func": "serve_request"
+      },
+      {
+        "line": 93,
+        "inlined": true,
+        "from_c": false,
+        "file": "C:\\Development\\Info_Prop_Framework_Project\\Info_Prop_Framework_Project\\InfoPropFrmwrk\\src\\Server\\server.jl",
+        "func": "#start_server##0"
+      },
+      {
+        "line": 58,
+        "inlined": false,
+        "from_c": false,
+        "file": "C:\\Users\\ohian\\.julia\\packages\\HTTP\\Y97L1\\src\\Handlers.jl",
+        "func": "#streamhandler##0"
+      },
+      {
+        "line": 469,
+        "inlined": false,
+        "from_c": false,
+        "file": "C:\\Users\\ohian\\.julia\\packages\\HTTP\\Y97L1\\src\\Servers.jl",
+        "func": "handle_connection"
+      },
+      {
+        "line": 401,
+        "inlined": false,
+        "from_c": false,
+        "file": "C:\\Users\\ohian\\.julia\\packages\\HTTP\\Y97L1\\src\\Servers.jl",
+        "func": "#listenloop##0"
+      }
+    ],
+    "method": "POST",
+    "request_id": "d8a8b1d2-fe2d-451b-9491-490bba65ee04",
+    "status": 500,
+    "target": "/probability-propagation",
+    "exception_message": "ArgumentError: linkprobs file not found: C:/Development/Info_Prop_Framework_Project/Info_Prop_Framework_Project/dag_ntwrk_files/net3/net3-scenarios/Degraded/Degraded-linkprobabilities.json",
+    "timestamp": "2026-08-30T16:13:36.927",
+    "exception_type": "ArgumentError"
+  }
+}

@@ -1,0 +1,75 @@
+== KarlNetwork == (26 nodes, 74 edges, 1 sources, 5 sinks)
+  dinic          max_flow=39  oracle_diff=0.00e+00  AGREE  invariants=ok  0.0080s
+  edmonds_karp   max_flow=39  oracle_diff=0.00e+00  AGREE  invariants=ok  0.0000s
+  push_relabel   max_flow=39  oracle_diff=0.00e+00  AGREE  invariants=ok  0.0010s
+  oracle (GraphsFlows) max_flow=39  0.0000s
+  three-solver agreement: PASS
+== continental_medical_network == (141 nodes, 365 edges, 5 sources, 91 sinks)
+  dinic          max_flow=501  oracle_diff=0.00e+00  AGREE  invariants=ok  0.0000s
+  edmonds_karp   max_flow=501  oracle_diff=0.00e+00  AGREE  invariants=ok  0.3500s
+  push_relabel   max_flow=501  oracle_diff=0.00e+00  AGREE  invariants=ok  0.0030s
+  oracle (GraphsFlows) max_flow=501  0.0010s
+  three-solver agreement: PASS
+== drone-network-concentrated-minimal == (230 nodes, 1648 edges, 14 sources, 190 sinks)
+  dinic          max_flow=5939  oracle_diff=0.00e+00  AGREE  invariants=ok  0.0040s
+  edmonds_karp   max_flow=5939  oracle_diff=0.00e+00  AGREE  invariants=ok  0.0790s
+  push_relabel   max_flow=5939  oracle_diff=0.00e+00  AGREE  invariants=ok  0.0050s
+  oracle (GraphsFlows) max_flow=5939  0.0030s
+  three-solver agreement: PASS
+== drone-network-fw-reliant-centralized == (217 nodes, 263 edges, 8 sources, 194 sinks)
+  dinic          max_flow=755  oracle_diff=0.00e+00  AGREE  invariants=ok  0.0020s
+  edmonds_karp   max_flow=755  oracle_diff=0.00e+00  AGREE  invariants=ok  0.0030s
+  push_relabel   max_flow=755  oracle_diff=0.00e+00  AGREE  invariants=ok  0.0010s
+  oracle (GraphsFlows) max_flow=755  0.0010s
+  three-solver agreement: PASS
+== drone-network-vtol-dense-decentralized == (242 nodes, 1753 edges, 16 sources, 193 sinks)
+  dinic          max_flow=6044  oracle_diff=0.00e+00  AGREE  invariants=ok  0.0030s
+  edmonds_karp   max_flow=6044  oracle_diff=0.00e+00  AGREE  invariants=ok  0.0980s
+  push_relabel   max_flow=6044  oracle_diff=0.00e+00  AGREE  invariants=ok  0.0020s
+  oracle (GraphsFlows) max_flow=6044  0.0020s
+  three-solver agreement: PASS
+== ergo-proxy-dag-network == (800 nodes, 6607 edges, 52 sources, 1 sinks)
+  dinic          max_flow=479  oracle_diff=0.00e+00  AGREE  invariants=ok  0.0240s
+  edmonds_karp   max_flow=479  oracle_diff=0.00e+00  AGREE  invariants=ok  0.1600s
+  push_relabel   max_flow=479  oracle_diff=0.00e+00  AGREE  invariants=ok  2.7400s
+  oracle (GraphsFlows) max_flow=479  0.0250s
+  three-solver agreement: PASS
+== glasgow_to_shetland_extreme == (69 nodes, 68 edges, 1 sources, 68 sinks)
+  dinic          max_flow=762  oracle_diff=0.00e+00  AGREE  invariants=ok  0.0010s
+  edmonds_karp   max_flow=762  oracle_diff=0.00e+00  AGREE  invariants=ok  0.0000s
+  push_relabel   max_flow=762  oracle_diff=0.00e+00  AGREE  invariants=ok  0.0010s
+  oracle (GraphsFlows) max_flow=762  0.0000s
+  three-solver agreement: PASS
+== grid-graph-5x5 == (25 nodes, 40 edges, 3 sources, 2 sinks)
+  dinic          max_flow=35  oracle_diff=0.00e+00  AGREE  invariants=ok  0.0000s
+  edmonds_karp   max_flow=35  oracle_diff=0.00e+00  AGREE  invariants=ok  0.0000s
+  push_relabel   max_flow=35  oracle_diff=0.00e+00  AGREE  invariants=ok  0.0000s
+  oracle (GraphsFlows) max_flow=35  0.0000s
+  three-solver agreement: PASS
+== highland_to_lowland_full_network == (138 nodes, 501 edges, 78 sources, 27 sinks)
+  dinic          max_flow=3326  oracle_diff=0.00e+00  AGREE  invariants=ok  0.0020s
+  edmonds_karp   max_flow=3326  oracle_diff=0.00e+00  AGREE  invariants=ok  0.0290s
+  push_relabel   max_flow=3326  oracle_diff=0.00e+00  AGREE  invariants=ok  0.0020s
+  oracle (GraphsFlows) max_flow=3326  0.0000s
+  three-solver agreement: PASS
+== metro_directed_dag_for_ipm == (306 nodes, 350 edges, 1 sources, 61 sinks)
+  dinic          max_flow=29  oracle_diff=0.00e+00  AGREE  invariants=ok  0.0020s
+  edmonds_karp   max_flow=29  oracle_diff=0.00e+00  AGREE  invariants=ok  0.0010s
+  push_relabel   max_flow=29  oracle_diff=0.00e+00  AGREE  invariants=ok  0.0020s
+  oracle (GraphsFlows) max_flow=29  0.0010s
+  three-solver agreement: PASS
+== psplib-j301_1 == (32 nodes, 48 edges, 1 sources, 1 sinks)
+  dinic          max_flow=14  oracle_diff=0.00e+00  AGREE  invariants=ok  0.0000s
+  edmonds_karp   max_flow=14  oracle_diff=0.00e+00  AGREE  invariants=ok  0.0000s
+  push_relabel   max_flow=14  oracle_diff=0.00e+00  AGREE  invariants=ok  0.0000s
+  oracle (GraphsFlows) max_flow=14  0.0000s
+  three-solver agreement: PASS
+== water == (32 nodes, 66 edges, 8 sources, 8 sinks)
+  dinic          max_flow=154  oracle_diff=0.00e+00  AGREE  invariants=ok  0.0000s
+  edmonds_karp   max_flow=154  oracle_diff=0.00e+00  AGREE  invariants=ok  0.0010s
+  push_relabel   max_flow=154  oracle_diff=0.00e+00  AGREE  invariants=ok  0.0000s
+  oracle (GraphsFlows) max_flow=154  0.0000s
+  three-solver agreement: PASS
+
+FLOW VALIDATION: ALL PASS
+run: 2026-08-30T02:41:53.058

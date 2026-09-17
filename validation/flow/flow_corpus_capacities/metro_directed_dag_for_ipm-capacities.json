@@ -1,0 +1,1756 @@
+{
+  "data_type": "Float64",
+  "edges": [
+    {
+      "source": 2,
+      "destination": 1,
+      "capacity": 14
+    },
+    {
+      "source": 3,
+      "destination": 2,
+      "capacity": 17
+    },
+    {
+      "source": 4,
+      "destination": 3,
+      "capacity": 10
+    },
+    {
+      "source": 5,
+      "destination": 4,
+      "capacity": 17
+    },
+    {
+      "source": 5,
+      "destination": 159,
+      "capacity": 5
+    },
+    {
+      "source": 6,
+      "destination": 5,
+      "capacity": 9
+    },
+    {
+      "source": 7,
+      "destination": 6,
+      "capacity": 4
+    },
+    {
+      "source": 8,
+      "destination": 7,
+      "capacity": 15
+    },
+    {
+      "source": 9,
+      "destination": 8,
+      "capacity": 2
+    },
+    {
+      "source": 9,
+      "destination": 279,
+      "capacity": 4
+    },
+    {
+      "source": 10,
+      "destination": 9,
+      "capacity": 20
+    },
+    {
+      "source": 11,
+      "destination": 10,
+      "capacity": 20
+    },
+    {
+      "source": 11,
+      "destination": 57,
+      "capacity": 7
+    },
+    {
+      "source": 12,
+      "destination": 11,
+      "capacity": 12
+    },
+    {
+      "source": 13,
+      "destination": 12,
+      "capacity": 15
+    },
+    {
+      "source": 13,
+      "destination": 44,
+      "capacity": 7
+    },
+    {
+      "source": 13,
+      "destination": 98,
+      "capacity": 18
+    },
+    {
+      "source": 14,
+      "destination": 13,
+      "capacity": 14
+    },
+    {
+      "source": 14,
+      "destination": 97,
+      "capacity": 8
+    },
+    {
+      "source": 14,
+      "destination": 98,
+      "capacity": 9
+    },
+    {
+      "source": 14,
+      "destination": 285,
+      "capacity": 8
+    },
+    {
+      "source": 14,
+      "destination": 286,
+      "capacity": 19
+    },
+    {
+      "source": 15,
+      "destination": 14,
+      "capacity": 13
+    },
+    {
+      "source": 16,
+      "destination": 15,
+      "capacity": 11
+    },
+    {
+      "source": 17,
+      "destination": 16,
+      "capacity": 8
+    },
+    {
+      "source": 18,
+      "destination": 17,
+      "capacity": 2
+    },
+    {
+      "source": 18,
+      "destination": 19,
+      "capacity": 12
+    },
+    {
+      "source": 18,
+      "destination": 75,
+      "capacity": 11
+    },
+    {
+      "source": 18,
+      "destination": 76,
+      "capacity": 11
+    },
+    {
+      "source": 18,
+      "destination": 237,
+      "capacity": 10
+    },
+    {
+      "source": 18,
+      "destination": 238,
+      "capacity": 8
+    },
+    {
+      "source": 19,
+      "destination": 20,
+      "capacity": 2
+    },
+    {
+      "source": 19,
+      "destination": 75,
+      "capacity": 14
+    },
+    {
+      "source": 20,
+      "destination": 21,
+      "capacity": 10
+    },
+    {
+      "source": 20,
+      "destination": 183,
+      "capacity": 11
+    },
+    {
+      "source": 20,
+      "destination": 184,
+      "capacity": 7
+    },
+    {
+      "source": 21,
+      "destination": 22,
+      "capacity": 2
+    },
+    {
+      "source": 22,
+      "destination": 23,
+      "capacity": 18
+    },
+    {
+      "source": 22,
+      "destination": 169,
+      "capacity": 1
+    },
+    {
+      "source": 22,
+      "destination": 264,
+      "capacity": 19
+    },
+    {
+      "source": 22,
+      "destination": 302,
+      "capacity": 19
+    },
+    {
+      "source": 23,
+      "destination": 24,
+      "capacity": 6
+    },
+    {
+      "source": 24,
+      "destination": 25,
+      "capacity": 11
+    },
+    {
+      "source": 24,
+      "destination": 109,
+      "capacity": 6
+    },
+    {
+      "source": 25,
+      "destination": 26,
+      "capacity": 1
+    },
+    {
+      "source": 26,
+      "destination": 27,
+      "capacity": 20
+    },
+    {
+      "source": 27,
+      "destination": 28,
+      "capacity": 8
+    },
+    {
+      "source": 27,
+      "destination": 301,
+      "capacity": 11
+    },
+    {
+      "source": 28,
+      "destination": 29,
+      "capacity": 9
+    },
+    {
+      "source": 29,
+      "destination": 30,
+      "capacity": 1
+    },
+    {
+      "source": 30,
+      "destination": 31,
+      "capacity": 6
+    },
+    {
+      "source": 31,
+      "destination": 32,
+      "capacity": 13
+    },
+    {
+      "source": 32,
+      "destination": 33,
+      "capacity": 3
+    },
+    {
+      "source": 33,
+      "destination": 34,
+      "capacity": 2
+    },
+    {
+      "source": 34,
+      "destination": 35,
+      "capacity": 19
+    },
+    {
+      "source": 34,
+      "destination": 152,
+      "capacity": 19
+    },
+    {
+      "source": 35,
+      "destination": 153,
+      "capacity": 16
+    },
+    {
+      "source": 37,
+      "destination": 36,
+      "capacity": 8
+    },
+    {
+      "source": 38,
+      "destination": 37,
+      "capacity": 8
+    },
+    {
+      "source": 39,
+      "destination": 38,
+      "capacity": 11
+    },
+    {
+      "source": 40,
+      "destination": 39,
+      "capacity": 14
+    },
+    {
+      "source": 41,
+      "destination": 40,
+      "capacity": 19
+    },
+    {
+      "source": 42,
+      "destination": 41,
+      "capacity": 12
+    },
+    {
+      "source": 43,
+      "destination": 42,
+      "capacity": 10
+    },
+    {
+      "source": 44,
+      "destination": 43,
+      "capacity": 5
+    },
+    {
+      "source": 44,
+      "destination": 193,
+      "capacity": 2
+    },
+    {
+      "source": 45,
+      "destination": 46,
+      "capacity": 7
+    },
+    {
+      "source": 46,
+      "destination": 47,
+      "capacity": 15
+    },
+    {
+      "source": 47,
+      "destination": 48,
+      "capacity": 13
+    },
+    {
+      "source": 48,
+      "destination": 49,
+      "capacity": 4
+    },
+    {
+      "source": 49,
+      "destination": 50,
+      "capacity": 14
+    },
+    {
+      "source": 51,
+      "destination": 52,
+      "capacity": 12
+    },
+    {
+      "source": 52,
+      "destination": 53,
+      "capacity": 7
+    },
+    {
+      "source": 53,
+      "destination": 54,
+      "capacity": 11
+    },
+    {
+      "source": 54,
+      "destination": 55,
+      "capacity": 9
+    },
+    {
+      "source": 55,
+      "destination": 56,
+      "capacity": 1
+    },
+    {
+      "source": 57,
+      "destination": 58,
+      "capacity": 1
+    },
+    {
+      "source": 58,
+      "destination": 59,
+      "capacity": 17
+    },
+    {
+      "source": 59,
+      "destination": 60,
+      "capacity": 10
+    },
+    {
+      "source": 60,
+      "destination": 61,
+      "capacity": 18
+    },
+    {
+      "source": 60,
+      "destination": 225,
+      "capacity": 2
+    },
+    {
+      "source": 61,
+      "destination": 62,
+      "capacity": 7
+    },
+    {
+      "source": 62,
+      "destination": 63,
+      "capacity": 16
+    },
+    {
+      "source": 65,
+      "destination": 64,
+      "capacity": 9
+    },
+    {
+      "source": 66,
+      "destination": 65,
+      "capacity": 7
+    },
+    {
+      "source": 67,
+      "destination": 66,
+      "capacity": 8
+    },
+    {
+      "source": 68,
+      "destination": 67,
+      "capacity": 9
+    },
+    {
+      "source": 69,
+      "destination": 68,
+      "capacity": 14
+    },
+    {
+      "source": 70,
+      "destination": 69,
+      "capacity": 3
+    },
+    {
+      "source": 70,
+      "destination": 92,
+      "capacity": 13
+    },
+    {
+      "source": 70,
+      "destination": 113,
+      "capacity": 8
+    },
+    {
+      "source": 71,
+      "destination": 70,
+      "capacity": 19
+    },
+    {
+      "source": 71,
+      "destination": 180,
+      "capacity": 7
+    },
+    {
+      "source": 71,
+      "destination": 259,
+      "capacity": 4
+    },
+    {
+      "source": 72,
+      "destination": 71,
+      "capacity": 10
+    },
+    {
+      "source": 73,
+      "destination": 145,
+      "capacity": 5
+    },
+    {
+      "source": 74,
+      "destination": 73,
+      "capacity": 7
+    },
+    {
+      "source": 75,
+      "destination": 74,
+      "capacity": 13
+    },
+    {
+      "source": 76,
+      "destination": 77,
+      "capacity": 18
+    },
+    {
+      "source": 77,
+      "destination": 78,
+      "capacity": 10
+    },
+    {
+      "source": 77,
+      "destination": 189,
+      "capacity": 12
+    },
+    {
+      "source": 77,
+      "destination": 190,
+      "capacity": 10
+    },
+    {
+      "source": 77,
+      "destination": 209,
+      "capacity": 16
+    },
+    {
+      "source": 77,
+      "destination": 289,
+      "capacity": 6
+    },
+    {
+      "source": 78,
+      "destination": 79,
+      "capacity": 11
+    },
+    {
+      "source": 78,
+      "destination": 290,
+      "capacity": 6
+    },
+    {
+      "source": 79,
+      "destination": 80,
+      "capacity": 2
+    },
+    {
+      "source": 80,
+      "destination": 81,
+      "capacity": 14
+    },
+    {
+      "source": 80,
+      "destination": 104,
+      "capacity": 7
+    },
+    {
+      "source": 80,
+      "destination": 174,
+      "capacity": 4
+    },
+    {
+      "source": 81,
+      "destination": 82,
+      "capacity": 4
+    },
+    {
+      "source": 81,
+      "destination": 103,
+      "capacity": 20
+    },
+    {
+      "source": 81,
+      "destination": 104,
+      "capacity": 3
+    },
+    {
+      "source": 81,
+      "destination": 144,
+      "capacity": 15
+    },
+    {
+      "source": 82,
+      "destination": 83,
+      "capacity": 4
+    },
+    {
+      "source": 83,
+      "destination": 84,
+      "capacity": 6
+    },
+    {
+      "source": 84,
+      "destination": 85,
+      "capacity": 16
+    },
+    {
+      "source": 85,
+      "destination": 86,
+      "capacity": 19
+    },
+    {
+      "source": 86,
+      "destination": 87,
+      "capacity": 14
+    },
+    {
+      "source": 87,
+      "destination": 88,
+      "capacity": 7
+    },
+    {
+      "source": 88,
+      "destination": 89,
+      "capacity": 7
+    },
+    {
+      "source": 89,
+      "destination": 90,
+      "capacity": 8
+    },
+    {
+      "source": 90,
+      "destination": 91,
+      "capacity": 4
+    },
+    {
+      "source": 92,
+      "destination": 93,
+      "capacity": 12
+    },
+    {
+      "source": 92,
+      "destination": 178,
+      "capacity": 16
+    },
+    {
+      "source": 92,
+      "destination": 179,
+      "capacity": 17
+    },
+    {
+      "source": 94,
+      "destination": 93,
+      "capacity": 19
+    },
+    {
+      "source": 94,
+      "destination": 256,
+      "capacity": 6
+    },
+    {
+      "source": 94,
+      "destination": 257,
+      "capacity": 8
+    },
+    {
+      "source": 95,
+      "destination": 94,
+      "capacity": 15
+    },
+    {
+      "source": 96,
+      "destination": 95,
+      "capacity": 14
+    },
+    {
+      "source": 96,
+      "destination": 295,
+      "capacity": 8
+    },
+    {
+      "source": 96,
+      "destination": 296,
+      "capacity": 16
+    },
+    {
+      "source": 97,
+      "destination": 96,
+      "capacity": 9
+    },
+    {
+      "source": 97,
+      "destination": 233,
+      "capacity": 17
+    },
+    {
+      "source": 97,
+      "destination": 234,
+      "capacity": 17
+    },
+    {
+      "source": 98,
+      "destination": 99,
+      "capacity": 9
+    },
+    {
+      "source": 98,
+      "destination": 192,
+      "capacity": 17
+    },
+    {
+      "source": 98,
+      "destination": 193,
+      "capacity": 6
+    },
+    {
+      "source": 99,
+      "destination": 100,
+      "capacity": 13
+    },
+    {
+      "source": 100,
+      "destination": 101,
+      "capacity": 14
+    },
+    {
+      "source": 102,
+      "destination": 101,
+      "capacity": 13
+    },
+    {
+      "source": 103,
+      "destination": 102,
+      "capacity": 18
+    },
+    {
+      "source": 103,
+      "destination": 213,
+      "capacity": 9
+    },
+    {
+      "source": 103,
+      "destination": 214,
+      "capacity": 12
+    },
+    {
+      "source": 104,
+      "destination": 105,
+      "capacity": 9
+    },
+    {
+      "source": 104,
+      "destination": 162,
+      "capacity": 16
+    },
+    {
+      "source": 106,
+      "destination": 105,
+      "capacity": 5
+    },
+    {
+      "source": 106,
+      "destination": 269,
+      "capacity": 13
+    },
+    {
+      "source": 106,
+      "destination": 270,
+      "capacity": 17
+    },
+    {
+      "source": 107,
+      "destination": 106,
+      "capacity": 1
+    },
+    {
+      "source": 107,
+      "destination": 293,
+      "capacity": 17
+    },
+    {
+      "source": 108,
+      "destination": 107,
+      "capacity": 3
+    },
+    {
+      "source": 108,
+      "destination": 242,
+      "capacity": 13
+    },
+    {
+      "source": 108,
+      "destination": 243,
+      "capacity": 6
+    },
+    {
+      "source": 109,
+      "destination": 110,
+      "capacity": 14
+    },
+    {
+      "source": 109,
+      "destination": 208,
+      "capacity": 8
+    },
+    {
+      "source": 110,
+      "destination": 111,
+      "capacity": 4
+    },
+    {
+      "source": 110,
+      "destination": 262,
+      "capacity": 13
+    },
+    {
+      "source": 110,
+      "destination": 299,
+      "capacity": 15
+    },
+    {
+      "source": 111,
+      "destination": 112,
+      "capacity": 19
+    },
+    {
+      "source": 111,
+      "destination": 201,
+      "capacity": 12
+    },
+    {
+      "source": 111,
+      "destination": 202,
+      "capacity": 6
+    },
+    {
+      "source": 113,
+      "destination": 112,
+      "capacity": 7
+    },
+    {
+      "source": 115,
+      "destination": 114,
+      "capacity": 17
+    },
+    {
+      "source": 116,
+      "destination": 115,
+      "capacity": 11
+    },
+    {
+      "source": 117,
+      "destination": 116,
+      "capacity": 15
+    },
+    {
+      "source": 117,
+      "destination": 122,
+      "capacity": 17
+    },
+    {
+      "source": 118,
+      "destination": 117,
+      "capacity": 6
+    },
+    {
+      "source": 119,
+      "destination": 118,
+      "capacity": 7
+    },
+    {
+      "source": 119,
+      "destination": 127,
+      "capacity": 2
+    },
+    {
+      "source": 120,
+      "destination": 119,
+      "capacity": 12
+    },
+    {
+      "source": 120,
+      "destination": 121,
+      "capacity": 19
+    },
+    {
+      "source": 122,
+      "destination": 123,
+      "capacity": 2
+    },
+    {
+      "source": 123,
+      "destination": 124,
+      "capacity": 15
+    },
+    {
+      "source": 124,
+      "destination": 125,
+      "capacity": 20
+    },
+    {
+      "source": 125,
+      "destination": 126,
+      "capacity": 7
+    },
+    {
+      "source": 127,
+      "destination": 128,
+      "capacity": 17
+    },
+    {
+      "source": 130,
+      "destination": 129,
+      "capacity": 4
+    },
+    {
+      "source": 131,
+      "destination": 130,
+      "capacity": 15
+    },
+    {
+      "source": 132,
+      "destination": 131,
+      "capacity": 6
+    },
+    {
+      "source": 133,
+      "destination": 132,
+      "capacity": 16
+    },
+    {
+      "source": 134,
+      "destination": 133,
+      "capacity": 10
+    },
+    {
+      "source": 135,
+      "destination": 134,
+      "capacity": 15
+    },
+    {
+      "source": 136,
+      "destination": 135,
+      "capacity": 15
+    },
+    {
+      "source": 137,
+      "destination": 136,
+      "capacity": 10
+    },
+    {
+      "source": 138,
+      "destination": 137,
+      "capacity": 5
+    },
+    {
+      "source": 139,
+      "destination": 138,
+      "capacity": 4
+    },
+    {
+      "source": 140,
+      "destination": 139,
+      "capacity": 5
+    },
+    {
+      "source": 140,
+      "destination": 218,
+      "capacity": 16
+    },
+    {
+      "source": 140,
+      "destination": 219,
+      "capacity": 8
+    },
+    {
+      "source": 141,
+      "destination": 140,
+      "capacity": 10
+    },
+    {
+      "source": 142,
+      "destination": 141,
+      "capacity": 15
+    },
+    {
+      "source": 142,
+      "destination": 151,
+      "capacity": 18
+    },
+    {
+      "source": 143,
+      "destination": 142,
+      "capacity": 2
+    },
+    {
+      "source": 143,
+      "destination": 214,
+      "capacity": 16
+    },
+    {
+      "source": 143,
+      "destination": 215,
+      "capacity": 14
+    },
+    {
+      "source": 144,
+      "destination": 143,
+      "capacity": 3
+    },
+    {
+      "source": 145,
+      "destination": 72,
+      "capacity": 5
+    },
+    {
+      "source": 145,
+      "destination": 164,
+      "capacity": 15
+    },
+    {
+      "source": 145,
+      "destination": 165,
+      "capacity": 19
+    },
+    {
+      "source": 145,
+      "destination": 181,
+      "capacity": 12
+    },
+    {
+      "source": 145,
+      "destination": 298,
+      "capacity": 12
+    },
+    {
+      "source": 147,
+      "destination": 146,
+      "capacity": 14
+    },
+    {
+      "source": 148,
+      "destination": 147,
+      "capacity": 12
+    },
+    {
+      "source": 149,
+      "destination": 148,
+      "capacity": 18
+    },
+    {
+      "source": 150,
+      "destination": 149,
+      "capacity": 4
+    },
+    {
+      "source": 151,
+      "destination": 150,
+      "capacity": 9
+    },
+    {
+      "source": 151,
+      "destination": 158,
+      "capacity": 20
+    },
+    {
+      "source": 153,
+      "destination": 154,
+      "capacity": 7
+    },
+    {
+      "source": 154,
+      "destination": 155,
+      "capacity": 18
+    },
+    {
+      "source": 157,
+      "destination": 156,
+      "capacity": 1
+    },
+    {
+      "source": 158,
+      "destination": 157,
+      "capacity": 3
+    },
+    {
+      "source": 159,
+      "destination": 160,
+      "capacity": 1
+    },
+    {
+      "source": 160,
+      "destination": 161,
+      "capacity": 14
+    },
+    {
+      "source": 162,
+      "destination": 120,
+      "capacity": 1
+    },
+    {
+      "source": 164,
+      "destination": 163,
+      "capacity": 20
+    },
+    {
+      "source": 164,
+      "destination": 204,
+      "capacity": 10
+    },
+    {
+      "source": 165,
+      "destination": 164,
+      "capacity": 4
+    },
+    {
+      "source": 165,
+      "destination": 205,
+      "capacity": 14
+    },
+    {
+      "source": 166,
+      "destination": 165,
+      "capacity": 7
+    },
+    {
+      "source": 166,
+      "destination": 182,
+      "capacity": 16
+    },
+    {
+      "source": 166,
+      "destination": 206,
+      "capacity": 13
+    },
+    {
+      "source": 167,
+      "destination": 166,
+      "capacity": 10
+    },
+    {
+      "source": 168,
+      "destination": 167,
+      "capacity": 3
+    },
+    {
+      "source": 168,
+      "destination": 182,
+      "capacity": 20
+    },
+    {
+      "source": 169,
+      "destination": 168,
+      "capacity": 2
+    },
+    {
+      "source": 169,
+      "destination": 170,
+      "capacity": 19
+    },
+    {
+      "source": 170,
+      "destination": 171,
+      "capacity": 19
+    },
+    {
+      "source": 170,
+      "destination": 239,
+      "capacity": 19
+    },
+    {
+      "source": 172,
+      "destination": 171,
+      "capacity": 4
+    },
+    {
+      "source": 172,
+      "destination": 173,
+      "capacity": 2
+    },
+    {
+      "source": 172,
+      "destination": 303,
+      "capacity": 5
+    },
+    {
+      "source": 174,
+      "destination": 173,
+      "capacity": 7
+    },
+    {
+      "source": 176,
+      "destination": 175,
+      "capacity": 2
+    },
+    {
+      "source": 177,
+      "destination": 176,
+      "capacity": 20
+    },
+    {
+      "source": 178,
+      "destination": 177,
+      "capacity": 10
+    },
+    {
+      "source": 180,
+      "destination": 179,
+      "capacity": 10
+    },
+    {
+      "source": 180,
+      "destination": 258,
+      "capacity": 20
+    },
+    {
+      "source": 180,
+      "destination": 304,
+      "capacity": 11
+    },
+    {
+      "source": 181,
+      "destination": 304,
+      "capacity": 17
+    },
+    {
+      "source": 183,
+      "destination": 168,
+      "capacity": 11
+    },
+    {
+      "source": 184,
+      "destination": 185,
+      "capacity": 9
+    },
+    {
+      "source": 185,
+      "destination": 186,
+      "capacity": 2
+    },
+    {
+      "source": 185,
+      "destination": 239,
+      "capacity": 14
+    },
+    {
+      "source": 185,
+      "destination": 240,
+      "capacity": 4
+    },
+    {
+      "source": 187,
+      "destination": 186,
+      "capacity": 13
+    },
+    {
+      "source": 188,
+      "destination": 187,
+      "capacity": 12
+    },
+    {
+      "source": 189,
+      "destination": 188,
+      "capacity": 9
+    },
+    {
+      "source": 190,
+      "destination": 191,
+      "capacity": 19
+    },
+    {
+      "source": 191,
+      "destination": 192,
+      "capacity": 17
+    },
+    {
+      "source": 195,
+      "destination": 194,
+      "capacity": 12
+    },
+    {
+      "source": 196,
+      "destination": 195,
+      "capacity": 19
+    },
+    {
+      "source": 197,
+      "destination": 196,
+      "capacity": 13
+    },
+    {
+      "source": 198,
+      "destination": 197,
+      "capacity": 10
+    },
+    {
+      "source": 199,
+      "destination": 198,
+      "capacity": 2
+    },
+    {
+      "source": 200,
+      "destination": 199,
+      "capacity": 3
+    },
+    {
+      "source": 201,
+      "destination": 200,
+      "capacity": 6
+    },
+    {
+      "source": 202,
+      "destination": 260,
+      "capacity": 12
+    },
+    {
+      "source": 202,
+      "destination": 261,
+      "capacity": 8
+    },
+    {
+      "source": 203,
+      "destination": 202,
+      "capacity": 19
+    },
+    {
+      "source": 204,
+      "destination": 203,
+      "capacity": 6
+    },
+    {
+      "source": 204,
+      "destination": 205,
+      "capacity": 4
+    },
+    {
+      "source": 204,
+      "destination": 305,
+      "capacity": 1
+    },
+    {
+      "source": 207,
+      "destination": 206,
+      "capacity": 10
+    },
+    {
+      "source": 207,
+      "destination": 208,
+      "capacity": 8
+    },
+    {
+      "source": 207,
+      "destination": 262,
+      "capacity": 11
+    },
+    {
+      "source": 209,
+      "destination": 210,
+      "capacity": 2
+    },
+    {
+      "source": 210,
+      "destination": 211,
+      "capacity": 10
+    },
+    {
+      "source": 211,
+      "destination": 212,
+      "capacity": 8
+    },
+    {
+      "source": 212,
+      "destination": 213,
+      "capacity": 2
+    },
+    {
+      "source": 215,
+      "destination": 216,
+      "capacity": 6
+    },
+    {
+      "source": 216,
+      "destination": 217,
+      "capacity": 19
+    },
+    {
+      "source": 217,
+      "destination": 218,
+      "capacity": 16
+    },
+    {
+      "source": 219,
+      "destination": 220,
+      "capacity": 4
+    },
+    {
+      "source": 220,
+      "destination": 221,
+      "capacity": 14
+    },
+    {
+      "source": 221,
+      "destination": 222,
+      "capacity": 11
+    },
+    {
+      "source": 222,
+      "destination": 223,
+      "capacity": 3
+    },
+    {
+      "source": 223,
+      "destination": 224,
+      "capacity": 19
+    },
+    {
+      "source": 225,
+      "destination": 226,
+      "capacity": 2
+    },
+    {
+      "source": 227,
+      "destination": 226,
+      "capacity": 13
+    },
+    {
+      "source": 228,
+      "destination": 227,
+      "capacity": 13
+    },
+    {
+      "source": 229,
+      "destination": 228,
+      "capacity": 4
+    },
+    {
+      "source": 230,
+      "destination": 229,
+      "capacity": 2
+    },
+    {
+      "source": 231,
+      "destination": 230,
+      "capacity": 2
+    },
+    {
+      "source": 232,
+      "destination": 231,
+      "capacity": 2
+    },
+    {
+      "source": 233,
+      "destination": 232,
+      "capacity": 19
+    },
+    {
+      "source": 233,
+      "destination": 294,
+      "capacity": 17
+    },
+    {
+      "source": 233,
+      "destination": 295,
+      "capacity": 1
+    },
+    {
+      "source": 235,
+      "destination": 234,
+      "capacity": 1
+    },
+    {
+      "source": 236,
+      "destination": 235,
+      "capacity": 15
+    },
+    {
+      "source": 237,
+      "destination": 236,
+      "capacity": 4
+    },
+    {
+      "source": 240,
+      "destination": 169,
+      "capacity": 6
+    },
+    {
+      "source": 240,
+      "destination": 170,
+      "capacity": 20
+    },
+    {
+      "source": 240,
+      "destination": 241,
+      "capacity": 7
+    },
+    {
+      "source": 240,
+      "destination": 265,
+      "capacity": 19
+    },
+    {
+      "source": 242,
+      "destination": 241,
+      "capacity": 1
+    },
+    {
+      "source": 243,
+      "destination": 244,
+      "capacity": 20
+    },
+    {
+      "source": 244,
+      "destination": 245,
+      "capacity": 16
+    },
+    {
+      "source": 245,
+      "destination": 246,
+      "capacity": 8
+    },
+    {
+      "source": 246,
+      "destination": 247,
+      "capacity": 5
+    },
+    {
+      "source": 248,
+      "destination": 45,
+      "capacity": 19
+    },
+    {
+      "source": 250,
+      "destination": 249,
+      "capacity": 14
+    },
+    {
+      "source": 251,
+      "destination": 250,
+      "capacity": 20
+    },
+    {
+      "source": 252,
+      "destination": 251,
+      "capacity": 14
+    },
+    {
+      "source": 253,
+      "destination": 252,
+      "capacity": 8
+    },
+    {
+      "source": 254,
+      "destination": 253,
+      "capacity": 12
+    },
+    {
+      "source": 255,
+      "destination": 254,
+      "capacity": 16
+    },
+    {
+      "source": 256,
+      "destination": 255,
+      "capacity": 5
+    },
+    {
+      "source": 257,
+      "destination": 258,
+      "capacity": 17
+    },
+    {
+      "source": 259,
+      "destination": 260,
+      "capacity": 15
+    },
+    {
+      "source": 262,
+      "destination": 261,
+      "capacity": 13
+    },
+    {
+      "source": 262,
+      "destination": 305,
+      "capacity": 16
+    },
+    {
+      "source": 263,
+      "destination": 207,
+      "capacity": 3
+    },
+    {
+      "source": 264,
+      "destination": 263,
+      "capacity": 17
+    },
+    {
+      "source": 265,
+      "destination": 266,
+      "capacity": 8
+    },
+    {
+      "source": 266,
+      "destination": 267,
+      "capacity": 17
+    },
+    {
+      "source": 267,
+      "destination": 268,
+      "capacity": 17
+    },
+    {
+      "source": 267,
+      "destination": 292,
+      "capacity": 7
+    },
+    {
+      "source": 267,
+      "destination": 303,
+      "capacity": 12
+    },
+    {
+      "source": 269,
+      "destination": 268,
+      "capacity": 5
+    },
+    {
+      "source": 270,
+      "destination": 271,
+      "capacity": 11
+    },
+    {
+      "source": 271,
+      "destination": 272,
+      "capacity": 5
+    },
+    {
+      "source": 272,
+      "destination": 273,
+      "capacity": 7
+    },
+    {
+      "source": 273,
+      "destination": 274,
+      "capacity": 14
+    },
+    {
+      "source": 274,
+      "destination": 275,
+      "capacity": 7
+    },
+    {
+      "source": 275,
+      "destination": 276,
+      "capacity": 3
+    },
+    {
+      "source": 276,
+      "destination": 277,
+      "capacity": 15
+    },
+    {
+      "source": 277,
+      "destination": 278,
+      "capacity": 3
+    },
+    {
+      "source": 281,
+      "destination": 280,
+      "capacity": 12
+    },
+    {
+      "source": 282,
+      "destination": 281,
+      "capacity": 10
+    },
+    {
+      "source": 283,
+      "destination": 282,
+      "capacity": 11
+    },
+    {
+      "source": 284,
+      "destination": 283,
+      "capacity": 9
+    },
+    {
+      "source": 284,
+      "destination": 294,
+      "capacity": 16
+    },
+    {
+      "source": 285,
+      "destination": 284,
+      "capacity": 6
+    },
+    {
+      "source": 286,
+      "destination": 287,
+      "capacity": 12
+    },
+    {
+      "source": 288,
+      "destination": 287,
+      "capacity": 6
+    },
+    {
+      "source": 289,
+      "destination": 288,
+      "capacity": 11
+    },
+    {
+      "source": 290,
+      "destination": 291,
+      "capacity": 12
+    },
+    {
+      "source": 291,
+      "destination": 172,
+      "capacity": 6
+    },
+    {
+      "source": 293,
+      "destination": 292,
+      "capacity": 7
+    },
+    {
+      "source": 296,
+      "destination": 297,
+      "capacity": 1
+    },
+    {
+      "source": 298,
+      "destination": 297,
+      "capacity": 14
+    },
+    {
+      "source": 299,
+      "destination": 300,
+      "capacity": 2
+    },
+    {
+      "source": 300,
+      "destination": 301,
+      "capacity": 20
+    },
+    {
+      "source": 302,
+      "destination": 24,
+      "capacity": 14
+    },
+    {
+      "source": 302,
+      "destination": 108,
+      "capacity": 17
+    },
+    {
+      "source": 302,
+      "destination": 306,
+      "capacity": 10
+    },
+    {
+      "source": 306,
+      "destination": 51,
+      "capacity": 5
+    },
+    {
+      "source": 306,
+      "destination": 248,
+      "capacity": 7
+    }
+  ],
+  "description": "Generated for the Flow chapter corpus: seed 20260830:metro_directed_dag_for_ipm, integer capacities uniform in [1,20], one draw per edge."
+}

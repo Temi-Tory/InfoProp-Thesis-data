@@ -1,0 +1,90 @@
+{
+  "seed": 20260830,
+  "rule": "uniform integer [1,20], one draw per edge (and per node for the node-capacity subset)",
+  "networks": [
+    {
+      "network": "water",
+      "nodes": 32,
+      "edges": 66,
+      "node_capacities": true,
+      "file": "water-capacities.json"
+    },
+    {
+      "network": "KarlNetwork",
+      "nodes": 26,
+      "edges": 74,
+      "node_capacities": true,
+      "file": "KarlNetwork-capacities.json"
+    },
+    {
+      "network": "grid-graph-5x5",
+      "nodes": 25,
+      "edges": 40,
+      "node_capacities": true,
+      "file": "grid-graph-5x5-capacities.json"
+    },
+    {
+      "network": "metro_directed_dag_for_ipm",
+      "nodes": 306,
+      "edges": 350,
+      "node_capacities": false,
+      "file": "metro_directed_dag_for_ipm-capacities.json"
+    },
+    {
+      "network": "ergo-proxy-dag-network",
+      "nodes": 800,
+      "edges": 6607,
+      "node_capacities": false,
+      "file": "ergo-proxy-dag-network-capacities.json"
+    },
+    {
+      "network": "drone-network-fw-reliant-centralized",
+      "nodes": 217,
+      "edges": 263,
+      "node_capacities": false,
+      "file": "drone-network-fw-reliant-centralized-capacities.json"
+    },
+    {
+      "network": "drone-network-vtol-dense-decentralized",
+      "nodes": 242,
+      "edges": 1753,
+      "node_capacities": false,
+      "file": "drone-network-vtol-dense-decentralized-capacities.json"
+    },
+    {
+      "network": "drone-network-concentrated-minimal",
+      "nodes": 230,
+      "edges": 1648,
+      "node_capacities": false,
+      "file": "drone-network-concentrated-minimal-capacities.json"
+    },
+    {
+      "network": "continental_medical_network",
+      "nodes": 141,
+      "edges": 365,
+      "node_capacities": false,
+      "file": "continental_medical_network-capacities.json"
+    },
+    {
+      "network": "glasgow_to_shetland_extreme",
+      "nodes": 69,
+      "edges": 68,
+      "node_capacities": false,
+      "file": "glasgow_to_shetland_extreme-capacities.json"
+    },
+    {
+      "network": "highland_to_lowland_full_network",
+      "nodes": 138,
+      "edges": 501,
+      "node_capacities": false,
+      "file": "highland_to_lowland_full_network-capacities.json"
+    },
+    {
+      "network": "psplib-j301_1",
+      "nodes": 32,
+      "edges": 48,
+      "node_capacities": true,
+      "file": "psplib-j301_1-capacities.json"
+    }
+  ]
+}

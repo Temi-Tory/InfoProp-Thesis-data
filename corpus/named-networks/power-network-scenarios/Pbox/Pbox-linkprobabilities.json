@@ -1,0 +1,464 @@
+{
+  "data_type": "pbox",
+  "links": {
+    "(1,2)": {
+      "type": "pbox",
+      "construction_type": "parametric_interval",
+      "shape": "uniform",
+      "params": [
+        {
+          "type": "interval",
+          "lower": 0.88,
+          "upper": 0.92
+        },
+        {
+          "type": "interval",
+          "lower": 0.95,
+          "upper": 0.98
+        }
+      ]
+    },
+    "(2,3)": {
+      "type": "pbox",
+      "construction_type": "parametric_interval",
+      "shape": "uniform",
+      "params": [
+        {
+          "type": "interval",
+          "lower": 0.88,
+          "upper": 0.92
+        },
+        {
+          "type": "interval",
+          "lower": 0.95,
+          "upper": 0.98
+        }
+      ]
+    },
+    "(2,6)": {
+      "type": "pbox",
+      "construction_type": "parametric_interval",
+      "shape": "uniform",
+      "params": [
+        {
+          "type": "interval",
+          "lower": 0.88,
+          "upper": 0.92
+        },
+        {
+          "type": "interval",
+          "lower": 0.95,
+          "upper": 0.98
+        }
+      ]
+    },
+    "(2,10)": {
+      "type": "pbox",
+      "construction_type": "parametric_interval",
+      "shape": "uniform",
+      "params": [
+        {
+          "type": "interval",
+          "lower": 0.88,
+          "upper": 0.92
+        },
+        {
+          "type": "interval",
+          "lower": 0.95,
+          "upper": 0.98
+        }
+      ]
+    },
+    "(3,4)": {
+      "type": "pbox",
+      "construction_type": "parametric_interval",
+      "shape": "uniform",
+      "params": [
+        {
+          "type": "interval",
+          "lower": 0.88,
+          "upper": 0.92
+        },
+        {
+          "type": "interval",
+          "lower": 0.95,
+          "upper": 0.98
+        }
+      ]
+    },
+    "(4,5)": {
+      "type": "pbox",
+      "construction_type": "parametric_interval",
+      "shape": "uniform",
+      "params": [
+        {
+          "type": "interval",
+          "lower": 0.88,
+          "upper": 0.92
+        },
+        {
+          "type": "interval",
+          "lower": 0.95,
+          "upper": 0.98
+        }
+      ]
+    },
+    "(5,13)": {
+      "type": "pbox",
+      "construction_type": "parametric_interval",
+      "shape": "uniform",
+      "params": [
+        {
+          "type": "interval",
+          "lower": 0.88,
+          "upper": 0.92
+        },
+        {
+          "type": "interval",
+          "lower": 0.95,
+          "upper": 0.98
+        }
+      ]
+    },
+    "(6,5)": {
+      "type": "pbox",
+      "construction_type": "parametric_interval",
+      "shape": "uniform",
+      "params": [
+        {
+          "type": "interval",
+          "lower": 0.88,
+          "upper": 0.92
+        },
+        {
+          "type": "interval",
+          "lower": 0.95,
+          "upper": 0.98
+        }
+      ]
+    },
+    "(7,8)": {
+      "type": "pbox",
+      "construction_type": "parametric_interval",
+      "shape": "uniform",
+      "params": [
+        {
+          "type": "interval",
+          "lower": 0.88,
+          "upper": 0.92
+        },
+        {
+          "type": "interval",
+          "lower": 0.95,
+          "upper": 0.98
+        }
+      ]
+    },
+    "(8,9)": {
+      "type": "pbox",
+      "construction_type": "parametric_interval",
+      "shape": "uniform",
+      "params": [
+        {
+          "type": "interval",
+          "lower": 0.88,
+          "upper": 0.92
+        },
+        {
+          "type": "interval",
+          "lower": 0.95,
+          "upper": 0.98
+        }
+      ]
+    },
+    "(8,12)": {
+      "type": "pbox",
+      "construction_type": "parametric_interval",
+      "shape": "uniform",
+      "params": [
+        {
+          "type": "interval",
+          "lower": 0.88,
+          "upper": 0.92
+        },
+        {
+          "type": "interval",
+          "lower": 0.95,
+          "upper": 0.98
+        }
+      ]
+    },
+    "(9,10)": {
+      "type": "pbox",
+      "construction_type": "parametric_interval",
+      "shape": "uniform",
+      "params": [
+        {
+          "type": "interval",
+          "lower": 0.88,
+          "upper": 0.92
+        },
+        {
+          "type": "interval",
+          "lower": 0.95,
+          "upper": 0.98
+        }
+      ]
+    },
+    "(10,11)": {
+      "type": "pbox",
+      "construction_type": "parametric_interval",
+      "shape": "uniform",
+      "params": [
+        {
+          "type": "interval",
+          "lower": 0.88,
+          "upper": 0.92
+        },
+        {
+          "type": "interval",
+          "lower": 0.95,
+          "upper": 0.98
+        }
+      ]
+    },
+    "(11,19)": {
+      "type": "pbox",
+      "construction_type": "parametric_interval",
+      "shape": "uniform",
+      "params": [
+        {
+          "type": "interval",
+          "lower": 0.88,
+          "upper": 0.92
+        },
+        {
+          "type": "interval",
+          "lower": 0.95,
+          "upper": 0.98
+        }
+      ]
+    },
+    "(12,11)": {
+      "type": "pbox",
+      "construction_type": "parametric_interval",
+      "shape": "uniform",
+      "params": [
+        {
+          "type": "interval",
+          "lower": 0.88,
+          "upper": 0.92
+        },
+        {
+          "type": "interval",
+          "lower": 0.95,
+          "upper": 0.98
+        }
+      ]
+    },
+    "(13,14)": {
+      "type": "pbox",
+      "construction_type": "parametric_interval",
+      "shape": "uniform",
+      "params": [
+        {
+          "type": "interval",
+          "lower": 0.88,
+          "upper": 0.92
+        },
+        {
+          "type": "interval",
+          "lower": 0.95,
+          "upper": 0.98
+        }
+      ]
+    },
+    "(14,21)": {
+      "type": "pbox",
+      "construction_type": "parametric_interval",
+      "shape": "uniform",
+      "params": [
+        {
+          "type": "interval",
+          "lower": 0.88,
+          "upper": 0.92
+        },
+        {
+          "type": "interval",
+          "lower": 0.95,
+          "upper": 0.98
+        }
+      ]
+    },
+    "(15,13)": {
+      "type": "pbox",
+      "construction_type": "parametric_interval",
+      "shape": "uniform",
+      "params": [
+        {
+          "type": "interval",
+          "lower": 0.88,
+          "upper": 0.92
+        },
+        {
+          "type": "interval",
+          "lower": 0.95,
+          "upper": 0.98
+        }
+      ]
+    },
+    "(16,15)": {
+      "type": "pbox",
+      "construction_type": "parametric_interval",
+      "shape": "uniform",
+      "params": [
+        {
+          "type": "interval",
+          "lower": 0.88,
+          "upper": 0.92
+        },
+        {
+          "type": "interval",
+          "lower": 0.95,
+          "upper": 0.98
+        }
+      ]
+    },
+    "(16,17)": {
+      "type": "pbox",
+      "construction_type": "parametric_interval",
+      "shape": "uniform",
+      "params": [
+        {
+          "type": "interval",
+          "lower": 0.88,
+          "upper": 0.92
+        },
+        {
+          "type": "interval",
+          "lower": 0.95,
+          "upper": 0.98
+        }
+      ]
+    },
+    "(17,14)": {
+      "type": "pbox",
+      "construction_type": "parametric_interval",
+      "shape": "uniform",
+      "params": [
+        {
+          "type": "interval",
+          "lower": 0.88,
+          "upper": 0.92
+        },
+        {
+          "type": "interval",
+          "lower": 0.95,
+          "upper": 0.98
+        }
+      ]
+    },
+    "(18,16)": {
+      "type": "pbox",
+      "construction_type": "parametric_interval",
+      "shape": "uniform",
+      "params": [
+        {
+          "type": "interval",
+          "lower": 0.88,
+          "upper": 0.92
+        },
+        {
+          "type": "interval",
+          "lower": 0.95,
+          "upper": 0.98
+        }
+      ]
+    },
+    "(19,20)": {
+      "type": "pbox",
+      "construction_type": "parametric_interval",
+      "shape": "uniform",
+      "params": [
+        {
+          "type": "interval",
+          "lower": 0.88,
+          "upper": 0.92
+        },
+        {
+          "type": "interval",
+          "lower": 0.95,
+          "upper": 0.98
+        }
+      ]
+    },
+    "(19,22)": {
+      "type": "pbox",
+      "construction_type": "parametric_interval",
+      "shape": "uniform",
+      "params": [
+        {
+          "type": "interval",
+          "lower": 0.88,
+          "upper": 0.92
+        },
+        {
+          "type": "interval",
+          "lower": 0.95,
+          "upper": 0.98
+        }
+      ]
+    },
+    "(20,21)": {
+      "type": "pbox",
+      "construction_type": "parametric_interval",
+      "shape": "uniform",
+      "params": [
+        {
+          "type": "interval",
+          "lower": 0.88,
+          "upper": 0.92
+        },
+        {
+          "type": "interval",
+          "lower": 0.95,
+          "upper": 0.98
+        }
+      ]
+    },
+    "(21,22)": {
+      "type": "pbox",
+      "construction_type": "parametric_interval",
+      "shape": "uniform",
+      "params": [
+        {
+          "type": "interval",
+          "lower": 0.88,
+          "upper": 0.92
+        },
+        {
+          "type": "interval",
+          "lower": 0.95,
+          "upper": 0.98
+        }
+      ]
+    },
+    "(22,23)": {
+      "type": "pbox",
+      "construction_type": "parametric_interval",
+      "shape": "uniform",
+      "params": [
+        {
+          "type": "interval",
+          "lower": 0.88,
+          "upper": 0.92
+        },
+        {
+          "type": "interval",
+          "lower": 0.95,
+          "upper": 0.98
+        }
+      ]
+    }
+  }
+}

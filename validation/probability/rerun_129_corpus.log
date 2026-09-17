@@ -1,0 +1,8 @@
+[2026-08-30T13:27:07.308] loaded 129 prior worst_delta values from paper_data.csv
+[2026-08-30T13:27:09.503] corpus reconstructed: 129 graphs (expect 129)
+  Activating project at `C:\Development\Info_Prop_Framework_Project\Info_Prop_Framework_Project\InfoPropFrmwrk`
+[2026-08-30T13:40:14.145] wrote C:\Development\Info_Prop_Framework_Project\Info_Prop_Framework_Project\validation\probability\rerun_129_corpus_results.csv
+[2026-08-30T13:40:14.175] === RESULTS ===
+
+[2026-08-30T13:40:14.365] 129/129 graphs exact (worst_delta < 1e-6); 0/129 changed vs prior paper_data.csv (tol 1e-9)
+[2026-08-30T13:40:14.618] done

@@ -1,0 +1,2457 @@
+{
+  "links": {
+    "(81,82)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(137,136)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(140,219)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(293,292)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(29,30)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(80,104)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(113,112)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(147,146)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(267,292)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(77,209)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(150,149)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(123,124)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(167,166)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(302,108)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(14,13)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(109,110)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(170,171)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(31,32)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(19,75)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(109,208)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(215,216)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(5,4)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(18,19)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(25,26)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(103,102)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(231,230)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(274,275)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(166,182)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(207,208)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(145,181)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(54,55)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(80,174)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(102,101)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(140,218)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(240,170)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(165,205)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(143,215)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(66,65)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(299,300)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(92,179)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(99,100)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(97,96)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(48,49)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(269,268)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(172,173)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(22,264)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(202,260)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(2,1)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(21,22)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(207,206)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(5,159)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(14,97)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(34,152)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(81,144)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(74,73)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(51,52)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(52,53)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(191,192)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(216,217)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(62,63)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(59,60)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(281,280)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(219,220)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(291,172)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(68,67)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(119,127)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(298,297)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(296,297)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(9,279)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(11,57)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(212,213)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(145,164)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(70,113)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(256,255)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(122,123)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(44,43)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(195,194)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(266,267)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(185,186)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(10,9)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(235,234)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(172,303)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(3,2)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(132,131)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(170,239)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(55,56)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(70,69)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(20,184)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(246,247)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(183,168)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(282,281)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(202,261)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(180,258)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(106,269)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(200,199)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(32,33)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(60,225)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(166,206)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(107,293)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(159,160)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(92,93)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(104,162)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(120,121)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(98,193)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(217,218)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(80,81)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(184,185)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(106,105)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(201,200)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(100,101)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(240,241)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(117,122)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(198,197)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(70,92)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(98,99)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(53,54)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(108,243)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(106,270)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(94,257)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(111,112)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(251,250)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(108,107)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(13,98)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(138,137)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(17,16)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(264,263)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(142,151)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(203,202)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(178,177)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(75,74)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(181,304)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(72,71)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(140,139)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(248,45)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(14,98)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(169,168)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(154,155)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(211,212)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(38,37)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(18,75)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(148,147)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(81,104)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(144,143)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(209,210)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(252,251)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(11,10)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(169,170)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(153,154)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(13,12)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(134,133)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(77,190)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(18,76)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(79,80)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(97,233)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(46,47)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(111,201)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(165,164)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(77,289)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(67,66)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(124,125)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(71,180)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(142,141)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(306,248)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(95,94)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(180,179)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(262,305)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(7,6)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(34,35)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(82,83)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(189,188)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(27,28)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(242,241)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(73,145)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(110,262)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(27,301)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(33,34)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(20,21)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(223,224)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(49,50)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(77,78)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(151,158)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(285,284)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(204,305)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(232,231)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(120,119)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(110,111)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(9,8)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(71,70)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(94,93)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(65,64)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(290,291)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(12,11)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(89,90)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(86,87)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(37,36)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(187,186)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(220,221)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(47,48)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(90,91)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(110,299)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(76,77)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(104,105)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(176,175)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(267,268)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(227,226)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(117,116)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(199,198)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(18,238)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(185,240)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(259,260)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(24,109)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(272,273)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(136,135)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(39,38)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(103,214)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(26,27)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(289,288)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(143,142)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(236,235)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(222,223)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(145,298)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(267,303)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(306,51)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(18,237)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(145,165)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(180,304)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(253,252)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(40,39)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(157,156)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(204,205)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(250,249)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(257,258)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(145,72)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(115,114)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(164,163)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(160,161)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(18,17)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(71,259)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(237,236)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(85,86)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(30,31)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(230,229)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(172,171)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(225,226)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(19,20)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(96,296)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(168,182)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(190,191)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(244,245)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(188,187)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(127,128)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(92,178)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(233,232)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(162,120)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(35,153)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(4,3)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(265,266)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(204,203)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(273,274)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(108,242)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(276,277)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(94,256)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(83,84)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(207,262)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(233,294)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(13,44)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(283,282)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(168,167)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(275,276)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(22,302)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(288,287)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(177,176)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(151,150)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(233,295)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(166,165)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(98,192)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(28,29)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(43,42)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(20,183)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(45,46)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(229,228)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(149,148)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(300,301)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(119,118)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(84,85)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(22,23)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(133,132)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(143,214)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(96,95)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(41,40)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(87,88)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(240,169)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(277,278)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(135,134)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(131,130)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(197,196)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(42,41)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(60,61)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(221,222)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(271,272)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(58,59)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(228,227)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(77,189)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(103,213)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(302,306)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(262,261)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(270,271)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(107,106)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(130,129)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(284,294)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(174,173)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(14,285)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(111,202)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(8,7)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(125,126)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(196,195)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(78,79)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(96,295)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(286,287)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(24,25)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(302,24)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(88,89)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(284,283)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(69,68)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(116,115)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(118,117)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(139,138)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(6,5)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(158,157)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(255,254)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(164,204)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(243,244)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(57,58)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(263,207)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(78,290)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(14,286)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(61,62)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(16,15)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(81,103)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(97,234)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(22,169)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(185,239)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(210,211)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(23,24)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(240,265)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(245,246)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(44,193)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(15,14)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(141,140)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(254,253)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    }
+  },
+  "data_type": "ProbabilityBoundsAnalysis.pbox",
+  "serialization": "compact",
+  "description": "Link/edge probabilities for network analysis"
+}

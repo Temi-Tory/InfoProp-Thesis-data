@@ -1,0 +1,17 @@
+family,param,V,E,ipa_ops,ipa_uniq,ipa_maxcond,bdd_status,bdd_nodes,valid_oracle,valid_metric
+fanin,2,7,8,5,2,1,ok,37,pathenum,2.220e-16
+fanin,4,13,16,9,4,1,ok,126,pathenum,3.331e-16
+fanin,6,19,24,13,6,1,ok,274,pathenum,7.772e-16
+fanin,8,25,32,17,8,1,ok,474,pathenum,3.220e-15
+fanin,10,31,40,21,10,1,ok,561,MC,1.880e+00
+fanin,12,37,48,25,12,1,ok,636,skip,-1.000e+00
+fanin,14,43,56,29,14,1,ok,684,skip,-1.000e+00
+fanin,16,49,64,33,16,1,ok,802,skip,-1.000e+00
+mesh,2,16,21,78,21,6,ok,315,pathenum,6.939e-17
+mesh,3,24,35,1600,82,7,ok,640,MC,2.281e+00
+mesh,4,32,49,20603,181,8,ok,700,MC,9.906e-01
+mesh,5,40,63,170001,320,9,ok,805,MC,1.798e+00
+mesh,6,48,77,832922,497,10,ok,1487,skip,-1.000e+00
+mesh,7,56,91,2364087,700,11,ok,2189,skip,-1.000e+00
+mesh,8,64,105,3895252,903,11,ok,2621,skip,-1.000e+00
+# done

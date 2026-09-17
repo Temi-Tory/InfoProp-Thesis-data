@@ -1,0 +1,11 @@
+{
+  "nodes": {
+    "4": 0.9509743433860836,
+    "1": 1.0,
+    "5": 0.7952185913252381,
+    "2": 1.0,
+    "3": 0.714784386725219
+  },
+  "data_type": "Float64",
+  "description": "Synthetic reliabilities on the real bnlearn 'cancer-bnlearn' DAG topology -- structural exactness validation only, not a decision-relevant claim about the represented system."
+}

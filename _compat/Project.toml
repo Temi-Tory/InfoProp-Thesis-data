@@ -1,0 +1,9 @@
+name = "InfoPropFramework"
+uuid = "b1c0de00-0000-4000-8000-000000000001"
+
+[deps]
+InformationPropagationAnalysis = "a5102360-ae28-4698-95dd-b3596d53d633"
+
+[compat]
+InformationPropagationAnalysis = "=0.2.1"
+julia = "1.12"

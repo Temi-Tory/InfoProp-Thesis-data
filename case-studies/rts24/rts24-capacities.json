@@ -1,0 +1,218 @@
+{
+  "data_type": "Float64",
+  "edges": [
+    {
+      "source": 1,
+      "destination": 2,
+      "capacity": 175
+    },
+    {
+      "source": 1,
+      "destination": 5,
+      "capacity": 175
+    },
+    {
+      "source": 2,
+      "destination": 4,
+      "capacity": 175
+    },
+    {
+      "source": 2,
+      "destination": 6,
+      "capacity": 175
+    },
+    {
+      "source": 3,
+      "destination": 1,
+      "capacity": 175
+    },
+    {
+      "source": 7,
+      "destination": 8,
+      "capacity": 175
+    },
+    {
+      "source": 9,
+      "destination": 3,
+      "capacity": 175
+    },
+    {
+      "source": 9,
+      "destination": 4,
+      "capacity": 175
+    },
+    {
+      "source": 9,
+      "destination": 8,
+      "capacity": 175
+    },
+    {
+      "source": 10,
+      "destination": 5,
+      "capacity": 175
+    },
+    {
+      "source": 10,
+      "destination": 6,
+      "capacity": 175
+    },
+    {
+      "source": 10,
+      "destination": 8,
+      "capacity": 175
+    },
+    {
+      "source": 11,
+      "destination": 9,
+      "capacity": 400
+    },
+    {
+      "source": 11,
+      "destination": 10,
+      "capacity": 400
+    },
+    {
+      "source": 12,
+      "destination": 9,
+      "capacity": 400
+    },
+    {
+      "source": 12,
+      "destination": 10,
+      "capacity": 400
+    },
+    {
+      "source": 13,
+      "destination": 11,
+      "capacity": 500
+    },
+    {
+      "source": 13,
+      "destination": 12,
+      "capacity": 500
+    },
+    {
+      "source": 14,
+      "destination": 11,
+      "capacity": 500
+    },
+    {
+      "source": 15,
+      "destination": 16,
+      "capacity": 500
+    },
+    {
+      "source": 15,
+      "destination": 24,
+      "capacity": 500
+    },
+    {
+      "source": 16,
+      "destination": 14,
+      "capacity": 500
+    },
+    {
+      "source": 16,
+      "destination": 19,
+      "capacity": 500
+    },
+    {
+      "source": 17,
+      "destination": 16,
+      "capacity": 500
+    },
+    {
+      "source": 18,
+      "destination": 17,
+      "capacity": 500
+    },
+    {
+      "source": 20,
+      "destination": 19,
+      "capacity": 1000
+    },
+    {
+      "source": 21,
+      "destination": 15,
+      "capacity": 1000
+    },
+    {
+      "source": 21,
+      "destination": 18,
+      "capacity": 1000
+    },
+    {
+      "source": 22,
+      "destination": 17,
+      "capacity": 500
+    },
+    {
+      "source": 22,
+      "destination": 21,
+      "capacity": 500
+    },
+    {
+      "source": 23,
+      "destination": 12,
+      "capacity": 500
+    },
+    {
+      "source": 23,
+      "destination": 13,
+      "capacity": 500
+    },
+    {
+      "source": 23,
+      "destination": 20,
+      "capacity": 1000
+    },
+    {
+      "source": 24,
+      "destination": 3,
+      "capacity": 400
+    }
+  ],
+  "nodes": [
+    {
+      "node": 1,
+      "capacity": 192.0
+    },
+    {
+      "node": 2,
+      "capacity": 192.0
+    },
+    {
+      "node": 7,
+      "capacity": 300.0
+    },
+    {
+      "node": 13,
+      "capacity": 591.0
+    },
+    {
+      "node": 15,
+      "capacity": 215.0
+    },
+    {
+      "node": 16,
+      "capacity": 155.0
+    },
+    {
+      "node": 18,
+      "capacity": 400.0
+    },
+    {
+      "node": 21,
+      "capacity": 400.0
+    },
+    {
+      "node": 22,
+      "capacity": 300.0
+    },
+    {
+      "node": 23,
+      "capacity": 660.0
+    }
+  ],
+  "description": "IEEE RTS-24 (MATPOWER case24_ieee_rts.m), oriented by a DC power flow at peak load (dispatch scale 0.837004, uniform participation factor). 0 line(s) dropped to break directed cycles \u2014 see orientation_log.txt. Edge capacities are branch rateA (MVA); node capacities on generator buses are total nameplate Pmax (MW)."
+}

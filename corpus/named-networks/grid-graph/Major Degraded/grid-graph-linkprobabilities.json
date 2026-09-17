@@ -1,0 +1,175 @@
+{
+  "links": {
+    "(9,10)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.42,
+      "type": "pbox"
+    },
+    "(7,11)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.35,
+      "type": "pbox"
+    },
+    "(15,16)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.58,
+      "type": "pbox"
+    },
+    "(10,6)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.31,
+      "type": "pbox"
+    },
+    "(7,8)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.47,
+      "type": "pbox"
+    },
+    "(12,16)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.39,
+      "type": "pbox"
+    },
+    "(8,12)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.54,
+      "type": "pbox"
+    },
+    "(14,15)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.33,
+      "type": "pbox"
+    },
+    "(2,6)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.45,
+      "type": "pbox"
+    },
+    "(3,7)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.52,
+      "type": "pbox"
+    },
+    "(5,9)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.36,
+      "type": "pbox"
+    },
+    "(3,4)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.59,
+      "type": "pbox"
+    },
+    "(5,6)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.41,
+      "type": "pbox"
+    },
+    "(8,4)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.48,
+      "type": "pbox"
+    },
+    "(10,14)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.32,
+      "type": "pbox"
+    },
+    "(3,2)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.56,
+      "type": "pbox"
+    },
+    "(10,11)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.38,
+      "type": "pbox"
+    },
+    "(6,7)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.43,
+      "type": "pbox"
+    },
+    "(13,9)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.51,
+      "type": "pbox"
+    },
+    "(11,15)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.34,
+      "type": "pbox"
+    },
+    "(1,2)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.49,
+      "type": "pbox"
+    },
+    "(11,12)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.37,
+      "type": "pbox"
+    },
+    "(13,14)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.55,
+      "type": "pbox"
+    },
+    "(1,5)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.44,
+      "type": "pbox"
+    }
+  },
+  "data_type": "ProbabilityBoundsAnalysis.pbox",
+  "serialization": "compact",
+  "description": "Link/edge probabilities for network analysis"
+}

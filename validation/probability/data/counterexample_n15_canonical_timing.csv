@@ -1,0 +1,9 @@
+metric,value
+V,15
+E,23
+robdd_nodes_canonical,323
+t_ipa_float64_ms,0.465
+t_ipa_interval_ms,0.819
+ratio_interval_over_float64,1.761
+t_bdd_interval_ms,44.603
+ratio_bdd_over_ipa_interval,54.467

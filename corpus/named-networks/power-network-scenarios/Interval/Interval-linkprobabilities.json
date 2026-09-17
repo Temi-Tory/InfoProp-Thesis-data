@@ -1,0 +1,140 @@
+{
+  "data_type": "Interval",
+  "links": {
+    "(1,2)": {
+      "type": "interval",
+      "lower": 0.9,
+      "upper": 0.97
+    },
+    "(2,3)": {
+      "type": "interval",
+      "lower": 0.9,
+      "upper": 0.97
+    },
+    "(2,6)": {
+      "type": "interval",
+      "lower": 0.9,
+      "upper": 0.97
+    },
+    "(2,10)": {
+      "type": "interval",
+      "lower": 0.9,
+      "upper": 0.97
+    },
+    "(3,4)": {
+      "type": "interval",
+      "lower": 0.9,
+      "upper": 0.97
+    },
+    "(4,5)": {
+      "type": "interval",
+      "lower": 0.9,
+      "upper": 0.97
+    },
+    "(5,13)": {
+      "type": "interval",
+      "lower": 0.9,
+      "upper": 0.97
+    },
+    "(6,5)": {
+      "type": "interval",
+      "lower": 0.9,
+      "upper": 0.97
+    },
+    "(7,8)": {
+      "type": "interval",
+      "lower": 0.9,
+      "upper": 0.97
+    },
+    "(8,9)": {
+      "type": "interval",
+      "lower": 0.9,
+      "upper": 0.97
+    },
+    "(8,12)": {
+      "type": "interval",
+      "lower": 0.9,
+      "upper": 0.97
+    },
+    "(9,10)": {
+      "type": "interval",
+      "lower": 0.9,
+      "upper": 0.97
+    },
+    "(10,11)": {
+      "type": "interval",
+      "lower": 0.9,
+      "upper": 0.97
+    },
+    "(11,19)": {
+      "type": "interval",
+      "lower": 0.9,
+      "upper": 0.97
+    },
+    "(12,11)": {
+      "type": "interval",
+      "lower": 0.9,
+      "upper": 0.97
+    },
+    "(13,14)": {
+      "type": "interval",
+      "lower": 0.9,
+      "upper": 0.97
+    },
+    "(14,21)": {
+      "type": "interval",
+      "lower": 0.9,
+      "upper": 0.97
+    },
+    "(15,13)": {
+      "type": "interval",
+      "lower": 0.9,
+      "upper": 0.97
+    },
+    "(16,15)": {
+      "type": "interval",
+      "lower": 0.9,
+      "upper": 0.97
+    },
+    "(16,17)": {
+      "type": "interval",
+      "lower": 0.9,
+      "upper": 0.97
+    },
+    "(17,14)": {
+      "type": "interval",
+      "lower": 0.9,
+      "upper": 0.97
+    },
+    "(18,16)": {
+      "type": "interval",
+      "lower": 0.9,
+      "upper": 0.97
+    },
+    "(19,20)": {
+      "type": "interval",
+      "lower": 0.9,
+      "upper": 0.97
+    },
+    "(19,22)": {
+      "type": "interval",
+      "lower": 0.9,
+      "upper": 0.97
+    },
+    "(20,21)": {
+      "type": "interval",
+      "lower": 0.9,
+      "upper": 0.97
+    },
+    "(21,22)": {
+      "type": "interval",
+      "lower": 0.9,
+      "upper": 0.97
+    },
+    "(22,23)": {
+      "type": "interval",
+      "lower": 0.9,
+      "upper": 0.97
+    }
+  }
+}

@@ -1,0 +1,46 @@
+total_pd = 2850 MW, total_pmax = 3405 MW, dispatch scale = 0.837004
+slack bus = 13
+
+oriented branches (u -> v, capacity MVA, |flow| MW, original file fbus/tbus):
+    1 -> 2   cap=  175 MVA  |flow|=   6.123 MW
+    1 -> 5   cap=  175 MVA  |flow|=  48.547 MW
+    2 -> 4   cap=  175 MVA  |flow|=  29.184 MW
+    2 -> 6   cap=  175 MVA  |flow|=  40.644 MW
+    3 -> 1   cap=  175 MVA  |flow|=   1.966 MW (REVERSED from file order)
+    7 -> 8   cap=  175 MVA  |flow|= 126.101 MW
+    9 -> 3   cap=  175 MVA  |flow|=   3.777 MW (REVERSED from file order)
+    9 -> 4   cap=  175 MVA  |flow|=  44.816 MW (REVERSED from file order)
+    9 -> 8   cap=  175 MVA  |flow|=  31.487 MW (REVERSED from file order)
+   10 -> 5   cap=  175 MVA  |flow|=  22.453 MW (REVERSED from file order)
+   10 -> 6   cap=  175 MVA  |flow|=  95.356 MW (REVERSED from file order)
+   10 -> 8   cap=  175 MVA  |flow|=  13.411 MW (REVERSED from file order)
+   11 -> 9   cap=  400 MVA  |flow|= 114.763 MW (REVERSED from file order)
+   11 -> 10  cap=  400 MVA  |flow|= 150.333 MW (REVERSED from file order)
+   12 -> 9   cap=  400 MVA  |flow|= 140.317 MW (REVERSED from file order)
+   12 -> 10  cap=  400 MVA  |flow|= 175.887 MW (REVERSED from file order)
+   13 -> 11  cap=  500 MVA  |flow|= 191.685 MW (REVERSED from file order)
+   13 -> 12  cap=  500 MVA  |flow|= 146.645 MW (REVERSED from file order)
+   14 -> 11  cap=  500 MVA  |flow|=  73.411 MW (REVERSED from file order)
+   15 -> 16  cap=  500 MVA  |flow|=  37.518 MW
+   15 -> 24  cap=  500 MVA  |flow|= 178.189 MW
+   16 -> 14  cap=  500 MVA  |flow|= 267.411 MW (REVERSED from file order)
+   16 -> 19  cap=  500 MVA  |flow|=  34.796 MW
+   17 -> 16  cap=  500 MVA  |flow|= 234.954 MW (REVERSED from file order)
+   18 -> 17  cap=  500 MVA  |flow|= 118.080 MW (REVERSED from file order)
+   20 -> 19  cap=  500 MVA  |flow|=  73.102 MW (REVERSED from file order)
+   20 -> 19  cap=  500 MVA  |flow|=  73.102 MW (REVERSED from file order)
+   21 -> 15  cap=  500 MVA  |flow|= 176.376 MW (REVERSED from file order)
+   21 -> 15  cap=  500 MVA  |flow|= 176.376 MW (REVERSED from file order)
+   21 -> 18  cap=  500 MVA  |flow|=  58.139 MW (REVERSED from file order)
+   21 -> 18  cap=  500 MVA  |flow|=  58.139 MW (REVERSED from file order)
+   22 -> 17  cap=  500 MVA  |flow|= 116.874 MW (REVERSED from file order)
+   22 -> 21  cap=  500 MVA  |flow|= 134.228 MW (REVERSED from file order)
+   23 -> 12  cap=  500 MVA  |flow|= 169.559 MW (REVERSED from file order)
+   23 -> 13  cap=  500 MVA  |flow|= 108.660 MW (REVERSED from file order)
+   23 -> 20  cap=  500 MVA  |flow|= 137.102 MW (REVERSED from file order)
+   23 -> 20  cap=  500 MVA  |flow|= 137.102 MW (REVERSED from file order)
+   24 -> 3   cap=  400 MVA  |flow|= 178.189 MW (REVERSED from file order)
+
+No directed cycles remained after DC-flow orientation — nothing dropped.
+
+final DAG: 24 nodes, 34 edges (from 38 oriented, 0 dropped)

@@ -1,0 +1,73 @@
+{
+  "iteration_levels": [
+    [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    [
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ]
+  ],
+  "primary_hub": 19,
+  "source_nodes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "secondary_hub": 11,
+  "network": "water-highvdemo",
+  "derived_from": "C:\\Users\\ohian\\OneDrive - University of Strathclyde\\Documents\\Programmming Files\\Julia Files\\InformationPropagation\\Info_Prop_Framework_Project\\dag_ntwrk_files\\water\\water.EDGES",
+  "bottleneck_edges": [
+    "(19,27)",
+    "(19,29)"
+  ],
+  "sink_nodes": [
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "timestamp": "2026-03-09T13:15:39.219"
+}

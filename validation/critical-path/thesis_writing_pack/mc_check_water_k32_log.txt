@@ -1,0 +1,6 @@
+recomputing split bounds (k=32)...
+split done: 2269328 runs in 307.4s = 135.5 microseconds/run
+MC: 50000 samples in 13.8s. BOUND VIOLATIONS: 0 (SOUND)
+attainment: MC reached the lower bound at 32/32 nodes and the upper at 32/32;
+  worst MC-to-bound distance: lo 0, hi 0 (bounds are ATTAINED by the split's own witness corners regardless)
+run: 2026-08-18T08:54:07.131

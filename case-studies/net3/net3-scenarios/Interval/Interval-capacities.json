@@ -1,0 +1,890 @@
+{
+  "data_type": "Float64",
+  "edges": [
+    {
+      "source": 56,
+      "destination": 5,
+      "capacity": "Inf"
+    },
+    {
+      "source": 93,
+      "destination": 3,
+      "capacity": "Inf"
+    },
+    {
+      "source": 4,
+      "destination": 94,
+      "capacity": "Inf"
+    },
+    {
+      "source": 2,
+      "destination": 95,
+      "capacity": "Inf"
+    },
+    {
+      "source": 6,
+      "destination": 7,
+      "capacity": 246.25983484138388
+    },
+    {
+      "source": 7,
+      "destination": 8,
+      "capacity": 194.5756719734391
+    },
+    {
+      "source": 9,
+      "destination": 7,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 9,
+      "destination": 10,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 11,
+      "destination": 8,
+      "capacity": 194.5756719734391
+    },
+    {
+      "source": 12,
+      "destination": 11,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 14,
+      "destination": 12,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 13,
+      "destination": 12,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 14,
+      "destination": 13,
+      "capacity": 48.64391799335978
+    },
+    {
+      "source": 14,
+      "destination": 10,
+      "capacity": 48.64391799335978
+    },
+    {
+      "source": 13,
+      "destination": 52,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 85,
+      "destination": 9,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 15,
+      "destination": 14,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 16,
+      "destination": 17,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 17,
+      "destination": 15,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 18,
+      "destination": 17,
+      "capacity": 48.64391799335978
+    },
+    {
+      "source": 18,
+      "destination": 16,
+      "capacity": 684.0550967816221
+    },
+    {
+      "source": 19,
+      "destination": 18,
+      "capacity": 684.0550967816221
+    },
+    {
+      "source": 18,
+      "destination": 20,
+      "capacity": 437.795261940238
+    },
+    {
+      "source": 20,
+      "destination": 21,
+      "capacity": 437.795261940238
+    },
+    {
+      "source": 21,
+      "destination": 56,
+      "capacity": 304.02448745849864
+    },
+    {
+      "source": 21,
+      "destination": 22,
+      "capacity": 437.795261940238
+    },
+    {
+      "source": 22,
+      "destination": 23,
+      "capacity": 194.5756719734391
+    },
+    {
+      "source": 22,
+      "destination": 24,
+      "capacity": 48.64391799335978
+    },
+    {
+      "source": 24,
+      "destination": 25,
+      "capacity": 48.64391799335978
+    },
+    {
+      "source": 25,
+      "destination": 26,
+      "capacity": 48.64391799335978
+    },
+    {
+      "source": 26,
+      "destination": 30,
+      "capacity": 48.64391799335978
+    },
+    {
+      "source": 27,
+      "destination": 25,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 28,
+      "destination": 27,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 29,
+      "destination": 28,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 31,
+      "destination": 29,
+      "capacity": 48.64391799335978
+    },
+    {
+      "source": 32,
+      "destination": 31,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 20,
+      "destination": 32,
+      "capacity": 48.64391799335978
+    },
+    {
+      "source": 16,
+      "destination": 31,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 16,
+      "destination": 33,
+      "capacity": 684.0550967816221
+    },
+    {
+      "source": 33,
+      "destination": 34,
+      "capacity": 684.0550967816221
+    },
+    {
+      "source": 34,
+      "destination": 35,
+      "capacity": 684.0550967816221
+    },
+    {
+      "source": 35,
+      "destination": 36,
+      "capacity": 684.0550967816221
+    },
+    {
+      "source": 36,
+      "destination": 37,
+      "capacity": 148.9719988546643
+    },
+    {
+      "source": 37,
+      "destination": 38,
+      "capacity": 148.9719988546643
+    },
+    {
+      "source": 86,
+      "destination": 40,
+      "capacity": 684.0550967816221
+    },
+    {
+      "source": 40,
+      "destination": 39,
+      "capacity": 48.64391799335978
+    },
+    {
+      "source": 49,
+      "destination": 59,
+      "capacity": 48.64391799335978
+    },
+    {
+      "source": 40,
+      "destination": 41,
+      "capacity": 684.0550967816221
+    },
+    {
+      "source": 41,
+      "destination": 42,
+      "capacity": 684.0550967816221
+    },
+    {
+      "source": 41,
+      "destination": 89,
+      "capacity": 437.795261940238
+    },
+    {
+      "source": 45,
+      "destination": 92,
+      "capacity": 437.795261940238
+    },
+    {
+      "source": 45,
+      "destination": 43,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 43,
+      "destination": 44,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 46,
+      "destination": 44,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 44,
+      "destination": 93,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 48,
+      "destination": 47,
+      "capacity": 48.64391799335978
+    },
+    {
+      "source": 46,
+      "destination": 48,
+      "capacity": 48.64391799335978
+    },
+    {
+      "source": 47,
+      "destination": 60,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 59,
+      "destination": 48,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 50,
+      "destination": 46,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 50,
+      "destination": 49,
+      "capacity": 48.64391799335978
+    },
+    {
+      "source": 40,
+      "destination": 88,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 51,
+      "destination": 49,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 87,
+      "destination": 50,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 52,
+      "destination": 51,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 53,
+      "destination": 52,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 35,
+      "destination": 53,
+      "capacity": 48.64391799335978
+    },
+    {
+      "source": 54,
+      "destination": 51,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 12,
+      "destination": 54,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 42,
+      "destination": 55,
+      "capacity": 437.795261940238
+    },
+    {
+      "source": 55,
+      "destination": 57,
+      "capacity": 437.795261940238
+    },
+    {
+      "source": 57,
+      "destination": 58,
+      "capacity": 437.795261940238
+    },
+    {
+      "source": 55,
+      "destination": 90,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 60,
+      "destination": 62,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 62,
+      "destination": 61,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 91,
+      "destination": 62,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 61,
+      "destination": 63,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 63,
+      "destination": 64,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 64,
+      "destination": 65,
+      "capacity": 194.5756719734391
+    },
+    {
+      "source": 65,
+      "destination": 66,
+      "capacity": 194.5756719734391
+    },
+    {
+      "source": 66,
+      "destination": 67,
+      "capacity": 194.5756719734391
+    },
+    {
+      "source": 67,
+      "destination": 68,
+      "capacity": 194.5756719734391
+    },
+    {
+      "source": 68,
+      "destination": 69,
+      "capacity": 148.9719988546643
+    },
+    {
+      "source": 68,
+      "destination": 70,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 66,
+      "destination": 71,
+      "capacity": 48.64391799335978
+    },
+    {
+      "source": 71,
+      "destination": 72,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 65,
+      "destination": 73,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 73,
+      "destination": 71,
+      "capacity": 48.64391799335978
+    },
+    {
+      "source": 73,
+      "destination": 74,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 74,
+      "destination": 75,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 75,
+      "destination": 76,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 75,
+      "destination": 77,
+      "capacity": 76.00612186462466
+    },
+    {
+      "source": 74,
+      "destination": 78,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 78,
+      "destination": 77,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 81,
+      "destination": 77,
+      "capacity": 76.00612186462466
+    },
+    {
+      "source": 94,
+      "destination": 81,
+      "capacity": 76.00612186462466
+    },
+    {
+      "source": 81,
+      "destination": 80,
+      "capacity": 76.00612186462466
+    },
+    {
+      "source": 81,
+      "destination": 79,
+      "capacity": 48.64391799335978
+    },
+    {
+      "source": 78,
+      "destination": 79,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 17,
+      "destination": 82,
+      "capacity": 48.64391799335978
+    },
+    {
+      "source": 82,
+      "destination": 83,
+      "capacity": 48.64391799335978
+    },
+    {
+      "source": 83,
+      "destination": 85,
+      "capacity": 48.64391799335978
+    },
+    {
+      "source": 82,
+      "destination": 84,
+      "capacity": 48.64391799335978
+    },
+    {
+      "source": 15,
+      "destination": 84,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 84,
+      "destination": 85,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 86,
+      "destination": 87,
+      "capacity": 48.64391799335978
+    },
+    {
+      "source": 87,
+      "destination": 52,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 88,
+      "destination": 50,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 89,
+      "destination": 45,
+      "capacity": 437.795261940238
+    },
+    {
+      "source": 90,
+      "destination": 91,
+      "capacity": 48.64391799335978
+    },
+    {
+      "source": 90,
+      "destination": 60,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 36,
+      "destination": 86,
+      "capacity": 684.0550967816221
+    },
+    {
+      "source": 57,
+      "destination": 91,
+      "capacity": 109.4488154850595
+    },
+    {
+      "source": 88,
+      "destination": 89,
+      "capacity": 48.64391799335978
+    },
+    {
+      "source": 97,
+      "destination": 19,
+      "capacity": 684.0550967816221
+    },
+    {
+      "source": 95,
+      "destination": 96,
+      "capacity": 684.0550967816221
+    },
+    {
+      "source": 97,
+      "destination": 96,
+      "capacity": 684.0550967816221
+    },
+    {
+      "source": 1,
+      "destination": 6,
+      "capacity": "Inf"
+    },
+    {
+      "source": 95,
+      "destination": 97,
+      "capacity": 883.2627495999999
+    },
+    {
+      "source": 69,
+      "destination": 98,
+      "capacity": 3.4932
+    },
+    {
+      "source": 73,
+      "destination": 98,
+      "capacity": 1.3197
+    },
+    {
+      "source": 50,
+      "destination": 98,
+      "capacity": 9.1237
+    },
+    {
+      "source": 32,
+      "destination": 98,
+      "capacity": 3.7342
+    },
+    {
+      "source": 24,
+      "destination": 98,
+      "capacity": 0.4979
+    },
+    {
+      "source": 30,
+      "destination": 98,
+      "capacity": 39.1159
+    },
+    {
+      "source": 62,
+      "destination": 98,
+      "capacity": 5.8663
+    },
+    {
+      "source": 20,
+      "destination": 98,
+      "capacity": 3.8551
+    },
+    {
+      "source": 21,
+      "destination": 98,
+      "capacity": 1.493
+    },
+    {
+      "source": 25,
+      "destination": 98,
+      "capacity": 0.8327
+    },
+    {
+      "source": 35,
+      "destination": 98,
+      "capacity": 1.3357
+    },
+    {
+      "source": 76,
+      "destination": 98,
+      "capacity": 0.3669
+    },
+    {
+      "source": 79,
+      "destination": 98,
+      "capacity": 2.0425
+    },
+    {
+      "source": 55,
+      "destination": 98,
+      "capacity": 10.0874
+    },
+    {
+      "source": 70,
+      "destination": 98,
+      "capacity": 1.9275
+    },
+    {
+      "source": 13,
+      "destination": 98,
+      "capacity": 1.6917
+    },
+    {
+      "source": 51,
+      "destination": 98,
+      "capacity": 6.9239
+    },
+    {
+      "source": 10,
+      "destination": 98,
+      "capacity": 4.6193
+    },
+    {
+      "source": 23,
+      "destination": 98,
+      "capacity": 3.6141
+    },
+    {
+      "source": 60,
+      "destination": 98,
+      "capacity": 5.5256
+    },
+    {
+      "source": 33,
+      "destination": 98,
+      "capacity": 4.3784
+    },
+    {
+      "source": 68,
+      "destination": 98,
+      "capacity": 2.0476
+    },
+    {
+      "source": 71,
+      "destination": 98,
+      "capacity": 5.4258
+    },
+    {
+      "source": 72,
+      "destination": 98,
+      "capacity": 1.3932
+    },
+    {
+      "source": 9,
+      "destination": 98,
+      "capacity": 11.4443
+    },
+    {
+      "source": 34,
+      "destination": 98,
+      "capacity": 3.4932
+    },
+    {
+      "source": 36,
+      "destination": 98,
+      "capacity": 0.7964
+    },
+    {
+      "source": 8,
+      "destination": 98,
+      "capacity": 11.2608
+    },
+    {
+      "source": 14,
+      "destination": 98,
+      "capacity": 4.4046
+    },
+    {
+      "source": 38,
+      "destination": 98,
+      "capacity": 0.2198
+    },
+    {
+      "source": 11,
+      "destination": 98,
+      "capacity": 19.5628
+    },
+    {
+      "source": 41,
+      "destination": 98,
+      "capacity": 3.3258
+    },
+    {
+      "source": 77,
+      "destination": 98,
+      "capacity": 5.95
+    },
+    {
+      "source": 58,
+      "destination": 98,
+      "capacity": 280.0574
+    },
+    {
+      "source": 65,
+      "destination": 98,
+      "capacity": 0.733
+    },
+    {
+      "source": 31,
+      "destination": 98,
+      "capacity": 12.2145
+    },
+    {
+      "source": 27,
+      "destination": 98,
+      "capacity": 2.3359
+    },
+    {
+      "source": 26,
+      "destination": 98,
+      "capacity": 0.5242
+    },
+    {
+      "source": 67,
+      "destination": 98,
+      "capacity": 7.7938
+    },
+    {
+      "source": 15,
+      "destination": 98,
+      "capacity": 9.9513
+    },
+    {
+      "source": 52,
+      "destination": 98,
+      "capacity": 6.0286
+    },
+    {
+      "source": 74,
+      "destination": 98,
+      "capacity": 3.7714
+    },
+    {
+      "source": 43,
+      "destination": 98,
+      "capacity": 4.9177
+    },
+    {
+      "source": 81,
+      "destination": 98,
+      "capacity": 3.4146
+    },
+    {
+      "source": 57,
+      "destination": 98,
+      "capacity": 3.7714
+    },
+    {
+      "source": 16,
+      "destination": 98,
+      "capacity": 14.8902
+    },
+    {
+      "source": 80,
+      "destination": 98,
+      "capacity": 4.6092
+    },
+    {
+      "source": 64,
+      "destination": 98,
+      "capacity": 0.0736
+    },
+    {
+      "source": 29,
+      "destination": 98,
+      "capacity": 2.2885
+    },
+    {
+      "source": 18,
+      "destination": 98,
+      "capacity": 3.5194
+    },
+    {
+      "source": 12,
+      "destination": 98,
+      "capacity": 11.9997
+    },
+    {
+      "source": 39,
+      "destination": 98,
+      "capacity": 1.2309
+    },
+    {
+      "source": 66,
+      "destination": 98,
+      "capacity": 1.1785
+    },
+    {
+      "source": 48,
+      "destination": 98,
+      "capacity": 2.1685
+    },
+    {
+      "source": 54,
+      "destination": 98,
+      "capacity": 1.4406
+    },
+    {
+      "source": 7,
+      "destination": 98,
+      "capacity": 16.0585
+    },
+    {
+      "source": 28,
+      "destination": 98,
+      "capacity": 0.7228
+    },
+    {
+      "source": 92,
+      "destination": 98,
+      "capacity": 103.2787
+    }
+  ]
+}

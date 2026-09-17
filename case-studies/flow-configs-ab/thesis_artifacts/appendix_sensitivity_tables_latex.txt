@@ -1,0 +1,44 @@
+% Auto-generated appendix LaTeX tables for sensitivity
+% Requires: \usepackage{booktabs}
+
+\begin{table}[htbp]
+\centering
+\caption{Full ranked single-edge sensitivity results for Configuration A (all non-zero $\Delta F^*$ edges).}
+\label{tab:critical_edges_config_a_appendix}
+\begin{tabular}{lccc}
+\toprule
+Rank & Label & $\Delta F^*$ & \texttt{perturbed\_flow} \\
+\midrule
+1 & \texttt{dispatch\_gateway\_west->distribution\_combiner} & 17.0 & 20.0 \\
+2 & \texttt{dispatch\_gateway\_east->distribution\_combiner} & 17.0 & 20.0 \\
+3 & \texttt{secondary\_a->dispatch\_gateway\_west} & 4.0 & 33.0 \\
+4 & \texttt{secondary\_c->dispatch\_gateway\_east} & 4.0 & 33.0 \\
+5 & \texttt{secondary\_d->dispatch\_gateway\_west} & 4.0 & 33.0 \\
+6 & \texttt{secondary\_f->dispatch\_gateway\_east} & 4.0 & 33.0 \\
+7 & \texttt{secondary\_b->dispatch\_gateway\_west} & 3.0 & 34.0 \\
+8 & \texttt{secondary\_b->dispatch\_gateway\_east} & 3.0 & 34.0 \\
+9 & \texttt{secondary\_e->dispatch\_gateway\_west} & 3.0 & 34.0 \\
+10 & \texttt{secondary\_e->dispatch\_gateway\_east} & 3.0 & 34.0 \\
+11 & \texttt{secondary\_e->sink\_4} & 3.0 & 34.0 \\
+12 & \texttt{secondary\_c->dispatch\_gateway\_west} & 2.0 & 35.0 \\
+13 & \texttt{secondary\_d->dispatch\_gateway\_east} & 2.0 & 35.0 \\
+14 & \texttt{secondary\_a->dispatch\_gateway\_east} & 1.0 & 36.0 \\
+15 & \texttt{secondary\_f->dispatch\_gateway\_west} & 1.0 & 36.0 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Full ranked single-edge sensitivity results for Configuration B (all non-zero $\Delta F^*$ edges).}
+\label{tab:critical_edges_config_b_appendix}
+\begin{tabular}{lccc}
+\toprule
+Rank & Label & $\Delta F^*$ & \texttt{perturbed\_flow} \\
+\midrule
+1 & \texttt{dispatch\_gateway\_west->distribution\_combiner} & 17.0 & 20.0 \\
+2 & \texttt{dispatch\_gateway\_east->distribution\_combiner} & 17.0 & 20.0 \\
+3 & \texttt{secondary\_e->sink\_4} & 3.0 & 34.0 \\
+\bottomrule
+\end{tabular}
+\end{table}

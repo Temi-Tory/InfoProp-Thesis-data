@@ -1,0 +1,127 @@
+{
+  "links": {
+    "(9,10)": {
+      "lower": 0.12,
+      "type": "interval",
+      "upper": 0.15
+    },
+    "(7,11)": {
+      "lower": 0.18,
+      "type": "interval",
+      "upper": 0.22
+    },
+    "(15,16)": {
+      "lower": 0.25,
+      "type": "interval",
+      "upper": 0.29
+    },
+    "(10,6)": {
+      "lower": 0.31,
+      "type": "interval",
+      "upper": 0.35
+    },
+    "(7,8)": {
+      "lower": 0.14,
+      "type": "interval",
+      "upper": 0.17
+    },
+    "(12,16)": {
+      "lower": 0.21,
+      "type": "interval",
+      "upper": 0.26
+    },
+    "(8,12)": {
+      "lower": 0.33,
+      "type": "interval",
+      "upper": 0.37
+    },
+    "(14,15)": {
+      "lower": 0.16,
+      "type": "interval",
+      "upper": 0.19
+    },
+    "(2,6)": {
+      "lower": 0.27,
+      "type": "interval",
+      "upper": 0.32
+    },
+    "(3,7)": {
+      "lower": 0.11,
+      "type": "interval",
+      "upper": 0.14
+    },
+    "(5,9)": {
+      "lower": 0.24,
+      "type": "interval",
+      "upper": 0.28
+    },
+    "(3,4)": {
+      "lower": 0.35,
+      "type": "interval",
+      "upper": 0.39
+    },
+    "(5,6)": {
+      "lower": 0.13,
+      "type": "interval",
+      "upper": 0.16
+    },
+    "(8,4)": {
+      "lower": 0.29,
+      "type": "interval",
+      "upper": 0.34
+    },
+    "(10,14)": {
+      "lower": 0.15,
+      "type": "interval",
+      "upper": 0.18
+    },
+    "(3,2)": {
+      "lower": 0.32,
+      "type": "interval",
+      "upper": 0.36
+    },
+    "(10,11)": {
+      "lower": 0.19,
+      "type": "interval",
+      "upper": 0.23
+    },
+    "(6,7)": {
+      "lower": 0.26,
+      "type": "interval",
+      "upper": 0.31
+    },
+    "(13,9)": {
+      "lower": 0.17,
+      "type": "interval",
+      "upper": 0.21
+    },
+    "(11,15)": {
+      "lower": 0.34,
+      "type": "interval",
+      "upper": 0.38
+    },
+    "(1,2)": {
+      "lower": 0.10,
+      "type": "interval",
+      "upper": 0.13
+    },
+    "(11,12)": {
+      "lower": 0.23,
+      "type": "interval",
+      "upper": 0.27
+    },
+    "(13,14)": {
+      "lower": 0.30,
+      "type": "interval",
+      "upper": 0.35
+    },
+    "(1,5)": {
+      "lower": 0.36,
+      "type": "interval",
+      "upper": 0.40
+    }
+  },
+  "data_type": "Interval",
+  "serialization": "compact",
+  "description": "Link/edge probabilities for network analysis"
+}

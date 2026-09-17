@@ -1,0 +1,5 @@
+{
+  "networkPath": "C:\\Development\\Info_Prop_Framework_Project\\Info_Prop_Framework_Project\\dag_ntwrk_files\\net3",
+  "cpmPath": "net3-scenarios/MaxScaling/MaxScaling-cpm-inputs.json",
+  "mode": "max_scaling"
+}

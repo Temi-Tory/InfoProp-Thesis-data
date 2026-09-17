@@ -1,0 +1,14 @@
+{
+  "nodes": {
+    "8": 0.7360006052890282,
+    "4": 0.9509743433860836,
+    "1": 1.0,
+    "5": 0.7952185913252381,
+    "2": 0.714784386725219,
+    "6": 0.4662643095368083,
+    "7": 0.6819842608786651,
+    "3": 1.0
+  },
+  "data_type": "Float64",
+  "description": "Synthetic reliabilities on the real bnlearn 'asia-bnlearn' DAG topology -- structural exactness validation only, not a decision-relevant claim about the represented system."
+}

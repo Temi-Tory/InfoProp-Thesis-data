@@ -1,0 +1,54 @@
+% ============================================================================================
+% Adversarial complexity crossover (RESS). Data: validation/adversarial_factored.csv (IPA WITH
+% independent-diamond factorization). IPA "ops" = measured dedup'd sub-propagations; BDD = sifted
+% ROBDD node count. Small instances validated exact (path-enum) or within Monte-Carlo CI.
+% ============================================================================================
+
+% ---- Table 3: complementary worst cases ----
+\begin{table}[t]
+\centering
+\caption{Complexity on adversarial families, IPA (with independent-diamond factorization) vs the sifted
+ROBDD. \emph{fanin-k}: $k$ independent fork gadgets reconverging at one sink — after factorization IPA
+conditions each gadget separately (\emph{ops}$=2k{+}1$, max cutset $1$), matching the ROBDD's linear
+growth. \emph{mesh-w}: a width-$w$ reconvergent lattice — one genuinely correlated block, no independent
+partition, so the ROBDD's variable ordering stays compact while IPA's conditioning nesting grows. IPA
+never structurally beats a well-ordered BDD; the two tie on independent structure and the BDD wins on
+dense correlation.}
+\label{tab:adversarial}
+\begin{tabular}{lrrrrr}
+\hline
+Family & param & IPA ops & IPA max\,$|C|$ & ROBDD nodes & regime \\
+\hline
+fanin-$k$ &  4 &     9 & 1 &  126 & tie (both linear) \\
+fanin-$k$ &  8 &    17 & 1 &  474 & tie \\
+fanin-$k$ & 12 &    25 & 1 &  636 & tie \\
+fanin-$k$ & 16 &    33 & 1 &  802 & tie \\
+mesh-$w$  &  2 &    78 & 6 &  315 & — \\
+mesh-$w$  &  4 & 20\,603 & 8 &  700 & BDD wins \\
+mesh-$w$  &  6 & 832\,922 & 10 & 1\,487 & BDD wins \\
+mesh-$w$  &  8 & 3\,895\,252 & 11 & 2\,621 & BDD wins \\
+\hline
+\end{tabular}
+\end{table}
+
+% ---- Figure: crossover (two panels) ----
+\begin{figure}[t]\centering
+\begin{tikzpicture}
+\begin{groupplot}[group style={group size=2 by 1, horizontal sep=1.6cm}, width=.48\linewidth, height=5.2cm,
+  ymode=log, grid=both, mark size=1.3pt]
+\nextgroupplot[title={fanin-$k$ (independent)}, xlabel={$k$}, ylabel={cost}, legend pos=north west]
+\addplot+[mark=*]        coordinates {(2,5)(4,9)(6,13)(8,17)(10,21)(12,25)(14,29)(16,33)};
+\addplot+[mark=triangle*] coordinates {(2,37)(4,126)(6,274)(8,474)(10,561)(12,636)(14,684)(16,802)};
+\legend{IPA ops, ROBDD nodes}
+\nextgroupplot[title={mesh-$w$ (correlated)}, xlabel={$w$}]
+\addplot+[mark=*]        coordinates {(2,78)(3,1600)(4,20603)(5,170001)(6,832922)(7,2364087)(8,3895252)};
+\addplot+[mark=triangle*] coordinates {(2,315)(3,640)(4,700)(5,805)(6,1487)(7,2189)(8,2621)};
+\end{groupplot}
+\end{tikzpicture}
+\caption{Complexity crossover (log scale). LEFT — on independent structure (fanin-$k$), factorization
+makes IPA linear ($2k{+}1$), matching the ROBDD. RIGHT — on a densely correlated lattice (mesh-$w$), IPA's
+conditioning cost grows steeply while the sifted ROBDD stays compact: the BDD-wins regime. Together with
+the density sweep (both $\sim 2^{\text{width}}$), this bounds IPA as never structurally superior to a
+well-ordered BDD.}
+\label{fig:crossover}
+\end{figure}

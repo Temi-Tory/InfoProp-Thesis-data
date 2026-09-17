@@ -1,0 +1,66 @@
+% ============================================================================================
+% Paper figures (PGFPlots) for the IPA validation + complexity study (RESS).
+% Reads validation/paper_data.csv. Preamble needed:
+%   \usepackage{pgfplots}\pgfplotsset{compat=1.18}\usepgfplotslibrary{groupplots}
+% Copy paper_data.csv next to the .tex, or set the path in each \addplot table{...}.
+% ============================================================================================
+
+% ---- Fig 1: exact-ROBDD complexity vs graph size, and the effect of variable ordering ----
+% Shows sifted ROBDD grows smoothly with size, while naive (topological) ordering explodes on the
+% densest graphs (points that hit the 2.5e6 abort cap). This is the "ordering is everything" figure.
+\begin{figure}[t]\centering
+\begin{tikzpicture}
+\begin{axis}[width=.9\linewidth,height=6cm,
+  xlabel={graph size $|V|+|E|$}, ylabel={ROBDD nodes}, ymode=log,
+  legend pos=north west, grid=both, mark size=1.4pt]
+\addplot+[only marks,mark=*] table[col sep=comma, x=vars, y=naive_nodes] {paper_data.csv};
+\addplot+[only marks,mark=triangle*] table[col sep=comma, x=vars, y=sift_nodes] {paper_data.csv};
+\legend{naive (topological) order, sifted order}
+\end{axis}
+\end{tikzpicture}
+\caption{Exact ROBDD size vs graph size. Under naive variable ordering the BDD explodes on the densest
+graphs (upper points reach the $2.5\times10^{6}$-node abort cap); CUDD sifting keeps every graph in the
+corpus to $\le$20{,}323 nodes. BDD complexity is dominated by variable ordering, so the fair baseline for
+any reachability method is the \emph{sifted} ROBDD.}
+\label{fig:ordering}
+\end{figure}
+
+% ---- Fig 2: IPA cost vs sifted-ROBDD cost (no structural advantage) ----
+% x = sifted ROBDD nodes (fair BDD baseline), y = IPA unique-diamond count. #unique diamonds is a
+% FAITHFUL cost proxy here: with context-aware conditioning + the zero-weight skip, each diamond
+% enumerates exactly its single free fork (2 states), so total work scales as ~2 x (#unique diamonds).
+% (NB: sum of 2^|C| over diamonds is NOT the cost -- it double-counts forks fixed upstream that the
+% skip never enumerates.) Roughly co-linear on log-log => no structural advantage over a well-ordered BDD.
+\begin{figure}[t]\centering
+\begin{tikzpicture}
+\begin{axis}[width=.9\linewidth,height=6cm,
+  xlabel={sifted ROBDD nodes}, ylabel={IPA unique diamonds}, xmode=log, ymode=log,
+  grid=both, mark size=1.4pt]
+\addplot+[only marks,mark=*] table[col sep=comma, x=sift_nodes, y=nuniq] {paper_data.csv};
+\end{axis}
+\end{tikzpicture}
+\caption{IPA structural cost (unique diamond structures) against the sifted ROBDD node count on the same
+(random-DAG) graphs. The two grow together, so on this corpus IPA is comparable to a well-ordered BDD but
+exhibits \emph{no} structural-complexity advantage. Both methods are exact and per-node; IPA's sole
+genuine advantage is native interval / p-box propagation, which ROBDDs cannot do without discretization.
+On densely correlated lattices the BDD is strictly smaller (Fig.~\ref{fig:crossover}), so BDD $\ge$ IPA in
+efficiency across every family tested.}
+\label{fig:ipa-vs-bdd}
+\end{figure}
+
+% ---- Fig 3: wall-clock, IPA propagation vs sifted-ROBDD build ----
+\begin{figure}[t]\centering
+\begin{tikzpicture}
+\begin{axis}[width=.9\linewidth,height=6cm,
+  xlabel={sifted ROBDD build (ms)}, ylabel={IPA propagate (ms)}, xmode=log, ymode=log,
+  grid=both, mark size=1.4pt]
+\addplot+[only marks,mark=*] table[col sep=comma, x=sift_ms, y=ipa_prop_ms] {paper_data.csv};
+\addplot[domain=1:1000,dashed,no marks] {x}; % y=x reference
+\end{axis}
+\end{tikzpicture}
+\caption{Wall-clock comparison (log--log): IPA propagation vs sifted-ROBDD construction, same process,
+same language (Julia/CUDD.jl). Dashed line $y=x$. Both are sub-second across the corpus; the comparison is
+implementation-level, so the structural metric of Fig.~\ref{fig:ipa-vs-bdd} is the fairer complexity
+statement.}
+\label{fig:timing}
+\end{figure}

@@ -1,0 +1,525 @@
+{
+  "links": {
+    "(7,16)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(2,10)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(11,1)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(4,14)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(9,8)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(24,3)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(19,6)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(16,20)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(23,18)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(19,26)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(11,7)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(17,5)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(7,25)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(4,2)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(23,17)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(14,2)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(11,13)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(17,8)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(9,2)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(3,19)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(1,5)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(1,8)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(7,15)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(1,16)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(5,4)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(22,18)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(16,10)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(21,4)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(11,22)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(9,24)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(1,14)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(3,6)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(9,25)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(15,10)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(21,1)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(1,13)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(15,25)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(26,4)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(14,10)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(17,18)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(1,17)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(5,13)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(18,13)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(15,9)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(8,10)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(12,14)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(17,25)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(15,26)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(7,4)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(3,12)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(7,9)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(19,4)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(23,1)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(18,25)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(23,20)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(19,20)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(17,19)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(1,2)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(23,8)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(7,5)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(3,10)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(11,2)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(24,23)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(5,2)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(21,18)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(17,20)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(16,14)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(24,21)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(4,6)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(8,4)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(7,14)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(7,17)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(1,12)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(15,14)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    }
+  },
+  "data_type": "ProbabilityBoundsAnalysis.pbox",
+  "serialization": "compact",
+  "description": "Link/edge probabilities for network analysis"
+}

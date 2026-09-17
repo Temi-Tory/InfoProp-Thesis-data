@@ -1,0 +1,19 @@
+node priors: min=0.7505 max=0.9500 | link probs: min=0.7000 max=0.9500
+best possible single leg (max link x max node) = 0.9025 -> every added leg costs at least 9.8% of success
+destinations (sinks): 323
+top-8 destinations by best-route success:
+  sink 393   0.7874
+  sink 325   0.7713
+  sink 209   0.7467
+  sink 248   0.7419
+  sink 125   0.7344
+  sink 340   0.7225
+  sink 311   0.7215
+  sink 238   0.7165
+bottom-3 destinations by best-route success:
+  sink 196   0.3545
+  sink 194   0.3486
+  sink 115   0.1080
+destinations with best-route success below 0.5: 104 of 323
+global best route (ratio slack 0): [380, 393]  edges on route: 1
+run: 2026-08-18T12:05:04.861

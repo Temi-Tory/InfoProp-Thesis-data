@@ -1,0 +1,9 @@
+name,V,E,bdd_nodes,t_ipa_interval_ms,t_bdd_interval_ms,ratio_bdd_over_ipa
+counterexample,15,23,323,0.819,44.603,54.47
+multisource,25,57,5622,22.422,175.497,7.83
+grid4x4,16,21,248,0.517,51.654,99.93
+layered4x6,23,35,484,4.619,52.075,11.27
+bridge5,16,25,529,11.571,48.515,4.19
+seriesparallel,23,32,215,2.429,57.304,23.59
+complete8,8,28,685,1.537,49.466,32.18
+random_n25,25,53,4146,27.844,107.875,3.87

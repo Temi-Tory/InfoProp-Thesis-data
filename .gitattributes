@@ -1,0 +1,9 @@
+# Stable line endings for data + code
+*.jl    text eol=lf
+*.py    text eol=lf
+*.md    text eol=lf
+*.csv   text eol=lf
+*.json  text eol=lf
+*.EDGES text eol=lf
+*.toml  text eol=lf
+*.gz    binary

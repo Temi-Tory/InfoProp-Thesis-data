@@ -1,0 +1,20 @@
+  Activating project at `C:\Development\Info_Prop_Framework_Project\Info_Prop_Framework_Project\InfoPropFrmwrk`
+baseline: n=23 edges=27 sources=[1, 7, 18]
+candidate: n=23 edges=28 sources=[1, 7, 18] (+ (17,22))
+
+=== baseline (27 edges, as-is) ===
+  R_l=0.90  IPA=0.85917  BDD=0.85917  |IPA-BDD|=0.00e+00  published=0.85741  |IPA-published|=0.00176
+  R_l=0.99  IPA=0.98969  BDD=0.98969  |IPA-BDD|=1.11e-16  published=0.98969  |IPA-published|=0.00000
+  R_l=0.30  IPA=0.00272  BDD=0.00272  |IPA-BDD|=0.00e+00  published=0.00221  |IPA-published|=0.00051
+
+=== candidate (28 edges, +(17,22)) ===
+  R_l=0.90  IPA=0.88505  BDD=0.88505  |IPA-BDD|=1.11e-16  published=0.85741  |IPA-published|=0.02764
+  R_l=0.99  IPA=0.98999  BDD=0.98999  |IPA-BDD|=1.11e-16  published=0.98969  |IPA-published|=0.00030
+  R_l=0.30  IPA=0.01054  BDD=0.01054  |IPA-BDD|=5.20e-18  published=0.00221  |IPA-published|=0.00833
+
+=== verdict: does adding (17,22) move IPA closer to published, per R_l? ===
+  R_l=0.90  27-edge diff=0.00176  28-edge diff=0.02764  -> WORSE (27-edge better)
+  R_l=0.99  27-edge diff=0.00000  28-edge diff=0.00030  -> WORSE (27-edge better)
+  R_l=0.30  27-edge diff=0.00051  28-edge diff=0.00833  -> WORSE (27-edge better)
+
+done

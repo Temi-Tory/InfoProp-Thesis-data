@@ -1,0 +1,530 @@
+{
+  "network_type": "capacity_flow",
+  "data_type": "Interval",
+  "capacities": {
+    "nodes": {
+      "1": {
+        "type": "interval",
+        "lower": 17.64,
+        "upper": 26.88
+      },
+      "2": {
+        "type": "interval",
+        "lower": 17.64,
+        "upper": 26.88
+      },
+      "3": {
+        "type": "interval",
+        "lower": 19.6,
+        "upper": 35.84
+      },
+      "4": {
+        "type": "interval",
+        "lower": 19.6,
+        "upper": 35.84
+      },
+      "5": {
+        "type": "interval",
+        "lower": 17.64,
+        "upper": 31.36
+      },
+      "6": {
+        "type": "interval",
+        "lower": 17.64,
+        "upper": 31.36
+      },
+      "7": {
+        "type": "interval",
+        "lower": 15.68,
+        "upper": 28
+      },
+      "8": {
+        "type": "interval",
+        "lower": 16.66,
+        "upper": 30.24
+      },
+      "9": {
+        "type": "interval",
+        "lower": 18.1692,
+        "upper": 27.6864
+      },
+      "10": {
+        "type": "interval",
+        "lower": 18.1692,
+        "upper": 27.6864
+      },
+      "11": {
+        "type": "interval",
+        "lower": 20.188,
+        "upper": 36.9152
+      },
+      "12": {
+        "type": "interval",
+        "lower": 20.188,
+        "upper": 36.9152
+      },
+      "13": {
+        "type": "interval",
+        "lower": 18.1692,
+        "upper": 32.3008
+      },
+      "14": {
+        "type": "interval",
+        "lower": 18.1692,
+        "upper": 32.3008
+      },
+      "15": {
+        "type": "interval",
+        "lower": 16.1504,
+        "upper": 28.84
+      },
+      "16": {
+        "type": "interval",
+        "lower": 17.1598,
+        "upper": 31.1472
+      },
+      "17": {
+        "type": "interval",
+        "lower": 18.6984,
+        "upper": 28.4928
+      },
+      "18": {
+        "type": "interval",
+        "lower": 18.6984,
+        "upper": 28.4928
+      },
+      "19": {
+        "type": "interval",
+        "lower": 14.5432,
+        "upper": 26.1184
+      },
+      "20": {
+        "type": "interval",
+        "lower": 20.776,
+        "upper": 37.9904
+      },
+      "21": {
+        "type": "interval",
+        "lower": 13.5044,
+        "upper": 24.9312
+      },
+      "22": {
+        "type": "interval",
+        "lower": 13.5044,
+        "upper": 24.9312
+      },
+      "23": {
+        "type": "interval",
+        "lower": 16.6208,
+        "upper": 29.68
+      },
+      "24": {
+        "type": "interval",
+        "lower": 17.6596,
+        "upper": 32.0544
+      },
+      "25": {
+        "type": "interval",
+        "lower": 19.2276,
+        "upper": 29.2992
+      },
+      "26": {
+        "type": "interval",
+        "lower": 19.2276,
+        "upper": 29.2992
+      },
+      "27": {
+        "type": "interval",
+        "lower": 21.364,
+        "upper": 39.0656
+      },
+      "28": {
+        "type": "interval",
+        "lower": 21.364,
+        "upper": 39.0656
+      },
+      "29": {
+        "type": "interval",
+        "lower": 11.7502,
+        "upper": 24.416
+      },
+      "30": {
+        "type": "interval",
+        "lower": 10.682,
+        "upper": 23.1952
+      },
+      "31": {
+        "type": "interval",
+        "lower": 17.0912,
+        "upper": 30.52
+      },
+      "32": {
+        "type": "interval",
+        "lower": 10.682,
+        "upper": 21.9744
+      }
+    },
+    "source_rates": {
+      "1": {
+        "type": "interval",
+        "lower": 7,
+        "upper": 10.5
+      },
+      "2": {
+        "type": "interval",
+        "lower": 6.8,
+        "upper": 10.3
+      }
+    },
+    "edges": {
+      "(1,9)": {
+        "type": "interval",
+        "lower": 12.74,
+        "upper": 22.4
+      },
+      "(1,11)": {
+        "type": "interval",
+        "lower": 10.78,
+        "upper": 19.04
+      },
+      "(2,10)": {
+        "type": "interval",
+        "lower": 12.74,
+        "upper": 22.4
+      },
+      "(2,11)": {
+        "type": "interval",
+        "lower": 10.78,
+        "upper": 19.04
+      },
+      "(2,12)": {
+        "type": "interval",
+        "lower": 9.8,
+        "upper": 17.92
+      },
+      "(3,11)": {
+        "type": "interval",
+        "lower": 12.74,
+        "upper": 22.4
+      },
+      "(3,13)": {
+        "type": "interval",
+        "lower": 8.82,
+        "upper": 16.8
+      },
+      "(3,14)": {
+        "type": "interval",
+        "lower": 9.8,
+        "upper": 17.92
+      },
+      "(4,12)": {
+        "type": "interval",
+        "lower": 12.74,
+        "upper": 22.4
+      },
+      "(4,15)": {
+        "type": "interval",
+        "lower": 9.8,
+        "upper": 17.92
+      },
+      "(5,11)": {
+        "type": "interval",
+        "lower": 10.78,
+        "upper": 19.04
+      },
+      "(5,13)": {
+        "type": "interval",
+        "lower": 12.74,
+        "upper": 22.4
+      },
+      "(5,16)": {
+        "type": "interval",
+        "lower": 8.82,
+        "upper": 16.8
+      },
+      "(6,11)": {
+        "type": "interval",
+        "lower": 10.78,
+        "upper": 19.04
+      },
+      "(6,14)": {
+        "type": "interval",
+        "lower": 12.74,
+        "upper": 22.4
+      },
+      "(6,16)": {
+        "type": "interval",
+        "lower": 9.8,
+        "upper": 17.92
+      },
+      "(7,12)": {
+        "type": "interval",
+        "lower": 8.82,
+        "upper": 16.8
+      },
+      "(7,15)": {
+        "type": "interval",
+        "lower": 12.74,
+        "upper": 22.4
+      },
+      "(7,16)": {
+        "type": "interval",
+        "lower": 9.8,
+        "upper": 17.92
+      },
+      "(8,13)": {
+        "type": "interval",
+        "lower": 8.82,
+        "upper": 16.8
+      },
+      "(8,14)": {
+        "type": "interval",
+        "lower": 8.82,
+        "upper": 16.8
+      },
+      "(8,16)": {
+        "type": "interval",
+        "lower": 12.74,
+        "upper": 22.4
+      },
+      "(9,17)": {
+        "type": "interval",
+        "lower": 10.9956,
+        "upper": 20.5632
+      },
+      "(9,19)": {
+        "type": "interval",
+        "lower": 8.9964,
+        "upper": 17.136
+      },
+      "(10,18)": {
+        "type": "interval",
+        "lower": 10.9956,
+        "upper": 20.5632
+      },
+      "(10,19)": {
+        "type": "interval",
+        "lower": 8.9964,
+        "upper": 17.136
+      },
+      "(10,20)": {
+        "type": "interval",
+        "lower": 8.9964,
+        "upper": 17.136
+      },
+      "(11,19)": {
+        "type": "interval",
+        "lower": 8.9964,
+        "upper": 17.136
+      },
+      "(11,21)": {
+        "type": "interval",
+        "lower": 7.497,
+        "upper": 14.28
+      },
+      "(11,22)": {
+        "type": "interval",
+        "lower": 8.9964,
+        "upper": 17.136
+      },
+      "(12,20)": {
+        "type": "interval",
+        "lower": 10.9956,
+        "upper": 20.5632
+      },
+      "(12,23)": {
+        "type": "interval",
+        "lower": 8.9964,
+        "upper": 17.136
+      },
+      "(13,19)": {
+        "type": "interval",
+        "lower": 10.9956,
+        "upper": 20.5632
+      },
+      "(13,21)": {
+        "type": "interval",
+        "lower": 8.9964,
+        "upper": 17.136
+      },
+      "(13,24)": {
+        "type": "interval",
+        "lower": 8.9964,
+        "upper": 17.136
+      },
+      "(14,19)": {
+        "type": "interval",
+        "lower": 8.9964,
+        "upper": 17.136
+      },
+      "(14,22)": {
+        "type": "interval",
+        "lower": 8.9964,
+        "upper": 17.136
+      },
+      "(14,24)": {
+        "type": "interval",
+        "lower": 8.9964,
+        "upper": 17.136
+      },
+      "(15,20)": {
+        "type": "interval",
+        "lower": 7.497,
+        "upper": 14.28
+      },
+      "(15,23)": {
+        "type": "interval",
+        "lower": 8.9964,
+        "upper": 17.136
+      },
+      "(15,24)": {
+        "type": "interval",
+        "lower": 8.9964,
+        "upper": 17.136
+      },
+      "(16,21)": {
+        "type": "interval",
+        "lower": 9.996,
+        "upper": 18.2784
+      },
+      "(16,22)": {
+        "type": "interval",
+        "lower": 9.996,
+        "upper": 18.2784
+      },
+      "(16,24)": {
+        "type": "interval",
+        "lower": 8.9964,
+        "upper": 17.136
+      },
+      "(17,25)": {
+        "type": "interval",
+        "lower": 9.1728,
+        "upper": 17.472
+      },
+      "(17,27)": {
+        "type": "interval",
+        "lower": 8.1536,
+        "upper": 16.3072
+      },
+      "(18,26)": {
+        "type": "interval",
+        "lower": 9.1728,
+        "upper": 17.472
+      },
+      "(18,27)": {
+        "type": "interval",
+        "lower": 8.1536,
+        "upper": 16.3072
+      },
+      "(18,28)": {
+        "type": "interval",
+        "lower": 9.1728,
+        "upper": 17.472
+      },
+      "(19,27)": {
+        "type": "interval",
+        "lower": 8.1536,
+        "upper": 16.3072
+      },
+      "(19,29)": {
+        "type": "interval",
+        "lower": 9.1728,
+        "upper": 17.472
+      },
+      "(19,30)": {
+        "type": "interval",
+        "lower": 9.1728,
+        "upper": 17.472
+      },
+      "(20,28)": {
+        "type": "interval",
+        "lower": 9.1728,
+        "upper": 17.472
+      },
+      "(20,31)": {
+        "type": "interval",
+        "lower": 9.1728,
+        "upper": 17.472
+      },
+      "(21,27)": {
+        "type": "interval",
+        "lower": 8.1536,
+        "upper": 16.3072
+      },
+      "(21,29)": {
+        "type": "interval",
+        "lower": 9.1728,
+        "upper": 17.472
+      },
+      "(21,32)": {
+        "type": "interval",
+        "lower": 7.644,
+        "upper": 14.56
+      },
+      "(22,27)": {
+        "type": "interval",
+        "lower": 8.1536,
+        "upper": 16.3072
+      },
+      "(22,30)": {
+        "type": "interval",
+        "lower": 9.1728,
+        "upper": 17.472
+      },
+      "(22,32)": {
+        "type": "interval",
+        "lower": 7.644,
+        "upper": 14.56
+      },
+      "(23,28)": {
+        "type": "interval",
+        "lower": 9.1728,
+        "upper": 17.472
+      },
+      "(23,31)": {
+        "type": "interval",
+        "lower": 9.1728,
+        "upper": 17.472
+      },
+      "(23,32)": {
+        "type": "interval",
+        "lower": 9.1728,
+        "upper": 17.472
+      },
+      "(24,29)": {
+        "type": "interval",
+        "lower": 9.1728,
+        "upper": 17.472
+      },
+      "(24,30)": {
+        "type": "interval",
+        "lower": 9.1728,
+        "upper": 17.472
+      },
+      "(24,32)": {
+        "type": "interval",
+        "lower": 9.1728,
+        "upper": 17.472
+      }
+    }
+  },
+  "target_nodes": [
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "scenario_intent": "Conservative uncertainty: low minima, wide ranges, and stressed worst-case behavior.",
+  "description": "Capacity analysis inputs for WATER network - Interval Conservative. Conservative uncertainty: low minima, wide ranges, and stressed worst-case behavior.",
+  "generation_info": {
+    "total_nodes": 32,
+    "total_edges": 66,
+    "source_nodes_count": 8,
+    "generator": "capacity_v2_demo_pack/generate_demo_pack.js"
+  }
+}

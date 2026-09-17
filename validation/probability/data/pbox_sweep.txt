@@ -1,0 +1,12 @@
+# p-box soundness sweep @ steps=50
+bridge3              node 10  IPA_unsound=0.00e+00 mass>1=0.00e+00 | NAIVE_unsound=0.000e+00  sound
+seriesparallel3      node 13  IPA_unsound=0.00e+00 mass>1=0.00e+00 | NAIVE_unsound=6.625e-03  sound
+grid3x4              node 12  IPA_unsound=0.00e+00 mass>1=0.00e+00 | NAIVE_unsound=0.000e+00  sound
+layered4x3           node 12  IPA_unsound=0.00e+00 mass>1=0.00e+00 | NAIVE_unsound=0.000e+00  sound
+multisrc_n12         node 12  IPA_unsound=0.00e+00 mass>1=0.00e+00 | NAIVE_unsound=4.837e-02  sound
+random_n12_s1        node 12  IPA_unsound=0.00e+00 mass>1=0.00e+00 | NAIVE_unsound=2.117e-01  sound
+random_n12_s2        node 12  IPA_unsound=0.00e+00 mass>1=0.00e+00 | NAIVE_unsound=1.503e-01  sound
+random_n12_s3        node 12  IPA_unsound=0.00e+00 mass>1=0.00e+00 | NAIVE_unsound=6.516e-01  sound
+random_n15_s1        node 15  IPA_unsound=0.00e+00 mass>1=0.00e+00 | NAIVE_unsound=4.770e-01  sound
+cex_n15              node 15  IPA_unsound=0.00e+00 mass>1=0.00e+00 | NAIVE_unsound=6.500e-02  sound
+# done

@@ -1,0 +1,168 @@
+{
+  "nodes": {
+    "1": {
+      "type": "interval",
+      "lower": 0.72,
+      "upper": 0.88
+    },
+    "2": {
+      "type": "interval",
+      "lower": 0.72,
+      "upper": 0.88
+    },
+    "3": {
+      "type": "interval",
+      "lower": 0.66,
+      "upper": 0.84
+    },
+    "4": {
+      "type": "interval",
+      "lower": 0.62,
+      "upper": 0.82
+    },
+    "5": {
+      "type": "interval",
+      "lower": 0.68,
+      "upper": 0.85
+    },
+    "6": {
+      "type": "interval",
+      "lower": 0.66,
+      "upper": 0.84
+    },
+    "7": {
+      "type": "interval",
+      "lower": 0.64,
+      "upper": 0.82
+    },
+    "8": {
+      "type": "interval",
+      "lower": 0.6,
+      "upper": 0.79
+    },
+    "9": {
+      "type": "interval",
+      "lower": 0.75,
+      "upper": 0.9
+    },
+    "10": {
+      "type": "interval",
+      "lower": 0.75,
+      "upper": 0.9
+    },
+    "11": {
+      "type": "interval",
+      "lower": 0.7,
+      "upper": 0.87
+    },
+    "12": {
+      "type": "interval",
+      "lower": 0.66,
+      "upper": 0.85
+    },
+    "13": {
+      "type": "interval",
+      "lower": 0.72,
+      "upper": 0.88
+    },
+    "14": {
+      "type": "interval",
+      "lower": 0.7,
+      "upper": 0.86
+    },
+    "15": {
+      "type": "interval",
+      "lower": 0.68,
+      "upper": 0.84
+    },
+    "16": {
+      "type": "interval",
+      "lower": 0.66,
+      "upper": 0.82
+    },
+    "17": {
+      "type": "interval",
+      "lower": 0.75,
+      "upper": 0.9
+    },
+    "18": {
+      "type": "interval",
+      "lower": 0.75,
+      "upper": 0.9
+    },
+    "19": {
+      "type": "interval",
+      "lower": 0.7,
+      "upper": 0.87
+    },
+    "20": {
+      "type": "interval",
+      "lower": 0.66,
+      "upper": 0.85
+    },
+    "21": {
+      "type": "interval",
+      "lower": 0.72,
+      "upper": 0.88
+    },
+    "22": {
+      "type": "interval",
+      "lower": 0.7,
+      "upper": 0.86
+    },
+    "23": {
+      "type": "interval",
+      "lower": 0.68,
+      "upper": 0.84
+    },
+    "24": {
+      "type": "interval",
+      "lower": 0.66,
+      "upper": 0.82
+    },
+    "25": {
+      "type": "interval",
+      "lower": 0.75,
+      "upper": 0.9
+    },
+    "26": {
+      "type": "interval",
+      "lower": 0.75,
+      "upper": 0.9
+    },
+    "27": {
+      "type": "interval",
+      "lower": 0.7,
+      "upper": 0.87
+    },
+    "28": {
+      "type": "interval",
+      "lower": 0.66,
+      "upper": 0.85
+    },
+    "29": {
+      "type": "interval",
+      "lower": 0.72,
+      "upper": 0.88
+    },
+    "30": {
+      "type": "interval",
+      "lower": 0.7,
+      "upper": 0.86
+    },
+    "31": {
+      "type": "interval",
+      "lower": 0.68,
+      "upper": 0.84
+    },
+    "32": {
+      "type": "interval",
+      "lower": 0.66,
+      "upper": 0.82
+    }
+  },
+  "data_type": "Interval",
+  "serialization": "compact",
+  "scenario_intent": "Conservative uncertainty: low minima, wide ranges, and stressed worst-case behavior.",
+  "description": "Node prior probabilities for WATER network - Interval Conservative. Conservative uncertainty: low minima, wide ranges, and stressed worst-case behavior."
+}

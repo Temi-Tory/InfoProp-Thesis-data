@@ -1,0 +1,548 @@
+{
+  "cpm_path": "interval/j301_1-cpm-inputs.json",
+  "critical_path_result": {
+    "cost_mode": null,
+    "module_version": "CriticalPathV2",
+    "cost_result": null,
+    "computation_time": 7.2230000495910645,
+    "time_result": {
+      "method": "exact_domination_split",
+      "method_note": "",
+      "possibly_critical": [
+        1,
+        2,
+        3,
+        4,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        16,
+        17,
+        18,
+        20,
+        22,
+        23,
+        24,
+        30,
+        32
+      ],
+      "mode": "longest_path",
+      "value_type": "Interval",
+      "kind": "path",
+      "forward": {
+        "24": {
+          "lower": 28.799999999999997,
+          "type": "interval",
+          "upper": 43.2
+        },
+        "32": {
+          "lower": 30.4,
+          "type": "interval",
+          "upper": 45.6
+        },
+        "1": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 0.0
+        },
+        "12": {
+          "lower": 12.0,
+          "type": "interval",
+          "upper": 18.0
+        },
+        "29": {
+          "lower": 18.4,
+          "type": "interval",
+          "upper": 27.6
+        },
+        "20": {
+          "lower": 19.200000000000003,
+          "type": "interval",
+          "upper": 28.799999999999997
+        },
+        "4": {
+          "lower": 4.8,
+          "type": "interval",
+          "upper": 7.2
+        },
+        "2": {
+          "lower": 6.4,
+          "type": "interval",
+          "upper": 9.6
+        },
+        "6": {
+          "lower": 12.8,
+          "type": "interval",
+          "upper": 19.2
+        },
+        "25": {
+          "lower": 21.6,
+          "type": "interval",
+          "upper": 32.4
+        },
+        "23": {
+          "lower": 26.4,
+          "type": "interval",
+          "upper": 39.6
+        },
+        "22": {
+          "lower": 24.799999999999997,
+          "type": "interval",
+          "upper": 37.2
+        },
+        "11": {
+          "lower": 13.600000000000001,
+          "type": "interval",
+          "upper": 20.4
+        },
+        "13": {
+          "lower": 8.0,
+          "type": "interval",
+          "upper": 12.0
+        },
+        "5": {
+          "lower": 7.199999999999999,
+          "type": "interval",
+          "upper": 10.8
+        },
+        "31": {
+          "lower": 24.0,
+          "type": "interval",
+          "upper": 36.0
+        },
+        "15": {
+          "lower": 13.600000000000001,
+          "type": "interval",
+          "upper": 20.4
+        },
+        "27": {
+          "lower": 16.8,
+          "type": "interval",
+          "upper": 25.200000000000003
+        },
+        "28": {
+          "lower": 22.4,
+          "type": "interval",
+          "upper": 33.6
+        },
+        "16": {
+          "lower": 18.4,
+          "type": "interval",
+          "upper": 27.6
+        },
+        "14": {
+          "lower": 14.4,
+          "type": "interval",
+          "upper": 21.6
+        },
+        "21": {
+          "lower": 20.0,
+          "type": "interval",
+          "upper": 30.0
+        },
+        "7": {
+          "lower": 7.2,
+          "type": "interval",
+          "upper": 10.8
+        },
+        "8": {
+          "lower": 10.4,
+          "type": "interval",
+          "upper": 15.600000000000001
+        },
+        "26": {
+          "lower": 19.200000000000003,
+          "type": "interval",
+          "upper": 28.799999999999997
+        },
+        "17": {
+          "lower": 19.2,
+          "type": "interval",
+          "upper": 28.8
+        },
+        "19": {
+          "lower": 12.8,
+          "type": "interval",
+          "upper": 19.200000000000003
+        },
+        "10": {
+          "lower": 10.399999999999999,
+          "type": "interval",
+          "upper": 15.600000000000001
+        },
+        "9": {
+          "lower": 6.4,
+          "type": "interval",
+          "upper": 9.6
+        },
+        "18": {
+          "lower": 12.0,
+          "type": "interval",
+          "upper": 18.0
+        },
+        "30": {
+          "lower": 30.4,
+          "type": "interval",
+          "upper": 45.6
+        },
+        "3": {
+          "lower": 3.2,
+          "type": "interval",
+          "upper": 4.8
+        }
+      },
+      "schedule_available": false,
+      "project_value": {
+        "lower": 30.4,
+        "type": "interval",
+        "upper": 45.6
+      },
+      "necessarily_critical": [
+        1,
+        23,
+        24,
+        30,
+        32
+      ],
+      "corner_count": 50524,
+      "margin": {
+        "24": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 0.0
+        },
+        "32": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 0.0
+        },
+        "1": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 0.0
+        },
+        "12": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 8.40000000000001
+        },
+        "29": {
+          "lower": 8.0,
+          "type": "interval",
+          "upper": 26.0
+        },
+        "20": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 18.000000000000004
+        },
+        "4": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 10.400000000000006
+        },
+        "2": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 18.000000000000007
+        },
+        "6": {
+          "lower": 9.599999999999998,
+          "type": "interval",
+          "upper": 30.400000000000006
+        },
+        "25": {
+          "lower": 0.3999999999999986,
+          "type": "interval",
+          "upper": 21.6
+        },
+        "23": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 0.0
+        },
+        "22": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 4.0000000000000036
+        },
+        "11": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 18.000000000000007
+        },
+        "13": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 14.800000000000008
+        },
+        "5": {
+          "lower": 7.199999999999996,
+          "type": "interval",
+          "upper": 24.400000000000006
+        },
+        "31": {
+          "lower": 0.4000000000000057,
+          "type": "interval",
+          "upper": 19.6
+        },
+        "15": {
+          "lower": 4.799999999999997,
+          "type": "interval",
+          "upper": 27.200000000000003
+        },
+        "27": {
+          "lower": 4.399999999999999,
+          "type": "interval",
+          "upper": 23.599999999999998
+        },
+        "28": {
+          "lower": 2.799999999999997,
+          "type": "interval",
+          "upper": 19.6
+        },
+        "16": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 10.400000000000006
+        },
+        "14": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 8.400000000000006
+        },
+        "21": {
+          "lower": 2.799999999999997,
+          "type": "interval",
+          "upper": 21.6
+        },
+        "7": {
+          "lower": 5.600000000000001,
+          "type": "interval",
+          "upper": 26.799999999999997
+        },
+        "8": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 8.400000000000006
+        },
+        "26": {
+          "lower": 0.4000000000000057,
+          "type": "interval",
+          "upper": 24.799999999999997
+        },
+        "17": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 8.400000000000006
+        },
+        "19": {
+          "lower": 8.0,
+          "type": "interval",
+          "upper": 25.599999999999998
+        },
+        "10": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 10.400000000000006
+        },
+        "9": {
+          "lower": 2.3999999999999915,
+          "type": "interval",
+          "upper": 11.600000000000009
+        },
+        "18": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 15.600000000000009
+        },
+        "30": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 0.0
+        },
+        "3": {
+          "lower": 0.0,
+          "type": "interval",
+          "upper": 8.40000000000001
+        }
+      },
+      "margin_name": "slack",
+      "through": {
+        "24": {
+          "lower": 30.4,
+          "type": "interval",
+          "upper": 45.6
+        },
+        "32": {
+          "lower": 30.4,
+          "type": "interval",
+          "upper": 45.6
+        },
+        "1": {
+          "lower": 30.4,
+          "type": "interval",
+          "upper": 45.599999999999994
+        },
+        "12": {
+          "lower": 30.4,
+          "type": "interval",
+          "upper": 45.6
+        },
+        "29": {
+          "lower": 18.4,
+          "type": "interval",
+          "upper": 27.6
+        },
+        "20": {
+          "lower": 24.800000000000004,
+          "type": "interval",
+          "upper": 37.199999999999996
+        },
+        "4": {
+          "lower": 29.599999999999998,
+          "type": "interval",
+          "upper": 44.400000000000006
+        },
+        "2": {
+          "lower": 24.799999999999997,
+          "type": "interval",
+          "upper": 37.2
+        },
+        "6": {
+          "lower": 14.4,
+          "type": "interval",
+          "upper": 21.599999999999998
+        },
+        "25": {
+          "lower": 23.200000000000003,
+          "type": "interval",
+          "upper": 34.8
+        },
+        "23": {
+          "lower": 30.4,
+          "type": "interval",
+          "upper": 45.6
+        },
+        "22": {
+          "lower": 30.4,
+          "type": "interval",
+          "upper": 45.6
+        },
+        "11": {
+          "lower": 24.8,
+          "type": "interval",
+          "upper": 37.2
+        },
+        "13": {
+          "lower": 24.0,
+          "type": "interval",
+          "upper": 36.0
+        },
+        "5": {
+          "lower": 18.4,
+          "type": "interval",
+          "upper": 27.6
+        },
+        "31": {
+          "lower": 24.0,
+          "type": "interval",
+          "upper": 36.0
+        },
+        "15": {
+          "lower": 17.6,
+          "type": "interval",
+          "upper": 26.4
+        },
+        "27": {
+          "lower": 20.8,
+          "type": "interval",
+          "upper": 31.200000000000003
+        },
+        "28": {
+          "lower": 24.0,
+          "type": "interval",
+          "upper": 36.0
+        },
+        "16": {
+          "lower": 29.599999999999998,
+          "type": "interval",
+          "upper": 44.400000000000006
+        },
+        "14": {
+          "lower": 30.4,
+          "type": "interval",
+          "upper": 45.6
+        },
+        "21": {
+          "lower": 24.0,
+          "type": "interval",
+          "upper": 36.0
+        },
+        "7": {
+          "lower": 17.6,
+          "type": "interval",
+          "upper": 26.4
+        },
+        "8": {
+          "lower": 30.4,
+          "type": "interval",
+          "upper": 45.6
+        },
+        "26": {
+          "lower": 20.800000000000004,
+          "type": "interval",
+          "upper": 31.199999999999996
+        },
+        "17": {
+          "lower": 30.4,
+          "type": "interval",
+          "upper": 45.6
+        },
+        "19": {
+          "lower": 18.4,
+          "type": "interval",
+          "upper": 27.6
+        },
+        "10": {
+          "lower": 29.599999999999998,
+          "type": "interval",
+          "upper": 44.400000000000006
+        },
+        "9": {
+          "lower": 24.799999999999997,
+          "type": "interval",
+          "upper": 37.2
+        },
+        "18": {
+          "lower": 23.2,
+          "type": "interval",
+          "upper": 34.8
+        },
+        "30": {
+          "lower": 30.4,
+          "type": "interval",
+          "upper": 45.6
+        },
+        "3": {
+          "lower": 30.4,
+          "type": "interval",
+          "upper": 45.599999999999994
+        }
+      }
+    },
+    "input_files": {
+      "cpm_path": "interval/j301_1-cpm-inputs.json"
+    },
+    "time_mode": "longest_path",
+    "value_type": "Interval"
+  },
+  "message": "Critical path analysis completed",
+  "success": true,
+  "edges_file_path": "C:/Development/Info_Prop_Framework_Project/Info_Prop_Framework_Project/dag_ntwrk_files/psplib-j301_1/j301_1.EDGES",
+  "endpoint": "critical-path-analysis",
+  "timestamp": "2026-08-30T01:38:17.402"
+}

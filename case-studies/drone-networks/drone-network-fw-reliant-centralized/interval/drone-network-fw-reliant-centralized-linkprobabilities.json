@@ -1,0 +1,1322 @@
+{
+  "links": {
+    "(245,236)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(76,16)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(18,87)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(233,221)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(22,174)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(79,83)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(245,268)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(61,248)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(233,253)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(10,111)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(148,169)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(76,87)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(135,254)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(76,129)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(18,252)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(245,256)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(61,249)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(76,133)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(87,33)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(15,18)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(161,229)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(59,217)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(233,228)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(61,135)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(61,237)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(76,261)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(20,233)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(28,210)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(148,149)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(20,146)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(135,229)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(59,148)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(135,137)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(22,177)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(18,161)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(18,233)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(18,148)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(15,238)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(76,245)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(1,59)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(20,161)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(28,204)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(6,245)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(6,106)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(245,241)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(1,229)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(161,168)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(61,245)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(268,77)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(68,69)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(229,233)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(148,152)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(1,2)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(15,131)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(161,162)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(76,279)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(87,245)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(85,233)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(59,135)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(85,145)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(6,15)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(76,132)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(22,175)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(148,159)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(1,93)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(233,222)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(10,123)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(85,142)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(135,148)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(6,101)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(1,20)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(10,114)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(245,250)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(20,85)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(10,117)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(148,155)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(10,112)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(20,160)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(87,81)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(229,234)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(18,141)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(233,224)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(161,171)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(61,235)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(15,134)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(22,173)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(87,30)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(28,212)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(10,127)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(1,97)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(161,166)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(85,161)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(85,193)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(1,233)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(1,100)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(20,229)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(76,135)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(268,270)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(233,226)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(233,223)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(1,161)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(148,147)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(1,94)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(18,268)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(15,268)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(20,59)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(6,103)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(79,80)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(18,229)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(61,87)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(87,273)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(18,59)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(76,286)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(76,282)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(18,257)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(76,86)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(161,172)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(22,176)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(28,206)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(76,276)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(87,271)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(76,266)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(85,196)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(10,118)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(10,122)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(268,281)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(18,139)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(15,135)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(148,233)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(85,92)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(10,120)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(87,32)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(233,231)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(10,113)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(233,230)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(1,98)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(22,191)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(135,136)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(15,130)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(61,239)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(233,220)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(76,268)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(61,258)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(85,21)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(161,170)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(233,225)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(161,233)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(76,265)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(28,203)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(76,275)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(10,116)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(229,167)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(28,215)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(87,31)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(59,161)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(61,244)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(10,126)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(18,140)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(15,61)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(6,135)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(61,268)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(18,138)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(268,269)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(1,148)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(268,272)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(268,284)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(245,255)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(148,229)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(6,61)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(148,164)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(61,260)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(161,154)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(148,151)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(22,185)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(76,264)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(85,213)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(15,128)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(245,247)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(28,205)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(20,156)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(148,153)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(135,245)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(22,179)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(15,87)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(76,285)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(6,107)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(85,194)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(148,161)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(148,150)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(233,232)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(87,34)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(85,229)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(148,218)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(10,125)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(6,105)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(28,188)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(22,181)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(76,263)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(87,268)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(85,148)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(76,287)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(85,197)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(22,178)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(76,274)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(59,233)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(22,192)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(63,65)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(28,29)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(76,280)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(6,102)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(59,227)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(18,20)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(245,240)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(6,108)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(22,23)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(76,277)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(76,278)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(245,243)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(245,242)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(15,233)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(22,190)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(59,219)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(18,135)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(135,233)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(87,283)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(61,76)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(87,82)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(85,144)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(1,95)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(76,262)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(6,110)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(15,76)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(6,109)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(87,135)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(6,104)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(61,259)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(28,47)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(148,158)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(59,85)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(1,96)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(28,211)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(76,267)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(1,99)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(161,163)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(135,251)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(229,157)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(59,229)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(245,62)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(1,90)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(63,64)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(1,91)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(135,268)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(148,165)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(10,119)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(22,183)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(15,245)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(59,268)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(22,180)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(20,148)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(245,246)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(85,143)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(10,115)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    },
+    "(1,85)": {
+      "lower": 1.0,
+      "type": "interval",
+      "upper": 1.0
+    }
+  },
+  "data_type": "Interval",
+  "serialization": "compact",
+  "description": "Edge reliabilities for drone-network-fw-reliant-centralized (range cutoff per Table 1; weather-derated-range extension per §2.4/§3.1 -- see file docstring)"
+}

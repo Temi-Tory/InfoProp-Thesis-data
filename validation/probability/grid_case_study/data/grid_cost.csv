@@ -1,0 +1,3 @@
+type,min_ms,memory_MiB,allocs,vs_float
+Float64,0.922,1.74,19155,1.0
+Interval,1.082,1.95,21438,1.19

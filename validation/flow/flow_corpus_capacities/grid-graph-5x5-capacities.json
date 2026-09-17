@@ -1,0 +1,308 @@
+{
+  "data_type": "Float64",
+  "edges": [
+    {
+      "source": 1,
+      "destination": 2,
+      "capacity": 15
+    },
+    {
+      "source": 1,
+      "destination": 6,
+      "capacity": 18
+    },
+    {
+      "source": 2,
+      "destination": 3,
+      "capacity": 10
+    },
+    {
+      "source": 2,
+      "destination": 7,
+      "capacity": 7
+    },
+    {
+      "source": 3,
+      "destination": 4,
+      "capacity": 14
+    },
+    {
+      "source": 4,
+      "destination": 5,
+      "capacity": 12
+    },
+    {
+      "source": 6,
+      "destination": 7,
+      "capacity": 15
+    },
+    {
+      "source": 6,
+      "destination": 11,
+      "capacity": 16
+    },
+    {
+      "source": 7,
+      "destination": 8,
+      "capacity": 15
+    },
+    {
+      "source": 7,
+      "destination": 12,
+      "capacity": 12
+    },
+    {
+      "source": 8,
+      "destination": 3,
+      "capacity": 14
+    },
+    {
+      "source": 8,
+      "destination": 9,
+      "capacity": 18
+    },
+    {
+      "source": 9,
+      "destination": 4,
+      "capacity": 3
+    },
+    {
+      "source": 9,
+      "destination": 10,
+      "capacity": 8
+    },
+    {
+      "source": 10,
+      "destination": 5,
+      "capacity": 15
+    },
+    {
+      "source": 11,
+      "destination": 12,
+      "capacity": 14
+    },
+    {
+      "source": 12,
+      "destination": 13,
+      "capacity": 17
+    },
+    {
+      "source": 12,
+      "destination": 17,
+      "capacity": 11
+    },
+    {
+      "source": 13,
+      "destination": 8,
+      "capacity": 16
+    },
+    {
+      "source": 13,
+      "destination": 14,
+      "capacity": 18
+    },
+    {
+      "source": 14,
+      "destination": 9,
+      "capacity": 4
+    },
+    {
+      "source": 14,
+      "destination": 15,
+      "capacity": 19
+    },
+    {
+      "source": 15,
+      "destination": 10,
+      "capacity": 18
+    },
+    {
+      "source": 16,
+      "destination": 11,
+      "capacity": 4
+    },
+    {
+      "source": 16,
+      "destination": 17,
+      "capacity": 6
+    },
+    {
+      "source": 17,
+      "destination": 18,
+      "capacity": 15
+    },
+    {
+      "source": 18,
+      "destination": 13,
+      "capacity": 6
+    },
+    {
+      "source": 18,
+      "destination": 19,
+      "capacity": 7
+    },
+    {
+      "source": 19,
+      "destination": 14,
+      "capacity": 18
+    },
+    {
+      "source": 19,
+      "destination": 20,
+      "capacity": 4
+    },
+    {
+      "source": 19,
+      "destination": 24,
+      "capacity": 9
+    },
+    {
+      "source": 20,
+      "destination": 15,
+      "capacity": 15
+    },
+    {
+      "source": 20,
+      "destination": 25,
+      "capacity": 11
+    },
+    {
+      "source": 21,
+      "destination": 16,
+      "capacity": 1
+    },
+    {
+      "source": 21,
+      "destination": 22,
+      "capacity": 17
+    },
+    {
+      "source": 22,
+      "destination": 17,
+      "capacity": 2
+    },
+    {
+      "source": 23,
+      "destination": 18,
+      "capacity": 12
+    },
+    {
+      "source": 23,
+      "destination": 22,
+      "capacity": 19
+    },
+    {
+      "source": 23,
+      "destination": 24,
+      "capacity": 1
+    },
+    {
+      "source": 24,
+      "destination": 25,
+      "capacity": 5
+    }
+  ],
+  "description": "Generated for the Flow chapter corpus: seed 20260830:grid-graph-5x5, integer capacities uniform in [1,20], one draw per edge. Node capacities also drawn, uniform in [1,20], seed 20260830:grid-graph-5x5:nodes.",
+  "nodes": [
+    {
+      "node": 1,
+      "capacity": 12
+    },
+    {
+      "node": 2,
+      "capacity": 4
+    },
+    {
+      "node": 3,
+      "capacity": 17
+    },
+    {
+      "node": 4,
+      "capacity": 3
+    },
+    {
+      "node": 5,
+      "capacity": 6
+    },
+    {
+      "node": 6,
+      "capacity": 12
+    },
+    {
+      "node": 7,
+      "capacity": 12
+    },
+    {
+      "node": 8,
+      "capacity": 19
+    },
+    {
+      "node": 9,
+      "capacity": 14
+    },
+    {
+      "node": 10,
+      "capacity": 3
+    },
+    {
+      "node": 11,
+      "capacity": 9
+    },
+    {
+      "node": 12,
+      "capacity": 16
+    },
+    {
+      "node": 13,
+      "capacity": 14
+    },
+    {
+      "node": 14,
+      "capacity": 20
+    },
+    {
+      "node": 15,
+      "capacity": 15
+    },
+    {
+      "node": 16,
+      "capacity": 18
+    },
+    {
+      "node": 17,
+      "capacity": 1
+    },
+    {
+      "node": 18,
+      "capacity": 20
+    },
+    {
+      "node": 19,
+      "capacity": 10
+    },
+    {
+      "node": 20,
+      "capacity": 19
+    },
+    {
+      "node": 21,
+      "capacity": 18
+    },
+    {
+      "node": 22,
+      "capacity": 12
+    },
+    {
+      "node": 23,
+      "capacity": 13
+    },
+    {
+      "node": 24,
+      "capacity": 8
+    },
+    {
+      "node": 25,
+      "capacity": 10
+    }
+  ]
+}

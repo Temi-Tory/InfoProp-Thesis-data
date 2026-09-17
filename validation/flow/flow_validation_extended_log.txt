@@ -1,0 +1,135 @@
+== KarlNetwork == (26n/74e, large=false)
+  [3] min-cut: capacity=39.0 (=max_flow: true), removal disconnects s-t: true  -> PASS
+  [3b] exhaustive subset enumeration over 5 candidate edges: min disconnecting capacity=39.0 -> PASS
+  [3c] E_every == ∩(enumerated cuts) and E_some == ∪(enumerated cuts), 1 cuts enumerated -> PASS
+  [4] saturated edges: 5 reported, flow=capacity for all: true
+  [5] SPOF nodes: 0 reported, brute-force checked 20/20 candidates (exhaustive) -> PASS
+  [6] single-edge failure impact: 5 candidates (in some min-cut), checked 5 against oracle -> PASS
+  [7] degradation thresholds: checked 3/74 edges by independent bisection -> PASS
+  [8] edge connectivity (Menger, edge-disjoint paths): lambda=0 between 6->1, oracle unit-capacity max-flow=0.0 -> PASS
+  [9] node-capacitated flow: reported=16.0, oracle on the same node-split graph=16.0 -> PASS
+  [10] multi-source/multi-sink: exercised by every check above (1 sources, 5 sinks) — see run_flow_validation.jl
+== continental_medical_network == (141n/365e, large=false)
+  [3] min-cut: capacity=501.0 (=max_flow: true), removal disconnects s-t: true  -> PASS
+  [3b] skipped (53 candidate edges > 20)
+  [3c] E_every == ∩(enumerated cuts) and E_some == ∪(enumerated cuts), 1 cuts enumerated -> PASS
+  [4] saturated edges: 134 reported, flow=capacity for all: true
+  [5] SPOF nodes: 0 reported, brute-force checked 45/45 candidates (exhaustive) -> PASS
+  [6] single-edge failure impact: 53 candidates (in some min-cut), checked 53 against oracle -> PASS
+  [7] degradation thresholds: checked 3/365 edges by independent bisection -> PASS
+  [8] edge connectivity (Menger, edge-disjoint paths): lambda=0 between 51->1, oracle unit-capacity max-flow=0.0 -> PASS
+  [9] node-capacitated flow: not in this network's generated capacities (not in NODE_CAP_SUBSET) — skipped
+  [10] multi-source/multi-sink: exercised by every check above (5 sources, 91 sinks) — see run_flow_validation.jl
+== drone-network-concentrated-minimal == (230n/1648e, large=true)
+  [3] min-cut: capacity=5939.0 (=max_flow: true), removal disconnects s-t: true  -> PASS
+  [3b] skipped (567 candidate edges > 20)
+  [3c] E_every == ∩(enumerated cuts) and E_some == ∪(enumerated cuts), 1 cuts enumerated -> PASS
+  [4] saturated edges: 581 reported, flow=capacity for all: true
+  [5] SPOF nodes: 0 reported, brute-force checked 26/26 candidates (sampled) -> PASS
+  [6] single-edge failure impact: 567 candidates (in some min-cut), checked 15 against oracle -> PASS
+  [7] degradation thresholds: checked 3/1648 edges by independent bisection -> PASS
+  [8] edge connectivity (Menger, edge-disjoint paths): lambda=0 between 90->1, oracle unit-capacity max-flow=0.0 -> PASS
+  [9] node-capacitated flow: not in this network's generated capacities (not in NODE_CAP_SUBSET) — skipped
+  [10] multi-source/multi-sink: exercised by every check above (14 sources, 190 sinks) — see run_flow_validation.jl
+== drone-network-fw-reliant-centralized == (217n/263e, large=false)
+  [3] min-cut: capacity=755.0 (=max_flow: true), removal disconnects s-t: true  -> PASS
+  [3b] skipped (78 candidate edges > 20)
+  [3c] E_every == ∩(enumerated cuts) and E_some == ∪(enumerated cuts), 1 cuts enumerated -> PASS
+  [4] saturated edges: 86 reported, flow=capacity for all: true
+  [5] SPOF nodes: 0 reported, brute-force checked 15/15 candidates (exhaustive) -> PASS
+  [6] single-edge failure impact: 78 candidates (in some min-cut), checked 78 against oracle -> PASS
+  [7] degradation thresholds: checked 3/263 edges by independent bisection -> PASS
+  [8] edge connectivity (Menger, edge-disjoint paths): lambda=0 between 2->1, oracle unit-capacity max-flow=0.0 -> PASS
+  [9] node-capacitated flow: not in this network's generated capacities (not in NODE_CAP_SUBSET) — skipped
+  [10] multi-source/multi-sink: exercised by every check above (8 sources, 194 sinks) — see run_flow_validation.jl
+== drone-network-vtol-dense-decentralized == (242n/1753e, large=true)
+  [3] min-cut: capacity=6044.0 (=max_flow: true), removal disconnects s-t: true  -> PASS
+  [3b] skipped (572 candidate edges > 20)
+  [3c] E_every == ∩(enumerated cuts) and E_some == ∪(enumerated cuts), 1 cuts enumerated -> PASS
+  [4] saturated edges: 597 reported, flow=capacity for all: true
+  [5] SPOF nodes: 0 reported, brute-force checked 33/33 candidates (sampled) -> PASS
+  [6] single-edge failure impact: 572 candidates (in some min-cut), checked 15 against oracle -> PASS
+  [7] degradation thresholds: checked 3/1753 edges by independent bisection -> PASS
+  [8] edge connectivity (Menger, edge-disjoint paths): lambda=0 between 73->1, oracle unit-capacity max-flow=0.0 -> PASS
+  [9] node-capacitated flow: not in this network's generated capacities (not in NODE_CAP_SUBSET) — skipped
+  [10] multi-source/multi-sink: exercised by every check above (16 sources, 193 sinks) — see run_flow_validation.jl
+== ergo-proxy-dag-network == (800n/6607e, large=true)
+  [3] min-cut: capacity=479.0 (=max_flow: true), removal disconnects s-t: true  -> PASS
+  [3b] skipped (58 candidate edges > 20)
+  [3c] E_every == ∩(enumerated cuts) and E_some == ∪(enumerated cuts), 4 cuts enumerated -> PASS
+  [4] saturated edges: 101 reported, flow=capacity for all: true
+  [5] SPOF nodes: 0 reported, brute-force checked 40/747 candidates (sampled) -> PASS
+  [6] single-edge failure impact: 58 candidates (in some min-cut), checked 15 against oracle -> PASS
+  [7] degradation thresholds: checked 3/6607 edges by independent bisection -> PASS
+  [8] edge connectivity (Menger, edge-disjoint paths): lambda=0 between 800->1, oracle unit-capacity max-flow=0.0 -> PASS
+  [9] node-capacitated flow: not in this network's generated capacities (not in NODE_CAP_SUBSET) — skipped
+  [10] multi-source/multi-sink: exercised by every check above (52 sources, 1 sinks) — see run_flow_validation.jl
+== glasgow_to_shetland_extreme == (69n/68e, large=false)
+  [3] min-cut: capacity=762.0 (=max_flow: true), removal disconnects s-t: true  -> PASS
+  [3b] skipped (68 candidate edges > 20)
+  [3c] E_every == ∩(enumerated cuts) and E_some == ∪(enumerated cuts), 1 cuts enumerated -> PASS
+  [4] saturated edges: 68 reported, flow=capacity for all: true
+  [5] SPOF nodes: 0 reported, brute-force checked 0/0 candidates (exhaustive) -> PASS
+  [6] single-edge failure impact: 68 candidates (in some min-cut), checked 68 against oracle -> PASS
+  [7] degradation thresholds: checked 3/68 edges by independent bisection -> PASS
+  [8] edge connectivity (Menger, edge-disjoint paths): lambda=0 between 2->1, oracle unit-capacity max-flow=0.0 -> PASS
+  [9] node-capacitated flow: not in this network's generated capacities (not in NODE_CAP_SUBSET) — skipped
+  [10] multi-source/multi-sink: exercised by every check above (1 sources, 68 sinks) — see run_flow_validation.jl
+== grid-graph-5x5 == (25n/40e, large=false)
+  [3] min-cut: capacity=35.0 (=max_flow: true), removal disconnects s-t: true  -> PASS
+  [3b] exhaustive subset enumeration over 4 candidate edges: min disconnecting capacity=35.0 -> PASS
+  [3c] E_every == ∩(enumerated cuts) and E_some == ∪(enumerated cuts), 1 cuts enumerated -> PASS
+  [4] saturated edges: 10 reported, flow=capacity for all: true
+  [5] SPOF nodes: 0 reported, brute-force checked 20/20 candidates (exhaustive) -> PASS
+  [6] single-edge failure impact: 4 candidates (in some min-cut), checked 4 against oracle -> PASS
+  [7] degradation thresholds: checked 3/40 edges by independent bisection -> PASS
+  [8] edge connectivity (Menger, edge-disjoint paths): lambda=0 between 5->1, oracle unit-capacity max-flow=0.0 -> PASS
+  [9] node-capacitated flow: reported=14.0, oracle on the same node-split graph=14.0 -> PASS
+  [10] multi-source/multi-sink: exercised by every check above (3 sources, 2 sinks) — see run_flow_validation.jl
+== highland_to_lowland_full_network == (138n/501e, large=false)
+  [3] min-cut: capacity=3326.0 (=max_flow: true), removal disconnects s-t: true  -> PASS
+  [3b] skipped (316 candidate edges > 20)
+  [3c] E_every == ∩(enumerated cuts) and E_some == ∪(enumerated cuts), 1 cuts enumerated -> PASS
+  [4] saturated edges: 383 reported, flow=capacity for all: true
+  [5] SPOF nodes: 0 reported, brute-force checked 33/33 candidates (exhaustive) -> PASS
+  [6] single-edge failure impact: 316 candidates (in some min-cut), checked 316 against oracle -> PASS
+  [7] degradation thresholds: checked 3/501 edges by independent bisection -> PASS
+  [8] edge connectivity (Menger, edge-disjoint paths): lambda=0 between 11->1, oracle unit-capacity max-flow=0.0 -> PASS
+  [9] node-capacitated flow: not in this network's generated capacities (not in NODE_CAP_SUBSET) — skipped
+  [10] multi-source/multi-sink: exercised by every check above (78 sources, 27 sinks) — see run_flow_validation.jl
+== metro_directed_dag_for_ipm == (306n/350e, large=false)
+  [3] min-cut: capacity=29.0 (=max_flow: true), removal disconnects s-t: true  -> PASS
+  [3b] exhaustive subset enumeration over 6 candidate edges: min disconnecting capacity=29.0 -> PASS
+  [3c] E_every == ∩(enumerated cuts) and E_some == ∪(enumerated cuts), 1 cuts enumerated -> PASS
+  [4] saturated edges: 8 reported, flow=capacity for all: true
+  [5] SPOF nodes: 0 reported, brute-force checked 244/244 candidates (exhaustive) -> PASS
+  [6] single-edge failure impact: 6 candidates (in some min-cut), checked 6 against oracle -> PASS
+  [7] degradation thresholds: checked 3/350 edges by independent bisection -> PASS
+  [8] edge connectivity (Menger, edge-disjoint paths): lambda=0 between 1->2, oracle unit-capacity max-flow=0.0 -> PASS
+  [9] node-capacitated flow: not in this network's generated capacities (not in NODE_CAP_SUBSET) — skipped
+  [10] multi-source/multi-sink: exercised by every check above (1 sources, 61 sinks) — see run_flow_validation.jl
+== psplib-j301_1 == (32n/48e, large=false)
+  [3] min-cut: capacity=14.0 (=max_flow: true), removal disconnects s-t: true  -> PASS
+  [3b] exhaustive subset enumeration over 3 candidate edges: min disconnecting capacity=14.0 -> PASS
+  [3c] E_every == ∩(enumerated cuts) and E_some == ∪(enumerated cuts), 1 cuts enumerated -> PASS
+  [4] saturated edges: 3 reported, flow=capacity for all: true
+  [5] SPOF nodes: 0 reported, brute-force checked 30/30 candidates (exhaustive) -> PASS
+  [6] single-edge failure impact: 3 candidates (in some min-cut), checked 3 against oracle -> PASS
+  [7] degradation thresholds: checked 3/48 edges by independent bisection -> PASS
+  [8] edge connectivity (Menger, edge-disjoint paths): lambda=0 between 32->1, oracle unit-capacity max-flow=0.0 -> PASS
+  [9] node-capacitated flow: reported=1.0, oracle on the same node-split graph=1.0 -> PASS
+  [10] multi-source/multi-sink: exercised by every check above (1 sources, 1 sinks) — see run_flow_validation.jl
+== water == (32n/66e, large=false)
+  [3] min-cut: capacity=154.0 (=max_flow: true), removal disconnects s-t: true  -> PASS
+  [3b] exhaustive subset enumeration over 18 candidate edges: min disconnecting capacity=154.0 -> PASS
+  [3c] E_every == ∩(enumerated cuts) and E_some == ∪(enumerated cuts), 1 cuts enumerated -> PASS
+  [4] saturated edges: 43 reported, flow=capacity for all: true
+  [5] SPOF nodes: 0 reported, brute-force checked 16/16 candidates (exhaustive) -> PASS
+  [6] single-edge failure impact: 18 candidates (in some min-cut), checked 18 against oracle -> PASS
+  [7] degradation thresholds: checked 3/66 edges by independent bisection -> PASS
+  [8] edge connectivity (Menger, edge-disjoint paths): lambda=0 between 25->1, oracle unit-capacity max-flow=0.0 -> PASS
+  [9] node-capacitated flow: reported=48.0, oracle on the same node-split graph=48.0 -> PASS
+  [10] multi-source/multi-sink: exercised by every check above (8 sources, 8 sinks) — see run_flow_validation.jl
+
+FLOW VALIDATION (items 3-10): ALL PASS
+run: 2026-08-30T05:33:11.803

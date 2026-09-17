@@ -1,0 +1,560 @@
+{
+  "scenario_intent": "Wide uncertainty bounds around stressed hub and choke edges for robust worst/best-case analysis.",
+  "network_type": "capacity_flow",
+  "data_type": "Interval",
+  "target_nodes": [
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "capacities": {
+    "nodes": {
+      "24": {
+        "lower": 63.7445,
+        "type": "interval",
+        "upper": 101.6466
+      },
+      "4": {
+        "lower": 61.2327,
+        "type": "interval",
+        "upper": 97.6413
+      },
+      "1": {
+        "lower": 61.2454,
+        "type": "interval",
+        "upper": 97.6615
+      },
+      "12": {
+        "lower": 63.8131,
+        "type": "interval",
+        "upper": 101.756
+      },
+      "29": {
+        "lower": 72.9531,
+        "type": "interval",
+        "upper": 116.3307
+      },
+      "20": {
+        "lower": 63.5389,
+        "type": "interval",
+        "upper": 101.3188
+      },
+      "32": {
+        "lower": 73.0459,
+        "type": "interval",
+        "upper": 116.4786
+      },
+      "2": {
+        "lower": 61.3592,
+        "type": "interval",
+        "upper": 97.8431
+      },
+      "6": {
+        "lower": 61.296,
+        "type": "interval",
+        "upper": 97.7422
+      },
+      "25": {
+        "lower": 72.5355,
+        "type": "interval",
+        "upper": 115.6648
+      },
+      "23": {
+        "lower": 62.1502,
+        "type": "interval",
+        "upper": 99.1043
+      },
+      "22": {
+        "lower": 63.6623,
+        "type": "interval",
+        "upper": 101.5155
+      },
+      "11": {
+        "lower": 21.46,
+        "type": "interval",
+        "upper": 34.22
+      },
+      "13": {
+        "lower": 63.8953,
+        "type": "interval",
+        "upper": 101.8871
+      },
+      "5": {
+        "lower": 61.296,
+        "type": "interval",
+        "upper": 97.7422
+      },
+      "15": {
+        "lower": 62.444,
+        "type": "interval",
+        "upper": 99.5729
+      },
+      "27": {
+        "lower": 73.1387,
+        "type": "interval",
+        "upper": 116.6266
+      },
+      "31": {
+        "lower": 72.7057,
+        "type": "interval",
+        "upper": 115.9361
+      },
+      "28": {
+        "lower": 72.8139,
+        "type": "interval",
+        "upper": 116.1087
+      },
+      "16": {
+        "lower": 63.9913,
+        "type": "interval",
+        "upper": 102.0401
+      },
+      "14": {
+        "lower": 63.8953,
+        "type": "interval",
+        "upper": 101.8871
+      },
+      "21": {
+        "lower": 63.6623,
+        "type": "interval",
+        "upper": 101.5155
+      },
+      "7": {
+        "lower": 61.3339,
+        "type": "interval",
+        "upper": 97.8028
+      },
+      "8": {
+        "lower": 61.296,
+        "type": "interval",
+        "upper": 97.7422
+      },
+      "26": {
+        "lower": 72.5355,
+        "type": "interval",
+        "upper": 115.6648
+      },
+      "17": {
+        "lower": 59.8123,
+        "type": "interval",
+        "upper": 95.3763
+      },
+      "10": {
+        "lower": 62.3639,
+        "type": "interval",
+        "upper": 99.4451
+      },
+      "19": {
+        "lower": 17.76,
+        "type": "interval",
+        "upper": 28.32
+      },
+      "9": {
+        "lower": 60.1114,
+        "type": "interval",
+        "upper": 95.8533
+      },
+      "18": {
+        "lower": 62.0299,
+        "type": "interval",
+        "upper": 98.9126
+      },
+      "30": {
+        "lower": 72.9531,
+        "type": "interval",
+        "upper": 116.3307
+      },
+      "3": {
+        "lower": 61.296,
+        "type": "interval",
+        "upper": 97.7422
+      }
+    },
+    "source_rates": {
+      "3": {
+        "lower": 23.6699,
+        "type": "interval",
+        "upper": 40.5769
+      },
+      "4": {
+        "lower": 23.6422,
+        "type": "interval",
+        "upper": 40.5294
+      },
+      "1": {
+        "lower": 23.6477,
+        "type": "interval",
+        "upper": 40.5389
+      },
+      "5": {
+        "lower": 23.6699,
+        "type": "interval",
+        "upper": 40.5769
+      },
+      "2": {
+        "lower": 23.6976,
+        "type": "interval",
+        "upper": 40.6244
+      },
+      "6": {
+        "lower": 23.6699,
+        "type": "interval",
+        "upper": 40.5769
+      },
+      "7": {
+        "lower": 23.6865,
+        "type": "interval",
+        "upper": 40.6054
+      },
+      "8": {
+        "lower": 23.6699,
+        "type": "interval",
+        "upper": 40.5769
+      }
+    },
+    "edges": {
+      "(7,16)": {
+        "lower": 44.9131,
+        "type": "interval",
+        "upper": 78.2772
+      },
+      "(15,23)": {
+        "lower": 41.429,
+        "type": "interval",
+        "upper": 72.2048
+      },
+      "(1,11)": {
+        "lower": 44.9131,
+        "type": "interval",
+        "upper": 78.2772
+      },
+      "(24,32)": {
+        "lower": 41.2357,
+        "type": "interval",
+        "upper": 71.8679
+      },
+      "(2,10)": {
+        "lower": 45.1208,
+        "type": "interval",
+        "upper": 78.6391
+      },
+      "(22,32)": {
+        "lower": 41.2357,
+        "type": "interval",
+        "upper": 71.8679
+      },
+      "(8,16)": {
+        "lower": 44.9131,
+        "type": "interval",
+        "upper": 78.2772
+      },
+      "(13,24)": {
+        "lower": 41.2357,
+        "type": "interval",
+        "upper": 71.8679
+      },
+      "(15,20)": {
+        "lower": 41.2357,
+        "type": "interval",
+        "upper": 71.8679
+      },
+      "(19,30)": {
+        "lower": 47.7886,
+        "type": "interval",
+        "upper": 83.2887
+      },
+      "(12,23)": {
+        "lower": 41.429,
+        "type": "interval",
+        "upper": 72.2048
+      },
+      "(17,27)": {
+        "lower": 41.2357,
+        "type": "interval",
+        "upper": 71.8679
+      },
+      "(8,14)": {
+        "lower": 44.9131,
+        "type": "interval",
+        "upper": 78.2772
+      },
+      "(19,29)": {
+        "lower": 11.2,
+        "type": "interval",
+        "upper": 19.52
+      },
+      "(2,12)": {
+        "lower": 44.9131,
+        "type": "interval",
+        "upper": 78.2772
+      },
+      "(10,20)": {
+        "lower": 41.2357,
+        "type": "interval",
+        "upper": 71.8679
+      },
+      "(23,31)": {
+        "lower": 41.429,
+        "type": "interval",
+        "upper": 72.2048
+      },
+      "(10,18)": {
+        "lower": 41.429,
+        "type": "interval",
+        "upper": 72.2048
+      },
+      "(11,19)": {
+        "lower": 47.7886,
+        "type": "interval",
+        "upper": 83.2887
+      },
+      "(10,19)": {
+        "lower": 41.2357,
+        "type": "interval",
+        "upper": 71.8679
+      },
+      "(22,27)": {
+        "lower": 41.2357,
+        "type": "interval",
+        "upper": 71.8679
+      },
+      "(7,12)": {
+        "lower": 44.9131,
+        "type": "interval",
+        "upper": 78.2772
+      },
+      "(7,15)": {
+        "lower": 45.1208,
+        "type": "interval",
+        "upper": 78.6391
+      },
+      "(18,28)": {
+        "lower": 41.2357,
+        "type": "interval",
+        "upper": 71.8679
+      },
+      "(18,26)": {
+        "lower": 41.429,
+        "type": "interval",
+        "upper": 72.2048
+      },
+      "(6,14)": {
+        "lower": 44.9131,
+        "type": "interval",
+        "upper": 78.2772
+      },
+      "(19,27)": {
+        "lower": 11.2,
+        "type": "interval",
+        "upper": 19.52
+      },
+      "(23,32)": {
+        "lower": 41.2357,
+        "type": "interval",
+        "upper": 71.8679
+      },
+      "(18,27)": {
+        "lower": 41.2357,
+        "type": "interval",
+        "upper": 71.8679
+      },
+      "(24,29)": {
+        "lower": 41.2357,
+        "type": "interval",
+        "upper": 71.8679
+      },
+      "(16,22)": {
+        "lower": 41.2357,
+        "type": "interval",
+        "upper": 71.8679
+      },
+      "(11,22)": {
+        "lower": 47.7886,
+        "type": "interval",
+        "upper": 83.2887
+      },
+      "(23,28)": {
+        "lower": 41.2357,
+        "type": "interval",
+        "upper": 71.8679
+      },
+      "(16,21)": {
+        "lower": 41.2357,
+        "type": "interval",
+        "upper": 71.8679
+      },
+      "(13,21)": {
+        "lower": 41.2357,
+        "type": "interval",
+        "upper": 71.8679
+      },
+      "(5,13)": {
+        "lower": 44.9131,
+        "type": "interval",
+        "upper": 78.2772
+      },
+      "(20,28)": {
+        "lower": 41.2357,
+        "type": "interval",
+        "upper": 71.8679
+      },
+      "(14,24)": {
+        "lower": 41.2357,
+        "type": "interval",
+        "upper": 71.8679
+      },
+      "(3,11)": {
+        "lower": 44.9131,
+        "type": "interval",
+        "upper": 78.2772
+      },
+      "(4,15)": {
+        "lower": 45.1208,
+        "type": "interval",
+        "upper": 78.6391
+      },
+      "(17,25)": {
+        "lower": 41.429,
+        "type": "interval",
+        "upper": 72.2048
+      },
+      "(15,24)": {
+        "lower": 41.2357,
+        "type": "interval",
+        "upper": 71.8679
+      },
+      "(1,9)": {
+        "lower": 45.1208,
+        "type": "interval",
+        "upper": 78.6391
+      },
+      "(6,11)": {
+        "lower": 44.9131,
+        "type": "interval",
+        "upper": 78.2772
+      },
+      "(6,16)": {
+        "lower": 44.9131,
+        "type": "interval",
+        "upper": 78.2772
+      },
+      "(3,13)": {
+        "lower": 44.9131,
+        "type": "interval",
+        "upper": 78.2772
+      },
+      "(14,22)": {
+        "lower": 41.2357,
+        "type": "interval",
+        "upper": 71.8679
+      },
+      "(9,17)": {
+        "lower": 41.429,
+        "type": "interval",
+        "upper": 72.2048
+      },
+      "(2,11)": {
+        "lower": 44.9131,
+        "type": "interval",
+        "upper": 78.2772
+      },
+      "(16,24)": {
+        "lower": 41.2357,
+        "type": "interval",
+        "upper": 71.8679
+      },
+      "(21,32)": {
+        "lower": 41.2357,
+        "type": "interval",
+        "upper": 71.8679
+      },
+      "(9,19)": {
+        "lower": 41.2357,
+        "type": "interval",
+        "upper": 71.8679
+      },
+      "(21,29)": {
+        "lower": 41.2357,
+        "type": "interval",
+        "upper": 71.8679
+      },
+      "(11,21)": {
+        "lower": 47.7886,
+        "type": "interval",
+        "upper": 83.2887
+      },
+      "(12,20)": {
+        "lower": 41.2357,
+        "type": "interval",
+        "upper": 71.8679
+      },
+      "(5,11)": {
+        "lower": 44.9131,
+        "type": "interval",
+        "upper": 78.2772
+      },
+      "(24,30)": {
+        "lower": 41.2357,
+        "type": "interval",
+        "upper": 71.8679
+      },
+      "(5,16)": {
+        "lower": 44.9131,
+        "type": "interval",
+        "upper": 78.2772
+      },
+      "(21,27)": {
+        "lower": 41.2357,
+        "type": "interval",
+        "upper": 71.8679
+      },
+      "(20,31)": {
+        "lower": 41.429,
+        "type": "interval",
+        "upper": 72.2048
+      },
+      "(13,19)": {
+        "lower": 41.2357,
+        "type": "interval",
+        "upper": 71.8679
+      },
+      "(8,13)": {
+        "lower": 44.9131,
+        "type": "interval",
+        "upper": 78.2772
+      },
+      "(14,19)": {
+        "lower": 41.2357,
+        "type": "interval",
+        "upper": 71.8679
+      },
+      "(4,12)": {
+        "lower": 44.9131,
+        "type": "interval",
+        "upper": 78.2772
+      },
+      "(22,30)": {
+        "lower": 41.2357,
+        "type": "interval",
+        "upper": 71.8679
+      },
+      "(3,14)": {
+        "lower": 44.9131,
+        "type": "interval",
+        "upper": 78.2772
+      }
+    }
+  },
+  "description": "Capacity inputs for water-highvdemo - 06 Interval Stress",
+  "generation_info": {
+    "total_nodes": 32,
+    "total_edges": 66,
+    "generator": "GenerateWaterHighDemo.jl",
+    "timestamp": "2026-03-09T13:15:39.479"
+  }
+}

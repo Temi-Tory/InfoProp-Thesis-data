@@ -1,0 +1,37 @@
+{
+  "comment": "Node capacities chosen so the node-capacitated solve binds at selected processing nodes, reducing throughput below the edge-only baseline while leaving the dispatch gateway non-binding.",
+  "nodes": [
+    {
+      "node": 114,
+      "capacity": 5.0
+    },
+    {
+      "node": 115,
+      "capacity": 5.0
+    },
+    {
+      "node": 116,
+      "capacity": 7.0
+    },
+    {
+      "node": 117,
+      "capacity": 7.0
+    },
+    {
+      "node": 118,
+      "capacity": 3.0
+    },
+    {
+      "node": 119,
+      "capacity": 3.0
+    },
+    {
+      "node": 134,
+      "capacity": 20.0
+    },
+    {
+      "node": 135,
+      "capacity": 20.0
+    }
+  ]
+}

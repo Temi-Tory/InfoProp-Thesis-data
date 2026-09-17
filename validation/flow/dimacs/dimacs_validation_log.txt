@@ -1,0 +1,23 @@
+== genrmf_dag_small == (360 nodes, 924 edges)
+  oracle (GraphsFlows) max_flow=1007  1.1810s
+  dinic          max_flow=1007  AGREE  warm_time=0.0020s
+  edmonds_karp   max_flow=1007  AGREE  warm_time=0.0070s
+  push_relabel   max_flow=1007  AGREE  warm_time=0.0970s
+== genrmf_dag_medium == (3332 nodes, 9324 edges)
+  oracle (GraphsFlows) max_flow=1227  0.0850s
+  dinic          max_flow=1227  AGREE  warm_time=0.0170s
+  edmonds_karp   max_flow=1227  AGREE  warm_time=0.1790s
+  push_relabel   max_flow=1227  AGREE  warm_time=0.0190s
+== genrmf_dag_large == (27040 nodes, 78364 edges)
+  oracle (GraphsFlows) max_flow=837  9.8910s
+  (edmonds_karp skipped on this instance — 78364 edges, O(VE^2) worst case; documented, not run)
+  dinic          max_flow=837  AGREE  warm_time=0.9610s
+  push_relabel   max_flow=837  AGREE  warm_time=1.5200s
+== genrmf_dag_xlarge == (36992 nodes, 107644 edges)
+  oracle (GraphsFlows) max_flow=984  28.9060s
+  (edmonds_karp skipped on this instance — 107644 edges, O(VE^2) worst case; documented, not run)
+  dinic          max_flow=984  AGREE  warm_time=0.6570s
+  push_relabel   max_flow=984  AGREE  warm_time=2.2770s
+
+DIMACS VALIDATION: ALL PASS
+run: 2026-08-30T03:01:38.474

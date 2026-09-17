@@ -1,0 +1,53 @@
+% ============================================================================================
+% Paper tables for the IPA validation + complexity study (RESS).
+% Data: validation/paper_data.csv (random corpus) + validation/make_structured.jl (named networks).
+% Correctness oracle: in-process CUDD ROBDD (same language, no cross-language artefacts).
+% BDD sizes reported under CUDD sifting (CUDD_REORDER_SIFT) = near-minimal / best-practice order.
+% ============================================================================================
+
+% ---- Table 1: named structured networks ----
+\begin{table}[t]
+\centering
+\caption{Exactness and complexity of the Information Propagation Algorithm (IPA) on named structured
+networks, versus the exact ROBDD oracle. $|V|$ nodes, $|E|$ edges; \emph{root D.}/\emph{unique D.} are the
+number of root and unique diamond structures identified; \emph{max\,$|C|$} is the largest conditioning set;
+\emph{ROBDD} is the sifted BDD node count; $\max|\Delta|$ is the worst per-node deviation of IPA from the
+exact ROBDD reliability (all at machine precision).}
+\label{tab:structured}
+\begin{tabular}{lrrrrrrrr}
+\hline
+Network & $|V|$ & $|E|$ & src & root D. & uniq D. & max\,$|C|$ & ROBDD & $\max|\Delta|$ \\
+\hline
+power-network      & 23 & 27 & 3 &  5 &   9 &  3 &  384 & $8.3\times10^{-17}$ \\
+grid-graph         & 16 & 24 & 3 &  8 &  41 &  7 &  290 & $1.1\times10^{-16}$ \\
+KarlNetwork        & 26 & 74 & 1 & 18 & 147 & 11 & 1921 & $5.6\times10^{-17}$ \\
+counterexample-n15 & 15 & 23 & 1 &  4 &  13 &  4 &  340 & $5.6\times10^{-17}$ \\
+\hline
+\end{tabular}
+\end{table}
+
+% ---- Table 2: random / mutant corpus, summarised by family ----
+\begin{table}[t]
+\centering
+\caption{Random and mutated DAG corpus (129 unique graphs), summarised by family. Random DAGs are
+generated per family with edge probability $p\in\{0.10,0.15,0.20\}$ and seeds $1$--$8$; \emph{mutant-n28}
+is a base $n{=}28$ DAG with $+5/-2$ edge mutations (seeds $1$--$8$); \emph{cex} is the adversarial
+counterexample. \emph{density} $=|E|/\binom{|V|}{2}$. \emph{ROBDD} node counts under sifting; every graph
+in every family was validated exact against the ROBDD oracle ($\max|\Delta|\le1.1\times10^{-16}$ across the
+whole corpus). \emph{naive blow-ups} = builds exceeding $2.5\times10^{6}$ ROBDD nodes under naive
+(topological) ordering --- all of which sifting resolves.}
+\label{tab:corpus}
+\begin{tabular}{lrrrrrrr}
+\hline
+Family & \#graphs & $|V|$ & $|E|$ & density & med.\ ROBDD & max.\ ROBDD & naive blow-ups \\
+\hline
+random-n10  & 24 & 10 & 12--18 & 0.27--0.40 &   80 &   270 & 0 \\
+random-n12  & 24 & 12 & 15--28 & 0.23--0.42 &  197 &   693 & 0 \\
+random-n15  & 24 & 15 & 21--35 & 0.20--0.33 &  450 &  1092 & 0 \\
+random-n20  & 24 & 20 & 31--50 & 0.16--0.26 & 1164 &  2849 & 0 \\
+random-n25  & 24 & 25 & 42--73 & 0.14--0.24 & 3119 & 20323 & 9 \\
+mutant-n28  &  8 & 28 & 62     & 0.16       & 2562 &  6050 & 6 \\
+cex         &  1 & 15 & 23     & 0.22       &  340 &   340 & 0 \\
+\hline
+\end{tabular}
+\end{table}

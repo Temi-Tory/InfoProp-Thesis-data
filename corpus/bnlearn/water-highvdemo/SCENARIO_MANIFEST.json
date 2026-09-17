@@ -1,0 +1,27 @@
+{
+  "network": "water-highvdemo",
+  "scenario_order": [
+    "01 Source Limited",
+    "02 Edge Bottleneck",
+    "03 Node Bottleneck",
+    "04 Mixed Bottleneck",
+    "05 CPM Time-Critical",
+    "06 Interval Stress"
+  ],
+  "notes": [
+    "Generated from topology metrics (in/out degree, ancestors/descendants, iteration levels)",
+    "Inputs are backend-compatible for reachability, capacity and CPM endpoints",
+    "Scenario names match increasing analytical complexity"
+  ],
+  "base_edges": "water.EDGES",
+  "generator": "src/Network-flow-algos/test/GenerateWaterHighDemo.jl",
+  "recommended_demo_order": [
+    "01 Source Limited",
+    "02 Edge Bottleneck",
+    "03 Node Bottleneck",
+    "04 Mixed Bottleneck",
+    "05 CPM Time-Critical",
+    "06 Interval Stress"
+  ],
+  "generated_at": "2026-03-09T13:15:39.727"
+}

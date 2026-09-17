@@ -1,0 +1,109 @@
+=== HAND NETWORKS (asserted expected values) ===
+  diamond net: longest/shortest/accumulation asserted PASS
+  multi-sink net: longest asserted PASS
+
+=== NETWORK SWEEP (engine vs independent oracle) ===
+== water ==
+  nodes=32 edges=66 sources=8 sinks=8 paths=179
+  longest        ORACLE PASS  P=45  through_maxdiff=0 margin_maxdiff=0 critical=match(4)
+  shortest       ORACLE PASS  P=15  through_maxdiff=0 margin_maxdiff=0 critical=match(12)
+  scaling        ORACLE PASS  P=128  through_maxdiff=7.11e-15 margin_maxdiff=1.78e-15 critical=match(4)
+  accumulation   ORACLE PASS  target=27 total=480 adjoint_identity=ok
+== KarlNetwork ==
+  nodes=26 edges=74 sources=1 sinks=5 paths=404
+  longest        ORACLE PASS  P=53.5  through_maxdiff=0 margin_maxdiff=0 critical=match(15)
+  shortest       ORACLE PASS  P=5.5  through_maxdiff=0 margin_maxdiff=0 critical=match(2)
+  scaling        ORACLE PASS  P=1.34218e+08  through_maxdiff=0 margin_maxdiff=0 critical=match(15)
+  accumulation   ORACLE PASS  target=10 total=3693.5 adjoint_identity=ok
+== grid-graph-5x5 ==
+  nodes=25 edges=40 sources=3 sinks=2 paths=128
+  longest        ORACLE PASS  P=24.7857  through_maxdiff=7.11e-15 margin_maxdiff=1.07e-14 critical=match(21)
+  shortest       ORACLE PASS  P=5.81429  through_maxdiff=3.55e-15 margin_maxdiff=3.55e-15 critical=match(3)
+  scaling        ORACLE PASS  P=2.09715e+06  through_maxdiff=0 margin_maxdiff=0 critical=match(21)
+  accumulation   ORACLE PASS  target=5 total=703.014 adjoint_identity=ok
+== metro_directed_dag_for_ipm ==
+  nodes=306 edges=350 sources=1 sinks=61 paths=173
+  longest        ORACLE PASS  P=89.5  through_maxdiff=0 margin_maxdiff=0 critical=match(23)
+  shortest       ORACLE PASS  P=5.5  through_maxdiff=0 margin_maxdiff=0 critical=match(2)
+  scaling        ORACLE PASS  P=3.51844e+13  through_maxdiff=0 margin_maxdiff=0 critical=match(23)
+  accumulation   ORACLE PASS  target=261 total=313.5 adjoint_identity=ok
+== ergo-proxy-dag-network ==
+  nodes=800 edges=6607 sources=52 sinks=1 paths=5.545e+18
+  longest        INVARIANTS PASS  P=353.5  sampled_extreme=65.5
+  shortest       INVARIANTS PASS  P=9.5  sampled_extreme=9.5
+  scaling        INVARIANTS PASS  P=1.91562e+53  sampled_extreme=8.58993e+09
+  accumulation   IDENTITY PASS  target=800 total=4.92897e+19 adjoint_identity=ok
+== drone-medical-delivery-network ==
+  nodes=782 edges=2789 sources=33 sinks=323 paths=2.688e+06
+  longest        INVARIANTS PASS  P=131.243  sampled_extreme=40.5234
+  shortest       INVARIANTS PASS  P=3.27704  sampled_extreme=3.27704
+  scaling        INVARIANTS PASS  P=6.10545e+26  sampled_extreme=2.17705e+08
+  accumulation   IDENTITY PASS  target=779 total=978873 adjoint_identity=ok
+== continental_medical_network ==
+  nodes=141 edges=365 sources=5 sinks=91 paths=2450
+  longest        ORACLE PASS  P=8.89104  through_maxdiff=1.78e-15 margin_maxdiff=3.55e-15 critical=match(4)
+  shortest       ORACLE PASS  P=7.75946  through_maxdiff=1.78e-15 margin_maxdiff=1.78e-15 critical=match(4)
+  scaling        ORACLE PASS  P=94.2048  through_maxdiff=2.84e-14 margin_maxdiff=6.66e-16 critical=match(4)
+  accumulation   ORACLE PASS  target=139 total=216.648 adjoint_identity=ok
+== hybrid_power_hierarchical ==
+  nodes=782 edges=2789 sources=33 sinks=323 paths=2.688e+06
+  longest        INVARIANTS PASS  P=131.243  sampled_extreme=40.5234
+  shortest       INVARIANTS PASS  P=3.27704  sampled_extreme=3.27704
+  scaling        INVARIANTS PASS  P=6.10545e+26  sampled_extreme=2.17705e+08
+  accumulation   IDENTITY PASS  target=779 total=978873 adjoint_identity=ok
+== glasgow_to_shetland_extreme ==
+  nodes=69 edges=68 sources=1 sinks=68 paths=68
+  longest        ORACLE PASS  P=4.42525  through_maxdiff=8.88e-16 margin_maxdiff=8.88e-16 critical=match(2)
+  shortest       ORACLE PASS  P=3.53439  through_maxdiff=8.88e-16 margin_maxdiff=1.78e-15 critical=match(2)
+  scaling        ORACLE PASS  P=7.88507  through_maxdiff=8.88e-16 margin_maxdiff=2.22e-16 critical=match(2)
+  accumulation   ORACLE PASS  target=30 total=4.42525 adjoint_identity=ok
+== highland_to_lowland_full_network ==
+  nodes=138 edges=501 sources=78 sinks=27 paths=802
+  longest        ORACLE PASS  P=7.0151  through_maxdiff=8.88e-16 margin_maxdiff=8.88e-16 critical=match(3)
+  shortest       ORACLE PASS  P=3.26302  through_maxdiff=8.88e-16 margin_maxdiff=8.88e-16 critical=match(2)
+  scaling        ORACLE PASS  P=24.1792  through_maxdiff=3.55e-15 margin_maxdiff=1.78e-15 critical=match(3)
+  accumulation   ORACLE PASS  target=195 total=589.805 adjoint_identity=ok
+
+=== SUMMARY ===
+run: 2026-08-17T23:43:47.572
+water,longest,oracle,PASS,0.000000
+water,shortest,oracle,PASS,0.000000
+water,scaling,oracle,PASS,0.004000
+water,accumulation,oracle,PASS,0.000000
+KarlNetwork,longest,oracle,PASS,0.000000
+KarlNetwork,shortest,oracle,PASS,0.000000
+KarlNetwork,scaling,oracle,PASS,0.000000
+KarlNetwork,accumulation,oracle,PASS,0.000000
+grid-graph-5x5,longest,oracle,PASS,0.000000
+grid-graph-5x5,shortest,oracle,PASS,0.000000
+grid-graph-5x5,scaling,oracle,PASS,0.000000
+grid-graph-5x5,accumulation,oracle,PASS,0.001000
+metro_directed_dag_for_ipm,longest,oracle,PASS,0.001000
+metro_directed_dag_for_ipm,shortest,oracle,PASS,0.001000
+metro_directed_dag_for_ipm,scaling,oracle,PASS,0.001000
+metro_directed_dag_for_ipm,accumulation,oracle,PASS,0.000000
+ergo-proxy-dag-network,longest,invariants,PASS,0.003000
+ergo-proxy-dag-network,shortest,invariants,PASS,0.003000
+ergo-proxy-dag-network,scaling,invariants,PASS,0.003000
+ergo-proxy-dag-network,accumulation,identity,PASS,0.001000
+drone-medical-delivery-network,longest,invariants,PASS,0.002000
+drone-medical-delivery-network,shortest,invariants,PASS,0.003000
+drone-medical-delivery-network,scaling,invariants,PASS,0.002000
+drone-medical-delivery-network,accumulation,identity,PASS,0.001000
+continental_medical_network,longest,oracle,PASS,0.000000
+continental_medical_network,shortest,oracle,PASS,0.001000
+continental_medical_network,scaling,oracle,PASS,0.000000
+continental_medical_network,accumulation,oracle,PASS,0.000000
+hybrid_power_hierarchical,longest,invariants,PASS,0.002000
+hybrid_power_hierarchical,shortest,invariants,PASS,0.002000
+hybrid_power_hierarchical,scaling,invariants,PASS,0.001000
+hybrid_power_hierarchical,accumulation,identity,PASS,0.000000
+glasgow_to_shetland_extreme,longest,oracle,PASS,0.000000
+glasgow_to_shetland_extreme,shortest,oracle,PASS,0.000000
+glasgow_to_shetland_extreme,scaling,oracle,PASS,0.000000
+glasgow_to_shetland_extreme,accumulation,oracle,PASS,0.000000
+highland_to_lowland_full_network,longest,oracle,PASS,0.001000
+highland_to_lowland_full_network,shortest,oracle,PASS,0.000000
+highland_to_lowland_full_network,scaling,oracle,PASS,0.001000
+highland_to_lowland_full_network,accumulation,oracle,PASS,0.000000
+ALL CHECKS PASSED

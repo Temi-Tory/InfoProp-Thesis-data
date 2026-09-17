@@ -1,0 +1,27 @@
+# Julia
+Manifest.toml.bak
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+/.julia-depot/
+deps/deps.jl
+
+# LaTeX build artefacts (figure sources are kept; rendered PDFs are regenerated)
+*.aux
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.bbl
+*.bcf
+*.run.xml
+*.blg
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.venv_*/
+
+# OS
+.DS_Store
+Thumbs.db

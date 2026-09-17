@@ -1,0 +1,7 @@
+Metric,Config A,Config B
+F*,37.0,37.0
+saturated_edges,41,35
+free_zone_size,2,0
+min_cuts,4,1
+SPOF_nodes,0,0
+upgrade_ineffective (gateway edges),true,false

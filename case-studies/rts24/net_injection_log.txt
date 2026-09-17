@@ -1,0 +1,36 @@
+IEEE RTS-24 net-injection accounting (generator nameplate Pmax - local peak Pd)
+super-source node = 0, super-sink node = 25
+
+ bus   gen_Pmax       Pd        net  role
+   1      192.0    108.0       84.0  S -> 1  (net export)
+   2      192.0     97.0       95.0  S -> 2  (net export)
+   3        0.0    180.0     -180.0  3 -> T  (net import)
+   4        0.0     74.0      -74.0  4 -> T  (net import)
+   5        0.0     71.0      -71.0  5 -> T  (net import)
+   6        0.0    136.0     -136.0  6 -> T  (net import)
+   7      300.0    125.0      175.0  S -> 7  (net export)
+   8        0.0    171.0     -171.0  8 -> T  (net import)
+   9        0.0    175.0     -175.0  9 -> T  (net import)
+  10        0.0    195.0     -195.0  10 -> T  (net import)
+  11        0.0      0.0        0.0  neither (net = 0)
+  12        0.0      0.0        0.0  neither (net = 0)
+  13      591.0    265.0      326.0  S -> 13  (net export)
+  14        0.0    194.0     -194.0  14 -> T  (net import)
+  15      215.0    317.0     -102.0  15 -> T  (net import)
+  16      155.0    100.0       55.0  S -> 16  (net export)
+  17        0.0      0.0        0.0  neither (net = 0)
+  18      400.0    333.0       67.0  S -> 18  (net export)
+  19        0.0    181.0     -181.0  19 -> T  (net import)
+  20        0.0    128.0     -128.0  20 -> T  (net import)
+  21      400.0      0.0      400.0  S -> 21  (net export)
+  22      300.0      0.0      300.0  S -> 22  (net export)
+  23      660.0      0.0      660.0  S -> 23  (net export)
+  24        0.0      0.0        0.0  neither (net = 0)
+
+total system peak demand (all 17 load buses)      = 2850.0 MW
+total generator nameplate capacity (all 33 units) = 3405.0 MW
+sum of positive net injections (S-side, export)   = 2162.0 MW across 9 buses
+sum of negative net injections (T-side, net import demand) = 1607.0 MW across 11 buses
+locally self-served demand (nameplate availability, no network needed) = total_pd - net_import_sum = 1243.0 MW
+=> S-T max-flow is capped above by min(export_sum, import_sum) = 1607.0 MW before any line/generator capacity binds
+=> deliverable throughput as a share of total system peak demand = flow / 2850.0 MW; self-served portion is delivered unconditionally as long as each net-export bus's own local generation covers its own local load
