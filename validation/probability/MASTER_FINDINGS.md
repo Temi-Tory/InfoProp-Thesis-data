@@ -1,6 +1,6 @@
 # MASTER FINDINGS — corpus & optimization campaign (fresh-first), started 2026-08-16
 
-Claude's findings document per the approved plan (`~/.claude/plans/declarative-spinning-chipmunk.md`).
+Findings document for the corpus & optimization campaign, tracking progress against the approved plan.
 Rules: every paper-bound number re-derived fresh on current code with a persisted artifact in this
 directory; the user's established notes are NEVER edited from here — §Corrections collects
 recommended edits for the user to apply/approve. Safety anchor: commit `97de174` ("safety commit",
@@ -642,7 +642,7 @@ corner runs: even a FLOAT propagation with the 184 certainties degraded to 0.95 
 not revise it.** IPA's propagation cost has been understood throughout — before, in, and after
 the paper — as a function of the diamond/conditioning statistics; every anomaly this session
 (barley 27×, link OOM, andes, mesh w=9, drone K-boundary) was fully explained by those statistics
-once they were measured ON THE INPUTS ACTUALLY RUN. The failure here was procedural (Claude's):
+once they were measured ON THE INPUTS ACTUALLY RUN. The failure here was procedural:
 inputs were changed without re-measuring the diamond stats that were known to govern cost, and
 the initial investigation chased mechanisms instead of running the model's own cheap diagnostic.
 Procedural rule now standing: any input-convention change → identify-only diamond-stats probe
