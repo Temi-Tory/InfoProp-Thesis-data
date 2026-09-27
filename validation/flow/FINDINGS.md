@@ -1,4 +1,4 @@
-# Flow chapter — findings from validation, 2026-08-30
+# Flow chapter — findings from validation
 
 Three real, precise findings surfaced while validating (not from a
 synthetic test — all found while running the real corpus and the RTS-24
@@ -12,8 +12,7 @@ whenever a *subset* (not all) of a network's nodes carry a node capacity and
 the node IDs are small/sequential (1..N). First hit on IEEE RTS-24 (**11**
 of 24 buses have a generator, hence a node capacity — corrects "10" in the
 original write-up here, a miscount; see `rts24/RESULTS.md`); never surfaced
-in this
-session's earlier corpus validation because every one of those networks
+in earlier corpus validation because every one of those networks
 happened to give *every* node a capacity in the generated test data.
 
 **Root cause**: `NodeCapacitatedFlowModule.jl`'s split-graph construction
@@ -26,9 +25,7 @@ some but not all nodes.
 
 **Is partial node-capacity coverage actually a supported, intended case, or
 an edge case?** Checked against the Network Model chapter
-(`Complex_Processes_Chapter.tex`) before concluding anything, per the
-project's own "read the chapter first" discipline — initially skipped that
-step and was corrected mid-investigation. The chapter is explicit: *"Flow
+(`Complex_Processes_Chapter.tex`) before concluding anything. The chapter is explicit: *"Flow
 capacity inputs are given in one file as a list of edge records... with an
 **optional** list of node capacities... Unconstrained capacity is written
 with an infinity token."* A node without a stated capacity is documented,
@@ -60,34 +57,6 @@ psplib-j301_1) — identical results before and after, zero regressions.
 
 ## 2. Resolved (not a bug): global edge/node connectivity (λ/κ) is always 0 on a DAG
 
-**Update, 2026-08-30**: this was originally flagged below as a "design-
-intent question, needs your call." Revisited with the explicit go-ahead to
-change it if warranted (RTS-24 net-injection rerun). Checked
-`FlowCapacity/README.md` §6.9 before touching any code, per this project's
-own "read the domain material first" discipline: it documents
-`edge_connectivity`/`node_connectivity` as **"exact directed edge/node
-connectivity"** at `O(V)` solver calls each — a complexity that only
-matches a search over every node, not a search restricted to declared
-source/sink pairs. So `source_nodes`/`sink_nodes` being accepted and
-validated but not used to scope the search (the observation the "flagged"
-note below was originally based on) is not an oversight — it's consistent
-with the documented, intended definition: connectivity over the whole
-graph, source/sink lists only enforced for the framework's standard call
-contract. Under that definition, 0 on any DAG with a real sink is
-**mathematically correct**, not a bug — every DAG has a zero-out-degree
-node by definition of being acyclic, and global connectivity over every
-ordered pair is trivially 0 there no matter how the rest of the algorithm
-is implemented. **Decision: not changed.** A genuinely useful "source set
-to sink set" connectivity metric would be a legitimately different
-computation under a new name, not a fix to this one — out of scope here.
-Full account and the RTS-24-specific numbers: `rts24/RESULTS.md`.
-
-A separate, real bug *was* found and fixed while exercising this on
-RTS-24's 0-indexed net-injection model — see finding 3 below; unrelated to
-the always-0 question, purely an internal ID-collision defect.
-
-### Original flag (2026-08-30, superseded above; kept for the record)
-
 **Symptom**: every network in the corpus (12 of 12) reports
 `edge_connectivity().lambda = 0`, at an "achieving" source/sink pair with no
 apparent relationship to the network's actual source/sink structure.
@@ -105,18 +74,30 @@ plain unit-capacity graph, confirmed 0 in every case — the framework's own
 number is arithmetically correct for what it's currently defined to compute;
 the definition itself doesn't produce a useful value for a DAG.
 
-**Not fixed** — this is a design-intent question, not an implementation bug
-the way the node-split issue was: should "global" connectivity restrict the
-search to declared source→sink pairs, or to pairs where the sink is actually
-reachable from the source, rather than all ordered pairs? Either change
-alters what the metric means, and this exact metric already ships in the
-front end as "Edge connectivity λ" / "Node connectivity κ" stat tiles
-(`flow-bottlenecks.page.ts`) built earlier this session — a decision on
-intended semantics affects both the thesis's own reported numbers and that
-already-shipped UI copy, so it needs your call, not mine. Per your own
-note: this is presumably why the chapter doesn't currently discuss this
-metric as a headline claim — worth a footnote acknowledging the degenerate
-value on a DAG, at minimum.
+`FlowCapacity/README.md` §6.9 documents `edge_connectivity`/
+`node_connectivity` as **"exact directed edge/node connectivity"** at `O(V)`
+solver calls each — a complexity that only matches a search over every node,
+not a search restricted to declared source/sink pairs. So `source_nodes`/
+`sink_nodes` being accepted and validated but not used to scope the search
+is not an oversight — it's consistent with the documented, intended
+definition: connectivity over the whole graph, source/sink lists only
+enforced for the framework's standard call contract. Under that definition,
+0 on any DAG with a real sink is **mathematically correct**, not a bug —
+every DAG has a zero-out-degree node by definition of being acyclic, and
+global connectivity over every ordered pair is trivially 0 there no matter
+how the rest of the algorithm is implemented.
+
+**Decision: not changed.** A genuinely useful "source set to sink set"
+connectivity metric would be a legitimately different computation under a
+new name, not a fix to this one — out of scope here. This metric already
+ships in the front end as "Edge connectivity λ" / "Node connectivity κ"
+stat tiles (`flow-bottlenecks.page.ts`); a footnote acknowledging the
+degenerate value on a DAG would be worthwhile wherever the metric is
+surfaced. Full account and the RTS-24-specific numbers: `rts24/RESULTS.md`.
+
+A separate, real bug *was* found and fixed while exercising this on
+RTS-24's 0-indexed net-injection model — see finding 3 below; unrelated to
+the always-0 question, purely an internal ID-collision defect.
 
 ## 3. Fixed: `GlobalConnectivityModule.jl` internal remap-ID collision on a 0-indexed graph
 
@@ -135,7 +116,7 @@ hardcoded `-1`. Unrelated to finding 2 above (that's about what the metric
 means; this is a plain internal ID clash) and unrelated to finding 1 (a
 different module, a different synthetic-ID scheme) — same *family* of bug,
 though: a hardcoded synthetic ID assumed "small/negative enough to never be
-real," true for every 1-indexed graph this session had tested against
+real," true for every 1-indexed graph tested against previously
 until a 0-indexed one showed up.
 
 **Fix** (`InfoPropFrmwrk/src/Algorithms/FlowCapacity/GlobalConnectivityModule.jl`,

@@ -1,7 +1,7 @@
-# IEEE RTS-24 — Flow case study, 2026-08-30 (updated with the net-injection rerun)
+# IEEE RTS-24 — Flow case study
 
 Source: MATPOWER `case24_ieee_rts.m` (fetched from the official MATPOWER
-GitHub repository, 2026-08-30). Original system: IEEE Reliability Test
+GitHub repository). Original system: IEEE Reliability Test
 System, *IEEE Transactions on Power Apparatus and Systems*, Vol. 98, No. 6,
 Nov./Dec. 1979, pp. 2047-2054 (Grigg et al. is the RTS-96 successor; the
 MATPOWER case file traces to the 1979 original). Raw tables in
@@ -42,7 +42,7 @@ opposite-direction S/T edge). Full per-bus table: `net_injection_log.txt`.
 | Locally self-served demand (nets out at export buses, never touches the network) | 1243.0 |
 
 **Result** (`run_rts24_netinjection_analysis.jl`, direct framework call —
-server not running this session, see note below):
+server not running for this run, see note below):
 
 - **Deliverable throughput = 1607.0 MVA = 100% of net import demand**, i.e.
   **100% of total system peak demand is met**: 1243 MW self-served locally
@@ -175,9 +175,8 @@ source-to-sink connectivity) — but that's a new metric under a new name,
 not a fix to this one, and changing `GlobalConnectivityModule.jl`'s
 existing behavior in place would silently break its own documented
 contract and its existing (oracle-validated) regression coverage's meaning.
-**Not changed.** `FINDINGS.md` updated with this more definitive
-conclusion, replacing the earlier "design-intent question, needs your
-call" framing — it's resolved now, just not in the direction of a fix. No
+**Not changed.** This resolves the earlier open question recorded in
+`FINDINGS.md` — resolved, just not in the direction of a fix. No
 corpus rerun of λ/κ follows from this, since nothing changed; the existing
 corpus values (all 0, `flow_validation_extended_summary.csv`) already are
 the correct answer to the metric as documented.
@@ -239,7 +238,7 @@ julia --project=InfoPropFrmwrk run_rts24_netinjection_analysis.jl  # net-injecti
 
 ## Server-side run — done (literal JSON, for the interface)
 
-Once the user started the server themselves, `POST /flow-analysis` was
+With the server running, `POST /flow-analysis` was
 called directly against `rts24-netinjection.EDGES` +
 `rts24-netinjection-capacities.json` via `networkPath` pointed at the
 `rts24/` folder — no `/upload` step needed, matching the established
@@ -257,7 +256,7 @@ repo's own warm-vs-cold timing convention elsewhere if a timed figure is
 wanted). One thing the server-side run adds that the direct call didn't
 surface on its own: `min_cut_analysis.edges_in_every_cut` = the four S-edges
 to buses 1, 2, 13, 16 — confirming those four generators are saturated in
-*every* optimal max-flow, not just the allocation this session's direct
+*every* optimal max-flow, not just the allocation this particular direct
 call happened to find (folded into the headroom section above).
 
 Server-side run for the first-pass structural-subset model

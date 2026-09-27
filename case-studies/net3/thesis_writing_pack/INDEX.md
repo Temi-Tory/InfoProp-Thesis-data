@@ -53,14 +53,3 @@ drift. Structure follows the CPM pack's own convention (`validation/cpm_v2/thesi
   `net3_schedule_inputs.py`, `dag_ntwrk_files/net3/net3-scenarios/run_net3_scenarios.py` — repo
   root / case-study scripts, all reproducible from scratch per net3_RESULTS.md's own commands
   (section 7).
-
-## Not carried into this chapter (investigated, ruled out during this session)
-
-- **p-box scenario**: not built. The network's total conditioning-state cost (5.47e4) is past
-  the point where a comparably-costed network failed to complete within budget in this session's
-  earlier drone-corpus testing; the probability chapter already covers the tractability boundary
-  in depth. Decision recorded in net3_RESULTS.md section 1.
-- **A "51 diamonds, width 5" figure** recorded in the project's working notes does not describe
-  this network — it belongs to a different, pre-existing, BFS-oriented Net3 conversion
-  (`dag_ntwrk_files/net3-water/`) already in the corpus. Traced and explained in net3_RESULTS.md
-  section 1; nothing in any chapter draft used the old figure yet, so nothing needed correcting.

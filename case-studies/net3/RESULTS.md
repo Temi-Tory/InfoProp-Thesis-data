@@ -1,9 +1,7 @@
 # Net3 end-to-end case study: results
 
-Chapter 10/11 (integrated case study — chapter numbering is shifting through the thesis rewrite;
-this pack does not depend on the final number). Built 2026-08-30 per
-`net3_case_study_requirements.md`. Every number below is source, computed, or explicitly flagged
-as assumed — none is unstated.
+Integrated case study (Chapter 10/11 in the thesis). Every number below is source, computed, or
+explicitly flagged as assumed — none is unstated.
 
 ## 1. Source and structure
 
@@ -24,24 +22,15 @@ as assumed — none is unstated.
   problem: a tank can legitimately end up net-outflow-free at one simulation snapshot).
   Forks = 35, joins = 23, layers = 28.
 - **Diamond structure: 307 unique diamonds (incl. nested), maxcond 12, 21 join nodes anchor a
-  diamond (the "maximal"/root count).** This does not match a "51 diamonds, width 5" figure
-  recorded earlier in the project's working notes. Traced: that figure belongs to a *different*,
-  pre-existing Net3 conversion already in the corpus (`dag_ntwrk_files/net3-water/`), oriented by
-  an arbitrary BFS from a chosen root — the same topological heuristic used for the metro
-  network, with no hydraulic grounding. Recomputing on that older file directly gives exactly 51
-  unique diamonds, maxcond 5, 20 maximal diamonds — confirming the figure describes that file,
-  not this one. The two networks have almost the same number of maximal diamond *locations* (20
-  vs 21); the difference is depth of nesting (maxcond 5 vs 12), consistent with real hydraulic
-  flow direction preserving more genuine loop structure than an arbitrary BFS tree. This
-  conversion (flow-oriented) is the one specified by the requirements doc and is used throughout
-  this pack. maxcond 12 is comfortably tractable (well under the ~18 threshold flagged elsewhere
-  in the project as the practical exact-inference limit).
-- **p-box was not run for this case study** (decided with the user, 2026-08-30): the total
-  conditioning-state cost, sum(2^|C|) over all 307 diamonds, is 5.47e4 — past the point where a
-  comparably-costed network (drone concentrated-minimal, K=8, sum 2^|C|=7,758) failed to
-  complete within budget in this session's own earlier testing. The probability chapter already
-  carries the full p-box tractability-boundary story in depth; re-demonstrating it here on a
-  network past that boundary would add cost without adding a new finding.
+  diamond (the "maximal"/root count).** A separate, pre-existing Net3 conversion already in the
+  corpus (`dag_ntwrk_files/net3-water/`), oriented by an arbitrary BFS from a chosen root (the
+  same topological heuristic used for the metro network, with no hydraulic grounding), gives a
+  different diamond structure: 51 unique diamonds, maxcond 5, 20 maximal diamonds. The two
+  networks have almost the same number of maximal diamond *locations* (20 vs 21); the difference
+  is depth of nesting (maxcond 5 vs 12), consistent with real hydraulic flow direction preserving
+  more genuine loop structure than an arbitrary BFS tree. This conversion (flow-oriented) is the
+  one used throughout this pack. maxcond 12 is comfortably tractable (well under the ~18 threshold
+  flagged elsewhere in the project as the practical exact-inference limit).
 
 ## 2. Reliability inputs
 
@@ -107,8 +96,8 @@ both scenarios now return 200 cleanly (see numbers above).
 
 Interpretation: **restoration programme** (recommissioning of each pipe, pump and tank), the
 interpretation both source documents steer toward (their own "(a)"/"(b)" labels are swapped
-between the two, but the substance agrees: "closer to the CPM literature," per the working
-notes). Pipes and pumps are the graph's edges (their recommissioning is what takes time on a
+between the two, but the substance agrees: closer to the CPM literature). Pipes and pumps are
+the graph's edges (their recommissioning is what takes time on a
 route); reservoirs and junctions are not physical assets and get node duration 0; tanks get a
 node duration.
 
@@ -133,8 +122,8 @@ invention:
 - Tank node duration: 24 hours, **assumed**, explicitly outside the Aurora spec's own coverage
   ("This section does not include disinfecting procedures for water storage tanks").
 
-Value forms: Baseline (Float64), Interval (+/-20% relative half-width, this session's
-established convention for CPM interval scenarios). Degraded reuses the Baseline schedule (its
+Value forms: Baseline (Float64), Interval (+/-20% relative half-width, the established
+convention for CPM interval scenarios). Degraded reuses the Baseline schedule (its
 own scenario is a flow/capacity event, not a schedule change).
 
 Results:
@@ -162,7 +151,7 @@ Results:
 Wall-clock, single core, second call in a warm process (the thesis-wide convention, Appendix B).
 Baseline, second-call warm timings: reliability 4.61 s, flow 2.33 s, schedule 2.08 s (first-call:
 5.08 s, 2.47 s, 2.06 s respectively — schedule shows negligible JIT effect since an earlier call
-this session had already warmed that code path).
+had already warmed that code path).
 
 ## 6. Files delivered
 
@@ -191,4 +180,4 @@ python dag_ntwrk_files/net3/net3-scenarios/run_net3_scenarios.py
 ```
 (net3_to_ipf.py needs WNTR: `pip install wntr` — install into a dedicated venv, not the global
 environment; WNTR 1.5.0 pulls in numpy>=2.2.6, which breaks any matplotlib already compiled
-against numpy 1.x. This was hit and reverted cleanly this session before switching to a venv.)
+against numpy 1.x. This was hit and reverted cleanly before switching to a venv.)

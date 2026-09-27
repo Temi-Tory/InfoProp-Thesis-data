@@ -1,4 +1,4 @@
-# The Domination Split: formal statements and proofs (2026-08-18)
+# The Domination Split: formal statements and proofs
 
 Setting. G = (V, E) a DAG. Node durations d : V -> R>=0, edge delays w fixed (crisp); a
 *complete path* is a directed source-to-sink path; len(pi, d) = sum of durations on pi plus
@@ -76,12 +76,12 @@ exhaustive would need 2^32 = 4,294,967,296 (ratio 1,892, arithmetic); grid 5x5 a
 has |H_v| up to 23 of 25 and gets no speedup, consistent with NP-hardness of the general
 problem (Chanas & Zielinski 2002).
 
-## The series-parallel claim: REFUTED (2026-08-19)
+## The series-parallel claim: REFUTED
 
 An earlier Proposition 2 here claimed that bypass membership is an "N" pattern in the
 reachability order, hence (by the Valdes-Tarjan-Lawler N-free characterisation) H_v = EMPTY
 on two-terminal series-parallel DAGs, recovering SP-polynomiality of interval criticality.
-Both steps are FALSE and the claim was removed from the chapter (2026-08-19 parity review).
+Both steps are FALSE and the claim was removed from the chapter.
 
 Counterexample. The single diamond s -> {a, b} -> t is two-terminal SP and its order is
 N-free. Yet s ∈ H_a: the complete path s-a-t contains both s and a, and s-b-t contains s but

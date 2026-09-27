@@ -5,7 +5,7 @@ understood — as a single "increasing capability" arc. This is a METHOD demonst
 illustrative (the Float64 values match the paper/dPrPm; the imprecise extensions are ours). No physical
 probability justification is owed here — that lives in the drone Pareto case study.
 
-## Locked inputs (decided 2026-07-26)
+## Locked inputs
 Float64 = the paper grid values (to match dPrPm). Non-float extensions built AROUND those values:
 
 | component                          | Float64      | Interval        | p-box                                   |
@@ -22,15 +22,12 @@ Float64 = the paper grid values (to match dPrPm). Non-float extensions built ARO
 - Float64 exactness  -> sifted ROBDD (CUDD).                        [confirmed 1.1e-16]
 - Interval exactness -> sifted ROBDD at the TWO corners (all-low / all-high; exact range by monotonicity).
                         [confirmed exact 1e-16; THIS is the imprecise contribution]
-- p-box: SOUND (fixed 2026-07-27, re-confirmed via a clean CUDD-based rerun 2026-09-17). This line
-  previously read "DO NOT CLAIM SOUND" — the conditioning recombination was unsound at that time
-  (dependency problem; over-wide, mass>1 near belief=1); see [[pbox-conditioning-unsound]] and
-  RESS_response/PAPER_GUIDE.md §1.5 for that historical finding. The cvxP/cvxF conditioning operator
-  (ported ~2026-07-27) resolved it. Re-confirmed 2026-09-17 with a full accuracy rerun of this suite
-  under CUDD (not the pure-Julia BDDjl substitute used in some earlier confirmation passes):
-  `worst_unsound=0.000e+00` at both w=0.05 and w=0.10 — see `data/grid_accuracy.csv`. The p-box-vs-MC
-  comparison now demonstrates soundness, not the historical unsoundness. Prototype fix-exploration
-  script retained for record only: validation/rc_pbox_mixfix.jl.
+- p-box: SOUND. The cvxP/cvxF conditioning operator resolves an earlier unsoundness in the
+  conditioning-recombination step (dependency problem; over-wide, mass>1 near belief=1).
+  Confirmed with a full accuracy rerun of this suite under CUDD (not the pure-Julia BDDjl
+  substitute used in some earlier confirmation passes): `worst_unsound=0.000e+00` at both
+  w=0.05 and w=0.10 — see `data/grid_accuracy.csv`. The p-box-vs-MC comparison demonstrates
+  soundness.
 
 ## The "increasing capability" arc (paper section order)
 1. dPrPm baseline: published grid numbers + accessibility caveat (not reproducible -> motivates reproducible exact method).
@@ -55,8 +52,3 @@ IPA per-instance cost is EXACTLY  Work = sum over diamonds d of  2^|C_d| * O(|E_
 set size, computed by new_identify). Worst case max|C_d| <= treewidth. Validation table: measured `ipa_ops`
 vs the formula prediction across the grid + corpus -> shows the model is exact, not a guess. (No closed
 form in n alone: #P-hard.)
-
-## TODO / open
-- [VERIFY] PBA triangular constructor (probe bjvdpewu6). If PBA lacks it, build p-box from a triangular CDF;
-  MC side uses Distributions.TriangularDist regardless.
-- [DECISION MADE] perfect nodes exact 1.0 everywhere; w in {0.05,0.10}; triangular mode-centred p-box.

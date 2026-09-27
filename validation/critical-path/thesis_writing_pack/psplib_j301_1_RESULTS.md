@@ -1,4 +1,4 @@
-# psplib-j301_1 — analysis run, 2026-08-30
+# psplib-j301_1 — analysis run
 
 Source: PSPLIB single-mode instance `j301_1.sm` (the `j30` set — 30 real
 activities + 2 dummy start/end nodes, 32 total), converted with
@@ -78,7 +78,7 @@ and the handler's blanket `catch e; e isa ArgumentError || rethrow(); end`
 silently relabelled it as the NP-hard case — a cause unrelated to what
 actually happened.
 
-**Fixed, 2026-08-30** (`InfoPropFrmwrk/src/Algorithms/CriticalPathV2/`):
+**Fixed** (`InfoPropFrmwrk/src/Algorithms/CriticalPathV2/`):
 1. `DominationSplit.jl` — the two sweeps' `fminus`/`fplus` are snapped to
    `0.0` when within `atol` of it (and to each other, if they still cross by
    less than `atol`) before `ValueInterval` sees them. `ValueInterval` itself
