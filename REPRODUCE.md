@@ -60,3 +60,13 @@ new in-repo paths.
   results-CSV paths.
 - `validation/critical-path/thesis_writing_pack/INDEX.md` — the CPM validation pack.
 - `case-studies/net3/thesis_writing_pack/INDEX.md` — the Net3 case-study pack.
+
+## File-organisation cleanup pass (2026-09-27)
+
+A `notes/` folder (17 process-journal/handoff files) and several stray files
+(`RESS_Paper_current_draft.txt`, `SESSION_WORK_LOG.md`, `PAPER_GUIDE.md`,
+`RESS_edit_proposals.md`) were removed from `validation/probability/`: none of it was part of
+the documented Layout above or the v1.0/v1.1 plan, and it duplicated or predated content
+finalised elsewhere (the companion RESS paper's own reviewer response). This does not touch
+`_compat/`, `validation/probability/_scripts/`, `validation/_bddenv/`, or any other v1.1
+infrastructure named above, and does not affect the v1.0 data/numbers, which remain final.

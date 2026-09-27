@@ -1,0 +1,20 @@
+name,V,E,unique_diamonds,maxcond,robdd_nodes_sifted,f64_worst_delta,interval_worst_overwidth,interval_worst_containment_violation
+asia,8,8,1,1,31,0.000e+00,1.110e-16,0.000e+00
+cancer,5,4,0,0,16,0.000e+00,0.000e+00,1.110e-16
+earthquake,5,4,0,0,16,0.000e+00,0.000e+00,1.110e-16
+survey,6,6,1,1,38,1.110e-16,0.000e+00,2.220e-16
+sachs,11,17,10,2,46,0.000e+00,0.000e+00,1.110e-16
+child,20,25,7,2,69,1.110e-16,0.000e+00,2.220e-16
+insurance,27,52,82,9,1192,2.220e-16,1.110e-16,2.220e-16
+alarm,37,46,15,3,347,2.220e-16,2.220e-16,1.110e-16
+mildew,35,46,66,7,1129,2.220e-16,2.220e-16,2.220e-16
+barley,48,84,262,14,6389,3.331e-16,3.331e-16,4.441e-16
+hailfinder,56,66,25,5,1981,2.220e-16,3.331e-16,2.220e-16
+hepar2,70,123,85,8,2077,2.220e-16,2.220e-16,2.220e-16
+win95pts,76,112,38,7,1308,2.220e-16,3.331e-16,1.110e-16
+pathfinder,109,195,94,4,1073,1.110e-16,1.110e-16,2.220e-16
+water,32,66,102,10,2429,3.331e-16,1.110e-16,4.441e-16
+munin-sub1,186,273,197,11,26868,2.220e-16,3.331e-16,3.331e-16
+pigs,441,592,38,2,2874,2.220e-16,2.220e-16,3.331e-16
+munin-dag,1041,1397,770,8,90434,4.441e-16,4.441e-16,3.331e-16
+# not completed within 420 s per network, all node/link reliabilities 0.9: andes, link (IPA propagation), diabetes (identification). Inputs: 0.9 everywhere; interval = [0.85,0.95]; BDD builds at 0.9, 0.85, 0.95.

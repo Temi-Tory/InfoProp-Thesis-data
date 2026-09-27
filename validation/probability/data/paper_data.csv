@@ -1,5 +1,5 @@
 name,family,V,E,vars,density,nroots,nuniq,maxcond,ipa_struct_ms,ipa_prop_ms,ipa_ops,worst_delta,naive_status,naive_nodes,naive_ms,sift_nodes,sift_ms
-counterexample-n15,counterexample,15,23,38,0.2190,4,13,4,0.242,0.429,42,8.327e-17,ok,4297,40.0,340,59.0
+counterexample-n15,counterexample,15,23,38,0.2190,4,13,4,0.242,0.429,42,8.327e-17,ok,4297,40.0,323,59.0
 mutant_rand28_s1,other,28,62,90,0.1640,12,76,13,2.285,31.785,1142,5.551e-17,ok,698679,205.0,1762,95.0
 mutant_rand28_s2,other,28,62,90,0.1640,15,124,13,6.676,136.720,3488,5.551e-17,blowup,5404952,2518.0,2682,122.0
 mutant_rand28_s3,other,28,62,90,0.1640,13,102,13,2.932,48.189,1581,1.110e-16,blowup,3641375,1819.0,3049,90.0

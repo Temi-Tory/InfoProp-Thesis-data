@@ -1,0 +1,5 @@
+% name & V & E & sources & rootD & uniqD & maxcond & sift_nodes & maxAbsDelta \\
+power-network      & 23 & 27 & 3 & 5 & 9 & 3 & 384 & 8.3e-17 \\
+grid-graph         & 16 & 24 & 3 & 8 & 39 & 7 & 290 & 1.1e-16 \\
+KarlNetwork        & 26 & 74 & 1 & 18 & 145 & 11 & 1921 & 5.6e-17 \\
+counterexample-n15 & 15 & 23 & 1 & 4 & 13 & 4 & 340 & 8.3e-17 \\

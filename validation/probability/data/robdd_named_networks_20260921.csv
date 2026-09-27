@@ -1,0 +1,4 @@
+name,V,E,src,root_diamonds,unique_diamonds,maxcond,robdd_nodes_sifted,worst_abs_delta_ipa_vs_robdd,inputs
+mlgw-gas-network,37,40,2,4,7,4,148,3.331e-16,all node priors and link probabilities 0.9
+metro_directed_dag_for_ipm,306,350,1,45,147,6,1338,2.776e-16,all node priors and link probabilities 0.9
+net3,97,119,3,21,307,12,580,1.110e-16,all node priors and link probabilities 0.9

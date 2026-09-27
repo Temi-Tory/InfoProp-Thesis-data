@@ -42,6 +42,15 @@ the plot script are what this repo carries.
 
 **Large response JSON** (`net3` reliability responses) is gzipped; `gunzip` to use.
 
+**Not part of this deposit:** `validation/probability/` also carried a `notes/` folder (17
+session/handoff process-journal files) and several stray top-level files
+(`RESS_Paper_current_draft.txt`, `SESSION_WORK_LOG.md`, `PAPER_GUIDE.md`,
+`RESS_edit_proposals.md`) left over from the companion RESS paper's own writing sessions —
+none of it appears in this Layout or in the chapter/figure/table map below, so it has been
+removed as out of scope for a thesis reproduction package. `CORPUS_PROVENANCE.md`,
+`MASTER_FINDINGS.md`, and `INDEX.md` remain, since they are the provenance/findings/campaign-
+index documents this README itself cites below.
+
 ---
 
 ## Running the scripts

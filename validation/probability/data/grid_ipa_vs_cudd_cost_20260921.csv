@@ -1,0 +1,9 @@
+case,min_ms,median_ms,julia_mem_MiB,julia_allocs,note
+IPA_Float64,1.430,1.692,1.74,19129,"fresh process; this session's machine ran IPA ~1.5x slower than the earlier 0.922 ms figure (memory/allocs match the published 1.74 MiB / 19155)"
+IPA_Interval_w0.05,2.329,2.858,1.94,21409,
+IPA_Interval_w0.10,2.270,2.965,1.94,21409,
+CUDD_Float64_build_eval_run1,38.727,50.173,0.08,2368,"fresh process, 15 discarded warm-up builds, 30 samples, min reported"
+CUDD_Float64_build_eval_run2,41.822,49.298,0.08,2368,same protocol
+CUDD_Float64_build_eval_run3,43.855,54.526,0.08,2368,same protocol
+CUDD_Float64_build_eval_3warmups,221.988-441.735,,0.08,2368,"with only 3 warm-up builds CUDD stayed in a slow mode (222-442 ms); do not use"
+# cudd_native: final nodes 290, peak live nodes during construction 5110 ; worst |IPA-BDD| = 1.110e-16 ; b(16)=0.98538853
