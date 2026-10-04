@@ -1,0 +1,4 @@
+edges=177  sources=[1, 2, 4]
+Baseline  sink=[98]  max_flow=680.1419  total_demand=680.1419  share=100.0%
+Degraded  sink=[98]  max_flow=43.3356  total_demand=680.1419  share=6.4%
+Interval  sink=[98]  max_flow=680.1419  total_demand=680.1419  share=100.0%

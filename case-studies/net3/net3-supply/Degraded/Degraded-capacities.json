@@ -886,5 +886,6 @@
       "destination": 98,
       "capacity": 103.2787
     }
-  ]
+  ],
+  "target_nodes": [98]
 }

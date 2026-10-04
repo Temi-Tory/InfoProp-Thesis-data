@@ -19,6 +19,10 @@ REPO = r"C:\Development\Info_Prop_Framework_Project\Info_Prop_Framework_Project"
 NET_DIR = os.path.join(REPO, "dag_ntwrk_files", "net3")
 SCEN_DIR = os.path.join(NET_DIR, "net3-scenarios")
 OUT_DIR = os.path.dirname(os.path.abspath(__file__))
+# The capacity analysis needs the demand super-sink (node 98) and its 58 demand edges in the
+# edge list itself, so flow runs on ../net3-supply (net3.EDGES plus those 58 edges), whose
+# capacity files name 98 as the only sink. See net3-supply/README.md.
+SUPPLY_DIR = os.path.join(os.path.dirname(OUT_DIR), "net3-supply")
 BASE = "http://localhost:8080"
 
 
@@ -67,8 +71,8 @@ def run_reliability(scen):
 
 def run_flow(scen):
     payload = {
-        "networkPath": NET_DIR,
-        "capacitiesPath": f"net3-scenarios/{scen}/{scen}-capacities.json",
+        "networkPath": SUPPLY_DIR,
+        "capacitiesPath": f"{scen}/{scen}-capacities.json",
         "analysisOptions": {"kFailure": 2, "cutLimit": 200},
     }
     status, resp = post("/flow-analysis", payload)

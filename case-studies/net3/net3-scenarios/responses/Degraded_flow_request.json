@@ -1,6 +1,6 @@
 {
-  "networkPath": "C:\\Development\\Info_Prop_Framework_Project\\Info_Prop_Framework_Project\\dag_ntwrk_files\\net3",
-  "capacitiesPath": "net3-scenarios/Degraded/Degraded-capacities.json",
+  "networkPath": "C:\\Development\\thesis-data\\case-studies\\net3\\net3-supply",
+  "capacitiesPath": "Degraded/Degraded-capacities.json",
   "analysisOptions": {
     "kFailure": 2,
     "cutLimit": 200

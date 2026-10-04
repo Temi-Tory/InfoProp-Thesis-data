@@ -70,15 +70,34 @@ point, read directly from the .inp file's `[CURVES]` section (not assumed) — P
 is directly the Lake reservoir's own edge. Dummy tank-connector pipes: unbounded, same grounds
 as their reliability treatment. Demand / super-sink: one added node (id 98), one edge in from
 each of the 58 demand junctions (`net3_demand_by_sink.csv`, from the EPANET simulation itself),
-capacity = that junction's demand — same construction as the RTS-24 case study.
+capacity = that junction's demand — same construction as the RTS-24 case study. Total demand:
+**680.14 L/s**. The capacity analysis therefore runs on `net3-supply/` (`net3.EDGES` plus node
+98 and the 58 demand edges: 98 nodes, 177 edges), and its capacity files name 98 as the only
+sink (`"target_nodes": [98]`); see `net3-supply/README.md`.
 
 Scenarios:
-- **Baseline**: max_flow = **1837.90 L/s** against total system demand.
+- **Baseline**: max_flow = **680.14 L/s**, the whole demand. The minimum cut is unique (free zone
+  empty) and is the 58 demand edges, so the network does not limit delivery at this demand.
+  60 saturated edges (the 58 demand edges plus pipes 18->17 and 86->87, neither in a minimum
+  cut), 401 source-to-sink paths, no structural single point of failure.
 - **Degraded**: the network's dominant transmission main (EPANET link 329, edge 97->19, 45,500
   ft / 8.6 mi at 30 in — by a wide margin the longest large-diameter pipe; the next comparable-
   diameter pipe is under 5,000 ft) derated to 50% of its Baseline capacity (684.06 -> 342.03
   L/s), and Pump 335 (River source, the larger of the two pumps) set to 0 (out). max_flow =
-  **954.64 L/s** — a 48% drop from Baseline.
+  **43.34 L/s**, 6.4% of demand. 24 minimum cuts over a free zone of 6 nodes; in every cut, the
+  pump edge 95->97 (now 0) and the demand edges of junctions 7, 8, 77, 79, 80, 81, which are the
+  only junctions fully served. The derated main does not bind, because Pump 335 is its only
+  feed. With every pipe held in its snapshot direction, the lake pump and the discharging tank
+  reach only those six junctions.
+- **Interval**: max_flow = **680.14 L/s** (the capacity file is point-valued, as Baseline).
+
+Independent check: `net3-supply/check_maxflow_oracle.py` (pure-Python Edmonds-Karp) gives
+680.1419 / 43.3356 / 680.1419, equal to the toolkit's values.
+
+**Correction (v1.1).** v1.0 of this repository reported 1837.90 and 954.64 L/s. Those runs read
+`net3.EDGES`, which has no node 98, and the server ignored the capacities of the 58 demand edges
+without reporting them, so the flow went to the 18 natural sinks and exceeded the total demand.
+The server now refuses a capacity file that names an edge the edge list does not contain.
 
 **A real server bug was found and fixed while verifying this section**: the first flow-analysis
 call on Baseline returned HTTP 500, `ArgumentError: Inf not allowed to be written in JSON spec`.
@@ -149,9 +168,11 @@ Results:
 ## 5. Timing convention
 
 Wall-clock, single core, second call in a warm process (the thesis-wide convention, Appendix B).
-Baseline, second-call warm timings: reliability 4.61 s, flow 2.33 s, schedule 2.08 s (first-call:
-5.08 s, 2.47 s, 2.06 s respectively — schedule shows negligible JIT effect since an earlier call
-had already warmed that code path).
+Baseline, second-call warm timings: reliability 4.61 s, flow 4.07 s, schedule 2.08 s. The flow
+figure is the median of four fresh processes on `net3-supply/` (package 0.2.3,
+`net3-supply/time_flow_warm.jl`, runs in `time_flow_warm_output.txt`); v1.0's 2.33 s was measured
+on the edge list without the super-sink. First-call reliability and schedule: 5.08 s and 2.06 s
+(schedule shows negligible JIT effect since an earlier call had already warmed that code path).
 
 ## 6. Files delivered
 
@@ -159,7 +180,9 @@ had already warmed that code path).
   `Net3.inp` (the source file itself, for provenance) — in `dag_ntwrk_files/net3/`.
 - `net3-scenarios/{Baseline,Degraded,Interval,MaxScaling}/` — the four input file types as
   applicable per scenario, plus `reliability_input_classification.csv` (per-edge class/value
-  breakdown for the reliability inputs).
+  breakdown for the reliability inputs). The capacity files are in `net3-supply/`.
+- `net3-supply/` — the capacity analysis's edge list (with super-sink 98), its capacity files,
+  schedule inputs for the overlay figure, the independent max-flow check and the flow timing.
 - `net3-scenarios/responses/` — every server request + response JSON, one pair per toolkit x
   scenario run (7 runs).
 - `net3-scenarios/net3_scenarios_summary.csv` — the run summary.

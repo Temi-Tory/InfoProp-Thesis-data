@@ -1,0 +1,5 @@
+# Four fresh processes, one measurement each (time_flow_warm.jl). Reported: median 4.07 s.
+max_flow=680.14  warm second call = 4.22 s  threads=1  package=0.2.3
+max_flow=680.14  warm second call = 4.07 s  threads=1  package=0.2.3
+max_flow=680.14  warm second call = 4.03 s  threads=1  package=0.2.3
+max_flow=680.14  warm second call = 4.07 s  threads=1  package=0.2.3
